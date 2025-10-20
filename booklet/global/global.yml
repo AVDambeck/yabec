@@ -1,0 +1,49 @@
+chapter: overview
+  body: |
+  Global covers broad aspects of the system, such as Environ-
+ment systems, Life & Death, and common Miscellaneous.
+  This chapter covers the basic outline of the system, including
+it’s foundational pillars, and the role of the other booklets.
+  page: Booklets
+    body: This game is split into X booklets, so that game info can be easily shared at a table
+    section: 
+      header: global
+      body: Contains information on the system-wide mechanisms, such as distance, experience, and damage. 
+    section: 
+      header: adventure
+      body: The core game rules, for exploring and dying in dungeons.
+    section:
+      header: character
+      body: Instructions for character creation, and description of character classes.
+    section:
+      header: gear
+      body: Lists of items available to purchase, and their effects. 
+    section: 
+      header: magic
+      body: Instructions for spell casting. Lists of spells, and their effects. 
+    section:
+      header: downtime
+      body: Variety of non-dungeon actives, mostly played solo, or with one player and the Dungeon Master
+    section: 
+      header: dungeon master
+      body: Instructions and resources for the Dungeon Master.
+  page: player roles
+    body: It’s useful to have some players assume certain roles.
+    section:
+      header: score keeper 
+      body: The score keeper keeps track of the XP gained during the session. See page xx.
+      subsection: 
+        header: Playing without a score keeper
+        body: The Dungeon Master can award milestone XP per session or per goal, or act as score keeper. 
+    section:
+      header: mapper
+      body: At least one player should draw a map of the area based on the Dungeon Master’s description. See Adventure page 14. 
+      subsection:
+        header: Playing without a mapper
+        body: The players will get lost eventually. 
+    section:
+      header: caller
+      body: In many situations, the players may wish to discuss a long time before taking an action. In such case, they might wish to appoint an official person to declare the actions of the party. They act only as a messenger, communicating the intent of the individual players.  
+      subsection:
+        header: Playing without a caller
+        body: The Dungeon Master can assume reasonable actions for players, such as to follow the group, even when they don’t directly state so.
