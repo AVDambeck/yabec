@@ -10,15 +10,23 @@ For each of the booklets:
         put it the dir.
 '''
 
+# import and define 
 import markdown
 
 input_file = 'input.md'  
 output_file = 'output.html'  
 
+# functions
+def makeHtml(md):
+    html = markdown.markdown(md)
+    # add css
+    return html
+
+# main
 with open(input_file, 'r') as file:
     md_text = file.read()
 
-html_output = markdown.markdown(md_text)
+html_output = makeHtml(md_text)
 
 with open(output_file, 'w') as file:
     file.write(html_output)
