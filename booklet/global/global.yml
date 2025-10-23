@@ -1,10 +1,10 @@
-chapter: overview
+chapterheader: overview
   body: |
   Global covers broad aspects of the system, such as Environ-
 ment systems, Life & Death, and common Miscellaneous.
   This chapter covers the basic outline of the system, including
 it’s foundational pillars, and the role of the other booklets.
-  page: Booklets
+  pageheader: Booklets
     body: This game is split into X booklets, so that game info can be easily shared at a table
     section: 
       header: global
@@ -27,7 +27,7 @@ it’s foundational pillars, and the role of the other booklets.
     section: 
       header: dungeon master
       body: Instructions and resources for the Dungeon Master.
-  page: player roles
+  pageheader: player roles
     body: It’s useful to have some players assume certain roles.
     section:
       header: score keeper 
