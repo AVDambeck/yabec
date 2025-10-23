@@ -1,3 +1,15 @@
+'''
+func makehtml:
+    add css
+
+Make an output dir.
+For each of the booklets:
+    Make a dir.
+    For each of the section:
+        make html.
+        put it the dir.
+'''
+
 import markdown
 
 input_file = 'input.md'  
