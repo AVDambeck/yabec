@@ -1,0 +1,44 @@
+@page {
+	size: 8.5in 11in;
+	margin: 1in;
+	@top-right {
+    		content: "Page " counter(pageNumber);
+	}
+}
+
+@media print {
+	body {
+		columns: 1;
+	}
+}
+
+h1 {
+	counter-reset: headingtwo;
+	break-before: page;
+	break-after: page;
+
+	text-align:center;
+	font-size:10vw;
+	padding-top: 50pt;
+}
+
+h2 { 
+	counter-reset: headingthree;
+	break-before: column;
+}
+h2:before {
+	content: counter(headingtwo)". ";
+	counter-increment: headingtwo;
+}
+
+h3 {
+}
+h3:before {
+	counter-increment: headingthree;
+	content: counter(headingthree)". ";
+}
+
+img {
+	width: 100%;
+}
+
