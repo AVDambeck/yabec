@@ -17,6 +17,8 @@ Each session, players get one *week's* worth of downtime.
 There are three units of distance. 
 
 ### Step
+PLACEHOLDER
+
 A *step* is an abstract measure of distance. Moving from a hallway to a room, or vice versa, is five *steps* under typical conditions.
 
 1. Moving to a door.

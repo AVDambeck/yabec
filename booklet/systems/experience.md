@@ -29,6 +29,8 @@ Recovering a magic item scores 1000 XP.
 ### Goal
 Achieving a *goal* scores 100 XP per character involved.  LINK
 
+Failing to achieve a goal reduces the XP from this session by 100 XP. 
+
 ### Session Report
 Writing a session report awarsds 100 XP to the writer. 
 
@@ -56,9 +58,10 @@ Defeating monsters scores XP based on their HD, plus a bonus for each special ab
 Mapping a complete dungeon level scores XP equal to 1000 times the depth of the level.
 
 ## Leveling Up
-When a character gains enough XP to reach the next experience level, the player  consults the character’s class and notes any improvements in saving throws, AV, spells, etc. 
-
-They also roll their health (see page 18). LINK
+When a character gains enough XP to reach the next experience level, the player:
+- Looks at the character’s class and notes any improvements in saving throws, AV, spells, etc. 
+- Increase their health by one HD. LINK
+- Gain an additional *week* of *downtime*. 
 
 ### One Session Maximum
 Characters cannot advance more than one level in one session. Any additional XP that would take a character two or more levels above their current level are lost, leaving the character at 1 XP below the total for the next level.

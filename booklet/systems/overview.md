@@ -23,6 +23,9 @@ There are a few roles which should be filled by players. These roles should be d
 ### Score Keeper
 The score keeper keeps track of the XP gained during the session. See page X.
 
+### Quarter Master
+The quarter master *charts* the journey to the dungeon, and makes sure the party has all the essential items.
+
 ### Mapper
 At least one player should draw a map of the area based on the Dungeon Master’s description. For full procedure, see page X.
 
