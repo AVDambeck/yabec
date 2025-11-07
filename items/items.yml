@@ -222,3 +222,66 @@
   cost: 3
   desc: Five 18” long stakes. Valuable when confronting vampires.
 
+- name: Battering Ram
+  tags: wood
+  prop: heavy
+  cost: 15
+  desc: Used to force open or break doors. 
+
+- name: Grappling Hook
+  tags: metal
+  prop: ""
+  cost: 35
+  desc: Has three prongs. Used to anchor a rope.
+
+- name: Arrows (5)
+  tags: wood, weaponsimple, ammo
+  prop: small
+  cost: 3
+  desc: Ammo for both bows and crossbows.
+
+- name: Crossbow
+  tags: weaponsimple, wood
+  prop: fired, slow, two-handed
+  damage: d10
+  cost: 30
+  desc: ""
+
+- name: Long Bow
+  tags: weaponsimple, wood
+  prop: fired, two-handed
+  damage: d8
+  cost: 50
+  desc: ""
+
+- name: Quiver
+  tags: ammo, inventory
+  prop: ""
+  cost: 30
+  desc: Takes one *slot*. Holds upto 20 arrows.
+
+- name: Short Bow
+  tags: weaponsimple, wood
+  prop: fired, two-handed
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Bell 
+  tags: metal
+  prop: ""
+  cost: 3 
+  desc: makes *loud* noise when moved. *Silenced* by a small piece of cloth (included).
+
+- name: Dog
+  tags: animal
+  prop: ""
+  cost: 30
+  desc: Trained hunting dog. 1/2 HD.
+
+- name: Horse
+  tags: animal
+  prop: ""
+  cost: 50
+  desc: Draft animal. Can be ridden or pull carts.
+
