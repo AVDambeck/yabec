@@ -7,15 +7,15 @@
 }
 
 @media print {
-	body {
-		columns: 1;
-	}
+	img {
+		display: block;
+		width: 100%;
+		page-break-after: always;
 }
 
 h1 {
 	counter-reset: headingtwo;
 	break-before: page;
-	break-after: page;
 
 	text-align:center;
 	font-size:10vw;
@@ -25,20 +25,41 @@ h1 {
 h2 { 
 	counter-reset: headingthree;
 	break-before: column;
+	border-top-style: solid;
 }
 h2:before {
 	content: counter(headingtwo)". ";
 	counter-increment: headingtwo;
+	margin: 0;
 }
 
 h3 {
+	border-top-style: dotted;
+	border-color: grey;
+	margin: 0;
 }
 h3:before {
 	counter-increment: headingthree;
 	content: counter(headingthree)". ";
 }
 
-img {
-	width: 100%;
+h4 {
+	margin: 0;
 }
 
+img {
+	width: 100%;
+	break-before: page;
+}
+
+ul {
+    column-count: 4; /* Maximum number of columns */
+    column-gap: 20px; /* Space between columns */
+    padding: 0; /* Optional: To remove default padding */
+    margin: 0; /* Optional: To remove default margin */
+}
+
+/* Optional styling for list items */
+li {
+    break-inside: avoid; /* Prevents items from breaking between columns */
+}

@@ -1,83 +1,224 @@
 - name: Backpack
-  tags: basic, leather
+  tags: basic, leather, inventory
+  prop: ""
   cost: 10
   desc: Wearing a backpack grants five additional *slots*, while occupying no slot. Wear only one at a time.
 
 - name: Bandage
-  tags: basic, fiber, small
+  tags: basic, fiber
+  prop: small
   cost: 2
   desc: Used to treat injuries. 
 
 - name: Chalk
-  tags: basic, small
+  tags: basic
+  prop: small
   cost: 1
   desc: Makes temporary marks. 10 uses.
 
 - name: Lighter
-  tags: basic, small
+  tags: basic
+  prop: small
   cost: 3
   desc: Lights flammable material.
 
 - name: Ration
-  tags: basic, food, small
+  tags: basic, food
+  prop: small
   cost: 1
   desc: Preserved food for long journeys.
 
 - name: Rope (50')
   tags: basic, fiber
+  prop: ""
   cost: 1
   desc: Can hold the weight of three humans.
 
 - name: Sack
-  tags: basic, fiber
+  tags: basic, fiber, inventory
+  prop: ""
   cost: 1
   desc: Can hold 100 coins or gems.
 
 - name: Caltrops (1 bag)
-  tags: basic, metal, small
+  tags: basic, metal
+  prop: small
   cost: 10
   desc: One bag covers a 10' diamtere. Crossing deals 1d4 damage and reduces movement.
 
 - name: Iron Spikes (5)
-  tags: basic, metal, small
+  tags: basic, metal
+  prop: small
   cost: 1
   desc: Can be used with mallot to anchor ropes or hold doors.
 
 - name: Mallot
-  tags: basic, wood, small
+  tags: basic, wood, tool
+  prop: small
   cost: 1
   desc: Can be used to drive spikes.
 
-- name: Mirro
+- name: Mirror
   tags: basic, fancy
+  prop: ""
   cost: 10
   desc: Reflective surface. Useful for looking around corners and redirecting gaze attacks.
 
 - name: Torches (5)
   tags: basic, wood
+  prop: small
   cost: 1
   desc: Burns for about 6 *turns*.
 
 - name: Holy Symbol
   tags: basic, holy, class
+  prop: ""
   cost: 25
   desc: Divine spellcasters are required to carry a symbol of their diety.
 
 - name: Pole (10')
   tags: basic, wooden
+  prop: ""
   cost: 1
   desc: 2" thick, 10' long. Made of wood. Useful for probing.
 
 - name: Karosene (1 flask)
   tags: basic
+  prop: small
   cost: 2
   desc: Used to fuel lanterns, and as a fire bomb.
 
 - name: Thieves' Tools
   tags: basic, crime, class
+  prop: ""
   cost: 25
   desc: "Leath pouch containing various tools including: lock picks, lever bar, shims, file, twine, narrow scissors, pliers, wire"
 
+- name: Antidote
+  tags: basic, herb
+  prop: ""
+  cost: 20
+  desc: Herbal remedy. Can stop some poisons.
 
+- name: Dreambliss
+  tags: herb, crime
+  prop: ""
+  cost: 200
+  desc: White extract from rare herb. One turn after ingestion, save vs paralyses or fall asleep as though by a Sleep spell.
+ 
+- name: Garlic
+  tags: herb
+  prop: small
+  cost: 5
+  desc: Spice that grows underground.
 
-  
+- name: Ointment
+  tags: herb
+  prop: small
+  cost: 5
+  desc: Applied when using a bandage for +1 healing.
+
+- name: Smoke Bomb
+  tags: crime
+  prop: thrown
+  cost: 25
+  desc: Obscures a 10’ diameter for one turn, using harmless smoke. 
+
+- name: Spell Book (blank)
+  tags: paper, class
+  prop: ""
+  cost: 100
+  desc: Empty book of fine paper.
+
+- name: Wine (2 pints) 
+  tags: food
+  prop: ""
+  cost: 2
+  desc: Intoxicating beverage made from fermented fruit.
+
+- name: Wolfsbane
+  tags: herb
+  prop: small
+  cost: 10
+  desc: Herb used to repel lycanthropes and canine. The creature must be hit with the herb
+
+- name: Catnip
+  tags: herb, crime
+  prop: small
+  cost: 10
+  desc: Deeply appealing to feline.
+
+- name: Barding
+  tags: armor, metal, animal
+  prop: ""
+  cost: 200
+  desc: Armor for horses made from leather and steel. Provides a base AC of 5
+
+- name: Chain Mail
+  tags: armor, metal
+  prop: ""
+  cost: 60
+  desc: Mesh armor made from interlocking links. Provides a base AC of 5. 
+
+- name: Leather Armor 
+  tags: armor, leather
+  prop: ""
+  cost: 20
+  desc: Sturdy but quiet. Provides a base AC of 7.
+
+- name: Plate Mail
+  tags: armor, metal
+  prop: heavy
+  cost: 100
+  desc: Heavy armor made from steel plates provides an AC of 3, but negates dexterity bonus to AC. 
+
+- name: Cart
+  tags: vehicle, wood, animal, inventory
+  prop: ""
+  cost: 100
+  desc: Needs one horse. Has twenty item slots.
+
+- name: Chest
+  tags: vehicle, wood, inventory, heavy
+  prop: heavy
+  cost: 50
+  desc: "Has 10 item *slots*. Requires a *round* to open or close. Required to be carried by two people (two *slots* each)"
+
+- name: Club
+  tags: weaponsimple, wood
+  prop: blunt, melee
+  damage: d4
+  cost: 3
+  desc: ""
+
+- name: Lance
+  tags: weaponsadv, wood
+  prop: charge, slow, melee
+  damage: d8
+  cost: 5
+  desc: ""
+
+- name: Musical Instrument
+  tags: wood, fancy, class
+  prop: heavy
+  cost: 100
+  desc: Such as a flute, drum, or guitar.
+
+- name: Staff
+  tags: weaponsimple, wood
+  prop: blunt, melee, two-handed
+  cost: 1
+  desc: ""
+
+- name: Shield
+  tags: armor, wood
+  prop: ""
+  cost: 15
+  desc: Wooden plate used to rebuff attacks. Reduces AC by one when held in one hand.
+
+- name: Wooden Stakes (5)
+  tags: wood
+  prop: small
+  cost: 3
+  desc: Five 18” long stakes. Valuable when confronting vampires.
+

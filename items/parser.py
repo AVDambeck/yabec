@@ -24,7 +24,13 @@ def make_desc(data):
     content = ""
 
     for i in data:
-        content += f'#### {i["name"]} \n {i["desc"]} \n'
+        content += f'#### {i["name"]} \n {i["desc"]}'
+
+        if i["prop"] != "":
+            properties = sorted(i["prop"].split(", "))
+            content += f" *{"*, *".join(properties)}*."
+
+        content += "\n"
 
     return content
 
