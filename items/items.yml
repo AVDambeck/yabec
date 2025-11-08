@@ -83,8 +83,9 @@
   desc: 2" thick, 10' long. Made of wood. Useful for probing.
 
 - name: Karosene (1 flask)
-  tags: basic
-  prop: small
+  tags: basic, weaponsimple
+  prop: small, splash, thrown
+  damage: d8
   cost: 2
   desc: Used to fuel lanterns, and as a fire bomb.
 
@@ -285,3 +286,161 @@
   cost: 50
   desc: Draft animal. Can be ridden or pull carts.
 
+- name: Saddle Bags
+  tags: inventory, animal, leather
+  prop: ""
+  cost: 5
+  desc: Grants 5 more item *slots* to a horse.
+
+- name: Shackles
+  tags: metal, animal
+  prop: ""
+  cost: 10
+  desc: Can be applied to a *bad* creature. Keeps their *bad* until unloecked with the key (included).
+
+- name: Whisle
+  tags: basic
+  prop: small
+  cost: 3
+  desc: Makes a *loud* noise when blown.
+
+- name: Compass
+  tags: metal, holy, basic
+  prop: small
+  cost: 10
+  desc: A small divice that always points north.
+
+- name: Holy Water (vial)
+  tags: holy, small
+  prop: ""
+  cost: 25 
+  desc: Water that has been blessed by a holy person. It is used in some religious rituals and inflicts damage on undead monsters. Holy water does not retain its power if stored in any other container than the special vials it is blessed in.  
+
+- name: Silver Arrow
+  tags: metal, silver, holy, ammo, fancy
+  prop: small
+  cost: 10
+  desc: A single silver tipped arrow. 
+
+- name: Silver Dagger
+  tags: metal, silver, fancy, holy, weaponadv
+  prop: melee, thrown
+  cost: 40
+  desc: Useful against certain monsters.
+
+- name: Battle Ax
+  tags: weaponsimple, metal
+  prop: melee, slow, two-handed, fragile
+  damage: d10
+  cost: 7
+  desc: ""
+
+- name: Dagger
+  tags: small, weaponsimple, metal
+  prop: melee, thrown
+  damage: d4
+  cost: 3
+  desc: ""
+
+- name: Hand Ax
+  tags: weaponsimple, metal, tool
+  prop: melee, thrown, fragile
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Javelin
+  tags: weaponadv, wood, small
+  prop: thrown
+  damage: d4
+  cost: 1
+  desc: ""
+
+- name: Mace
+  tags: weaponsimple, metal
+  prop: blunt, melee
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Pole Arm
+  tags: weaponadv, metal
+  prop: melee, slow, two-handed
+  damage: d10
+  cost: 35
+  desc: ""
+
+- name: Short Sword
+  tags: weaponadv, metal
+  prop: melee
+  damage: d6
+  cost: 15
+  desc: ""
+
+- name: Sling
+  tags: weaponsimple, leather
+  prop: blunt, fired
+  damage: d4
+  cost: 2
+  desc: ""
+
+- name: Sling Stone
+  tags: small, ammo
+  cost: 0
+  desc: Slings throw stones found anywhere.
+
+- name: Spear
+  tags: weaponadv, wood
+  prop: charge, thrown, melee
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Sword
+  tags: weaponsimple, metal
+  prop: melee
+  damage: d8
+  cost: 20
+  desc: ""
+
+- name: Flail
+  tags: weaponexp
+  prop: melee, blunt, two-handed, slow, fragile
+  damage: d10
+  cost: 50
+  desc: ""
+
+- name: Great Ax
+  tags: weaponexp
+  prop: melee, fragile, two-handed
+  damage: d12
+  cost: 50
+  desc: ""
+
+- name: War Hammer
+  tags: weaponexp
+  prop: melee, blunt
+  damage: d8
+  cost: 50
+  desc: ""
+
+- name: Ribauldequin
+  tags: weaponexp, weapongun
+  prop: fired, slow, splash, fragile
+  damage: d4
+  cost: 100
+  desc: ""
+
+- name: Arquebus
+  tags: weaponadv, weapongun
+  prop: reload, fired, two-handed
+  damage: d12
+  cost: 50
+  desc: ""
+
+- name: Matchlock Pistol
+  tags: weaponadv, weapongun
+  prop: reload, fired
+  damage: d8
+  cost: 50
+  desc: ""
