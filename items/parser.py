@@ -4,9 +4,17 @@ def load_yaml(file_path):
     with open(file_path, 'r') as file:
         return yaml.safe_load(file)
 
-def filter_items(data, tag):
-    items = [item for item in data if tag in item['tags'].split(', ')]
-    sorted_items = sorted(items, key=lambda x: x['name'])
+def filter_items(data, include_tags=["basic"], exclude_tags=[]):
+    include_tags = set(include_tags)
+    exclude_tags = set(exclude_tags)
+
+    return [
+            item for item in data
+            if include_tags.issubset(set(item['tags'].split(', '))) and not exclude_tags.intersection(set(item['tags'].split(', ')))
+    ]
+
+def sort_items_alpha(data):
+    sorted_items = sorted(data, key=lambda x: x['name'])
     return sorted_items
 
 def make_table(data):
@@ -38,7 +46,8 @@ if __name__ == "__main__":
     input_file = 'items.yml'  
 
     items = load_yaml(input_file)
-    basic_items = filter_items(items, 'basic')
+    basic_items = filter_items(items)
+    basic_items = sort_items_alpha(basic_items)
     content = make_table(basic_items) + "\n" + make_desc(basic_items)
 
     with open("output.md", "w", encoding="utf-8") as f:
