@@ -108,4 +108,7 @@ A missed ranged attack has a 3-in-6 chance to hit an ally engaged in melee.
 ### En Passant
 The first time each *turn* that a combatant takes a *move* action, they may also make an *attack*
 
+### Subdual
+If a creature is *slain* with a blunt weapon, they can be left non-leathally incapacitated, and *bad* until a *shift*.
+
 
