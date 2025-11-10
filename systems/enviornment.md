@@ -41,48 +41,38 @@ The exact number of map squares can be counted to determine more exact distance.
 Rarely, distance will be measured in feet, especially in spell descriptions.
 
 ## Zones
-Ranges and relative location are divided into four *zones*.
+PLACEHOLDER
 
+## Ranges
+Ranges and relative location are divided into four *ranges*.
 ### Touch 
 Touching distance. In the same square.
-
 ### Close
 Throwing distance. Speaking distance. About 1 step. About 2 squares. 
-
 ### Distant
 Shouting distance. Farthest distance to make out details (in *bright* light). Bow distance. About 5 steps. About 10 squares.
-
 In dark environments, the player's torch will often be the limit of theire sight. This means that anything within torch light is *distant.*
-
 ### Sight
 Anything that can be seen. Up to 3 miles in ideal conditions.
 
 ## Noise
 The are kinds of noise: 
-
 ### Silent
 Produces effectivly no sound; no effect.
-
 ### Loud
 Heard by **distant** listeners. Increases the chance of wandering monsters. Etc.
-
 Most sounds are *loud* by default.
-
 A *loud* sound can be made *silent* with *stealth*.
 
 ## Light
 ### Levels
 There are three types of light:
-
 #### Dark
 The darkness is pitch black, and prevents sight. Imposess blindness.
-
 #### Dim
 Allows some detail to be seen.
-
 #### Bright
 Allows full vision, including details and reading. Disables *infravision*.
-
 ### Light Power
 A light source casts for a number of steps equal to its light power (or four times that many squares). Half of that light is *bright* and half of it is *dim*. 
 
