@@ -7,6 +7,9 @@ Basic covers the core classes. Advanced and Demihuman cover more complex classes
 For rules on spell casting, see Magic.
 For rules on equipment, see Items. 
 
+## Index
+%INDEX%
+
 ## Basic Character Creation
 Choose one of the premade character playbooks.
 
