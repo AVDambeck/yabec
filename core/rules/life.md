@@ -3,21 +3,15 @@ This section covers health, damage, and dying.
 
 ## Health Points
 Health points (HP) represent the ability to withstand injury and exaustion.
-
 ### Health Die (HD)
 Health dice are used to determine HP. Each class has a diferent HD. Monsters have a d8 HD.
-
-### Rolliing Health
-When leveling up, roll a number of HD equal to your level. Add the bonus from *constitution* times your level. If the new total is greater than your current HP, it becomes your new HP.
+At 1st level, a character's HP is equal to the highest value on their HD.
 
 ## Damage
 Damage represents injury, exaustion, and wear. 
-
 ### Slain
 When a creature takes damage equal to or greater tan its HP, it is *slain*,
-
 *Slain* minions and monsters instantly die. *Slain* PCs are *near death*; if not healed within one *turn*, they will die.
-
 #### Destruction
 if *slain* by fire, explosion, or magic, PCs instantly die and items are destroyed. 
 

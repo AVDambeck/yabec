@@ -304,11 +304,11 @@
   cost: 3
   desc: Makes a *loud* noise when blown.
 
-- name: Compass
-  tags: metal, holy, basic
-  prop: small
-  cost: 10
-  desc: A small divice that always points north.
+- name: Travel Kit
+  tags: basic
+  prop: ""
+  cost: 25
+  desc: "A collection of essential adventuring gear including: compass, clock, "
 
 - name: Holy Water (vial)
   tags: holy, small
