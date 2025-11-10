@@ -1,0 +1,83 @@
+- name: Backpack
+  tags: basic, leather
+  cost: 10
+  desc: Wearing a backpack grants five additional *slots*, while occupying no slot. Wear only one at a time.
+
+- name: Bandage
+  tags: basic, fiber, small
+  cost: 2
+  desc: Used to treat injuries. 
+
+- name: Chalk
+  tags: basic, small
+  cost: 1
+  desc: Makes temporary marks. 10 uses.
+
+- name: Lighter
+  tags: basic, small
+  cost: 3
+  desc: Lights flammable material.
+
+- name: Ration
+  tags: basic, food, small
+  cost: 1
+  desc: Preserved food for long journeys.
+
+- name: Rope (50')
+  tags: basic, fiber
+  cost: 1
+  desc: Can hold the weight of three humans.
+
+- name: Sack
+  tags: basic, fiber
+  cost: 1
+  desc: Can hold 100 coins or gems.
+
+- name: Caltrops (1 bag)
+  tags: basic, metal, small
+  cost: 10
+  desc: One bag covers a 10' diamtere. Crossing deals 1d4 damage and reduces movement.
+
+- name: Iron Spikes (5)
+  tags: basic, metal, small
+  cost: 1
+  desc: Can be used with mallot to anchor ropes or hold doors.
+
+- name: Mallot
+  tags: basic, wood, small
+  cost: 1
+  desc: Can be used to drive spikes.
+
+- name: Mirro
+  tags: basic, fancy
+  cost: 10
+  desc: Reflective surface. Useful for looking around corners and redirecting gaze attacks.
+
+- name: Torches (5)
+  tags: basic, wood
+  cost: 1
+  desc: Burns for about 6 *turns*.
+
+- name: Holy Symbol
+  tags: basic, holy, class
+  cost: 25
+  desc: Divine spellcasters are required to carry a symbol of their diety.
+
+- name: Pole (10')
+  tags: basic, wooden
+  cost: 1
+  desc: 2" thick, 10' long. Made of wood. Useful for probing.
+
+- name: Karosene (1 flask)
+  tags: basic
+  cost: 2
+  desc: Used to fuel lanterns, and as a fire bomb.
+
+- name: Thieves' Tools
+  tags: basic, crime, class
+  cost: 25
+  desc: "Leath pouch containing various tools including: lock picks, lever bar, shims, file, twine, narrow scissors, pliers, wire"
+
+
+
+  

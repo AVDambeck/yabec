@@ -236,7 +236,7 @@
   desc: Has three prongs. Used to anchor a rope.
 
 - name: Arrows (5)
-  tags: wood, weaponsimple, ammo
+  tags: wood, basic, ammo
   prop: small
   cost: 3
   desc: Ammo for both bows and crossbows.
@@ -385,7 +385,7 @@
   desc: ""
 
 - name: Sling Stone
-  tags: small, ammo
+  tags: small, basic, ammo
   cost: 0
   desc: Slings throw stones found anywhere.
 

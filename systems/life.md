@@ -85,19 +85,19 @@ After a full turn *near death*, characters die.
 If a character takes any damage while *near death*, they die.
 
 ### Dismemberment
-When healed in *near death*, a character rolls for *dismemberment*. Roll a d20, and subtract *constitution*. Reference the table. If they survive, they heal 1.
+When healed in *near death*, a character rolls for *dismemberment*. Roll a d20, and add *constitution*. Reference the table. If they survive, they heal 1.
 
 | Result | Dismeberment                     |
 |--------|----------------------------------|
-| <=1    | Unharmed                         |
-| 2-3    | Broken rib: -1d4 *constitution*  |
-| 4      | Bone fracture: -1d4 *strength*   |
-| 5      | Torn muscle: -1d4 *dexterity*    |
-| 6      | Concussion: -1d4 *wisdom* and *intelligence* |
-| 7      | Lost eye                         |
-| 8      | Lost arm                         |
-| 9      | Broken leg: +2 AC                |
-| >=10   | Dead!                            |
+| <= 11  | Dead!                            |
+| 12     | Broken leg: +2 AC                |
+| 13     | Lost arm                         |
+| 14-15  | Lost eye                         |
+| 16-17  | Concussion: -1d4 *wisdom* and *intelligence* |
+| 18-20  | Torn muscle: -1d4 *dexterity*    |
+| 21-23  | Bone fracture: -1d4 *strength*   |
+| 24-26  | Broken rib: -1d4 *constitution*  |
+| >=27   | Unharmed                         |
 
 ## After Death
 ### Burial
