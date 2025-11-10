@@ -1,8 +1,10 @@
 # Overview
 
+## The Conversation
+You may be familitar with this concept from other ttrpgs. The game is essentially a back and forth between the players and the Dungeon Master. 
+
 ## Hooks
 Yabec is designed around a series of *hooks*. *Hooks* are keywords shown in italics. They're designed to link naturally into eachother.
-
 For example, on a *turn*, you get one *action*, which you use to *attack*. This results in either a *hit* or a *miss*. A *hit* can cause damage or a spell effect. Then the *turn* ends, and causes a *hazard*, such as *fatigue*, which might end a spell effect.
 
 ## Scheme
@@ -47,3 +49,10 @@ Covers classes and character creation, as well as basic items.
 Covers magic and spellcasting.
 ### Extended
 Covers downtime, and advanced item lists. 
+
+## Miscellenious
+### Rounding
+When not otherwise specified, round down.
+### Weak and Strong Monsters
+Monster with 4 HD or more are *powerful*. Monsters with 3HD or less are *ordinary*.
+

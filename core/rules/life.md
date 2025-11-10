@@ -7,79 +7,44 @@ Health points (HP) represent the ability to withstand injury and exaustion.
 Health dice are used to determine HP. Each class has a diferent HD. Monsters have a d8 HD.
 At 1st level, a character's HP is equal to the highest value on their HD.
 
+## Healing
+Healing removes damage.
+### Natural Healing
+One week of downtime heals 2d6.
+### Bandaging
+Bandages can be used to gain some healing. Make an *intelligence* check. If you succeed, heal the target 1d6. You may bandage yourself.
+Bandaging takes one *turn*, and consumes a bandage. Once you are bandaged, you can not be bandaged again until you are *fatigued*.
+### Magical Healing
+Magic potions or spells can provid instantaneous healing.
+When magically healing a *slain* character, they *dismember* with advantage.
+
+
 ## Damage
 Damage represents injury, exaustion, and wear. 
 ### Slain
 When a creature takes damage equal to or greater tan its HP, it is *slain*,
-*Slain* minions and monsters instantly die. *Slain* PCs are *near death*; if not healed within one *turn*, they will die.
+*Slain* minions and *ordinary* monsters instantly die. 
+*Slain* PCs and *powerful* monsters are *near death*. See Near Death.
 #### Destruction
-if *slain* by fire, explosion, or magic, PCs instantly die and items are destroyed. 
-
-Magic items have a chance of miraculously surviving.
-
-#### Subdual
-If the final attack on a creature is made with a blunt weapon, they can be left non-leathally incapacitated, and *bad* undtil a *shift*.
-
+If *slain* by fire, explosion, or magic items are destroyed, and PCs and *powerful* monsters instantly die.
+Magic items and monsters have a chance of miraculously surviving.
 ### Item Damage
 Some items can become damaged. Items with four or more damage break completely. Magic items are immune to damage.
-
 Each point of damage incurs a penalty:
-
 - **Weapons:** -1 to damage.
 - **Armor:** +1 to AC.
 - **Other:** -1 to any rolls made with it.
-
 Dwarves are able to repair items. See page X. LINK
-
-## Healing
-Healing removes damage.
-
-### Natural Healing
-One week of downtime heals 2d6.
-
-### Bandaging
-Bandages can be applied to injuries less than 3 turns old.
-
-Make an *intelligence* check. If you succeed, heal 1d6.
-
-**Restriction:** Bandaging takes one turn, and consumes a bandage. Each injury can only be bandaged once.
-
-You may bandage yourself.
-
-### Magical Healing
-Magic potions or spells can provid instantaneous healing.
-
-When magically healing a *slain* character, they *dismember* with advantage.
-
-## Saving Throws
-All characters and monsters can make *saves* to avoid the full effects of certain traps, spells, and attacks.
-
-### Catagories:
-There are five saving throw catagories:
-
-- **Death (D):** When targeted by a death ray, or exposed to poison.
-- **Weird (W):** When exposed to radiation or other worlds.
-- **Paralysis or Petrification (P):** When targeted by an efect that paralyses or turns to stone.
-- **Blast (B):** When target by dragon breath or explosions.
-- **Spells or magic (S)** When targeted by a banefull spell or effect from a magic item. 
-
-Each class has its own table denoting the *save* values based on the level. Monsters have their own table, see page X. LINK
-
-### Checking
-You succeed if d20 >= *save* value. 
-
-Success against an effect that causes damage means that the damage is halved. Otherwise, the effect has been entierly avoided or negated.
 
 ## Near Death
 Between life and death, there is a terrible void.
-
 ### Death
-After a full turn *near death*, characters die. 
-
-If a character takes any damage while *near death*, they die.
-
+After a full turn *near death*, creatures die. 
+If a creature takes any damage while *near death*, they dismember.
+### Healing
+When healed while *near death*, a creature instead rolls for *dismemberment*. If healed by magic, they roll with *advantage*.
 ### Dismemberment
-When healed in *near death*, a character rolls for *dismemberment*. Roll a d20, and add *constitution*. Reference the table. If they survive, they heal 1.
+Roll a d12, and add *constitution* score. Reference the table. If they survive, they heal 1.
 
 | Result | Dismeberment                     |
 |--------|----------------------------------|
@@ -96,24 +61,16 @@ When healed in *near death*, a character rolls for *dismemberment*. Roll a d20, 
 ## After Death
 ### Burial
 Simple burial prevents the vody from being reanimated.
-
 Temples will burry and bless the dead for free.
-
 Creamation prevents reanimation and is impossible to undo.
-
 #### Rites
 If a cleric uses one turn to preform a blessing, the soul will pass peacefully.
-
 When funerary rites are preformed, the character sheet must be ripped up. Players are encouraged to give eulogy, play music, and create intricate rituals.
-
 ### Inheritance
 When a character dies, their companions can loot their body.
-
 Money and items stored in town will be subject to a 15% estate tax to local government or temple, and then inherited by the next of kin or listed heir.
-
 ### Resurrection
 Returning from death is an ordeal. Until the subject gets two weeks of bed rest, they have 1 HP, move at half the normal rate, can not carry *heavy*  items, cannot attack, cast spells, or use class skills. 
-
 Each time a character is resurrected, their *constitution* is reduced by 1. 
 
 

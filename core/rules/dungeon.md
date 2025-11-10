@@ -42,6 +42,8 @@ Each *round*, move to an adjacent *zone*, then one character must take 1d4 damag
 
 ## Hazards
 At the start of each *turn*, the Dungeon master will roll for *hazards*. 
+
+Unless the players loose their clock, the Dungeon Master should knock on the table to indicate the *turn*.
 ### Burn
 Torches burn out, and lanterns need fresh oil.
 ### Fatigue
