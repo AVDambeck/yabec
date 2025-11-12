@@ -2,9 +2,11 @@
 This booklet covers character classes and minions. 
 
 This chapter covers the process of creating a character, and attributes which apply to all characters.
+
 Basic covers the core classes. Advanced and Demihuman cover more complex classes for returning players.
 
 For rules on spell casting, see Magic.
+
 For rules on equipment, see Items. 
 
 ## Index
@@ -59,6 +61,7 @@ Beneath the surface of everyday life, two primeval forces mingle. Their servants
 Magic affects creatures differently depending on alignment. Divine spellcastes need to be especially aware of their alignment.
 ### Alignment Language
 Creatures automatically recognize a certain set of gestures, signs, and code words, pertaining to their alignment. This allows creatures of common alignment a measure of communication.
+
 Creatures of a different alignment are likely to recognize an alignment language being spoken, but will not understand its content.
 ### Revealing Alignment
 Players must reveal their alignment to the dungeon master, but are not required to reveal to each other. 
