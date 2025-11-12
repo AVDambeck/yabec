@@ -150,7 +150,7 @@
   desc: Deeply appealing to feline.
 
 - name: Barding
-  tags: armor, metal, animal
+  tags: metal, animal
   prop: ""
   cost: 200
   desc: Armor for horses made from leather and steel. Provides a base AC of 5
@@ -171,8 +171,7 @@
   tags: armor, metal
   prop: heavy
   cost: 100
-  desc: Heavy armor made from steel plates provides an AC of 3, but negates dexterity bonus to AC. 
-
+  desc: Heavy armor made from steel plates provides an AC of 3, but negates dexterity bonus to AC, and imposes *disadvantage* on *stealth*.
 - name: Cart
   tags: vehicle, wood, animal, inventory
   prop: ""
@@ -208,6 +207,7 @@
 - name: Staff
   tags: weaponsimple, wood
   prop: blunt, melee, two-handed
+  damage: d6
   cost: 1
   desc: ""
 
@@ -386,6 +386,7 @@
 
 - name: Sling Stone
   tags: small, basic, ammo
+  prop: ""
   cost: 0
   desc: Slings throw stones found anywhere.
 

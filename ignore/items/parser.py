@@ -1,4 +1,7 @@
 import yaml
+output_paths = {
+        "basic": "../../core/character/z-items.md",
+}
 
 def load_yaml(file_path):
     with open(file_path, 'r') as file:
@@ -28,15 +31,34 @@ def make_table(data):
 
     return(content)
 
+def make_weapon_table(data):
+    content = """
+| Item | Cost | Dam | Properties | 
+|:---|---|---|---:|
+"""
+    
+    for i in data:
+        try:
+            content += f'| {i["name"]} | {i["cost"]} | {i["damage"]} | {i["prop"]} | \n'
+        except:
+            print(f"{i["name"]} broke idk")
+
+    return(content)
+
 def make_desc(data):
     content = ""
 
     for i in data:
         content += f'#### {i["name"]} \n {i["desc"]}'
 
-        if i["prop"] != "":
-            properties = sorted(i["prop"].split(", "))
-            content += f" *{"*, *".join(properties)}*."
+        try:
+            if i["prop"] == "":
+                pass
+            else:
+                properties = sorted(i["prop"].split(", "))
+                content += f" *{"*, *".join(properties)}*."
+        except:
+            print(f'{i["name"]} has no properties')
 
         content += "\n"
 
@@ -46,9 +68,21 @@ if __name__ == "__main__":
     input_file = 'items.yml'  
 
     items = load_yaml(input_file)
+    # Basic
     basic_items = filter_items(items)
     basic_items = sort_items_alpha(basic_items)
-    content = make_table(basic_items) + "\n" + make_desc(basic_items)
+    content = "# Items \n\n## Gear \n\n" + make_table(basic_items) + "\n" + make_desc(basic_items)
 
-    with open("output.md", "w", encoding="utf-8") as f:
+    # Weapons
+    weapons = filter_items(items, ["weaponsimple"])
+    weapons = sort_items_alpha(weapons)
+    content += "\n## Weapons \n\n" + make_weapon_table(weapons) + "\n"
+
+    # Armor
+    armor = filter_items(items, ["armor"])
+    armor = sort_items_alpha(armor)
+    content += "\n## Armor \n\n" + make_table(armor) + "\n" + make_desc(armor)
+
+
+    with open(output_paths["basic"], "w", encoding="utf-8") as f:
         f.write(content)
