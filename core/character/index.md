@@ -53,7 +53,92 @@ Characters start at 1st level with 0 xp.
 Start with 3d6x10 cp. Buy items from the basic item list. Each class also provides suggested collections of items, and their price.
 
 ## Ability Scores
-PLACEHOLDER
+### Strength
+**Attack:** Bonus to AV.
+
+**Damage:** Bonus to melee weapon damage.
+
+| Score | Attack    | Damage |
+|-------|-----------|--------|
+| 3     | +3        | -3     |
+| 4-5   | +2        | -2     |
+| 6-8   | +1        | -1     |
+| 9-12  | 0         | 0      |
+| 13-15 | -1        | +1     |
+| 16-17 | -2        | +2     |
+| 18    | -3        | +3     |
+
+### Dexterity
+**Armor:** Bonus to AC.
+
+| Score | Armor     |
+|-------|-----------|
+| 3     | +3        |
+| 4-5   | +2        |
+| 6-8   | +1        |
+| 9-12  | 0         |
+| 13-15 | -1        |
+| 16-17 | -2        |
+| 18    | -3        |
+
+
+### Constitution
+**Health:** Bonus HP. Apply each level.
+
+**Slots:** Bonus item *slots*.
+
+| Score | Health    | Slots  |
+|-------|-----------|--------|
+| 3     | -3        | -3     |
+| 4-5   | -2        | -2     |
+| 6-8   | -1        | -1     |
+| 9-12  | 0         | 0      |
+| 13-15 | +1        | +1     |
+| 16-17 | +2        | +2     |
+| 18    | +3        | +3     |
+
+### Intelligence
+**Language:** Number of langugages known, in addition to those from your class.
+
+| Score | Language  |
+|-------|-----------|
+| 3     | speak only in mimicry        |
+| 4-5   | none        |
+| 6-8   | none        |
+| 9-12  | none         |
+| 13-15 | 1        |
+| 16-17 | 2        |
+| 18    | 3        |
+
+### Wisdom
+**Bandage:** Bonus healing when applying a bandage.
+
+| Score | Attack    |
+|-------|-----------|
+| 3     | -3        |
+| 4-5   | -2        |
+| 6-8   | -1        |
+| 9-12  | 0         |
+| 13-15 | +1        |
+| 16-17 | +2        |
+| 18    | +3        |
+
+### Charisma
+**Reaction:** Applies to various interactions.
+
+**Minion:** Maximum number of minions.
+
+**Loyalty:** Starting loyalty of hirelings. 
+
+| Score | Reaction  | Minion | Loyalty  |
+|-------|-----------|--------|----------|
+| 3     | -2        | 1      | 4        |
+| 4-5   | -2        | 2      | 5        |
+| 6-8   | -1        | 3      | 6        |
+| 9-12  | 0         | 4      | 7        |
+| 13-15 | +1        | 5      | 8        |
+| 16-17 | +2        | 6      | 9        |
+| 18    | +2        | 7      | 10       |
 
 ## Alignment
 Beneath the surface of everyday life, two primeval forces mingle. Their servants favor either the cosmic order, or the advent of a new one. Some find themselves neutrally or unaligned, choosing for their own ends, or for the end of balance. 
@@ -70,6 +155,7 @@ If the character acts too far out of their alignment, the referee may require th
 
 ## Monstrous
 Monstrous characters face additional challenges: 
+
 - They are not welcome in urban areas unless accompanied by a human, elf, or dwarf. 
 - They can not employ human hirelings. 
 - They do not automatically know the common language.
