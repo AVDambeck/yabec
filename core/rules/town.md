@@ -6,15 +6,18 @@ Spend a brief period in civilization, making plans, securing allies, and gatheri
 Every town will have the *basic* items availble. Some towns may have additional shops. See page X.
 ### Downtime
 The first time in town per session, returning characters get one *week* of *downtime*. See page X. They also recieve natural healing. See page X.
+
 Characters who owe *service* must preform it before puruing other options.
 ### Minions
 1d4 human hirelings will seek employment if there is a chracter of 2nd level or greater. See page X.
+
 2d6 2nd level hirelings will seek emplyment if the total level of the party is 15 or greater.
 
 ## Travel 
 The Dungeon Master will present an overworld map with one or more dugeons, an possibly other towns. 
 ### Deciding a destination
 Any player can contribute to the discussion of what dungeon to go to. However, only one player needs to *chart* the journey. 
+
 Unopinionated players can simply follow the party to whichever dungeon they go to.
 ### Charting
 One players *charts* the journey to a dungeon or another town. Its suggest that this player be the *quater master*. See Roles.
@@ -26,13 +29,18 @@ One players *charts* the journey to a dungeon or another town. Its suggest that 
 Best practice is to have each participating player compensate the *quarter master* for their rations.
 ### Departing
 One player, ideally the Caller will announce "Adventuers to depart!". 
+
 Once all players have confirmed they are ready to *depart*, the players travel to their destination. 
+
 If it is a dungeon, change the *scheme* to *dungeon*.
+
 If it is a different town, simply continue *town* in the new location.
 
 ## Goals
 Each session, the players may agree to set one goal for the party. If the goal has already been completed in the past, or is not difficult enough, the Dungeon Master may reject it.
+
 Completing a goal scores experience. See Experience.
+
 Additionally, the Dungeon Master may give individual goals to certain players, especially divine magic users. 
 ### Examples 
 - Kill a the bear with the scarred eye.
@@ -48,6 +56,7 @@ The Dungeon Master might give players rumors, especially if there is a new chara
 The players each share one detail about their character, past, community, or deity. 
 ### Adventurers Guild
 The players are all part of an adventurers guild. They should put forward at least one detail about it to the Dungeon Master. 
+
 Examples include: 
     • The guild is named the Craven Folk.
     • The guild began when an injured party began sending new adventures on quests.

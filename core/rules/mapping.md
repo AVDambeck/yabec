@@ -2,20 +2,25 @@
 Dungeons are complex enviornments where it is easy to get lost. Keeping a map is essential. 
 
 This chapter covers simple and detailed methods of mapping. It is a simple system not able to cover every possible map, so you may have to get creative. 
+
 Additionally, you may wish to modify the system to better suit your needs. Any agreed upon system will work.
 
 Its reccomended that one player take on the role of Mapper. See Roles.
 
 ## Simple Method
 Rather than track the exact dimensions of every room, the mapper might opt to keep a general shape of the dungeon.
+
 The mapper draws a loose flow chart, labeling rooms and their connections.
 
 ## Calls
 To keep an exact map, the mapper should ask the Dungeon Master for a call. 
+
 Each call should have an unambiguous meaning. The mapper and Dungeon Master should work together to establish calls that work for them.
+
 The Dungeon Master should avoid looking at the players map, and avoid perfecting the players map. 
 ### Restrictions
 The Dungeon Master will only provide calls when the players ask, and only after they enter a room and are able to spend time observing it. 
+
 If the players loose their compass, calls will not include cardinal directions.
 
 ## Corridor Calls
@@ -30,12 +35,14 @@ Hallway 3 west.
 **Draw:** A dot + an L shape.
 PICTURE
 Left: turn east.
+
 Right: Hallway 1 north. AND Turn west. 
 ### Split
 **Split, (directions):** indicates the corridor slits left and right.
 **Draw:** Line + two dots.
 PICTURE
 Left: split.
+
 Right: hallway 1 north. AND Split.
 ### Cross
 **Cross:** indicates a square with four openings. 
@@ -71,19 +78,23 @@ Irregular caverns can be called by describing the general path of the cavern and
 ## Doors / Exits
 ### Definition
 Doors are hinged panels. Exits are open passageways.
+
 Call them after calling a rooms or corridors.
 ### Calling
 On each wall, count squares from east to west, north to south (reading direction), naming the number of the squares, and whether there is a door or an exit. 
+
 You can also call the center, or last square. 
 **Draw:** Pictogram
 PICTURE
 Doors: East wall 2nd & 4th squares. South wall center.
+
 Exit, west wall 2nd square.
 ### Stairs
 Stairs, and a direction (up or down), indicate a square filled with stairs. The stairs extend away from the previous call. 
 **Draw:** Pictogram.
 PICTURE
 Left: Stairs going up.
+
 Right: Stairs going down.
 
 ## Example
