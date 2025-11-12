@@ -1,0 +1,446 @@
+- name: Backpack
+  tags: basic, leather, inventory
+  prop: ""
+  cost: 10
+  desc: Wearing a backpack grants five additional *slots*, while occupying no slot. Wear only one at a time.
+
+- name: Bandage
+  tags: basic, fiber
+  prop: small
+  cost: 2
+  desc: Used to treat injuries. 
+
+- name: Chalk
+  tags: basic
+  prop: small
+  cost: 1
+  desc: Makes temporary marks. 10 uses.
+
+- name: Lighter
+  tags: basic
+  prop: small
+  cost: 3
+  desc: Lights flammable material.
+
+- name: Ration
+  tags: basic, food
+  prop: small
+  cost: 1
+  desc: Preserved food for long journeys.
+
+- name: Rope (50')
+  tags: basic, fiber
+  prop: ""
+  cost: 1
+  desc: Can hold the weight of three humans.
+
+- name: Sack
+  tags: basic, fiber, inventory
+  prop: ""
+  cost: 1
+  desc: Can hold 100 coins or gems.
+
+- name: Caltrops (1 bag)
+  tags: basic, metal
+  prop: small
+  cost: 10
+  desc: One bag covers a 10' diamtere. Crossing deals 1d4 damage and reduces movement.
+
+- name: Iron Spikes (5)
+  tags: basic, metal
+  prop: small
+  cost: 1
+  desc: Can be used with mallot to anchor ropes or hold doors.
+
+- name: Mallot
+  tags: basic, wood, tool
+  prop: small
+  cost: 1
+  desc: Can be used to drive spikes.
+
+- name: Mirror
+  tags: basic, fancy
+  prop: ""
+  cost: 10
+  desc: Reflective surface. Useful for looking around corners and redirecting gaze attacks.
+
+- name: Torches (5)
+  tags: basic, wood
+  prop: small
+  cost: 1
+  desc: Burns for about 6 *turns*.
+
+- name: Holy Symbol
+  tags: basic, holy, class
+  prop: ""
+  cost: 25
+  desc: Divine spellcasters are required to carry a symbol of their diety.
+
+- name: Pole (10')
+  tags: basic, wooden
+  prop: ""
+  cost: 1
+  desc: 2" thick, 10' long. Made of wood. Useful for probing.
+
+- name: Karosene (1 flask)
+  tags: basic, weaponsimple
+  prop: small, splash, thrown
+  damage: d8
+  cost: 2
+  desc: Used to fuel lanterns, and as a fire bomb.
+
+- name: Thieves' Tools
+  tags: basic, crime, class
+  prop: ""
+  cost: 25
+  desc: "Leath pouch containing various tools including: lock picks, lever bar, shims, file, twine, narrow scissors, pliers, wire"
+
+- name: Antidote
+  tags: basic, herb
+  prop: ""
+  cost: 20
+  desc: Herbal remedy. Can stop some poisons.
+
+- name: Dreambliss
+  tags: herb, crime
+  prop: ""
+  cost: 200
+  desc: White extract from rare herb. One turn after ingestion, save vs paralyses or fall asleep as though by a Sleep spell.
+ 
+- name: Garlic
+  tags: herb
+  prop: small
+  cost: 5
+  desc: Spice that grows underground.
+
+- name: Ointment
+  tags: herb
+  prop: small
+  cost: 5
+  desc: Applied when using a bandage for +1 healing.
+
+- name: Smoke Bomb
+  tags: crime
+  prop: thrown
+  cost: 25
+  desc: Obscures a 10’ diameter for one turn, using harmless smoke. 
+
+- name: Spell Book (blank)
+  tags: paper, class
+  prop: ""
+  cost: 100
+  desc: Empty book of fine paper.
+
+- name: Wine (2 pints) 
+  tags: food
+  prop: ""
+  cost: 2
+  desc: Intoxicating beverage made from fermented fruit.
+
+- name: Wolfsbane
+  tags: herb
+  prop: small
+  cost: 10
+  desc: Herb used to repel lycanthropes and canine. The creature must be hit with the herb
+
+- name: Catnip
+  tags: herb, crime
+  prop: small
+  cost: 10
+  desc: Deeply appealing to feline.
+
+- name: Barding
+  tags: armor, metal, animal
+  prop: ""
+  cost: 200
+  desc: Armor for horses made from leather and steel. Provides a base AC of 5
+
+- name: Chain Mail
+  tags: armor, metal
+  prop: ""
+  cost: 60
+  desc: Mesh armor made from interlocking links. Provides a base AC of 5. 
+
+- name: Leather Armor 
+  tags: armor, leather
+  prop: ""
+  cost: 20
+  desc: Sturdy but quiet. Provides a base AC of 7.
+
+- name: Plate Mail
+  tags: armor, metal
+  prop: heavy
+  cost: 100
+  desc: Heavy armor made from steel plates provides an AC of 3, but negates dexterity bonus to AC. 
+
+- name: Cart
+  tags: vehicle, wood, animal, inventory
+  prop: ""
+  cost: 100
+  desc: Needs one horse. Has twenty item slots.
+
+- name: Chest
+  tags: vehicle, wood, inventory, heavy
+  prop: heavy
+  cost: 50
+  desc: "Has 10 item *slots*. Requires a *round* to open or close. Required to be carried by two people (two *slots* each)"
+
+- name: Club
+  tags: weaponsimple, wood
+  prop: blunt, melee
+  damage: d4
+  cost: 3
+  desc: ""
+
+- name: Lance
+  tags: weaponsadv, wood
+  prop: charge, slow, melee
+  damage: d8
+  cost: 5
+  desc: ""
+
+- name: Musical Instrument
+  tags: wood, fancy, class
+  prop: heavy
+  cost: 100
+  desc: Such as a flute, drum, or guitar.
+
+- name: Staff
+  tags: weaponsimple, wood
+  prop: blunt, melee, two-handed
+  cost: 1
+  desc: ""
+
+- name: Shield
+  tags: armor, wood
+  prop: ""
+  cost: 15
+  desc: Wooden plate used to rebuff attacks. Reduces AC by one when held in one hand.
+
+- name: Wooden Stakes (5)
+  tags: wood
+  prop: small
+  cost: 3
+  desc: Five 18” long stakes. Valuable when confronting vampires.
+
+- name: Battering Ram
+  tags: wood
+  prop: heavy
+  cost: 15
+  desc: Used to force open or break doors. 
+
+- name: Grappling Hook
+  tags: metal
+  prop: ""
+  cost: 35
+  desc: Has three prongs. Used to anchor a rope.
+
+- name: Arrows (5)
+  tags: wood, basic, ammo
+  prop: small
+  cost: 3
+  desc: Ammo for both bows and crossbows.
+
+- name: Crossbow
+  tags: weaponsimple, wood
+  prop: fired, slow, two-handed
+  damage: d10
+  cost: 30
+  desc: ""
+
+- name: Long Bow
+  tags: weaponsimple, wood
+  prop: fired, two-handed
+  damage: d8
+  cost: 50
+  desc: ""
+
+- name: Quiver
+  tags: ammo, inventory
+  prop: ""
+  cost: 30
+  desc: Takes one *slot*. Holds upto 20 arrows.
+
+- name: Short Bow
+  tags: weaponsimple, wood
+  prop: fired, two-handed
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Bell 
+  tags: metal
+  prop: ""
+  cost: 3 
+  desc: makes *loud* noise when moved. *Silenced* by a small piece of cloth (included).
+
+- name: Dog
+  tags: animal
+  prop: ""
+  cost: 30
+  desc: Trained hunting dog. 1/2 HD.
+
+- name: Horse
+  tags: animal
+  prop: ""
+  cost: 50
+  desc: Draft animal. Can be ridden or pull carts.
+
+- name: Saddle Bags
+  tags: inventory, animal, leather
+  prop: ""
+  cost: 5
+  desc: Grants 5 more item *slots* to a horse.
+
+- name: Shackles
+  tags: metal, animal
+  prop: ""
+  cost: 10
+  desc: Can be applied to a *bad* creature. Keeps their *bad* until unloecked with the key (included).
+
+- name: Whisle
+  tags: basic
+  prop: small
+  cost: 3
+  desc: Makes a *loud* noise when blown.
+
+- name: Travel Kit
+  tags: basic
+  prop: ""
+  cost: 25
+  desc: "A collection of essential adventuring gear including: compass, clock, "
+
+- name: Holy Water (vial)
+  tags: holy, small
+  prop: ""
+  cost: 25 
+  desc: Water that has been blessed by a holy person. It is used in some religious rituals and inflicts damage on undead monsters. Holy water does not retain its power if stored in any other container than the special vials it is blessed in.  
+
+- name: Silver Arrow
+  tags: metal, silver, holy, ammo, fancy
+  prop: small
+  cost: 10
+  desc: A single silver tipped arrow. 
+
+- name: Silver Dagger
+  tags: metal, silver, fancy, holy, weaponadv
+  prop: melee, thrown
+  cost: 40
+  desc: Useful against certain monsters.
+
+- name: Battle Ax
+  tags: weaponsimple, metal
+  prop: melee, slow, two-handed, fragile
+  damage: d10
+  cost: 7
+  desc: ""
+
+- name: Dagger
+  tags: small, weaponsimple, metal
+  prop: melee, thrown
+  damage: d4
+  cost: 3
+  desc: ""
+
+- name: Hand Ax
+  tags: weaponsimple, metal, tool
+  prop: melee, thrown, fragile
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Javelin
+  tags: weaponadv, wood, small
+  prop: thrown
+  damage: d4
+  cost: 1
+  desc: ""
+
+- name: Mace
+  tags: weaponsimple, metal
+  prop: blunt, melee
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Pole Arm
+  tags: weaponadv, metal
+  prop: melee, slow, two-handed
+  damage: d10
+  cost: 35
+  desc: ""
+
+- name: Short Sword
+  tags: weaponadv, metal
+  prop: melee
+  damage: d6
+  cost: 15
+  desc: ""
+
+- name: Sling
+  tags: weaponsimple, leather
+  prop: blunt, fired
+  damage: d4
+  cost: 2
+  desc: ""
+
+- name: Sling Stone
+  tags: small, basic, ammo
+  cost: 0
+  desc: Slings throw stones found anywhere.
+
+- name: Spear
+  tags: weaponadv, wood
+  prop: charge, thrown, melee
+  damage: d6
+  cost: 5
+  desc: ""
+
+- name: Sword
+  tags: weaponsimple, metal
+  prop: melee
+  damage: d8
+  cost: 20
+  desc: ""
+
+- name: Flail
+  tags: weaponexp
+  prop: melee, blunt, two-handed, slow, fragile
+  damage: d10
+  cost: 50
+  desc: ""
+
+- name: Great Ax
+  tags: weaponexp
+  prop: melee, fragile, two-handed
+  damage: d12
+  cost: 50
+  desc: ""
+
+- name: War Hammer
+  tags: weaponexp
+  prop: melee, blunt
+  damage: d8
+  cost: 50
+  desc: ""
+
+- name: Ribauldequin
+  tags: weaponexp, weapongun
+  prop: fired, slow, splash, fragile
+  damage: d4
+  cost: 100
+  desc: ""
+
+- name: Arquebus
+  tags: weaponadv, weapongun
+  prop: reload, fired, two-handed
+  damage: d12
+  cost: 50
+  desc: ""
+
+- name: Matchlock Pistol
+  tags: weaponadv, weapongun
+  prop: reload, fired
+  damage: d8
+  cost: 50
+  desc: ""
