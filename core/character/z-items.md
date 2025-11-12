@@ -1,3 +1,7 @@
+# Items 
+
+## Gear 
+
 
 | Item | Cost |
 |:---|---|
@@ -65,3 +69,57 @@
  A collection of essential adventuring gear including: compass, clock, 
 #### Whisle 
  Makes a *loud* noise when blown. *small*.
+
+## Weapons 
+
+
+| Item | Cost | Dam | Properties | 
+|:---|---|---|---:|
+| Battle Ax | 7 | d10 | melee, slow, two-handed, fragile | 
+| Club | 3 | d4 | blunt, melee | 
+| Crossbow | 30 | d10 | fired, slow, two-handed | 
+| Dagger | 3 | d4 | melee, thrown | 
+| Hand Ax | 5 | d6 | melee, thrown, fragile | 
+| Karosene (1 flask) | 2 | d8 | small, splash, thrown | 
+| Long Bow | 50 | d8 | fired, two-handed | 
+| Mace | 5 | d6 | blunt, melee | 
+| Short Bow | 5 | d6 | fired, two-handed | 
+| Sling | 2 | d4 | blunt, fired | 
+| Staff | 1 | d6 | blunt, melee, two-handed | 
+| Sword | 20 | d8 | melee | 
+
+#### Blunt
+Can be used to incapacitate victems. Required for Clerics.
+#### Fired
+Makes ranged attacks. Consumes ammo. 
+#### Fragile
+After dealing the maximum damage, the weapon takes 1 damage.
+#### Melee
+Can be used to make melee attacks.
+#### Slow
+After making an *attack*, you can't *attack* on the next turn.
+#### Splash
+Damages many targets in an area.
+#### Thrown
+Makes ranged attack by throwing the weapon.
+#### Two-handed
+Requires two hands to use. Also *heavy*.
+
+## Armor 
+
+
+| Item | Cost |
+|:---|---|
+| Chain Mail | 60 | 
+| Leather Armor | 20 | 
+| Plate Mail | 100 | 
+| Shield | 15 | 
+
+#### Chain Mail 
+ Mesh armor made from interlocking links. Provides a base AC of 5.
+#### Leather Armor 
+ Sturdy but quiet. Provides a base AC of 7.
+#### Plate Mail 
+ Heavy armor made from steel plates provides an AC of 3, but negates dexterity bonus to AC, and imposes *disadvantage* on *stealth*. *heavy*.
+#### Shield 
+ Wooden plate used to rebuff attacks. Reduces AC by one when held in one hand.
