@@ -28,35 +28,40 @@ Except for hallway, each of these calls indicate exactly one square.
 ### Hallway
 **Hallway, number, direction:** Indicates the corridor goes straight for a number of squares in that direction.
 **Draw:** Two straight lines.
-PICTURE
+![picture](img/map-hall.png)
 Hallway 3 west.
 ### Turn
 **turn, direction:** Indicates a square where the corridor turns in the direction
 **Draw:** A dot + an L shape.
-PICTURE
+
+![picture](img/map-turn.png)
 Left: turn east.
 
 Right: Hallway 1 north. AND Turn west. 
 ### Split
 **Split, (directions):** indicates the corridor slits left and right.
 **Draw:** Line + two dots.
-PICTURE
+
+![picture](img/map-tee.png)
 Left: split.
 
 Right: hallway 1 north. AND Split.
 ### Cross
 **Cross:** indicates a square with four openings. 
 **Draw:** Four dots
-PICTURE
+
+![picture](img/map-cross.png)
 ### Branch
 **Branch, direction:** Indicates the corridor has an opening on the side or direction indicated. 
 **Draw:** Line + two dots.
-PICTURE
+
+![picture](img/map-branch.png)
 Hallway 1 east. AND Branch south. AND Hallway 1 east.
 ### Terminate
 **Terminate:** Indicates the end of a corridor. 
 **Draw:** Three sided U.
-PICTURE
+
+![picture](img/map-term.png)
 Terminate.
 ### Large Corridors
 Large corridors can ban called in the same manor, but scaled to be twice as big, thrice as big, etc.
@@ -64,11 +69,13 @@ Large corridors can ban called in the same manor, but scaled to be twice as big,
 ## Room Calls
 ### Rectangular
 Designate a door as the entrance. Call how far the wall extends to each side. Then describe the depth of the room.
-PICTURE
+
+![picture](img/map-room.png)
 Room: 1 north, 2 south, 3 deep.
 ### Wall trace
 From the entrance, going clockwise, call the direction and length of wall segment. 
-PICTURE
+
+![picture](img/map-trace.png)
 Room, wall trace: north east 1, east 2, south 2, west 1, south 1, east 2, south 1, south west 1, west 2, north east 2, east 1, north 1
 ### Large rooms
 Large rooms, such as caverns, can be called by an extension of the wall trace method. A wall on each side can be traced, bit by bit.
@@ -85,21 +92,24 @@ On each wall, count squares from east to west, north to south (reading direction
 
 You can also call the center, or last square. 
 **Draw:** Pictogram
-PICTURE
+
+![picture](img/map-doors.png)
 Doors: East wall 2nd & 4th squares. South wall center.
 
 Exit, west wall 2nd square.
 ### Stairs
 Stairs, and a direction (up or down), indicate a square filled with stairs. The stairs extend away from the previous call. 
 **Draw:** Pictogram.
-PICTURE
+
+![picture](img/map-stairs.png)
 Left: Stairs going up.
 
 Right: Stairs going down.
 
 ## Example
 This is a small example of a map and calls, starting from the entrance marked E. 
-PICTURE
+
+![picture](img/map-combo.png)
 ### First Hallway
 1. Hallway 1 North.
 2. Turn West.

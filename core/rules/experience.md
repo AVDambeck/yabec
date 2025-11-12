@@ -71,5 +71,3 @@ When a character gains enough XP to reach the next experience level, the player:
 
 ### One Session Maximum
 Characters cannot advance more than one level in one session. Leave the character 1 XP below the threshold for the next level. The remaining XP can be distributed among the other characters, as the player wishes. If all characters are 1 XP below the threshold, extra XP is wasted.
-
-## Abandoning

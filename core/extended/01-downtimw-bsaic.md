@@ -117,6 +117,7 @@ Go to upto three different establishments, or the same establishment twice. Roll
 
 ### Forum
 | d8 | Minion | 
+|---|---|
 | <=1 | Grammar corrected |
 | 2-4 | Nothing |
 | 5-7 | 1 human |
@@ -124,6 +125,7 @@ Go to upto three different establishments, or the same establishment twice. Roll
 
 ### Port
 | d8 | Minion |
+|---|---|
 | <=1 | Robbed! Loose 4d6 cp and take 1 damage |
 | 2-4 | Nothing | 
 | 5-7 | 1 human |
@@ -131,11 +133,13 @@ Go to upto three different establishments, or the same establishment twice. Roll
 
 ### Tavern
 | d8 | Minion |
+|---|---|
 | <=1 | Booed and mocked. -1 to next recruitment |
 | 2-4 | Lulled into on game of dragon ante. See carousing. If you win, +1 to next recruitment |
 
 ### Sewers
 | d12 | Minion |
+|---|---|
 | >=11 | Attacked! 1d6 damage |
 | 5-10 | Nothing |
 | 3-4 | 1 human |
@@ -145,6 +149,7 @@ Go to upto three different establishments, or the same establishment twice. Roll
 
 ### Guild Hall
 | d20 | Minion |
+|---|---|
 | <=14 | Nothing | 
 | 15-18 | 1 Human |
 | 19 | 1 Dwarf | 

@@ -13,7 +13,7 @@ Healing removes damage.
 ### Natural Healing
 One week of downtime heals 2d6.
 ### Bandaging
-Bandages can be used to gain some healing. Make an *intelligence* check. If you succeed, heal the target 1d6. You may bandage yourself.
+Bandages can be used to gain some healing. Make an *intelligence* check. If you succeed, heal the target 1d6, plus a bonus from your wisdom. See *ability scores*. You may bandage yourself.
 
 Bandaging takes one *turn*, and consumes a bandage. Once you are bandaged, you can not be bandaged again until you are *fatigued*.
 ### Magical Healing
