@@ -1,6 +1,6 @@
 # Yabec
 
-Yet Another Basic/eXpert Clone is a open source OSR game.
+Yet Another Basic/eXpert Clone is a open source dragon game.
 
 ### Index
 %INDEX%
