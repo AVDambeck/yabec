@@ -106,6 +106,7 @@ Costs 10 cp. Heal 1 damage from an item.
 You can make any weapon. See....sdasdwehj. Get a note card to track your progress. Calculate the total points of the weapon being constructed, based on its damage, properties, and enchantments: 
 
 | Properties	| Point   |
+|---|---|
 | d4 or d6 | 	1   |
 | d8| 	4 |
 | d10 or d12	|   7 |
