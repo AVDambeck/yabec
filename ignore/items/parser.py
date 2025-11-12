@@ -76,7 +76,25 @@ if __name__ == "__main__":
     # Weapons
     weapons = filter_items(items, ["weaponsimple"])
     weapons = sort_items_alpha(weapons)
-    content += "\n## Weapons \n\n" + make_weapon_table(weapons) + "\n"
+    description = """ \n\n
+#### Blunt
+Can be used to incapacitate victems. Required for Clerics.
+#### Fired
+Makes ranged attacks. Consumes ammo. 
+#### Fragile
+After dealing the maximum damage, the weapon takes 1 damage.
+#### Melee
+Can be used to make melee attacks.
+#### Slow
+After making an *attack*, you can't *attack* on the next turn.
+#### Splash
+Damages many targets in an area.
+#### Thrown
+Makes ranged attack by throwing the weapon.
+#### Two-handed
+Requires two hands to use. Also *heavy*.
+"""
+    content += "\n## Weapons \n\n" + make_weapon_table(weapons) + description + "\n"
 
     # Armor
     armor = filter_items(items, ["armor"])

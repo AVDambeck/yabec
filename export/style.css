@@ -1,22 +1,10 @@
-@page {
-	size: 8.5in 11in;
-	margin: 1in;
-	@top-right {
-    		content: "Page " counter(pageNumber);
-	}
-}
-
-@media print {
-	img {
-		display: block;
-		width: 100%;
-		page-break-after: always;
+body{
+	columns: 2;
 }
 
 h1 {
 	counter-reset: headingtwo;
 	break-before: page;
-
 	text-align:center;
 	font-size:10vw;
 	padding-top: 50pt;
@@ -24,8 +12,8 @@ h1 {
 
 h2 { 
 	counter-reset: headingthree;
-	break-before: column;
-	border-top-style: solid;
+	break-before: always;
+	border-bottom-style: solid;
 }
 h2:before {
 	content: counter(headingtwo)". ";
@@ -53,13 +41,57 @@ img {
 }
 
 ul {
-    column-count: 4; /* Maximum number of columns */
+    column-count: 1; /* Maximum number of columns */
     column-gap: 20px; /* Space between columns */
     padding: 0; /* Optional: To remove default padding */
     margin: 0; /* Optional: To remove default margin */
 }
 
-/* Optional styling for list items */
 li {
-    break-inside: avoid; /* Prevents items from breaking between columns */
+    break-inside: avoid; 
+    margin-bottom: 10pt;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+thead {
+	color: white;
+	background-color: black;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 5%;
+}
+
+blockquote {
+	background-color: LightGray;
+	padding: 5pt;
+	margin: 10pt;
+
+@page {
+	size: 8.5in 11in;
+	margin: 1in;
+
+
+        counter-increment: page;
+
+        @bottom-right {
+
+            content: "Page " counter(page) " of " counter(pages);
+
+            border-top: .25pt solid #666;
+
+            width: 50%;
+
+        }
+}
+
+@media print {
+	img {
+		display: block;
+		width: 100%;
+		page-break-after: always;
+	}
 }

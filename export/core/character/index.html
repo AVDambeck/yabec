@@ -1,15 +1,17 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" type="text/css" href="style.css"></head><body><h1>Overview</h1>
 <p>This booklet covers character classes and minions. </p>
-<p>This chapter covers the process of creating a character, and attributes which apply to all characters.
-Basic covers the core classes. Advanced and Demihuman cover more complex classes for returning players.</p>
-<p>For rules on spell casting, see Magic.
-For rules on equipment, see Items. </p>
+<p>This chapter covers the process of creating a character, and attributes which apply to all characters.</p>
+<p>Basic covers the core classes. Advanced and Demihuman cover more complex classes for returning players.</p>
+<p>For rules on spell casting, see Magic.</p>
+<p>For rules on equipment, see Items. </p>
 <h2>Index</h2>
-<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/advanced.html">advanced.html</a></p>
-<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/basic.html">basic.html</a></p>
+<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/01-basic.html">01-basic.html</a></p>
+<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/02-advance.html">02-advance.html</a></p>
+<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/03-demihuman.html">03-demihuman.html</a></p>
+<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/03-items.html">03-items.html</a></p>
+<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/04-minions.html">04-minions.html</a></p>
 <p><a href="/home/carrieanne/documents/git/yabec/export/core/character/demihuman.html">demihuman.html</a></p>
 <p><a href="/home/carrieanne/documents/git/yabec/export/core/character/index.html">index.html</a></p>
-<p><a href="/home/carrieanne/documents/git/yabec/export/core/character/minions.html">minions.html</a></p>
 <h2>Basic Character Creation</h2>
 <p>Choose one of the premade character playbooks.</p>
 <p>Reccomended for first time players.</p>
@@ -42,22 +44,299 @@ For rules on equipment, see Items. </p>
 <h3>Money</h3>
 <p>Start with 3d6x10 cp. Buy items from the basic item list. Each class also provides suggested collections of items, and their price.</p>
 <h2>Ability Scores</h2>
-<p>PLACEHOLDER</p>
+<h3>Strength</h3>
+<p><strong>Attack:</strong> Bonus to AV.</p>
+<p><strong>Damage:</strong> Bonus to melee weapon damage.</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Attack</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>+3</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>+2</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>6-8</td>
+<td>+1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>9-12</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>13-15</td>
+<td>-1</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>-2</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>18</td>
+<td>-3</td>
+<td>+3</td>
+</tr>
+</tbody>
+</table>
+<h3>Dexterity</h3>
+<p><strong>Armor:</strong> Bonus to AC.</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Armor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>6-8</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>9-12</td>
+<td>0</td>
+</tr>
+<tr>
+<td>13-15</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>18</td>
+<td>-3</td>
+</tr>
+</tbody>
+</table>
+<h3>Constitution</h3>
+<p><strong>Health:</strong> Bonus HP. Apply each level.</p>
+<p><strong>Slots:</strong> Bonus item <em>slots</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Health</th>
+<th>Slots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>-3</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>-2</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>6-8</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>9-12</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>13-15</td>
+<td>+1</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>+2</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>18</td>
+<td>+3</td>
+<td>+3</td>
+</tr>
+</tbody>
+</table>
+<h3>Intelligence</h3>
+<p><strong>Language:</strong> Number of langugages known, in addition to those from your class.</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>speak only in mimicry</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>none</td>
+</tr>
+<tr>
+<td>6-8</td>
+<td>none</td>
+</tr>
+<tr>
+<td>9-12</td>
+<td>none</td>
+</tr>
+<tr>
+<td>13-15</td>
+<td>1</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>2</td>
+</tr>
+<tr>
+<td>18</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h3>Wisdom</h3>
+<p><strong>Bandage:</strong> Bonus healing when applying a bandage.</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Attack</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>6-8</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>9-12</td>
+<td>0</td>
+</tr>
+<tr>
+<td>13-15</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>18</td>
+<td>+3</td>
+</tr>
+</tbody>
+</table>
+<h3>Charisma</h3>
+<p><strong>Reaction:</strong> Applies to various interactions.</p>
+<p><strong>Minion:</strong> Maximum number of minions.</p>
+<p><strong>Loyalty:</strong> Starting loyalty of hirelings. </p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Reaction</th>
+<th>Minion</th>
+<th>Loyalty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>-2</td>
+<td>1</td>
+<td>4</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>-2</td>
+<td>2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>6-8</td>
+<td>-1</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>9-12</td>
+<td>0</td>
+<td>4</td>
+<td>7</td>
+</tr>
+<tr>
+<td>13-15</td>
+<td>+1</td>
+<td>5</td>
+<td>8</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>+2</td>
+<td>6</td>
+<td>9</td>
+</tr>
+<tr>
+<td>18</td>
+<td>+2</td>
+<td>7</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
 <h2>Alignment</h2>
 <p>Beneath the surface of everyday life, two primeval forces mingle. Their servants favor either the cosmic order, or the advent of a new one. Some find themselves neutrally or unaligned, choosing for their own ends, or for the end of balance. </p>
 <h3>Magic</h3>
 <p>Magic affects creatures differently depending on alignment. Divine spellcastes need to be especially aware of their alignment.</p>
 <h3>Alignment Language</h3>
-<p>Creatures automatically recognize a certain set of gestures, signs, and code words, pertaining to their alignment. This allows creatures of common alignment a measure of communication.
-Creatures of a different alignment are likely to recognize an alignment language being spoken, but will not understand its content.</p>
+<p>Creatures automatically recognize a certain set of gestures, signs, and code words, pertaining to their alignment. This allows creatures of common alignment a measure of communication.</p>
+<p>Creatures of a different alignment are likely to recognize an alignment language being spoken, but will not understand its content.</p>
 <h3>Revealing Alignment</h3>
 <p>Players must reveal their alignment to the dungeon master, but are not required to reveal to each other. </p>
 <h3>Role Playing Alignment</h3>
 <p>If the character acts too far out of their alignment, the referee may require them to change their alignment and suffer a penalty.</p>
 <h2>Monstrous</h2>
-<p>Monstrous characters face additional challenges: 
-- They are not welcome in urban areas unless accompanied by a human, elf, or dwarf. 
-- They can not employ human hirelings. 
-- They do not automatically know the common language.
-- They have a -2 to reaction rolls with non-monsters.
-- When in sunlight, they have a +1 to AC, and AV.</p></body></html>
+<p>Monstrous characters face additional challenges: </p>
+<ul>
+<li>They are not welcome in urban areas unless accompanied by a human, elf, or dwarf. </li>
+<li>They can not employ human hirelings. </li>
+<li>They do not automatically know the common language.</li>
+<li>They have a -2 to reaction rolls with non-monsters.</li>
+<li>When in sunlight, they have a +1 to AC, and AV.</li>
+</ul></body></html>
