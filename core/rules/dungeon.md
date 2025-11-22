@@ -2,11 +2,18 @@
 Exploring a dangerous dungeon.
 
 ## Basics
-### Time
-Each *action* will cause a *turn* to pass, possibly resulting in *hazards*
+The Dungeon Master begins *dungeon* by describing a sitchuation. 
+
+The *turn* begins with the players asking questions to gain information about the enviornment. 
+
+Next, the players choose to take an *action*. *Actions* can be the specific ones outlined in the rules, such as *moving* to another *zone*, or general, such as disabling a trap. 
+
+The Dungeon Master describes the consequences of the *action*, and then the *turn*. The Dungeon Master will check for *hazards* (see below). 
+
+This becomes the new sitchuation, and the loop begins again.
 ### Movement
-Moving within a *zone* can be done freely. To change *zones* is an *action*.
-### Marching
+Moving within a *zone* can be done freely. To change *zones* is a *move action*.
+
 While moving in narrow hallways, movement is restricted. The marching order is decided by the players. In general, only the *front* and the *back* are significant. 
 
 ## Actions
@@ -20,18 +27,7 @@ Moving at a fast pace, players can move through 6 *zones* in one *turn*. However
 - Create *loud* noise.
 - Cannot map.
 - Cannot check doors.
-### Search
-Searching reveals non-obvious features. A search will always reveal everything it can.
 
-Searching will also reclaim one half of ammo.
-
-Seaching a single *zone* takes four people one *turn*. The amount of time will increase and decrease coresponding to the number of people searching and the size of the area.
-### Rest
-Spending one *turn* resting will remove *fatigue*. 
-
-Additionally, ignore the *fatigue hazard* while resting.
-### Bandage
-See page X
 ### Talk
 Begin a new *turn* at the end of the conversation.
 #### Reaction Roll
@@ -39,6 +35,25 @@ The Dungeon Master might ask for a *reaction modifier*. See Character p4.
 
 The Dungeon Master might make the roll at advantage or disadvantage, depending on the player’s actions.
 A high roll will make the monsters more friendly. A low roll will make them more hostile. A very high or very low roll will also make them *bad* for one *round*. See Dungeon Master p15.
+
+### Fight
+If a fight begins, go to *conflict*.
+
+### Search
+Searching reveals non-obvious features. A search will always reveal everything it can.
+
+Searching will also reclaim one half of ammo.
+
+Seaching a single *zone* takes four people one *turn*. The amount of time will increase and decrease coresponding to the number of people searching and the size of the area.
+
+### Rest
+Spending one *turn* resting will remove *fatigue*. 
+
+Additionally, ignore the *fatigue hazard* while resting.
+
+### Bandage
+See page X
+
 ### Flee
 Recklessly try to escape the dungeon.
 
@@ -46,8 +61,11 @@ Once a party beings to flee the dungeon, they can not stop until they’re out.
 
 Each *round*, move to an adjacent *zone*, then one character must take 1d4 damage. 
 
+
 ## Hazards
-At the start of each *turn*, the Dungeon master will roll for *hazards*. 
+At the end of each *turn*, the Dungeon master will check for *hazards*. 
+
+Differnet enviornments will have different odds, but generally, there's 1-in-6 chance of each hazard. Some areas may have more or less wandering monsters, some areas may have additional *hazards*. etc.
 
 Unless the players loose their clock, the Dungeon Master should knock on the table to indicate the *turn*.
 ### Burn
@@ -56,8 +74,8 @@ Torches burn out, and lanterns need fresh oil.
 Become *fatigued*. Anyone already *fatigued* takes 1 damage. 
 ### Shift
 Traps reset, doors swing close, and other aspects of the dungeon are triggered.
-### Other
-Other *hazards* may include wandering monsters.
+### Wandering Monsters
+In dangerous or unstable areas, monsters may begin hunting you.
 
 ## Doors
 Doors not held open will swing silently shut during a *shift*.
