@@ -1,4 +1,5 @@
 # Character
+This chapter
 
 ## Item Slots (Inventory)
 In order to carry an item, the character must have a free item *slot* to carry it. 

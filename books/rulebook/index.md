@@ -27,19 +27,6 @@ Some actions are *actions*. The italics indicate that this is a *hook*, a keywor
 
 Yabec is designed around chains of *hooks*. For example, in *conflict*, the game is played in *rounds*, which during each you get one *action*, which you use to *attack*, and then when all *combatants* have acted, a new *round* begins, and so on...
 
-## Phase
-A *phase* is a scheme for how guide the conversation.
-
-There are four *phases*. Each is detailed fully in it's own chapter.
-### Town
-Players navigate an urban setting, often splitting up to do *downtime*, or go shopping. The *phase* ends when the players *depart* on an *adventure*.
-### Delve
-Players explore a dangerous dungeon. This *phase* ends when the players leave the dungeon. Then *clean up*.
-### Conflict
-Players fight or flee from monsters. This *phase* occers within a *delve*, or rarely, in a *town*.
-### Clean Up 
-Handle experience, splitting treasure, and other loose ends. Either end the session here, or begin *town* again.
-
 ## Player Roles
 There are several optional *roles* that players can have. Using *roles* makes play smoother and easier. Use a notecard or token to keep track of *roles*. 
 
@@ -66,18 +53,6 @@ Keep track of the layout of the dungeon. You might ask the Dungeon Master for ex
 ### Caller
 Get consensus on what the party would like to do, and communicate to the Dungeon Master.
 
-
-## Booklets
-Yabec is split into four major sections: 
-### Rules
-Covers exploration, fighting, health and damage, experience, etc.
-### Character
-Covers classes and character creation, as well as basic items.
-### Magic
-Covers magic and spellcasting.
-### Extended
-Covers downtime, and advanced item lists. 
-
 ## Miscellenious
 ### Invocation
 Players can *invoke* a rule to activate optional rules, or to ask the Dungeon Master to rule in a manor consistant with the book (as indicated in the outset of the book.
@@ -85,9 +60,10 @@ Players can *invoke* a rule to activate optional rules, or to ask the Dungeon Ma
 To *invoke*, the player reads the title of the rule they are invoking. If needed, they can add the full rule, a summary, interpretation, intent, argument, etc. The Dungeon Master still has final say over whether to affirm the ruling or not.
 ### Rounding
 When not otherwise specified, round down.
+### Ties
+Where not otherwise mentioned, favor the players.
 ### Weak and Strong Monsters
 Monster with 4 HD or more are *powerful*. Monsters with 3HD or less are *ordinary*.
-
 ### Advantage and Disadvantage
 When making a roll with *advantage*, roll twice and take the better.
 
