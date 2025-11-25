@@ -2,17 +2,16 @@
 Exploring a dangerous dungeon.
 
 ## Basics
-The Dungeon Master begins *dungeon* by describing a sitchuation. 
+### Turns
+*Actions* will take a *turn* to complete. Each *turn*, the Dungeon Master will check for *hazards* (see below). 
+### Free Actions
+Free actions do not impact the *turns* and can be done freely, to an extent. 
 
-The *turn* begins with the players asking questions to gain information about the enviornment. 
+- Moving and looking around the current *zone* are free actions.
+- Checking doors.
 
-Next, the players choose to take an *action*. *Actions* can be the specific ones outlined in the rules, such as *moving* to another *zone*, or general, such as disabling a trap. 
-
-The Dungeon Master describes the consequences of the *action*, and then the *turn*. The Dungeon Master will check for *hazards* (see below). 
-
-This becomes the new sitchuation, and the loop begins again.
 ### Movement
-Moving within a *zone* can be done freely. To change *zones* is a *move action*.
+Moving to an adjacent *zone* is an *action*.
 
 While moving in narrow hallways, movement is restricted. The marching order is decided by the players. In general, only the *front* and the *back* are significant. 
 

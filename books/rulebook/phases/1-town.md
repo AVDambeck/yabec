@@ -1,13 +1,15 @@
 # Town
 Spend a brief period in civilization, making plans, securing allies, and gathering supplies. 
 
-## Activities
+## General Activities
 ### Shopping
 Every town will have the *basic* items availble. Some towns may have additional shops. See page X.
 ### Downtime
-The first time in town per session, returning characters get one *week* of *downtime*. See page X. They also recieve natural healing. See page X.
+The first time in *town* per session, returning characters get one *downtime*. See page X. 
 
 Characters who owe *service* must preform it before puruing other options.
+### Healing
+Characters recieve natural healing. See page X.
 ### Minions
 1d4 human hirelings will seek employment if there is a chracter of 2nd level or greater. See page X.
 
@@ -20,12 +22,14 @@ Any player can contribute to the discussion of what dungeon to go to. However, o
 
 Unopinionated players can simply follow the party to whichever dungeon they go to.
 ### Charting
-One players *charts* the journey to a dungeon or another town. Its suggest that this player be the *quater master*. See Roles.
+One players *charts* the journey to a dungeon or another town. Its suggest that this player be the *quatermaster*. See Roles.
+
 1. Count the number of *hexes* between the party's current location, and the destination. 
-2. Count the number of *hexes* to a town. 
-3. (optional) If crossing an *obsticle*, such as a river, add each to the count. 
+2. If the destination is a dungeon, add the number of hexes to a town.
+3. If any, add the number of rivers and other obstivles. 
 4. For each player and minion, aquire a ration for each *hex*. 
 5. (optional) If crossing a body of water, also aquire the fare for passage on a boat.
+
 Best practice is to have each participating player compensate the *quarter master* for their rations.
 ### Departing
 One player, ideally the Caller will announce "Adventuers to depart!". 
@@ -39,12 +43,12 @@ If it is a different town, simply continue *town* in the new location.
 ## Goals
 Each session, the players may agree to set one goal for the party. If the goal has already been completed in the past, or is not difficult enough, the Dungeon Master may reject it.
 
-Completing a goal scores experience. See Experience.
+Completing a goal *scores* experience. See Experience.
 
 Additionally, the Dungeon Master may give individual goals to certain players, especially divine magic users. 
 ### Examples 
 - Kill a the bear with the scarred eye.
-- No deaths.
+- No character deaths.
 - Get to the third level of the dungeon.
 - Rescue a particular prisoner.
 - Recover a particular treasure.

@@ -25,10 +25,6 @@ Recovering treasure from a dungeon scores 1 XP per 1 cp value of the treasure.
 Recovering a magic item scores 1000 XP.
 
 Recovering a particular quest item scores 1000 XP.
-### Goal
-Achieving a *goal* scores 100 XP per character involved.  LINK
-
-Failing to achieve a goal reduces the XP from this score card by 100 XP. 
 ### Defeated Monster 
 Defeating monsters scores XP based on their HD, plus a bonus for each special ability. e.g. a 2+2 HD monster with an ability is worth 35 XP.
 
@@ -51,7 +47,12 @@ Defeating monsters scores XP based on their HD, plus a bonus for each special ab
 
 ### Roles
 Having living players with *roles* during clean up us a *score*. For the first of each *role*, score 50 times the number of players. For the second of each, score half that. 
+### Goal
+Achieving a *goal* scores 100 XP per character involved.  LINK
 
+Failing to achieve a *goal* scores -200 XP.
+### Affirmed Invokation
+Each unique rule *invoked* scores 30 XP.
 ### Mapping
 Correctly mapping a complete dungeon level scores XP equal to 1000 times the depth of the level.
 
