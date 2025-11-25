@@ -44,6 +44,28 @@ You succeed if d20 >= *save* value. (high roll good)
 
 Success against an effect that causes damage means that the damage is halved. Otherwise, the effect has been entierly avoided or negated.
 
+## bad
+*bad* is a generalized status conditions. 
+
+*attacks* and *stealth* against *bad* targets always succeed. 
+
+*bad* creatures can:
+- hear.
+- speak.
+- *Save*.
+- Desperate actions allowed by *badness*. For example, move randomly in the dark, or move inches while bound.  
+
+*Bad* cretures can not:
+- Move. 
+- *Attack*.
+- Cast spells.
+- Use magic items.
+- Use class skills.
+- Sunder their shield.
+
+Depending on the exact condition, *Bad* creatures might be able to take some limited action. For example, a blind creature may beable to move randomly, or a bound character might work to break out of their restraints.
+
+
 ## Stealth
 To establish or maintain *stealth*, roll a d8. If it is less than or equal to the AC of the target, *stealth* is sucessful.
 

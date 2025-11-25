@@ -13,7 +13,7 @@ Changes fall into four broad catagories:
 3. Making the early game more forgiving and transperent. 
 4. Correcting mistakes (e.g. dismemberment getting worse with higher con)
 
-These are the most significant changes since the last major version:
+These are the most significant changes.
 
 - The formatting is all different. This makes it easier for me to manage on the back end. +simple
 - phases (e.g. town, delving) are now player controlled, and there can be more than one per session. +player agency.
@@ -27,6 +27,9 @@ These are the most significant changes since the last major version:
 - simplified stealth. +simple
 - fixed dismemberment. +mistake
 - Tweaks to various downtime. +mistake +forgiving +simple
+- Disolved weeks. +simple.
+- Variety of player roles, with group XP bonuses
+=
 
 # Direction
 Yabec is under construction! The rules section is mostly finished. 

@@ -215,7 +215,7 @@
   tags: armor, wood
   prop: ""
   cost: 15
-  desc: Wooden plate used to rebuff attacks. Reduces AC by one when held in one hand.
+  desc: Wooden plate used to rebuff attacks. Reduces AC by one when held in one hand. When attacked, you can destroy your shield to reduce the damage taken by 10.
 
 - name: Wooden Stakes (5)
   tags: wood

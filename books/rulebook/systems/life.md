@@ -11,7 +11,8 @@ At 1st level, a character's HP is equal to the highest value on their HD.
 ## Healing
 Healing removes damage.
 ### Natural Healing
-One week of downtime heals 2d6.
+Spending time in *town* provides natural healing. 1st and 2nd level characters heal completely. 3rd level characters and higher heal 2d6.
+
 ### Bandaging
 Bandages can be used to gain some healing. Make an *intelligence* check. If you succeed, heal the target 1d6, plus a bonus from your wisdom. See *ability scores*. You may bandage yourself.
 

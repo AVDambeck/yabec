@@ -1,10 +1,11 @@
-# Conflic
+# Conflict
+Short burst of turn based combat, also covers chases.
 
 ## Basic
 ### Time
 One *conflict* takes one dungeon *turn*. Time within *conflict* measured in rounds.
-#### Exaustin
-At the end of the 6th round, and each round after, all creatures still involved in the combat take 1 damage.
+#### Exaustion
+At the end of the 9th round, and each round after, all creatures still involved in the combat take 1 damage.
 ### Mapping
 During conflict, it's possible to reference a map, but adding to a map is impossible. The dungeon master will not make *map calls*. See page X
 ### Movement
@@ -13,39 +14,16 @@ While not *bad*, each combatant can move freely within a *zone*. Changing *zones
 
 ## Inititative
 The Dungeon Master can employ either of these two methods for initiative.
-
 ### Dramatic
-Each round, each combatant can take one *action*. Then they must wait for the next round to act again.
+Each *round*, each combatant can take one *action*. Then they must wait for the next *round* to *act* again.
 
-Players can go in any order they choose. After each player's action, an enemy take an action. However, if the player is *bad*, the enemy will go before the player instead.
-
+Players can go in any order they choose. After each player's *action*, an enemy take an *action*. However, if the player is *bad*, the enemy will go before the player instead.
 ### Ranked
-at the start of *conflict*, each player rolls a d10 and adds their *dexterity* score. this is their *count*. *Ordinary* monsters have *count* 13. *Powerful* monsters have *count* 18. 
+At the start of *conflict*, each player rolls a d10 and adds their *dexterity* score. This is their *count*. *Ordinary* monsters have *count* 13. *Powerful* monsters have *count* 21. 
 
 At the start of each *round*, the creature with the highest *count* takes one *action*. then proceed in decending order.
 
 Ties between the players can be resolved in either order they please. players win ties against monsters, unless they are *bad*.
-
-## bad
-*bad* is a generalized status conditions. 
-
-*attacks* and *stealth* against *bad* targets always succeed. 
-
-*bad* creatures can:
-- hear.
-- speak.
-- *Save*.
-- Desperate actions allowed by *badness*. For example, move randomly in the dark, or move inches while bound.  
-
-*Bad* cretures can not:
-- Move. 
-- *Attack*.
-- Cast spells.
-- Use magic items.
-- Use class skills.
-
-Depending on the exact condition, *Bad* creatures might be able to take some limited action. For example, a blind creature may beable to move randomly, or a bound character might work to break out of their restraints.
-
 
 ## Actions
 ### Attack
