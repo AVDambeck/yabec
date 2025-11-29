@@ -1,6 +1,8 @@
 # Life & Death
 This section covers health, damage, and dying.
 
+Unlike many games which count HP down, Yabec counts damage up. 
+
 ## Health Points
 Health points (HP) represent the ability to withstand injury and exaustion.
 ### Health Die (HD)
@@ -10,43 +12,37 @@ At 1st level, a character's HP is equal to the highest value on their HD.
 
 ## Healing
 Healing removes damage.
-### Natural Healing
-Spending time in *town* provides natural healing. 1st and 2nd level characters heal completely. 3rd level characters and higher heal 2d6.
-
-### Bandaging
-Bandages can be used to gain some healing. Make an *intelligence* check. If you succeed, heal the target 1d6, plus a bonus from your wisdom. See *ability scores*. You may bandage yourself.
-
-Bandaging takes one *turn*, and consumes a bandage. Once you are bandaged, you can not be bandaged again until you are *fatigued*.
 ### Magical Healing
 Magic potions or spells can provid instantaneous healing.
 
-When magically healing a *slain* character, they *dismember* with advantage.
+When magically healing a *near death* character, they *dismember* with advantage.
 
 ## Damage
-Damage represents injury, exaustion, and wear. 
+*Damage* represents injury, exaustion, and wear. 
 ### Slain
-When a creature takes damage equal to or greater tan its HP, it is *slain*,
+When a creature takes *damage* equal to or greater tan its HP, it is *slain*,
 *Slain* minions and *ordinary* monsters instantly die. 
 *Slain* PCs and *powerful* monsters are *near death*. See Near Death.
 #### Destruction
-If *slain* by fire, explosion, or magic items are destroyed, and PCs and *powerful* monsters instantly die.
-
-Magic items and monsters have a chance of miraculously surviving.
+If *slain* by fire, or explosion, items are destroyed, and PCs and *powerful* monsters instantly die. Magic items have a chance of miraculously surviving.
 ### Item Damage
-Some items can become damaged. Items with four or more damage break completely. Magic items are immune to damage.
+Some items can become *damaged*. Items with four or more *damage* break completely. Magic items are immune to *damage*.
 
-Each point of damage incurs a penalty:
-- **Weapons:** -1 to damage.
+Each point of *damage* incurs a penalty:
+
+- **Weapons:** -1 to damage rolls.
 - **Armor:** +1 to AC.
 - **Other:** -1 to any rolls made with it.
-Dwarves are able to repair items. See page X. LINK
+
+Dwarves are able to repair items as *downtime*. 
 
 ## Near Death
-Between life and death, there is a terrible void.
 ### Death
-After a full turn *near death*, creatures die. 
+After a full *turn* *near death*, creatures die. 
 
-If a creature takes any damage while *near death*, they dismember.
+If a creature takes any damage while *near death*, they *dismember*.
+#### New Character
+As soon as you have a new character sheet, the Dungeon Master will add your character at earliest contrivance. 
 ### Healing
 When healed while *near death*, a creature instead rolls for *dismemberment*. If healed by magic, they roll with *advantage*.
 ### Dismemberment
