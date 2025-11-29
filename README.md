@@ -4,7 +4,31 @@ yet another basic/expert clone
 Yabec started as a way to codify the Old School Rennessance mix I was running at my table. It now is an open source project for others to work from.
 
 # Changes
-This seciont is directed at players of my game. 
+From version 2.0 to 2.1
+
+- Added challenge as a new scheme.
+- Phases -> scheme.
+- Advantage and disadvantage stack. 
+- Roles score for everyone.
+- Added metagaming statment.
+- Moved bandaging to dungeon.
+- Reordered global/system and adventure into the Rulebook.
+- Reordered magic, downtime, character, into the guidebook and extended.
+- Removed worldbuilding.
+- Natural healing moved to town. Variented gritty healing.
+- Variented prime requisite.
+- Variented flashbacks.
+- Made running and sprinting into their own actions.
+- Made ability checks more important. Made increasing them easier.
+- Tweaks to initiative.
+- Removed time.
+- Tweaked combat options to change fleeing and retreat. Added focus.
+- Saving throw -> saves.
+- added heroic actions.
+- removed stealth.
+- reduced defeated monster xp brackets.
+
+## From version 1.x to version 2.x
 
 Changes fall into four broad catagories:
 

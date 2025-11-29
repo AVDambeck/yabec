@@ -1,20 +1,10 @@
 # Enviornment
 This chapter covers how to track light, distance, and similar elements.
 
-## Time
-Time is measured in three units. 
-### Turn
-Most adventuring activities, such as having a fight or searching a room take one *turn*. 
-### Round
-A *round* is a short unit of time used during conflict. There are 10 *rounds* in one *turn*.
-### Week
-Each session, players get one *week's* worth of downtime. 
-
 ## Zones
-The dungeon enviornment is split into *zones*. As a rule of thumb, each room and hallway is a *zone*. Large rooms or hallways may be multipule *zone*. 
-
+The dungeon enviornment is split into *zones*. As a rule of thumb, each room and hallway is a *zone*. Large rooms or hallways may be multipule *zones*. 
 ### Guidelines
-- **Architecture:** Architectual features, such as a doorway, should divide *zones*.
+- **Architecture:** Architectual features, such as doorways, should divide *zones*.
 - **40':** Rooms bigger than 40', and hallways longer than 40', should be multipule *zones*.
 - **Even:** Large rooms and hallways should have their *zones* divided evenly. 
 - **Whole Number:** Large rooms and hallways should always have a whole number of *zones*.
@@ -37,10 +27,9 @@ The are two kinds of noise:
 ### Silent
 Produces effectivly no sound; no effect.
 ### Loud
-Heard by *distant* listeners. Increases the chance of wandering monsters. Etc.
+Heard by *distant* listeners. Increases the chance of wandering monsters. Etc. Most sounds are *loud* by default.
 
-Most sounds are *loud* by default.
-A *loud* sound can be made *silent* with *stealth*.
+A *loud* sound can be made *silent* with a *dexterity check*. If the player takes a moment to prepare, they can check with *advantage*.
 
 ## Light
 ### Levels
@@ -51,7 +40,7 @@ The *darkness* is pitch black, and prevents sight. Imposess blindness.
 Allows some detail to be seen.
 #### Bright
 Allows full vision, including details and reading. Disables *infravision*.
-### Distant
+### Distance
 A light source casts *bright* light within *touch*, and *dim* within *distant*. 
 ### Infravision
 A special type of vision had by many monsters: seeing heat energy that radiats of living things. 
