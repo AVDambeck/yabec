@@ -19,18 +19,19 @@ Demihumans are creatures such as dwarves and elves.
 
 There are hundreds of kinds of animalkin: tigerkin, oscolotkin, wolfkin, antkin, eaglekind, and many more. They are natural creatures, seeing more incommon with the beasts, than the civilization they often find themselves within.
 
-| Progression |
-| Lv	| XP	| AV	| D	| W	| P	| B	| S |
-| 1	| 0	| 19	| 12	| 13	| 13	| 15	| 15 |
-| 2	| 4k	| 19	| 12	| 13	| 13	| 15	| 15 |
-| 3	| 8k	| 19	| 12	| 13	| 13	| 15	| 15 |
-| 4	| 16k	| 17	| 10	| 11	| 11	| 13	| 12 |
-| 5	| 32k	| 17	| 10	| 11	| 11	| 13	| 12 |
-| 6	| 64k	| 17	| 10	| 11	| 11	| 13	| 12 |
-| 7	| 120k	| 14	| 8	| 9	| 9	| 10	| 10 |
-| 8	| 250k	| 14	| 8	| 9	| 9	| 10	| 10 |
-| 9	| 400k	| 14	| 8	| 9	| 9	| 10	| 10 |
-| 10	| 600k	| 12	| 6	| 7	| 8	| 8	| 8 |
+#### Progression
+| Lv| XP    | AV | D	| W	| P	| B	| S |
+|---|-------|----|------|---|---|---|---|
+| 1	| 0 	| 19 | 12	| 13	| 13	| 15	| 15 |
+| 2	| 4k	| 19 | 12	| 13	| 13	| 15	| 15 |
+| 3	| 8k	| 19 | 12	| 13	| 13	| 15	| 15 |
+| 4	| 16k	| 17 | 10	| 11	| 11	| 13	| 12 |
+| 5	| 32k	| 17 | 10	| 11	| 11	| 13	| 12 |
+| 6	| 64k	| 17 | 10	| 11	| 11	| 13	| 12 |
+| 7	| 120k	| 14 | 8	| 9	| 9	| 10	| 10 |
+| 8	| 250k	| 14 | 8	| 9	| 9	| 10	| 10 |
+| 9	| 400k	| 14 | 8	| 9	| 9	| 10	| 10 |
+| 10| 600k	| 12 | 6	| 7	| 8	| 8	| 8 |
 
 ### Animal Traits
 Choose animal traits fitting for the type of animal you are. Each has a point cost, and many have prerequisites. At first level, you gain 7 points. you gain 2 points each level after that. You can only choose traits while leveling up, or during character creation.
