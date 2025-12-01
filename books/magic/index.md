@@ -1,3 +1,0 @@
-# Magic
-
-%INDEX%
