@@ -53,7 +53,6 @@ These are the most significant changes.
 - Tweaks to various downtime. +mistake +forgiving +simple
 - Disolved weeks. +simple.
 - Variety of player roles, with group XP bonuses
-=
 
 # Direction
 Yabec is under construction! The rules section is mostly finished. 
