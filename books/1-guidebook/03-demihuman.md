@@ -19,7 +19,7 @@ Demihumans are creatures such as dwarves and elves.
 
 There are hundreds of kinds of animalkin: tigerkin, oscolotkin, wolfkin, antkin, eaglekind, and many more. They are natural creatures, seeing more incommon with the beasts, than the civilization they often find themselves within.
 
-#### Progression
+### Progression
 | Lv| XP    | AV | D	| W	| P	| B	| S |
 |---|-------|----|------|---|---|---|---|
 | 1	| 0 	| 19 | 12	| 13	| 13	| 15	| 15 |
@@ -81,6 +81,7 @@ Dwarves are stout, bearded demihumans, about 4’ tall and weighing about 150 po
 
 ### Progression
 | Lv	| XP	| AV	| D	| W	| P	| B	| S |
+|---|-------|----|------|---|---|---|---|
 | 1	| 0	| 19	| 11	| 12	| 14	| 16	| 15 |
 | 2	| 2.2k	| 19	| 11	| 12	| 14	| 16	| 15 |
 | 3	| 4.4k	| 19	| 11	| 12	| 14	| 16	| 15 |
@@ -126,8 +127,9 @@ A dwarf ruler may only hire dwarven mercenaries. However specialists and hirelin
 
 Elves are fey demihumans with pointed ears. They weigh about 150 pounds and are between 6 and 7 feet tall. They live hundreds of years; Humans seem like animals to them. 
 
-| Progression |
+### Progression 
 | Lv	| XP	| AV	| D	| W	| P	| B	| S |
+|---|-------|----|------|---|---|---|---|
 | 1	| 0	| 19	| 12	| 13	| 13	| 15	| 15 |
 | 2	| 4k	| 19	| 12	| 13	| 13	| 15	| 15 |
 | 3	| 8k	| 19	| 12	| 13	| 13	| 15	| 15 |
@@ -153,6 +155,7 @@ See Magic for full details.
 
 #### Magic Progression
 | Lv	| 1	| 2	| 3	| 4	| 5 |
+|-------|---|---|---|---|---|
 | 1	| 1	| -	| -	| -	| - |
 | 2	| 2	| -	| -	| -	| - |
 | 3	| 2	| 1	| -	| -	| - |
@@ -193,6 +196,7 @@ Halfling are small domestic demihumans. They weigh about 50 pounds and are aroun
 
 ### Progression 
 | Lv	| XP	| AV	| D	| W	| P	| B	| S |
+|---|-------|----|------|---|---|---|---|
 | 1	| 0	| 19	| 8	| 9	| 10	| 13	| 12 |
 | 2	| 2k	| 19	| 8	| 9	| 10	| 13	| 12 |
 | 3	| 4k	| 19	| 8	| 9	| 10	| 13	| 12 |
@@ -238,6 +242,7 @@ Kobold are canid creatures that dwell in caves. They stand 3’-4’, but often 
 
 ### Progression
 | Lv	| XP	| TH0	| D	| W	| P	| B	| S |
+|---|-------|----|------|---|---|---|---|
 | 1	| 0	| 19	| 16	| 14	| 14	| 14	| 14 |
 | 2	| 2k	| 19	| 16	| 14	| 14	| 14	| 14 |
 | 3	| 4k	| 19	| 14	| 12	| 12	| 12	| 12 |
