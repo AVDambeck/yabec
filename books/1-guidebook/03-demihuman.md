@@ -34,34 +34,34 @@ There are hundreds of kinds of animalkin: tigerkin, oscolotkin, wolfkin, antkin,
 | 10| 600k	| 12 | 6	| 7	| 8	| 8	| 8 |
 
 ### Animal Traits
-Choose animal traits fitting for the type of animal you are. Each has a point cost, and many have prerequisites. At first level, you gain 7 points. you gain 2 points each level after that. You can only choose traits while leveling up, or during character creation.
+Choose animal traits fitting for the type of animal you are. Each has a point cost, and many have prerequisites. At first level, you gain 7 points. you gain 1 point each level after that. You can only choose traits while leveling up, or during character creation.
 
-**Armoror:** 1 point. You can wear leather, chain mail, and barding.
-**Archer:** 1 point. You can use thrown and fired weapons.
-**Aquine:** 1 point. Waterbreathing and swimming
-**Berserker:** 4 points. 9 constitution. While while you have damage equal to or greater than 50% of your health, your AV is reduced by 4.
-**Blade Weapons:** 2 point. You can use non-blunt melee weapons.
-**Blunt Weapons:** 1 point. You can use blunt weapons.
-**Caratine:** 1 point. 9 constituton. You have a base AC of 5 while not wearing armor.
-**Hungry:** Once per session, round eating a ration to heal 1d6+1.
-**Infravision:** 3 point. 9 wisdom.
-**Keen Hearing:** 1 point. 9 wisdom. +1 to check doors
-**Keen Smell:** 3 point. 9 constitution. Kobold have a +1 to check doors. You're able to track via sent. 
-**Large Natural Weapon:** 4 points, 9 Strength. d10 damage, melee, and slow.
-**Leap:** 4 points. 9 dexterity. can jump 15’ in one bound, and 10’ vertically. If leap immediately before making a melee attack, get a -2 bonus to AV.
-**Monsterous:** 3 points. HD becomes a d12. Become *monsterous*.
-**Nature's Favor:** 5 points. 9 charisma. do not need to  consume rations when Traveling. get +1 healing when receiving healing from a druid.
-**Nine Lives:** 7 points. A total of nine times, choose to roll a 30 on *dismemberment*. 
-**Pack Animal:** 1 point. +2 item *slots*.
-**Pack Hunter:** 2 points. 9 charisma. Once per *turn*, when an ally *hits*, your next *attack* against them *hits* automatically.
-**Small Natural Weapon:** 2 points, 9 Dexterity. d4 damage and melee.
-**Sneaky:** 3 points. 9 dexteiry. Roll a d6 for *stealth*. 
-**Speak with one kind of animals:** 3 points, 9 charisma. as though by a Speak with Animals spell. See Magic 36.
-**Spider Climb:** 5 points. Climb sheer surfaces. Make a dexterity check ever 100', and whenever you take damage.
-**Tough:** 2 points. 9 constitution. dismember with a advantage. 
-Wings: 8 points. 13 Strength. You can fly.
+- **Armoror:** 1 point. You can wear leather, chain mail, and barding.
+- **Archer:** 1 point. You can use thrown and fired weapons.
+- **Aquine:** 1 point. Waterbreathing and swimming
+- **Berserker:** 4 points. 9 constitution. While while you have damage equal to or greater than 50% of your health, your AV is reduced by 4.
+- **Blade Weapons:** 2 point. You can use non-blunt melee weapons.
+- **Blunt Weapons:** 1 point. You can use blunt weapons.
+- **Caratine:** 1 point. 9 constituton. You have a base AC of 5 while not wearing armor.
+- **Hungry:** 1 point. Once per session, round eating a ration to heal 1d6+1.
+- **Infravision:** 3 point. 9 wisdom.
+- **Keen Hearing:** 1 point. 9 wisdom. +1 to check doors
+- **Keen Smell:** 3 point. 9 constitution. Kobold have a +1 to check doors. You're able to track via sent. 
+- **Large Natural Weapon:** 4 points, 9 Strength. d10 damage, melee, and slow.
+- **Leap:** 4 points. 9 dexterity. can jump 15’ in one bound, and 10’ vertically. If leap immediately before making a melee attack, get a -2 bonus to AV.
+- **Monsterous:** 3 points. HD becomes a d12. Become *monsterous*.
+- **Nature's Favor:** 5 points. 9 charisma. do not need to  consume rations when Traveling. get +1 healing when receiving healing from a druid.
+- **Nine Lives:** 7 points. A total of nine times, choose to roll a 30 on *dismemberment*. 
+- **Pack Animal:** 1 point. +2 item *slots*.
+- **Pack Hunter:** 2 points. 9 charisma. Once per *turn*, when an ally *hits* an enemy, your next *attack* against that enemy has *advantage*.
+- **Small Natural Weapon:** 2 points, 9 Dexterity. d4 damage and melee.
+- **Sneaky:** 3 points. 9 dexteiry. Roll a d6 for *stealth*. 
+- **Speak with one kind of animals:** 3 points, 9 charisma. as though by a Speak with Animals spell. See Magic 36.
+- **Spider Climb:** 5 points. Climb sheer surfaces. Make a dexterity check ever 100', and whenever you take damage.
+- **Tough:** 2 points. 9 constitution. dismember with a advantage. 
+- **Wings:** 8 points. 13 Strength. You can fly.
 
-## **Dwarf
+## Dwarf
 > Requirements:** Minimum constitution 9
 >
 > **Prime requisite:** Strength
