@@ -3,9 +3,9 @@
     src: url(Ithaca-LVB75.ttf);
 }
   
-
 body{
 	columns: 2;
+	background-color: blue;
 }
 
 p, h1, h2, h3, h4 {
