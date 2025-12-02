@@ -1,8 +1,8 @@
-finish extended
 formatting:
 	font
 	block quote
 	dark theme
 	bullet indent
 fix items
+finish downtime
 add spells
