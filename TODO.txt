@@ -1,4 +1,8 @@
-fix links
-fix font
+finish extended
+formatting:
+	font
+	block quote
+	dark theme
+	bullet indent
 fix items
 add spells
