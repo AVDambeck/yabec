@@ -11,6 +11,13 @@ Yabec is under construction! The rules and classes are largly finished. Work is 
 
 Tweaks here and there are happening to the exact language. In general, YABEC aims to be simple, modular, opinated but reasonable, and retro-compatible.
 
+## Suggestions
+I'm always open to suggestions. Here's a list of things I'm activly looking for suggestions on:
+
+- Better names for bad.
+- Disambiguate roles and rolls.
+- Make website into pdf.
+
 ## Pivot to HTML
 Html is easier to style than ODT (used for version 1.) Version 2.0 and 2.1 was built around a workflow from markdown, and used python. However, it became increasingly unyieldy. Version 2.3 will use only HTML, and maybe JavaScript (vomit). 
 
