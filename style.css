@@ -4,8 +4,9 @@
 }
   
 body{
-	columns: 2;
-	background-color: blue;
+	columns: 1;
+	padding: 20vw;
+	padding-top: 0;
 }
 
 p, h1, h2, h3, h4 {
