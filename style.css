@@ -1,0 +1,132 @@
+:root{
+	--color-bg: #000000;
+	--color-txt: #f5f5f5;
+	--color-fg: #db162f;
+	--color-block: #f5f5f5;
+}
+
+@font-face {
+    font-family: Ithaca;
+    src: url(fonts/Ithaca-LVB75.ttf);
+}
+  
+body{
+	columns: 1;
+	padding: 20vw;
+	padding-top: 0;
+	background-color: var(--color-bg);
+}
+
+p, h1, h2, h3, h4, li, tr{
+	font-family: Ithaca; Garamond;
+	color: var(--color-txt);
+	font-size: 20pt;
+}
+
+h1 {
+	counter-reset: headingtwo;
+	break-before: page;
+	text-align:center;
+	font-size:10vw;
+	padding-top: 50pt;
+	color: var(--color-fg);
+}
+
+h2 { 
+	counter-reset: headingthree;
+	break-before: always;
+	border-bottom-style: solid;
+	color: var(--color-fg);
+	margin-bottom: 6pt;
+}
+h2:before {
+	content: counter(headingtwo)". ";
+	counter-increment: headingtwo;
+	margin: 0;
+}
+
+h3 {
+	border-bottom-style: dotted;
+	border-color: grey;
+	margin: 0;
+}
+h3:before {
+	counter-increment: headingthree;
+	content: counter(headingthree)". ";
+}
+
+p {
+	margin-top: 4pt;
+}
+img {
+	width: 100%;
+	break-before: page;
+}
+
+ul {
+	list-style-type: square;
+	margin: 3vw;
+}
+
+li {
+    break-inside: avoid; 
+    margin-bottom: 10pt;
+}
+
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 5%;
+}
+th {
+	color: black;
+	background-color: var(--color-fg);
+}
+
+b, strong{
+	color: var(--color-fg);
+}
+
+blockquote {
+	background-color: var(--color-block);
+	padding: 5pt;
+	margin: 10pt;
+	p {
+		color: var(--color-bg);
+		margin: 0;
+		font-size: 16pt;
+	}
+	b, strong{
+		color: var(--color-bg);
+	}
+}
+
+@page {
+	size: 8.5in 11in;
+	margin: 1in;
+
+
+        counter-increment: page;
+
+        @bottom-right {
+
+            content: "Page " counter(page) " of " counter(pages);
+
+            border-top: .25pt solid #666;
+
+            width: 50%;
+
+        }
+}
+
+@media print {
+	img {
+		display: block;
+		width: 100%;
+		page-break-after: always;
+	}
+}
