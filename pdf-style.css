@@ -1,8 +1,8 @@
 :root{
-	--color-bg: #000000;
-	--color-txt: #f5f5f5;
+	--color-bg: #ffffff;
+	--color-txt: #000000;
 	--color-fg: #db162f;
-	--color-block: #f5f5f5;
+	--color-block: darkgray;
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   
 body{
 	columns: 1;
-	padding: 20vw;
-	padding-top: 0;
+	padding: 0;
+	margin: 0;
 	background-color: var(--color-bg);
 }
 
@@ -27,8 +27,8 @@ h1 {
 	counter-reset: headingtwo;
 	break-before: page;
 	text-align:center;
-	font-size:10vw;
-	padding-top: 50pt;
+	font-size:32pt;
+	padding-top: 0pt;
 	color: var(--color-fg);
 }
 
