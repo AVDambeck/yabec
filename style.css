@@ -34,7 +34,6 @@ h1 {
 
 h2 { 
 	counter-reset: headingthree;
-	break-before: always;
 	border-bottom-style: solid;
 	color: var(--color-fg);
 	margin-bottom: 6pt;
