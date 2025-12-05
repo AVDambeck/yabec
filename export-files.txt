@@ -10,6 +10,7 @@
 ./expert/index.html
 ./expert/creation.html
 ./expert/abilities.html
+./expert/npc.html
 ./expert/class/index.html
 ./expert/class/acrobat.html
 ./expert/class/bard.html
@@ -23,8 +24,8 @@
 ./expert/class/halfling.html
 ./expert/class/kobold.html
 ./expert/downtime/index.html
-./expert/downtime/01-downtimw-bsaic.html
-./expert/downtime/02-downtime-adv.html
+./expert/downtime/gambling.html
+./expert/downtime/advanced.html
 ./expert/minions.html
 ./expert/monsterous.html
 ./rulebook/index.html
