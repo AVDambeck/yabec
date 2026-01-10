@@ -45,3 +45,4 @@
 ./rulebook/system/inventory.html
 ./rulebook/system/rolls.html
 ./rulebook/system/life.html
+./rulebook/appendixa.html
