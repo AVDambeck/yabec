@@ -35,7 +35,7 @@
 ./rulebook/scheme/town.html
 ./rulebook/scheme/index.html
 ./rulebook/scheme/challenge.html
-./rulebook/system/mapping.html
+./rulebook/system/mapping-book.html
 ./rulebook/system/bad.html
 ./rulebook/system/noise.html
 ./rulebook/system/experience.html
