@@ -1,65 +1,67 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
 </head>
 <body>
-	<h1>Conflict</h1>
-<p>Short burst of turn based combat; also covers chases.</p>
-<h2>Inititative</h2>
-<p>The Dungeon Master can employ either of these two methods for initiative.</p>
-<h3>Dramatic</h3>
-<p>Each <em>round</em>, each combatant can take one <em>action</em>. Then they must wait for the next <em>round</em> to <em>act</em> again.</p>
-<p>Players choose the order they and their minions go in. However, after each of their <em>actions</em>, an enemy will <em>act</em>. </p>
-<h3>Ranked</h3>
-<p>At the start of <em>conflict</em>, each player rolls a d10 and adds their <em>dexterity</em> score. This is their <em>count</em>. <em>Ordinary</em> monsters have <em>count</em> 13. <em>Powerful</em> monsters have <em>count</em> 21. Minions have a <em>count</em> equal to their boss.</p>
-<p>At the start of each <em>round</em>, the creature with the highest <em>count</em> takes one <em>action</em>. Then proceed in decending order.</p>
-<p>Ties between the players can be resolved in either order they please. Players win ties against monsters.</p>
-<h2>Actions</h2>
-<h3>Attack</h3>
-<p>Make an <em>attack</em> with a weapon. See below.</p>
-<h3>Magic</h3>
-<p>Cast a spell or use a magic item. See Magic.</p>
-<h3>Move</h3>
-<p>Move to an adjacent <em>zone</em>. </p>
-<h3>Sprint</h3>
-<p><em>Move</em> twice. Make a <em>constitution check</em>. If you fail, you are <em>bad</em> during the next <em>round</em>.</p>
-<h3>Focus</h3>
-<p>Until the end of the next <em>round</em>, you have <em>advantage</em> on <em>dodges</em>, <em>saves</em>, <em>attacks</em>, and <em>checks</em>.</p>
-<h3>Stunts</h3>
-<p>Other maneuvers are stunts. How they are resolved is up to the Dungeon Master. </p>
-<p>Stunts may not cause damage directly.</p>
-<h4>Suggestions</h4>
-<p><strong>Shove:</strong> a <em>hit</em> has a 3-in-6 chance of moving an enemy to an adjacent <em>zone</em>.
-<strong>Intimidation:</strong> with a successful <em>charisma check</em>, force enemies to make a <em>moral check</em>.
-<strong>Disarm:</strong> a <em>hit</em> grants a <em>dexterity check</em> to disarm an enemy. 
-<strong>Sunder:</strong> a <em>hit</em> deals one damage to the weapon or armor.</p>
-<h3>Flee</h3>
-<p>If you have not been <em>hit</em> this <em>round</em>, you begin <em>fleeing</em>: <em>Move</em>, you are no longer in <em>conflict</em>.</p>
-<h2>Attacking</h2>
-<h3>Statistics</h3>
-<p>The Armor Class (AC) is how likely a target is to be hit. </p>
-<p>The Attack Value (AV), also called THAC0, is how likely an attack is to miss.</p>
-<p>Lower AC and AV are better.</p>
-<p>The Dungeon Master might either announce the result of the <em>attack</em>, or tell you the AC/AV so you can announce it yourself.</p>
-<h3>Making an Attack</h3>
-<p>To <em>attack</em>, subtract a d20 from you AV. If it is greater than or equal to the AC, you <em>hit</em>. Otherwise, you <em>miss</em>.</p>
-<h3>Dodging an Attack</h3>
-<p>To dodge an attack, roll a d20 and add your AC. If it is less than or equal to the AV, the attack is a <em>miss</em>. Otherwise, it is a <em>hit</em></p>
-<h2>Miscellanious</h2>
-<h3>Flanking</h3>
-<p>In melee, if one side surrounds the other, the surounded side has a +4 penalty to AC. </p>
-<h3>Friendly Fire</h3>
-<p>When a ranged attack <em>misses</em>, players make a <em>dexterity check</em> to void hitting an ally. Monsters and minons have a 3-in-6 chance.</p>
-<h3>En Passant</h3>
-<p>The first time each <em>turn</em> that a combatant takes a <em>move</em> action, they may also make an <em>attack</em></p>
-<h3>Subdual</h3>
-<p>If a creature is <em>slain</em> with a blunt weapon, they can be left non-leathally incapacitated, and <em>bad</em> until a <em>shift</em>.</p>
-<h3>Mapping</h3>
-<p>During conflict, it's possible to reference a map, but adding to a map is impossible. The dungeon master will not make <em>map calls</em>. See page X</p>
-<h3>Movement</h3>
-<p>While not <em>bad</em>, each combatant can move freely within a <em>zone</em>. Changing <em>zones</em> takes an <em>action</em>.</p>
-<h3>Exaustion</h3>
-<p>At the end of the 9th round, and each round after, all creatures still involved in the combat take 1 damage.</p></body></html>
+	<h1>Combat</h1>
+	<h2>First Round</h2>
+	<p>During the first <em>round</em>, if one side is surprised, they are <em>bad</em> for that round.</p>
+	<p>During the first <em>round</em>, each combatant can move and attack as one <em>action</em>.</p>
+
+	<h2>Inititative</h2>
+	<p>At the start of each <em>round</em>, the dungeon master and the player each roll a d6. Whoever rolls higher goes first.</p>
+	<h3>Dramatic Initiative</h3>
+	<p>On occasion, the dungeon master might opt for this alternate method.</p>
+	<p>Players can choose to go in any order they wish. However, after each player <em>actions</em>, an enemy of the dungeon master's choise will <em>act</em>. </p>
+	<p>Each <em>round</em>, each combatant can take one <em>action</em>. Then they must wait for the next <em>round</em> to <em>act</em> again.</p>
+
+	<h2>Actions</h2>
+	<ol>
+		<li><strong>Attack:</strong> Make an <em>attack</em> with a weapon. See below.</li>
+		<li><strong>Move:</strong> Move to an adjacent <em>zone</em>. </li>
+		<li><strong>Magic:</strong> Cast a spell or use a magic item. See Magic. You must not have taken damage this <em>round</em> in order to cast a spell.</li>
+		<li><strong>Focus:</strong> Until the end of the next <em>round</em>, you have <em>advantage</em> on <em>dodges</em>, <em>saves</em>, <em>attacks</em>, and <em>checks</em>.</li>
+		<li><strong>Sprint:</strong> <em>Move</em> twice. Make a <em>constitution check</em>. If you fail, you are <em>bad</em> during the next <em>round</em>.</li>
+		<li><strong>Stunts:</strong> Other maneuvers are stunts. See below. </li>
+	</ol>
+
+	<h2>Stunts</h2>
+	<p>the idea of <em>stunts</em> encompases any kind of maneuver not covered by the other actions. Stunts may not cause damage directly, but can do about anything else.</p>
+	<h3>Suggestions</h3>
+	<ul>
+		<li><strong>Shove:</strong> a <em>hit</em> has a 3-in-6 chance of moving an enemy to an adjacent <em>zone</em>.</li>
+		<li><strong>Intimidation:</strong> with a successful <em>charisma check</em>, force enemies to make a <em>moral check</em>.</li>
+		<li><strong>Disarm:</strong> a <em>hit</em> grants a <em>dexterity check</em> to disarm an enemy.</li> 
+		<li><strong>Sunder:</strong> a <em>hit</em> deals one damage to the weapon or armor.</li>
+	</ul>
+
+	<h2>Attacking</h2>
+	<h3>Statistics</h3>
+	<p>The Armor Class (AC) is how likely a target is to be hit. </p>
+	<p>The Attack Value (AV), also called THAC0, is how likely an attack is to miss.</p>
+	<p>Lower AC and AV are better.</p>
+	<p>The Dungeon Master might either announce the result of the <em>attack</em>, or tell you the AC/AV so you can announce it yourself.</p>
+	<h3>Making an Attack</h3>
+	<p>To <em>attack</em>, subtract a d20 from you AV. If it is greater than or equal to the AC, you <em>hit</em>. Otherwise, you <em>miss</em>.</p>
+	<h3>Dodging an Attack</h3>
+	<p>To dodge an attack, roll a d20 and add your AC. If it is less than or equal to the AV, the attack is a <em>miss</em>. Otherwise, it is a <em>hit</em></p>
+	
+	<h2>Exaustion</h2>
+	<p>At the end of the 9th <em>round</em>, and each <em>round</em> after, all creatures still involved in the <em>combat</em> take 1 damage.</p></body></html>
+
+	<h2>Miscellanious</h2>
+	<h3>Flanking</h3>
+	<p>In melee, if one side surrounds the other, the surounded side has a +4 penalty to AC. </p>
+	<h3>Friendly Fire</h3>
+	<p>When a ranged attack <em>misses</em>, players make a <em>dexterity check</em> to void hitting an ally. Monsters and minons have a 3-in-6 chance.</p>
+	<h3>Mapping</h3>
+	<p>During conflict, it's possible to reference a map, but adding to a map is impossible. The dungeon master will not make <em>map calls</em>. See page X</p>
+	<h3>Movement</h3>
+	<p>While not <em>bad</em>, each combatant can move freely within a <em>zone</em>. Changing <em>zones</em> takes an <em>action</em>.</p>
+	<h3>Subdual</h3>
+	<p>If a creature is <em>slain</em> with a blunt weapon, they can be left non-leathally incapacitated, and <em>bad</em> until a <em>shift</em>.</p>
+
