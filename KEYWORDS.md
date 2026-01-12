@@ -1,0 +1,85 @@
+# Keywords
+This is a list of keywords used by Yabec. The goal is for first for clarity, then for minimalism. There are 82 keywords.
+
+- ability 
+- act / action
+- advantage
+- attack
+- back (rank)
+- bad
+- basic (item)
+- bright (light)
+- caller (role)
+- chair (role)
+- challenge (scheme)
+- charisma (score)
+- check
+- civ (point)
+- clean up (scheme)
+- combat (scheme)
+- constitution (score)
+- damage
+- dark / darkness (light)
+- dexterity (score)
+- dim (light)
+- disadvantage
+- dismember / dismemberment
+- distant (range)
+- dodge
+- downtime
+- encumbered
+- explore (scheme)
+- failures
+- fatigue (hazard)
+- forage / foraging
+- front (rank)
+- goal
+- hard (point)
+- hazard
+- heavy (item)
+- hit
+- infravision
+- intelligence (score)
+- listen
+- loud (noise)
+- loyalty (score)
+- mapper (role)
+- map calls
+- miss
+- moral (score)
+- move
+- near death
+- ordinary (monster)
+- paths
+- point (travel)
+- powerful (monster)
+- ranges
+- reaction modifier
+- risky (challenge)
+- risky (path)
+- role
+- round
+- safe (path)
+- save
+- scheme
+- score (ability)
+- score (experience)
+- score keeper (role)
+- searching
+- service (downtime)
+- shift (hazard)
+- silent (noise)
+- slain
+- slot 
+- soft (point)
+- strength (score)
+- stunts
+- success
+- surprise
+- toll (path)
+- touch (range)
+- town (scheme)
+- travel (scheme)
+- turn
+- wisdom (score)
+- zone
