@@ -2,13 +2,15 @@
 ## From version 2.1 to 2.2
 - Removed shitty hex crawl that puts all the work upfront on one player. Added elegant point crawl. 
 - Clarified procedures for all schemes. 
-- Tweaks to all schemes.
-- Rewrote introduction.
-- Added evasion system. Arguably could be a scheme, or a section of exploration.
-- Added funeral for XP.
 - Renamed conflict back to combat. 
+- Renamed delve to exploration.
+- Tweaks to all schemes.
+- Added evasion to exploration. 
+- Revised introduction.
+- Added funeral for XP.
 - Removed needless definitions, e.g. hook.
 - Added GFC's video to mapping.
+- Added complete list of keywords.
 
 ## From version 2.0 to 2.1
 - Added challenge as a new scheme.
