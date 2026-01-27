@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+<body>
+	<h1>Negotiation</h1>
+	<h2>When to Negotiate</h2>
+	<p>Negotiation does not change an NPC's character. Instead, players convince an NPC that a certain course of action, is actually in character.<p>
+	<ul>
+		<li>Plausible request. Players need to write this down.</li>
+		<li>NPC has reason not to immediately support the players.</li>
+		<li>NPC wants to negotiate.</li>
+	</ul>
+	<h2>Statistics</h2>
+	<p>The NPC has four stats: <em>interest</em>, <em>patience</em>, <em>motivation</em>, and <em>pitfall</em>.
+	<h3>Interest</h3>
+	<p><em>Interest</em> ranges from 0 to 5.</p>
+	<p>If <em>interest</em> reaches 5, the NPC makes an <em>offer</em>.</p> 
+	<p>If <em>interest</em> reaches 0, the NPC ends the <em>negotiation</em> without an <em>offer</em>.</p> 
+	<h3>Patience</h3>
+	<p>Patience ranges from 0 to 5, and can only be reduced. When patience reaches 0, the NPC makes a final <em>offer</em>.</p>
+	<h3>Starting Stats</h3>
+	<table>
+		<tr>
+			<th>Attitude</th>
+			<th>Interest</th>
+			<th>Patience</th>
+		</tr>
+		<tr>
+			<td>Hostile</td>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Neutral</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>Friendly</td>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+	</table>
+	<h3>Motivation and Pitfall</h3>
+	<p>When an <em>argument</em> <em>appeals</em> to a <em>motivation</em> without mentioning a <em>pitfall</em>, the result gets better. When it <em>appeals</em> to a <em>pitfall</em>, it gets worse.</p>
+	<p>Each NPC will have about three <em>motivations</em> and about two <em>pitfalls</em>.</p>
+	<ol>
+		<li>Benevolence</li>
+		<li>Discovery</li>
+		<li>Freedom</li>
+		<li>Greed</li>
+		<li>Higher Authority</li>
+		<li>Justice</li>
+		<li>Legacy</li>
+		<li>Peace</li>
+		<li>Power</li>
+		<li>Protection</li>
+		<li>Revelry</li>
+		<li>Vengeance</li>
+	</ol>
+	<h2>Discovering Motivation (and Pitfalls)</h2>
+	<p>A player can attempt a <em>wisdom</em> or <em>intelligence</em> <em>check</em> to check a particular <em>motivation</em>. If they <em>succeed</em>, the dungeon master will confirm whether it is a <em>motivation</em>, <em>pitfall</em>, or neither. However, if they <em>fail</em>, reduce <em>patience</em> by one.</p>
+	<p>Once the players make this <em>check</em>, they can not do so again until they make an <em>argument</em></p>
+	<h3>Other Methods</h3>
+	<p>An NPC with <em>interest</em> 3 or more may hint at their <em>motivations</em> if asked.</p>
+	<p>Outside of <em>negotiation</em> can interrogate close friends, or otherwise preform recognisance.</p>
+	<h2>Arguments</h2>
+	<p>Players must make a full argument the NPC; that is, what the NPC should do, and why.</p>
+	<p>The dungeon master will determine if this appealed to any <em>motivations</em> or <em>pitfalls</em>. </p>
+	<p>If it appeals to a <em>pitfall</em>, the NPC looses one <em>patience</em> AND one <em>interest</em>.</p>
+	<p>Otherwise, one player will make a wisdom or charisma check. Compare the result on the table.</p>
+	<table>
+		<tr>
+			<th>-</th>
+			<th>Motivation</th>
+			<th>Normal</th>
+		</tr>
+		<tr>
+			<td>Success</td>
+			<td>+1 interest.</td>
+			<td>+1 interest, -1 patience.</td>
+		</tr>
+		<tr>
+			<td>Failure</td>
+			<td>+1 interest, -1 patience.</td>
+			<td>-1 patience</td>
+		</tr>
+	</table>
+	<h3>Lying</h3>
+	<p>If the <em>argument</em> contains a lie, and it fails to increase <em>interest</em>, the NPC catches it and is offended, loosing an additional <em>patience</em>.
+	<h2>Offers</h2>
+	<p>After making an <em>argument</em> the NPC makes an offer based on their <em>interest</em>.
+	<table>
+		<tr>
+			<th>Interest</th>
+			<th>Offer</th>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>No, and...</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>No.</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>No, but...</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Yes, but...</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Yes.</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Yes, and...</td>
+		</tr>
+	</table>
+	<h3>Keep Going?</h3>
+	<p>If the NPC has remaining <em>patience</em>, and their <em>interest</em> is between 1 and 4, the players can choose to continue the <em>negotiation</em>, or accept the offer as is.</p>
+</body>
+</html>
