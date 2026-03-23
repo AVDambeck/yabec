@@ -28,9 +28,11 @@ what kind of system is yabec? what can you expect?
 
 - 4 basic classes, plus lots of extras
 - b/x math
-- hazard die
+- decending armor class
 - relative distances and zones
 - mapping guides
+- DM doesnt make attack rolls
+- hazard die
 - player roles 
 - object oriented hooks for bite sized rules
 - Database solution for item and spell info (coming soon)
