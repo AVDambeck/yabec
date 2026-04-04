@@ -51,6 +51,10 @@
 ./handbook/downtime/index.html
 ./handbook/downtime/advanced.html
 ./break.html
+./handbook/index-magic.html
+./handbook/info/magic.html
+./handbook/spells.html
+./break.html
 ./rulebook/scheme/index.html
 ./rulebook/scheme/town.html
 ./rulebook/scheme/travel.html
