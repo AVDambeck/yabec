@@ -50,9 +50,9 @@
 ./break.html
 ./handbook/index-expert.html
 ./handbook/creation.html
-./handbook/class/advanced/hollow.html
-./handbook/class/advanced/mystic.html
-./handbook/class/advanced/warlock.html
+./handbook/class/expert/hollow.html
+./handbook/class/expert/mystic.html
+./handbook/class/expert/warlock.html
 ./handbook/info/abilities.html
 ./handbook/info/alignment.html
 ./handbook/info/index.html
