@@ -1,0 +1,12 @@
+#+title: Summary
+
+How many item slots do I have?
+Depends on constitution. >8 is 9 slots, 9-12 is 10. >13 is 11.
+How do i get more item slots?
+buy a horse and cart, hire some minions
+How do i get minions?
+2nd level characters can attract them in town, or specialists can be hired.
+ow do i get unpoisoned?
+antidote can cure many poisons. the spell remove poison can heal most others.
+What happens when damage exceedsa my hp?
+you are near death. any further damage you must dismember, and risk death. when you are healed, you will dismember a final time.
