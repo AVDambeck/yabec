@@ -12,30 +12,38 @@
   
 body{
 	columns: 1;
-	padding: 20vw;
+	padding: 2vw;
 	padding-top: 0;
 	background-color: var(--color-bg);
 }
 
-p, h1, h2, h3, h4, li, tr{
+p, h1, h2, h3, h4, li, tr, th{
 	font-family: Ithaca; Garamond;
 	color: var(--color-txt);
 	font-size: 20pt;
+}
+
+p, li, tr, th {
+    font-size: 18pt;
+	margin-top: 2pt;
+}
+
+h1, h2, a {
+	color: var(--color-fg);
+    margin: 0;
 }
 
 h1 {
 	counter-reset: headingtwo;
 	break-before: page;
 	text-align:center;
-	font-size:10vw;
-	padding-top: 50pt;
-	color: var(--color-fg);
+	font-size: 24pt;
+	padding-top: 5pt;
 }
 
 h2 { 
 	counter-reset: headingthree;
 	border-bottom-style: solid;
-	color: var(--color-fg);
 	margin-bottom: 6pt;
 }
 h2:before {
@@ -54,9 +62,6 @@ h3:before {
 	content: counter(headingthree)". ";
 }
 
-p {
-	margin-top: 4pt;
-}
 img {
 	width: 100%;
 	break-before: page;
@@ -64,12 +69,10 @@ img {
 
 ul {
 	list-style-type: square;
-	margin: 3vw;
 }
 
 li {
     break-inside: avoid; 
-    margin-bottom: 10pt;
 }
 
 table, th, td {
@@ -92,7 +95,7 @@ b, strong{
 
 blockquote {
 	background-color: var(--color-block);
-	padding: 5pt;
+	padding: 0 5pt 0 5pt;
 	margin: 10pt;
 	p {
 		color: var(--color-bg);
@@ -101,6 +104,7 @@ blockquote {
 	}
 	b, strong{
 		color: var(--color-bg);
+        font-weight: normal;
 	}
 }
 
