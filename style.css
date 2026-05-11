@@ -129,6 +129,9 @@ blockquote {
 	}
 }
 
+img {
+    padding: 15px;
+}
 .container {
     display: flex;
 }
@@ -140,8 +143,8 @@ blockquote {
     order: 3;
 }
 
-.column-list {
-    column-count: 4;
+.columns {
+    column-count: 3;
     column-rule: 1px dotted gray;
 }
 
@@ -169,8 +172,8 @@ blockquote {
         max-width: 100%;
         order: 1;
     }
-    .column-list {
-        column-count: 2;
+    .columns {
+        column-count: 1;
     }
 }
 @page {
@@ -200,8 +203,8 @@ blockquote {
         max-width: 100%;
         order: 1;
     }
-    .column-list {
-        column-count: 2;
+    .columns {
+        column-count: 1;
     }
 
 }
