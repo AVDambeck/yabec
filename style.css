@@ -129,6 +129,9 @@ blockquote {
 	}
 }
 
+em {
+    font-style: normal;
+}
 img {
     padding: 15px;
 }
