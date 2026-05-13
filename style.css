@@ -193,7 +193,7 @@ img {
 
 @media print {
     :root{
-        --header-size: 16pt;
+        --header-size: 12pt;
         --font-size: 12pt;
     }
     body {
