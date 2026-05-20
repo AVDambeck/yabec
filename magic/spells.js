@@ -54,6 +54,68 @@ let spells = [
      "revDesc":"A chosen creature becomes overwhelmed with fear and begins to flee. </p><p>Lasts until fatigued.",
      "level": ["CL1"]},
 
+    {"name":"Bless",
+     "desc":"Allies who are not yet in battle gain a +1 to damage and loyalty, and -1 to AV.</p><p>Lasts until fatigued.",
+     "revName":"Blight",
+     "revDesc":"Enemies not yet in battle gain the opposite penalty.",
+     "level": ["CL2"]},
+
+    {"name":"Find Traps",
+     "desc":"Magical and mundane objects or areas that pose a danger to wellbeing glow while in the same zone as the caster. No knowlage about the nature or method of the trap is gained.</p><p>Lasts until fatigued.",
+     "revName":"Create Trap",
+     "revDesc":"Using chalk, outline an area up to 10' in any direction. When a creature comes within 1' of touching the area, the whole area erupts in flames, dealing 1d8 damage. A physical save can be made for half damage. Then the trap is dispelled.</p>\
+<p>A password may be spoken while the spell is cast. Speaking the password will allow the speaker to pass without activating the trap for 1 round.</p>\
+<p>If the chalk line is broken, the trap is dispelled.",
+     "level": ["CL2"]},
+
+    {"name":"Hold Person",
+     "desc":"A person is paralized and incapacitated. Lasts 2 turns per level.</p>\
+<p><strong>Restriction:</strong> the target must be humanoid (human, dwarf, elf, etc) or goblinoid, must have 3 HD or less, and not be undead.",
+     "revName":"Free Person",
+     "revDesc":"A single person is instantly freed from mundane restraints, and may make an additional saving throw against magical restraints.",
+     "level": ["CL2"]},
+
+    {"name":"Know Alignment",
+     "desc":"The caster gains immediate knowlage of the alighnment of one character, monster, object, or location.",
+     "level": ["CL2"]},
+Resist Fire / Resist Cold
+
+    {"name":"Protection from Fire",
+     "desc":"All creatures in the same zone as the caster are warded against fire:</p><ul>\
+<li><strong>Normal Heat:</strong> unharmed by mundane heat or fire.</li>\
+<li><strong>Save bonus:</strong> -2 bonus to saves versus fire based magic and breath attacks.</li>\
+<li><strong>Fire-based damage:</strong> is reduced by 1 per die rolled.</li>\
+<p>Lasts until fatigued.",
+     "revName":"Protection from Cold",
+     "revDesc":"Protects from cold and ice instead of heat and fire.",
+     "level": ["CL2"]},
+
+
+Silence / Noise
+
+    {"name":"Foo",
+     "desc":"Bar",
+     "revName":"Zig",
+     "revDesc":"Zag",
+     "level": ["Bap"]},
+
+
+
+Snake Charm
+
+    {"name":"Foo",
+     "desc":"Bar",
+     "level": ["Bap"]},
+
+
+Speak with Animals
+
+    {"name":"Foo",
+     "desc":"Bar",
+     "level": ["Bap"]},
+
+
+
   {"name":"Null",
      "desc":"" ,
      "level": [""]}
