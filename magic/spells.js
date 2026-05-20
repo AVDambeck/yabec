@@ -13,15 +13,15 @@ let spells = [
      "desc":"Bar",
      "revName":"Zig",
      "revDesc":"Zag",
-     "level": ["Bap"]},
+     "level": ["Test"]},
 
-    {"name":"Cure Wounds",
+    {"name":"Cure Wmounds",
      "desc":"A touched creature heals 1d6+1.",
      "level": ["CL1"]},
 
     {"name":"Detect Magic",
      "desc":"Enchanted objects, areas, and creatures glow while in the same zone as the caster. If they spend one turn studying a magic object, they learn general details about one of it's affects.</p><p> Lasts until fatigued.",
-     "level": ["CL1"]},
+     "level": ["CL1", "WI1"]},
 
     {"name":"Light",
      "desc":"This spell has three uses:</p><ol>\
@@ -31,13 +31,13 @@ let spells = [
 </ol><p>Lasts until fatigued.",
      "revName":"Darkness",
      "revDesc":"Fills one zone with magical darkness, preventing both normal sight and infravision. Like light, it can alternitively be used to blind a creature or dispell a light.",
-     "level": ["CL1"]},
+     "level": ["CL1", "WI1"]},
 
     {"name":"Protection from Chaos",
      "desc":"Wards the caster or a touched creature from chaotic creatures and magic. Grants -1 to saves and dodges.",
      "revName":"Protection from Law",
      "revDesc":"Provides the same ward against law.",
-     "level": ["CL1"]},
+     "level": ["CL1", "WI1"]},
 
 
     {"name":"Purify Food and Water",
@@ -92,8 +92,8 @@ let spells = [
      "level": ["CL2"]},
 
     {"name":"Augury",
-     "desc":"The cast divines a small amount of knowlage. The caster names or describe a person, place, or object. Three statments come to their mind, 1-2 of which are true.",
-     "level": ["CL2"]},
+     "desc":"The cast divines a small amount of knowlage. The caster names or describe a person, place, or object. Three statments come to their mind, 1-2 of which are true.</p><p>If cast on a magic item with a command word, and the caster fails to speak the command word, augury instead reveals a number of random letters from the command word equal to the caster's level.",
+     "level": ["CL2", "WI2"]},
 
     {"name":"Speak with Animals",
      "desc":"The caster gains the ability to speak with animals. This doesn't make the animals any more friendly or cooperative than normal.</p>\
@@ -104,7 +104,7 @@ let spells = [
      "desc":"Has the same three effects as light, but the light is day light, can be used to cancel continual darkness, and the spell lasts until dispelled. ",
      "revName":"Continual Darkness",
      "revDesc":"Same as continual light, but creates a sphere of magical darkness, preventing both normal sight and infravision.",
-     "level": ["CL3"]},
+     "level": ["CL3", "WI1"]},
 
     {"name":"Cure Disease",
      "desc":"Cure a touched subject of any disease, inluding those of magical origin. If the subject is a green slime, it is instead killed instantly.",
@@ -124,7 +124,7 @@ let spells = [
 <li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.<li>\
 <li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. my spell book.</li></ul>\
 <p>The caster can sense the direction (but not distance) of an object, so long as it is within a qaurter mild. Lasts uintil fatigued.",
-     "level": ["CL3"]},
+     "level": ["CL3", "WI1"]},
 
     {"name":"Remove Curse",
      "desc":"Instantly remove one harmful magical effect from a touched creature.",
@@ -214,21 +214,145 @@ let spells = [
      "level": ["CL3"]},
 
     {"name":"Raise Dead",
-     "desc":"A corpse is restored to live. They must not have been dead for no longer than four days per level of the caster above 7th. The ritual takes 3 turns, and requires 5000 cp of insense and other supplies.</p>
+     "desc":"A corpse is restored to live. They must not have been dead for no longer than four days per level of the caster above 7th. The ritual takes 3 turns, and requires 5000 cp of insense and other supplies.</p>\
 <p>Alternetivly, the spell instantly destroys a single undead monster.</p>",
      "revName":"Finger of Death",
      "revDesc":"Directs a ray of deadly magic at a single target. If the target fails a physical saving throw, it dies instantly.",
      "level": ["CL5"]},
 
+    {"name":"Charm Person",
+     "desc":"A person is charmed, as follows:</p><ul>\
+<li><strong>Friendship:</strong> The subject regards the caster as its trusted friend and ally.</li>\
+<li><strong>Commands:</strong> The caster may give the charmed creature commands, which it will obey, if it understands, if it is not obviously self destructive, and if it does not conflict with their alignment or religion.</li></ul>\
+<p><strong>Restrictions:</strong> Undead, and creatures of 4 HD and greater are not affected.</p>\
+<p><strong>Duration:</strong> The charm lasts indefinetly, or until the caster or an ally attacks the subject. Additionally, the subject makes new magic saves at intervals depending on it's intelligence:</p><ul>\
+<li>≤8: New save each month.</li>\
+<li>9–12: New save each week.</li>\
+<li>13–17: New save each day.</li>\
+<li>18: New save each hour.</li></ul>",
+     "level": ["WI1"]},
+
+    {"name":"Floating Disc",
+     "desc":"The caster conjures a slightly concave, circular disc of magical force. It appears next to the caster. The disc folows them about and carries loads. The disc is 3' in diameter and 1\" deep at its center. It can hold a maximum of 50 slots, 5,000 coins, or 500 pounds.</p>\
+<p>The disc floats at wasit height and remains level, floating along horizontally. The disc winks out after 6 turns; Anything in it is dropped.",
+     "level": ["WI1"]},
+
+    {"name":"Hold Portal",
+     "desc":"A door, window, or other kind of portal is magically held shut. Lasts for two shifts.</p><p><strong>Opening by magic:</strong> A knock spell opens the portal.</p><p><strong>Opening by force:</strong> Creatures with at least 3 HD more than the caster’s level can open the held portal with one round of effort.",
+     "level": ["WI1"]},
+
+    {"name":"Magic Missile",
+     "desc":"This spell conjures a glowing dart of energy shoots at a target of the caster’s choice. The missile hits unerringly (no attack roll), and can hit a distant target. The missile inflicts 1d6+1 damage.</p><p><strong>Higher level casters:</strong> May conjure more missiles. They may be directed at a the same or different targets.",
+     "level": ["WI1"]},
+
+    {"name":"Read Languages",
+     "desc":"The caster may understand any written language, including muncane codes, maps, and othjer written instructions. This spell does not grant any ability to speak nor listen to unknown languages.</p><p>Lasts until fatigued.",
+     "revName":"Remove Langages",
+     "revDesc":"Cause one subject to loos the ability to speak or understand langauge. Lasts until fatigued.",
+     "level": ["WI1"]},
+
+    {"name":"Read Magic",
+     "desc":"Allows the caster to understand magical writing for one turn. They can identify spell scrolls, spell books, and other magical runes and inscriptions. Once read, the caster is able to read that particular writing without the use of a spell.",
+     "level": ["WI1"]},
+
+    {"name":"Shield",
+     "desc":"Creates a field of force that protects the caster for two turns. The shield is nearly invisible, appearing like spider silk or polished glass.</p><ul>\
+<li><strong>Against missile attacks:</strong> The caster’s AC is 2.</li>\
+<li><strong>Against other attacks:</strong> The caster’s AC is 4.</li>\
+<li><strong>Against Magic:</strong> Breath attacks and magic that allow a save for half damage, instead deal no damage with a successful save.</li>\
+<li><strong>Against Magic Missile:</strong> Shield will completely prevent Magic Missile.,</li>\
+</ul>",
+     "level": ["WI1"]},
+
+    {"name":"sleep",
+     "desc":"A sleep spell causes a magical slumber for 4d4 turns. The spell may target either:</p><ul><li>A single creature with 4 HD,</li><li>A total of 2d8 HD of creatures of 4 HD or lower each.</li></ul>\
+<p>Undead are unaffected. Targets do not get a save versus spells.</p>\
+<p>When targeting multiple creatures, sleep targets creatures with the least HD are first. Rolled HD not sufficient to affect a creature are wasted.</p>\
+<p>Creatures enchanted by this spell are helpless and can be killed instantly with a bladed weapon. Slapping or wounding awakens an affected creature.</p>",
+     "level": ["WI1"]},
+
+    {"name":"Ventriloquism",
+     "desc":"The caster may make their voice appear to come from another location or source (e.g. a statue or animal).</p><p>Lasts until fatigued.",
+     "level": ["WI1"]},
+
+    {"name":"See Invisible",
+     "desc":"The caster can see invisible creatures and items in the same zone.</p><p>Lasts until fatigued.",
+     "level": ["WI2"]},
+
+    {"name":"Telepathy",
+     "desc":"Grants the caster the ability to perceive and understand the thoughts of other creatures. When the spell begins, the caster is assaulted by the thoughts of all creatures distant or closer. They are incomprehensible, but reveal the location of the creature.</p>\
+<p>By fully concentrating on single creature, the caster can perceive and understand that creatures thoughts.</p>\
+<p>The thoughts of magical creatures may be dangerous. Lasts one turn per level<\p>\
+<p><strong>Obstructions: </strong>The ability to perceive thoughts is obstructed by a thin layer of lead or by rock of 2’ thick or greater.",
+     "level": ["WI2"]},
+
+    {"name":"Invisibility",
+     "desc":"The caster or another creature or object becomes invisible:</p>\
+<p>If cast on a creature: Any gear the subject is carrying is also rendered invisible. Items dropped or put down by an invisible creature become visible. If the subject attacks or casts a spell, the invisibility is broken, ending the spell.</p>\
+<p>If cast on an object: The invisibility is permanent.</p>\
+Light sources: made invisible (either as part of a creature’s gear or as an individual object), the light it casts is unaffected.",
+     "level": ["Test"]},
+
+    {"name":"Knock",
+     "desc":"The caster touches a door, which is magically opened by a loud sound. Knock opens stuck, barred, or locked door, as well as gates, chests, and so forth, including magically held doors (e.g. Hold Portal, Wizard Lock).",
+     "level": ["WI2"]},
+
+    {"name":"Levitate",
+     "desc":"This enchantment allows the caster to float through the air. The caster is not granted any additional movement, and must push against solid objects to move. If encumbered, they will sink to the ground.</p><p>Lasts until fatigued.",
+     "level": ["WI2"]},
+
+
+    {"name":"Mirror Image",
+     "desc":"1d4 illusory duplicates of the caster appear. The mirror images look and behave exactly as the caster. Attacks on the caster destroy one of the mirror images (even if the attack misses).</p><p>Ends when fatigued, or when the last duplicate is destroyed.",
+     "level": ["WI2"]},
+
+
+    {"name":"Phantasmal Force",
+     "desc":"A visual illusion of the caster’s choosing manifests in a 20’ cube area, within sight. Three types of illusions may be created:</p><ul>\
+<li>An illusionary monster: That can be directed to attack. The monster has an Armour Class of 9 and will vanish if hit in combat.</li>\
+<li>An illusionary attack: For example, an avalanche, a falling ceiling, a magic missile, etc. Targets who save versus spells are unaffected. </li>\
+<li>A scene: Either changing the appearance of the affected area or creating the appearance of something new. The scene disappears if touched.</li>\
+</ul><p><strong>Restrictions:</strong> The following apply:</p><ul>\
+<li>Full concentration</li>\
+<li>Illusionary monsters or attacks: May appear to be harmful but no real damage is ever inflicted. A character who appears to die actually falls unconscious, a character turned to stone will actually be paralyzed, and so on. Such effects last for 1d4 turns.</li></ul>",
+     "level": ["WI2"]},
+
+    {"name":"Web",
+     "desc":"Conjures a many-layered mass of strong, sticky threads, blocking up to a 10' area. The web has an AC of 9, and 10 HP.</p>\
+<p><strong>Entanglement:</strong> Creatures caught within a web become entangled among the gluey fibres. Entangled creatures are restrained, but can make attacks against the web.</p>\
+<p><strong>Flammable:</strong> The strands of the web are flammable and can be destroyed by fire in two rounds. All creatures caught within flaming webs suffer 1d6 damage from the flames.</p>",
+     "level": ["WI2"]},
+
+    {"name":"Wizard Lock",
+     "desc":"A wizard lock spell magically locks a touched door, gate, or any item that has a lock or latch. The magical lock is permanent but may be temporarily bypassed as follows:</p></ul>\
+<li><strong>Password:</strong> The caster may speak a password at the time of casting. Speaking the password disables the lock for one round.</li>\
+<li><strong>A Knock spell:</strong> Disables the lock for one round.</li></ul>\
+<p><strong>Higher level casters:</strong> Any magic-using character who is at least 3 levels higher than the caster of the wizard lock may pass through unimpeded.",
+     "level": ["WI2"]},
+
+    {"name":"Marionette",
+     "desc":"A small wooden doll springs to life while the caster concentrates. The doll is an automoton, which the caster telepathically directs. The doll has 1 HP, an AC of 9, and can't attack. However, it has 1 slot, 3 strength, 3 dexterity, and can move freely within one zone of the caster, even out of sight (the caster must visualize the unseen area, as no new senses are granted).",
+     "level": ["WI2"]},
+
+
+    {"name":"Foo",
+     "desc":"Bar",
+     "revName":"Zig",
+     "revDesc":"Zag",
+     "level": ["Test"]},
+
   {"name":"Null",
      "desc":"" ,
-     "level": [""]}
+     "level": ["Test"]}
 ]
 
 function spellDesc(spell) {
+    if (spell.level == "Test") {
+        return "";
+    }
     let text = "<h3>" + spell.name + "</h3>" + "<p>" + spell.desc + "</p>";
     if (typeof spell.revName !== 'undefined') {
-        text += "<h4>" + spell.revName + "</h4>" + "<p>" + spell.revDesc + "</p>";
+        text += "<h4>Reversed: " + spell.revName + "</h4>" + "<p>" + spell.revDesc + "</p>";
     }
     return text;
 }
@@ -237,15 +361,14 @@ function sortSpellAlpha(list) {
     return list.sort((a, b) => a.name.localeCompare(b.name));
 }
 
-
 function getLevelList(code) {
     let list = spells.filter(spell => Array.isArray(spell.level) && spell.level.includes(code));
     return sortSpellAlpha(list);
 }
 
 function spellListAll() {
-    //    let list = sortSpellAlpha(spells);
-    let list = getLevelList("CL1");
+    //let list = sortSpellAlpha(spells);
+    let list = getLevelList("WI2");
     let len = list.length;
 
     let text = "";
