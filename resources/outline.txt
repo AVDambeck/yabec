@@ -1,0 +1,31 @@
+.
+├── adventure
+│   ├── cleanup
+│   ├── combat
+│   ├── delve
+│   ├── mapping
+│   ├── minigames
+│   ├── roles
+│   ├── saves
+│   └── travel
+├── character
+│   ├── class
+│   ├── creation
+│   ├── hirelings
+│   ├── items
+│   └── monsterous
+├── downtime
+│   ├── advanced
+│   ├── basic
+│   └── npc
+├── magic
+│   ├── magic
+│   ├── spells
+├── resources
+│   ├── complete
+│   ├── summary
+│   ├── updates
+│   └── yabec3-0
+└── additional notes 
+
+
