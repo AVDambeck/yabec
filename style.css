@@ -32,7 +32,7 @@ p, li, tr, th {
     font-family: monospace;
 	color: var(--color-txt);
     font-size: var(--font-size);
-	margin: 3pt;
+	margin: 0pt;
     line-height: 1.15;
 }
 
@@ -88,12 +88,15 @@ img {
 	break-before: page;
 }
 
+ul, ol {
+    margin: 8px 0 8px 0;
+}
 ul {
 	list-style-type: square;
 }
 
 li {
-    break-inside: avoid; 
+    break-inside: avoid;
 }
 
 table, th, td {
@@ -105,6 +108,7 @@ table {
     border-collapse: collapse;
     width: 90%;
     margin: 2pt 5% 12pt 5%;
+    break-inside: avoid;
 }
 th {
 	color: black;
@@ -181,18 +185,22 @@ img {
 }
 @page {
 	size: 8.5in 11in;
-	margin: 0.7in;
+	margin: 0.5in;
     counter-increment: page;
-
+/*
     @bottom-right {
         content: "Page " counter(page) " of " counter(pages);
         border-top: .25pt solid #666;
         width: 50%;
-    }
+    }*/
 }
 
 @media print {
     :root{
+        --color-bg: #FFFFFF;
+        --color-txt: #000000;
+        --color-fg: #db162f;
+        --color-block: #888888;
         --header-size: 12pt;
         --font-size: 12pt;
     }
