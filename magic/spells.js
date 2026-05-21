@@ -1,3 +1,39 @@
+
+function spellDesc(spell) {
+    if (spell.level == "Test") {
+        return "";
+    }
+    let text = "<h3>" + spell.name + "</h3>" + "<p>" + spell.desc + "</p>";
+    if (typeof spell.revName !== 'undefined') {
+        text += "<h4>Reversed: " + spell.revName + "</h4>" + "<p>" + spell.revDesc + "</p>";
+    }
+    return text;
+}
+
+function sortSpellAlpha(list) {
+    let listSorted = list.sort((a, b) => a.name.localeCompare(b.name));
+    return listSorted
+}
+
+function getLevelList(code) {
+    let list = spells.filter(spell => Array.isArray(spell.level) && spell.level.includes(code));
+    return sortSpellAlpha(list);
+}
+
+function spellListAll() {
+    //let list = sortSpellAlpha(spells);
+    let list = getLevelList("WI2");
+    let len = list.length;
+
+    let text = "";
+
+    for (let i = 0; i < len; i++) {
+        text += spellDesc(list[i]);
+    }
+    document.getElementById("spellListAll").innerHTML = text;
+}
+
+
 /*
 w
   Spell:
@@ -345,35 +381,3 @@ Light sources: made invisible (either as part of a creature’s gear or as an in
      "desc":"" ,
      "level": ["Test"]}
 ]
-
-function spellDesc(spell) {
-    if (spell.level == "Test") {
-        return "";
-    }
-    let text = "<h3>" + spell.name + "</h3>" + "<p>" + spell.desc + "</p>";
-    if (typeof spell.revName !== 'undefined') {
-        text += "<h4>Reversed: " + spell.revName + "</h4>" + "<p>" + spell.revDesc + "</p>";
-    }
-    return text;
-}
-
-function sortSpellAlpha(list) {
-    return list.sort((a, b) => a.name.localeCompare(b.name));
-}
-
-function getLevelList(code) {
-    let list = spells.filter(spell => Array.isArray(spell.level) && spell.level.includes(code));
-    return sortSpellAlpha(list);
-}
-
-function spellListAll() {
-    //let list = sortSpellAlpha(spells);
-    let list = getLevelList("WI2");
-    let len = list.length;
-
-    let text = "";
-    for (let i = 0; i < len; i++) {
-        text += spellDesc(list[i]);
-    }
-    document.getElementById("spellListAll").innerHTML = text;
-}
