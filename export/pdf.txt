@@ -1,0 +1,66 @@
+./covers/basic.html
+./character/creation.html
+./character/class/fighter.html
+./character/class/cleric.html
+./character/class/thief.html
+./character/class/wizard.html
+./character/items.html
+./character/monsterous.html
+./character/hirelings.html
+./downtime/basic.html
+./downtime/npc.html
+./downtime/advanced.html
+BREAK Character_Basic
+./covers/advanced.html
+./character/class/acrobat.html
+./character/class/bard.html
+./character/class/princess.html
+./character/class/knight.html
+./character/items.html
+./character/monsterous.html
+./character/hirelings.html
+./downtime/basic.html
+./downtime/npc.html
+./downtime/advanced.html
+BREAK Character_Advanced
+./covers/demihuman.html
+./character/class/animalkin.html
+./character/class/elf.html
+./character/class/dwarf.html
+./character/class/halfling.html
+./character/class/kobold.html
+./character/items.html
+./character/monsterous.html
+./character/hirelings.html
+./downtime/basic.html
+./downtime/npc.html
+./downtime/advanced.html
+BREAK Character_Demihuman
+./covers/expert.html
+./character/class/druid.html
+./character/class/hollow.html
+./character/class/mystic.html
+./character/class/warlock.html
+./character/items.html
+./character/monsterous.html
+./character/hirelings.html
+./downtime/basic.html
+./downtime/npc.html
+./downtime/advanced.html
+BREAK Character_Expert
+./covers/magic.html
+./magic/magic.html
+./magic/spells.html
+BREAK Magic
+./covers/adventure.html
+./adventure/travel.html
+./adventure/delve.html
+./adventure/combat.html
+./adventure/mapping.html
+./adventure/cleanup.html
+./adventure/saves.html
+./adventure/minigames.html
+./adventure/roles.html
+./appendixa.html
+./resources/updates.html
+BREAK Adventure
