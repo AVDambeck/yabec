@@ -7,7 +7,6 @@ A = url.lastIndexOf("/") + 1;
 B = url.lastIndexOf(".");
 page = url.slice(A, B)
 pwdUrl = url.slice(0, A)
-console.log(pwdUrl)
 
 //topnav
 homeUrl = rootUrl + "index.html"
