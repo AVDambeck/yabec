@@ -263,6 +263,9 @@ img {
     body {
         columns: 2;
     }
+    .cover body{
+        columns: 1;
+    }
     .web, .topNavContainer, #bottomNav {
         display: none;
     }
