@@ -54,6 +54,13 @@ function classSpellList(codeBit) {
     }
 }
 
+function singleSpell(spellName) {
+    spell = spells.find(obj => obj.name === spellName);
+    element = document.getElementById(spellName);
+    text = spellDesc(spell);
+    element.innerHTML = text;
+}
+
 
 // Utility
 function sortSpellAlpha(list) {
@@ -393,7 +400,7 @@ let spells = [
      "desc":"Conjures a many-layered mass of strong, sticky threads, blocking up to a 10' area. The web has an AC of 9, and 10 HP.</p>\
 <p><strong>Entanglement:</strong> Creatures caught within a web become entangled among the gluey fibres. Entangled creatures are restrained, but can make attacks against the web.</p>\
 <p><strong>Flammable:</strong> The strands of the web are flammable and can be destroyed by fire in two rounds. All creatures caught within flaming webs suffer 1d6 damage from the flames.</p>",
-     "level": ["WI2"]},
+     "level": ["WI2", "DR1"]},
 
     {"name":"Wizard Lock",
      "desc":"A wizard lock spell magically locks a touched door, gate, or any item that has a lock or latch. The magical lock is permanent but may be temporarily bypassed as follows:</p></ul>\
@@ -706,31 +713,72 @@ The destination may be at any distance, but must be known to the caster. The des
      "revName":"False Gold",
      "revDesc":"The caster, or a chosen creature, has 3d6x10 sp appear on their person. The coins appear real on inspection, but will be revealed as an illusion by Detect Magic. </p><p>The spell lasts for three <em>turns</em> while the caster concentrates. Then the coins <em>turn</em> to dust.",
      "level": ["WA2"]},
-/*
-Druid
-st Level
-1 	Animal Friendship
-3 	Entangle
-4 	Locate Plant or Animal
-5 	Predict Weather
-2nd Level
-1 	Barkskin
-4 	Heat Metal
-6 	Obscuring Mist / Clear Mist
-7 	Protection from Poison
-8 	Speak with Plants
-3rd Level
-d8 	Spell
-6 	Tree Shape
-8 	Warp Wood
-4th Level
-d6 	Spell
-4 	Protection from Fire and Lightning
-6 	Summon Animals
-5th Level
-d6 	Spell
-4 	Speak with Stones
-     */
+
+    {"name":"Animal Friendship",
+     "desc":"The caster touches an animal, while holding a piece of food. The animal must be </p><ul>\
+<li>Neutral alignment</li>\
+<li>HD < the caster’s level</li>\
+<li>Find the food attractive</li>\
+</ul><p><strong>If the animal fails a <em>magic save</em>:</strong> the animal becomes instantly tamed, and bound to the caster as though by a Lesser Charm. However, the animal will make frequent moral checks.</p>\
+<p><strong>Hireling:</strong> After one day, the caster must take the animal as a hireling, or end the spell.</p>\
+<p><strong>Higher Levels:</strong> If the caster is of 4th level or higher, the spell can instead target all <em>close</em> animals of a species, with 1 HD or fewer.",
+     "level": ["DR1"]},
+
+    {"name":"Locate Flura and Fauna",
+     "desc":"The caster magically locates a plant, animal, fungus, or other non-magical living thing. The spell has two modes:</p><ul>\
+<li><strong>General:</strong> The nearest object of that type is located, e.g. a mushroom, a Varanus komodoensis.<\li>\
+<li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. Spot.</li></ul>\
+<p>The caster can sense the direction (but not distance) of an flora/fauna, so long as it is within a qaurter mild. Lasts uintil fatigued.",
+     "level": ["DR1"]},
+
+    {"name":"Barkskin",
+     "desc":"A touched creature has their skin hardened like bark. They get a -1 bonus to AC, and saves.</p><p>Lasts until <em>fatigued</em>.",
+     "level": ["DR2"]},
+
+    {"name":"Heat Metal",
+     "desc":"All metal in the possession of a touched creature are heated to extreme temperatures. </p>\
+		<p><strong>Dropping items:</strong> A subject who drops all heated objects suffers no further harm.</p>\
+		<p><strong>Water or snow:</strong>  Immersing heated metal negates the harmful effects.</p>\
+		<p><strong>Effects of Heat:</strong>  the first <em>round</em>, the subject takes 1d6 damage. Each <em>round</em> after that, they take an additional 1d6 (i.e. 2d6, 3d6, 4d6…) and must save versus magic or sustain permanent injuries. </p><p>Lasts one <em>turn</em>.",
+     "level": ["DR2"]},
+
+    {"name":"Obscuring Mist",
+     "desc":"A cloud of misty vapor emanates from the ground, filling the air close to the caster. The mist is 10’ high and blocks vision, including infravision.</p>\
+		<p>The caster can see faintly through the mist.</p>\
+		<p>Lasts one <em>turn</em> per level. Winds reduce the spell’s duration by three quarters (minimum one turn).",
+     "revName":"Clear Mist",
+     "revDesc":"The area around the caster has mist pushed out by a gentle breeze, enabling clear vision, while close to the caster.</p>Lasts until fatigued",
+     "level": ["DR2"]},
+
+    {"name":"Speak with Plants",
+     "desc":"The caster gains the ability to speak with plants and fungi, including monsterous plants/fungi. This doesn't make the plants any more friendly or cooperative than normal.</p>\
+<p>Lasts until fatigued.",
+     "level": ["DR2"]},
+
+    {"name":"Tree Shape",
+     "desc":"The caster takes on the form of a living or dead tree. The tree form is completely realistic, even to close inspection. While in this form, the caster can perceive the surroundings with their normal senses. The caster may end the spell at will, returning to their normal form.",
+     "level": ["DR3"]},
+
+    {"name":"Warp Wood",
+     "desc":"Wooden objects of the caster’s choice warp and become useless. One small object is affected per level of the caster. Or, one large object may also be targeted- the dungeon master will determine a chance of failure depending on how large the object is.</p>\
+		<p>Magical objects have a chance of being unaffected. Creatures may save versus spells to prevent their held objects from being warped.",
+     "level": ["DR3"]},
+
+    {"name":"Summon Animals",
+     "desc":"The caster spends one turn drawing non-magical animals with chalk. Then the drawings come to life as conjured animals. They can conjure animals with total hit dice equal to the casters level. Small animals, such as mice or sparrows, count as 1/10th of a hd.</p>\
+		<p>Summoned creatures: Behave as follows:</p>\
+		<ul>\
+			<li>Comprehension: They understand the caster’s words while the spell lasts.</li>\
+			<li>Aid: They will aid the caster in whatever way they can. If the caster is being attacked: The summoned animals will attack the enemy, only fleeing if they fail a morale check.</li>\
+		</ul>\
+		<p>The anmals will disapper when out of sight. All animals begin fleeing after a shift.",
+     "level": ["DR4"]},
+
+    {"name":"Speak with Stones",
+     "desc":"The caster gains the ability to speak with stones, including animated statues and earth elementals. This doesn't make the plants any more friendly or cooperative than normal.</p>\
+<p>Lasts until fatigued.",
+     "level": ["DR5"]},
+
     {"name":"Foo",
      "desc":"Bar",
      "revName":"Zig",
