@@ -65,7 +65,9 @@ function sortSpellAlpha(list) {
 
 function htmlTag(tag, text) {
     // returns <tag>text</tag>
-    content = "<" + tag + ">" + text + "</" + tag + ">"
+    content = "<" + tag + ">" +
+
+ text + "</" + tag + ">"
     return content
 }
 
