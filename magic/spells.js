@@ -1,4 +1,3 @@
-
 function spellDesc(spell) {
     if (spell.level !== "Test") {
         let text = htmlTag("h3", spell.name) + htmlTag("p", spell.desc)
@@ -88,13 +87,13 @@ let spells = [
      "revDesc":"Zag",
      "level": ["Test"]},
 
-    {"name":"Cure Wmounds",
+    {"name":"Cure Wounds",
      "desc":"A touched creature heals 1d6+1.",
-     "level": ["CL1"]},
+     "level": ["CL1", "DR2"]},
 
     {"name":"Detect Magic",
      "desc":"Enchanted objects, areas, and creatures glow while in the same zone as the caster. If they spend one turn studying a magic object, they learn general details about one of it's affects.</p><p> Lasts until fatigued.",
-     "level": ["CL1", "WI1"]},
+     "level": ["CL1", "WI1", "WA1"]},
 
     {"name":"Light",
      "desc":"This spell has three uses:</p><ol>\
@@ -104,13 +103,13 @@ let spells = [
 </ol><p>Lasts until fatigued.",
      "revName":"Darkness",
      "revDesc":"Fills one zone with magical darkness, preventing both normal sight and infravision. Like light, it can alternitively be used to blind a creature or dispell a light.",
-     "level": ["CL1", "WI1"]},
+     "level": ["CL1", "WI1", "WA1"]},
 
     {"name":"Protection from Chaos",
      "desc":"Wards the caster or a touched creature from chaotic creatures and magic. Grants -1 to saves and dodges.",
      "revName":"Protection from Law",
      "revDesc":"Provides the same ward against law.",
-     "level": ["CL1", "WI1"]},
+     "level": ["CL1", "WI1", "WA3"]},
 
 
     {"name":"Purify Food and Water",
@@ -143,7 +142,7 @@ let spells = [
 <p><strong>Restriction:</strong> the target must be humanoid (human, dwarf, elf, etc) or goblinoid, must have 3 HD or less, and not be undead.",
      "revName":"Free Person",
      "revDesc":"A single person is instantly freed from mundane restraints, and may make an additional saving throw against magical restraints.",
-     "level": ["CL2", "WI3"]},
+     "level": ["CL2", "WI3", "WA2"]},
 
     {"name":"Know Alignment",
      "desc":"The caster gains immediate knowlage of the alighnment of one character, monster, object, or location.",
@@ -157,12 +156,12 @@ let spells = [
 <p>Lasts until fatigued.",
      "revName":"Protection from Cold",
      "revDesc":"Protects from cold and ice instead of heat and fire.",
-     "level": ["CL2"]},
+     "level": ["CL2", "DR3"]},
 
     {"name":"silence",
      "desc":"A zone is magicall silenced. Converation and spell casting are impossible. Noise from outside the area can be heard by those within it.</p>\
 <p>Lasts until fatigued twice.",
-     "level": ["CL2"]},
+     "level": ["CL2", "WA2"]},
 
     {"name":"Augury",
      "desc":"The cast divines a small amount of knowlage. The caster names or describe a person, place, or object. Three statments come to their mind, 1-2 of which are true.</p><p>If cast on a magic item with a command word, and the caster fails to speak the command word, augury instead reveals a number of random letters from the command word equal to the caster's level.",
@@ -171,33 +170,33 @@ let spells = [
     {"name":"Speak with Animals",
      "desc":"The caster gains the ability to speak with animals. This doesn't make the animals any more friendly or cooperative than normal.</p>\
 <p>Lasts until fatigued.",
-     "level": ["CL2"]},
+     "level": ["CL2", "DR1"]},
 
     {"name":"Continual Light",
      "desc":"Has the same three effects as light, but the light is day light, can be used to cancel continual darkness, and the spell lasts until dispelled. ",
      "revName":"Continual Darkness",
      "revDesc":"Same as continual light, but creates a sphere of magical darkness, preventing both normal sight and infravision.",
-     "level": ["CL3", "WI1"]},
+     "level": ["CL3", "WI1", "WA3"]},
 
     {"name":"Cure Disease",
      "desc":"Cure a touched subject of any disease, inluding those of magical origin. If the subject is a green slime, it is instead killed instantly.",
      "revName":"Cause Disease",
      "revDesc":"Inflict a terrible, withering disease on a victem. The disease has the following effects:",
-     "level": ["CL3"]},
+     "level": ["CL3", "WA3"]},
 
     {"name":"Growth",
      "desc":"The effects of this spell depend on alignment:</p><ul>\
 <li><strong>Lawful:</strong> One non-magical animal is doulbed in strenght and size. Damage from its attackes are doubled, and it has twice as many slots. Lasts until fatigued twice.</li>\
 <li><strong>Neutral:</strong> Any vegitation in one zone becomes fantastically overgrown, forming a thorny jungle. If cast outside, instead affect an area of upto 3,000 square feet chosen by the caster. Only very large creatures can force their way through. Clearing the area becomes an ordeal.</li>\
 <li><strong>Chaotic:</strong> The caster doubles in size and strength, as above. Last until fatigued twice.</ul>",
-     "level": ["CL3", "WI4"]},
+     "level": ["CL3", "WI4", "DR3"]},
 
     {"name":"Locate Object",
      "desc":"The caster magically locates an object. The spell has two modes:</p><ul>\
 <li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.<\li>\
 <li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. my spell book.</li></ul>\
 <p>The caster can sense the direction (but not distance) of an object, so long as it is within a qaurter mild. Lasts uintil fatigued.",
-     "level": ["CL3", "WI1"]},
+     "level": ["CL3", "WI1", "WA3"]},
 
     {"name":"Remove Curse",
      "desc":"Instantly remove one harmful magical effect from a touched creature.",
@@ -207,36 +206,36 @@ let spells = [
 <li>+4 penalty to AC and AV.</li>\
 <li>Reducing an ability score by 50%</li>\
 <li>Unablle to put down or unequip the item.</li></ul>",
-     "level": ["CL3", "WI4"]},
+     "level": ["CL3", "WI4", "WA3"]},
 
     {"name":"Striking",
      "desc":"One weapon is enchanted to deal an additional 1d6 damage, and becomes a magical weapon. Lasts until fatigued.",
-     "level": ["CL3"]},
+     "level": ["CL3", "WA3"]},
 
     {"name":"Create Water",
      "desc":"The caster touches a large stone surface, such as a wall or boulder. A magical font appears from that spot. It produces approximeately 50 gallons of water.<p>\
 <p><strong>Higher level casters:</strong> If the caster is 9th level or higher, an additional 50 gallons is created for each level above 8th.",
      "revName":"Destroy Water",
      "revDesc":"The spell instead creates a magical drain, which destroys 50 gallons (or more) of water. It remains for one day or until it destroys the maximum amount of water. Creatures made of water, such as elentals take 1d8 damage per gallon drained.",
-     "level": ["CL4"]},
+     "level": ["CL4", "DR2"]},
 
     {"name":"Cure Greater Wound",
      "desc":"A touched creature heals 2d6+2",
-     "level": ["CL4"]},
+     "level": ["CL4", "WA5", "DR4"]},
 
     {"name":"Hold Monster",
      "desc":"A creature is paralized and incapacitated. Lasts 2 turns per level.</p>\
 <p><strong>Restriction:</strong> the target must not be undead.",
      "revName":"Free Monster",
      "revDesc":"A creature is instantly freed from mundane restraints, and may make an additional saving throw against magical restraints.",
-     "level": ["CL4", "WI5"]},
+     "level": ["CL4", "WI5", "DR4"]},
 
 
     {"name":"Neutralize Poison",
      "desc":"The spell removes poison from a touched item, or neutralizes the effect of poison in a touched creature. A creature killed by poison can be revieved within 1 turn.",
      "revName":"Cause Poison",
      "revDesc":"A touched creature becomes poisoned unless they succeed a physical saving throw. Each turn, they take 1d8 damage until they die or are cured.</p><p>Can instead be cast on a object. When the object is consumed or breaks skin, the victem must save or be poisoned in the same way. Lasts until a shift.",
-     "level": ["CL4"]},
+     "level": ["CL4", "WA4", "DR3"]},
 
     {"name":"Protection from Chaos 10' radius",
      "desc":"Wards the caster and all creatures with in a 10' radius from chaotic creatures and magic. Grants -1 to saves and dodges.",
@@ -261,7 +260,7 @@ let spells = [
      "desc":"The caster enters into direct communication with divine powers. The communion lasts three turns, where the caster must be fully concentrating.</p>\
 <p>The caster may ask three questions per casting. Once per year, they may instead ask six. Each question receives a simple yes or no answer.</p>\
 <p>Commune can only be cast once per month.",
-     "level": ["CL5"]},
+     "level": ["CL5", "DR5"]},
 
     {"name":"Create Food",
      "desc":"The caster reaches into an empty sack. From it, they magically produce food for twelve humans and twelve mounts for one day.</p>\
@@ -277,14 +276,14 @@ let spells = [
      "revName":"Conjure Evil",
      "revDesc":"The caster first spends a turn drawing a ritual circle on the ground with chalk. Then after a second turn of chanting, a 6 HD fiend, typically a succubus, or a 6 HD celestial, typically an acheron, is conjured either inside, or outside of the circle. While the caster maintains concentration, the creature is magically bound do obey, and can not cross the circle.</p>\
 <p>If the caster breaks consentration, there is a 1-in-6 chance they loose control of the creature before returning it to its home plane. If the circle has been broken, the chance is 5-in-6.",
-     "level": ["CL5"]},
+     "level": ["CL5", "WA5"]},
 
     {"name":"Locate Monster",
      "desc":"The caster magically locates a creature, including magical creatures. The spell has two modes:</p><ul>\
 <li><strong>General:</strong> The nearest creature of that type is located, e.g. a unicorn, an elf.<li>\
 <li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. the terrible half-camel, half-leopard: the beast Glatisant!.</li></ul>\
 <p>The caster can sense the direction (but not distance) of a creature, so long as it is within a qaurter mild. Lasts uintil fatigued.",
-     "level": ["CL3", "WI4"]},
+     "level": ["CL3", "WI4", "WA4"]},
 
     {"name":"Raise Dead",
      "desc":"A corpse is restored to live. They must not have been dead for no longer than four days per level of the caster above 7th. The ritual takes 3 turns, and requires 5000 cp of insense and other supplies.</p>\
@@ -303,7 +302,7 @@ let spells = [
 <li>9–12: New save each week.</li>\
 <li>13–17: New save each day.</li>\
 <li>18: New save each hour.</li></ul>",
-     "level": ["WI1"]},
+     "level": ["WI1", "WA1"]},
 
     {"name":"Floating Disc",
      "desc":"The caster conjures a slightly concave, circular disc of magical force. It appears next to the caster. The disc folows them about and carries loads. The disc is 3' in diameter and 1\" deep at its center. It can hold a maximum of 50 slots, 5,000 coins, or 500 pounds.</p>\
@@ -312,17 +311,17 @@ let spells = [
 
     {"name":"Hold Portal",
      "desc":"A door, window, or other kind of portal is magically held shut. Lasts for two shifts.</p><p><strong>Opening by magic:</strong> A knock spell opens the portal.</p><p><strong>Opening by force:</strong> Creatures with at least 3 HD more than the caster’s level can open the held portal with one round of effort.",
-     "level": ["WI1"]},
+     "level": ["WI1", "WA1"]},
 
     {"name":"Magic Missile",
      "desc":"This spell conjures a glowing dart of energy shoots at a target of the caster’s choice. The missile hits unerringly (no attack roll), and can hit a distant target. The missile inflicts 1d6+1 damage.</p><p><strong>Higher level casters:</strong> May conjure more missiles. They may be directed at a the same or different targets.",
-     "level": ["WI1"]},
+     "level": ["WI1", "WA2"]},
 
     {"name":"Read Languages",
      "desc":"The caster may understand any written language, including muncane codes, maps, and othjer written instructions. This spell does not grant any ability to speak nor listen to unknown languages.</p><p>Lasts until fatigued.",
      "revName":"Remove Langages",
      "revDesc":"Cause one subject to loos the ability to speak or understand langauge. Lasts until fatigued.",
-     "level": ["WI1"]},
+     "level": ["WI1", "WA4"]},
 
     {"name":"Read Magic",
      "desc":"Allows the caster to understand magical writing for one turn. They can identify spell scrolls, spell books, and other magical runes and inscriptions. Once read, the caster is able to read that particular writing without the use of a spell.",
@@ -335,7 +334,7 @@ let spells = [
 <li><strong>Against Magic:</strong> Breath attacks and magic that allow a save for half damage, instead deal no damage with a successful save.</li>\
 <li><strong>Against Magic Missile:</strong> Shield will completely prevent Magic Missile.,</li>\
 </ul>",
-     "level": ["WI1"]},
+     "level": ["WI1", "WA4"]},
 
     {"name":"sleep",
      "desc":"A sleep spell causes a magical slumber for 4d4 turns. The spell may target either:</p><ul><li>A single creature with 4 HD,</li><li>A total of 2d8 HD of creatures of 4 HD or lower each.</li></ul>\
@@ -350,7 +349,7 @@ let spells = [
 
     {"name":"See Invisible",
      "desc":"The caster can see invisible creatures and items in the same zone.</p><p>Lasts until fatigued.",
-     "level": ["WI2"]},
+     "level": ["WI2", "DR1"]},
 
     {"name":"Telepathy",
      "desc":"Grants the caster the ability to perceive and understand the thoughts of other creatures. When the spell begins, the caster is assaulted by the thoughts of all creatures distant or closer. They are incomprehensible, but reveal the location of the creature.</p>\
@@ -364,7 +363,7 @@ let spells = [
 <p>If cast on a creature: Any gear the subject is carrying is also rendered invisible. Items dropped or put down by an invisible creature become visible. If the subject attacks or casts a spell, the invisibility is broken, ending the spell.</p>\
 <p>If cast on an object: The invisibility is permanent.</p>\
 <p>Light sources: made invisible (either as part of a creature’s gear or as an individual object), the light it casts is unaffected.",
-     "level": ["WI2"]},
+     "level": ["WI2", "WA2"]},
 
     {"name":"Knock",
      "desc":"The caster touches a door, which is magically opened by a loud sound. Knock opens stuck, barred, or locked door, as well as gates, chests, and so forth, including magically held doors (e.g. Hold Portal, Wizard Lock).",
@@ -414,7 +413,7 @@ let spells = [
 
     {"name":"Dispel Magic",
      "desc":"One magical effect is ended. If the level of the caster of the effect to be dispelled is higher than the level of the caster of dispel magic, there is a 5% chance per level difference that the attempt to dispel will fail.</p><p>Magic items are unaffected, unless the caster is of 9th level or higher.",
-     "level": ["WI3"]},
+     "level": ["WI3", "DR4"]},
 
     {"name":"Fireball",
      "desc":"Flame streaks towards a point within sight, and detonates an entire zone (or a 40' diameter sphere). Creatures caught in the fireball suffer 1d6 damage per level of the caster, with a successful physical save preventing half of the damage.",
@@ -422,7 +421,7 @@ let spells = [
 
     {"name":"Fly",
      "desc":"A touched creature sprouts wings, gaining the ability to fly through the air. They can fly four times faster than they would be able to run. It's possible to move in any direction, and to hover in mid-air.</p><p>Lasts until fatigued three times.",
-     "level": ["WI3"]},
+     "level": ["WI3", "WA4"]},
 
     {"name":"Haste",
      "desc":"Up to 24 creatures are enchanted to be able to move and act twice as quickly as normal:</p><ul>\
@@ -450,11 +449,11 @@ let spells = [
 <li><strong>General:</strong> The nearest person of that type is located, e.g. a potter, a thief.<li>\
 <li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. Enelye the Nenyar of Cuivienen.</li></ul>\
 <p>The caster can sense the direction (but not distance) of an person, so long as they are within a qaurter mild. Lasts uintil fatigued.",
-     "level": ["WI3"]},
+     "level": ["WI3", "WA2", "DR2"]},
 
     {"name":"Lightning Bolt",
      "desc":"A powerful stroke of electrical energy extends from the caster’s fingers. It is 180’ long and 5’ wide. Creatures caught in the lightning bolt suffer 1d6 damage per level of the caster. A successful save versus spells prevents half of the damage.</p><p>Bounce: If the lightning bolt hits a solid barrier before its full length is reached, it is reflected and continues to its full length.",
-     "level": ["WI3"]},
+     "level": ["WI3", "DR3"]},
 
     {"name":"Shadow Hound",
      "desc":"A dog made of black smoke appears before the caster. It obeys all spoken orders with absolute obedience until it is destroyed.</p><p>Lasts until fatigued.",
@@ -462,13 +461,13 @@ let spells = [
 
     {"name":"Speak with Dead",
      "desc":"The caster gains the ability to speak with corpses and undead. This doesn't make them any more friendly or cooperative than they would have been in life.</p><p>Lasts until fatigued.",
-     "level": ["WI3"]},
+     "level": ["WI3", "WA2", "DR4"]},
 
     {"name":"Water Breathing",
      "desc":"A touched creature can breathe water freely by means of this spell.The spell does not affect the subject’s ability to breathe air. No additional proficiency at swimming is granted</p><p>Lasts one day.",
      "revName":"Air Breathing",
      "revDesc":"Allows a subject to breath air. No additional walking ability is granted.",
-     "level": ["WI3"]},
+     "level": ["WI3", "WA4", "DR3"]},
 
     {"name":"Confusion",
      "desc":"This spell causes creatures become charmed for 1 turn. Choose a distant zone. 3d6 subjects become charmed. Subjects are selected weakest first, and then randomly.</p><ul>\
@@ -476,14 +475,14 @@ let spells = [
 <li><strong>Subjects of 2 HD or lower:</strong> May not make a save.</li></ul>\
 <p><strong>Behavior:</strong> Roll on the table separately for each affected subject each round to determine how that subject acts:</p>\
 <table><tr><th>2d6</th><th>Behavior</th></tr><tr><td>2-5</td><td>Behave normally</td></tr><tr><td>6-8</td><td>No action</td></tr><tr><td>9-12</td><td>Att</td></tr></table>",
-     "level": ["WI4"]},
+     "level": ["WI4", "WA5"]},
 
     {"name":"Dimension Door",
      "desc":"A touched creature is instantly transferred to another location up to 360’ away. The destination may be selected in two ways:</p>\
 <p><strong>Known location:</strong> A location, within 360’, known to the caster.</p>\
 <p><strong>An unknown location:</strong> Specified by a series of offsets (e.g. 120’ north, 160’ east, 80’ up) totaling not more than 360’.</p>\
 <p><strong>Restrictions:</strong> If the destination is occupied By a solid body, the spell fails.",
-     "level": ["WI4"]},
+     "level": ["WI4", "DR5"]},
 
     {"name":"Greater Charm",
      "desc":"A single creature, or or a group 3d6 creatures of 3 HD or less, is charmed, as follows:</p><ul>\
@@ -495,7 +494,7 @@ let spells = [
 <li>9–12: New save each week.</li>\
 <li>13–17: New save each day.</li>\
 <li>18: New save each hour.</li></ul>",
-     "level": ["WI4"]},
+     "level": ["WI4", "WA5"]},
 
     {"name":"Hallucinatory Terrain",
      "desc":"Hallucinatory terrain either conjures an illusory terrain feature (e.g. a hill, wood, marsh, etc.) or hides an existing terrain feature. The illusion must fit completely within the a 240’ radius of the caster.</p>\
@@ -534,7 +533,7 @@ let spells = [
      "revDesc":"An immobile, translucent, wall of ice springs into existence. Functions the same as wall of fire with the following changes:</p><ul>\
 <li>Damage: extra damage is dealt to creatures that use fire or are accustomed to fire.</li>\
 <li>Concentration: The wall does not require concentration, instead it melts partly after two shifts, and completely after three, unless it is in a cold area.</li></ul>",
-     "level": ["WI4"]},
+     "level": ["WI4", "DR5"]},
 
     {"name":"Wizard Eye",
      "desc":"One of the casters eyes pops harmlessly out of their head. It becomes transparent, nearly invisible and begins to fly.</p><ul>\
@@ -550,7 +549,7 @@ let spells = [
 <li><strong>Special abilities:</strong> They are unable to use any special abilities that they possessed in life.</li>\
 <li><strong>Number:</strong> The spell animates a number of Hit Dice of zombies or skeletons equal to the caster’s level.</li>\
 <li><strong>Hireling:</strong> After one day, the caster must either take the undead as <em>hireling</em>, or end the spell</li></ul>",
-     "level": ["WI4"]},
+     "level": ["WI4", "WA3"]},
 
 
     {"name":"Cloudkill",
@@ -568,7 +567,7 @@ let spells = [
 <li><strong>Full Concentration:</strong> Is required to command an elemental.</li>\
 <li><strong>Dismissing:</strong> While control over the elemental is maintained, the caster may dismiss it at any time, sending it back to its plane of origin.</li>\
 <li><strong>Disruption:</strong> If the caster’s <em>concentration</em> is disturbed, the command over the elemental ends. It is, henceforth, a free willed entity and will immediately try to kill the caster and any who get in its way.</li></ul>",
-     "level": ["WI5"]},
+     "level": ["WI5", "WA5"]},
 
 
     {"name":"Contact Higher Plane",
@@ -589,7 +588,7 @@ let spells = [
 <tr><td>10th</td><td>20%</td><td>85%</td><td>40%</td></tr>\
 <tr><td>11th</td><td>10%</td><td>90%</td><td>45%</td></tr>\
 <tr><td>12th</td><td>5%</td><td>95%</td><td>50%</td></table>",
-     "level": ["WI5"]},
+     "level": ["WI5", "WA5"]},
 
 
     {"name":"Feeblemind",
@@ -631,7 +630,7 @@ The destination may be at any distance, but must be known to the caster. The des
      "desc":"A wall of solid rock appears. The wall may be of whatever shape the caster desires and is of 1,000 cubic feet in volume. (For example, a 2’ thick wall, 50’ long and 10’ high.) The wall must rest upon a solid surface and may not be evoked so that it appears where objects are.",
      "revName":"Wall of Air",
      "revDesc":"The wall functions the same as the wall of stone, but is made of an invisible air current. It lasts until <em>fatigued</em> twice.",
-     "level": ["WI5"]},
+     "level": ["WI5", "DR5"]},
 
 
     {"name":"Anti-Magic Shell",
@@ -645,7 +644,7 @@ The destination may be at any distance, but must be known to the caster. The des
      "revDesc":"<p>Earth (but not stone) within within a quarter mile, that the caster can see, is rearranged as the caster wishes.</p>\
 		<p><strong>Movement rate:</strong> The caster can move earth in the area at up to 60’ per <em>turn</em>.</p>\
 		<p><strong>Excavations:</strong> The range of the spell also extends downwards, allowing excavations to be made.",
-     "level": ["WI6"]},
+     "level": ["WI6", "DR5"]},
 
 
     {"name":"Disintegrate",
@@ -659,7 +658,7 @@ The destination may be at any distance, but must be known to the caster. The des
 <li><strong>Wording:</strong> The caster must be careful with the wording of the mission. Invisible stalkers will follow the letter of the command while twisting the intent.</li>\
 <li><strong>Duration:</strong> The creature is bound to attempt the mission until it succeeds or is destroyed.</li>\
 <li><strong>Banishing:</strong> The spell Dispel Evil will banish an invisible stalker, ending the spell.</li></u>",
-     "level": ["WI6"]},
+     "level": ["WI6", "WA5"]},
 
 
     {"name":"Part Water",
@@ -690,6 +689,48 @@ The destination may be at any distance, but must be known to the caster. The des
      "revDesc":"Turns one creature into a statue, including all gear and any items currently held.",
      "level": ["CL5", "WI6"]},
 
+    {"name":"Empower Armor",
+     "desc":"The armor of a touched creature glow purple, casting dim light for 10’. They gain a -2 bonus to AC, and a +2 penalty to AV. </p>\
+	<p>If the targets isn’t wearing armor, the spell fails.",
+     "revName":"Disempower Armor",
+     "revDesc":"Instead, the armor glows red and the target gain a -2 to AV, and a +2 to AC.",
+     "level": ["WA1"]},
+
+    {"name":"Shadow Hound",
+     "desc":"A dog made of black smoke appears before the caster. It obeys all spoken orders with absolute obedience until it is destroyed.</p>\
+		<p>The dog dissappers when <em>fatigued</em>.",
+     "level": ["WA1"]},
+
+    {"name":"False Debis",
+     "desc":"1 object upto 3' in any dimension, or up to 300 coins appear to be worthless debris for the duration. This illusion is solid to the touch, but will be revealed as an illusion by Detect Magic.</p><p>The spell lasts for three <em>turns</em> while the caster concentrates.",
+     "revName":"False Gold",
+     "revDesc":"The caster, or a chosen creature, has 3d6x10 sp appear on their person. The coins appear real on inspection, but will be revealed as an illusion by Detect Magic. </p><p>The spell lasts for three <em>turns</em> while the caster concentrates. Then the coins <em>turn</em> to dust.",
+     "level": ["WA2"]},
+/*
+Druid
+st Level
+1 	Animal Friendship
+3 	Entangle
+4 	Locate Plant or Animal
+5 	Predict Weather
+2nd Level
+1 	Barkskin
+4 	Heat Metal
+6 	Obscuring Mist / Clear Mist
+7 	Protection from Poison
+8 	Speak with Plants
+3rd Level
+d8 	Spell
+6 	Tree Shape
+8 	Warp Wood
+4th Level
+d6 	Spell
+4 	Protection from Fire and Lightning
+6 	Summon Animals
+5th Level
+d6 	Spell
+4 	Speak with Stones
+     */
     {"name":"Foo",
      "desc":"Bar",
      "revName":"Zig",

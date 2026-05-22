@@ -258,7 +258,7 @@ img {
         --color-fg: #db162f;
         --color-block: #888888;
         --header-size: 12pt;
-        --font-size: 12pt;
+        --font-size: 11pt;
     }
     body {
         columns: 2;
