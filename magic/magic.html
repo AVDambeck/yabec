@@ -1,117 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style.css">
-  </head>
-  <body>
-    <h1>Spellcasting</h1>
-    <p>The oldest powers of the world wrote secret patterns into the world. Adventures who learn these patterns can utilize a mystical pattern of trance, produced by memorized gestures and words. Though, this power is limited by the caster's memory. This is Vancian magic, and different than other games.</p>
-    <p>There are two types of magic-users.</p>
-    <p><strong>Arcane Magic:</strong> is accessed through esoteric study and a understanding.</p>
-    <p><strong>Divine Magic:</strong> is granted by a higher power, the favor of which must be maintained. </p>
-    <h2>Memory</h2>
-    <p>Magic-using classes have a magic progression table which shows a number for each of the five levels of spells. This is how many spells can be memorized at a time. They can memorize spells at the start of a session, and after resting in town. The can also memorize some spells while camping. LINK</p>
-    <p>A single spell can be memorized multiple times, creating multiple instances / uses. A low level spell can be memorized in place of a higher one.</p>
-    <p>Casting a spell causes the spell to be forgotten. Being interrupted while casting will also cause the spell to be forgotten.</p>
-    <h3>Arcane Memorization</h3>
-    <p>When arcane magic-users memorize, the chose spells from their spell books. See below. They must also choose whether to memorize the normal or reversed version of a spell.</p>
-    <h3>Divine Memorization</h3>
-    <p>Divine magic-users pray to receive memory of the spell. They must maintain favor with their deity. See below.</p>
-    <p>They may chose whether to reverse it at the time of casting, by preforming the spell backwards.</p>
-    <h2>Casting Limitations</h2>
-    <p>Spells are cast by reciting a special words and gestures. There are several limitations on these actions:</p>
-    <ul>
-      <li><strong>Freedom:</strong> A magic-user must be able to move and speak freely. </li>
-      <li><strong>Line of Sight:</strong> The target of a spell must be visible to the caster.</li>
-      <li><strong>Time:</strong> Spell-casting takes or one <em>round</em>. If interrupted (i.e. attacked), the spell is wasted.</li>
-      <li><strong>Material:</strong>If the spell refers to a material componet, e.g. chalk, the caster must have it on hand in order to cast the spell.</li>
-      <li><strong>Range:</strong> Spell effects are limited to <em>close</em> and <em>touch</em>, unless specified otherwise.</li>
-      <li><strong>Movement:</strong> The spell caster must be standing still during the casting. </li>
-      <li><strong>Quiet:</strong> Casting creates <em>quiet</em> noise. Casting is impossible in areas of magical silence.</li>
-      <li><strong>Unwilling:</strong> When the target of any spell is unwilling, they may attempt a <em>magic save</em>. If the spell targets a <em>touched</em> creature, instead the caster must <em>hit</em> them. Some spells specify differently. </li>
-      <li><strong>No Cumulative effects:</strong> Multiple spells cannot be used to increase the same ability.</li>
-      <li><strong>Range:</strong> Spell effects are limited to <em>close</em> and <em>touch</em>, unless specified otherwise.</li>
-      <li><strong>Fatigue:</strong> A magic user can not cast spells while fatigued. Some spells last until fatigued. (resting can extend these spells only before casting).</li>
-      <li><strong>Resistence:</strong> Some creatures have a % chance, in addition to their save, of not being affected by spells and other magical effects.</li>
-    </ul>
-    <h2>Spell Lists</h2>
-    <p>Each spell-casting class has a limited number of spells it can learn and use. If a spell isn’t on your spell list, you can’t learn that spell, nor use spell scrolls of that spell. </p>
-    <p>The same spell may be different levels for different casting classes. </p>
-    <h2>Concentration</h2>
-    <p>Some spells last for as long as you can <em>concentrate</em>. Various actions will break <em>concentration</em>:</p>
-    <ul>
-      <li><em>Attacking</em> or being <em>hit</em></li>
-      <li>Taking damage</li>
-      <li>Using magic items</li>
-      <li>Failing a <em>save</em></li>
-      <li>Sleeping</li>
-      <li>Being <em>surprised</em></li>
-    </ul>
-    <p><em>Full</em> <em>concentration</em> also imposes <em>bad</em> and requires closing your eyes.</p>
-    <h3>Breaking Concentration</h3>
-    <p>If a spell requires <em>concentration</em>, breaking <em>concentration</em> will end the spell. This deals <em>damage</em> equal to the spells level to the caster, or thrice that if <em>full</em> <em>concentration</em>.  </p>
-    <h2>Deity Disfavor</h2>
-    <p>Divine magic-users must maintain favor with their god. When a divine magic-user breaks thei tenants, or casts a spell against their alignment, they may be sent to court. </p>
-    <h3>Alignment</h3>
-    <p>A divine spell-caster’s alignment should be the same as their deity.</p>
-    <p>Chaos favors reversed spells, and Law favors unreversed. Neutral will choose their favor for that session when memorizing. Casting the wrong orientation of spell will risk disfavor if done without cause.</p>
-    <p>Spells without a reversed version are not subject to this.</p>
-    <h3>Court</h3>
-    <p>After potentially incurring disfavor (i.e. after combat has finished), a divine magic-user will be psychically transported to court. They have two options:</p>
-    <p><strong>Plead Guilty:</strong> 1-in-6 chance of not being disfavored.</p>
-    <p><strong>Plead not-guilty:</strong> Roll 3d6. If there’s triples, or the total is less than or equal to your level: not disfavored.  </p>
-    <h3>Penalties </h3>
-    <p>Normally, divine magic-users receive any spell they ask for from their spell list. With disfavor, for each spell memorized roll a d6. There is a chance they’ll receive a random spell, or no spell.</p>
-    <table>
-      <tr>
-        <th>Disfavors</th>
-        <th>Normal</th>
-        <th>Random</th>
-        <th>None</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>1-4</td>
-        <td>5-6</td>
-        <td>-</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>1</td>
-        <td>2-5</td>
-        <td>6</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>-</td>
-        <td>1-4</td>
-        <td>5-6</td>
-      </tr>
-      <tr>
-        <td>≥4</td>
-        <td>-</td>
-        <td>-</td>
-        <td>1-6</td>
-    </table>
-    <p>If disfavored while outside, there is a 1-in-10 chance to be struck by lightening. </p>
-    <h3>Forgiveness </h3>
-    <p>Clerics can forgive disfavor through downtime, or through preforming a quest for a temple of their alighnment or diety.</p>
-    <h2>Spell Books</h2>
-    <p>Arcane spellcasters begin the game with a spell book in addition to their other items.</p>
-    <p>Spell books take up 1 item slot, and can contain up to five levels of spell. That is, 1 1 1 1 1, 2 2 1, 3 2, 3 1 1, 4 1, or 5. To have more spells, additional spell books must be purchased. </p>
-    <p>You must have access to your spell book while memorizing. <p>
-    <p>Each level up, arcane spellcasters may add another spell from their spell list. To add more spells, or duplicate spell books, see magical research downtime.</p>
-    <!--
-        <h3>Replacing / Replicating</h3>
-    <p>Replicating spells from one’s own spell book takes 50 cp and one week per 5 levels of spells. </p>
-    <p>Replacing a spell that was once memorized takes 100 cp and one week per 1 level of spell.</p>
-    -->
-    <h2>Charms</h2>
-    <p>Some spells are described as charmed. These spells have discrete gestures and signs, that can be preformed in conversation without recognition from an untrained eye.</p>
-    <p>Some creatures, such as fey, are immune to charms. </p>
-    <h2>Resurrection</h2>
-    <p>Being brought back from the dead is an ordeal. It's impossible if the body has bene cremated, or if the soul is imprisoned. After brought back, the constitution score is reduced by 1d4, and they are extremely frail for two weeks, having 1 hit point, and being unable to cast spells.</p>
-  </body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+	<body>
+		<div id="topnav"></div>
+		<script src="../nav.js"></script>
+		<h1>Spellcasting</h1>
+		<p>The oldest powers of the world wrote secret patterns into the world. Adventures who learn these patterns can utilize a mystical pattern of trance, produced by memorized gestures and words. Though, this power is limited by the caster's memory. This is Vancian magic, and different than other games.</p>
+		<p>There are two types of magic-users.</p>
+		<p><strong>Arcane Magic:</strong> is accessed through esoteric study and a understanding.</p>
+		<p><strong>Divine Magic:</strong> is granted by a higher power, the favor of which must be maintained. </p>
+		<h2>Memory</h2>
+		<p>Magic-using classes have a magic progression table which shows a number for each of the five levels of spells. This is how many spells can be memorized at a time. They can memorize spells at the start of a session, and after resting in town. The can also memorize some spells while camping. LINK</p>
+		<p>A single spell can be memorized multiple times, creating multiple instances / uses. A low level spell can be memorized in place of a higher one.</p>
+		<p>Casting a spell causes the spell to be forgotten. Being interrupted while casting will also cause the spell to be forgotten.</p>
+		<h3>Arcane Memorization</h3>
+		<p>When arcane magic-users memorize, the chose spells from their spell books. See below. They must also choose whether to memorize the normal or reversed version of a spell.</p>
+		<h3>Divine Memorization</h3>
+		<p>Divine magic-users pray to receive memory of the spell. They must maintain favor with their deity. See below.</p>
+		<p>They may chose whether to reverse it at the time of casting, by preforming the spell backwards.</p>
+		<h2>Casting Limitations</h2>
+		<p>Spells are cast by reciting a special words and gestures. There are several limitations on these actions:</p>
+		<ul>
+			<li><strong>Freedom:</strong> A magic-user must be able to move and speak freely. </li>
+			<li><strong>Line of Sight:</strong> The target of a spell must be visible to the caster.</li>
+			<li><strong>Time:</strong> Spell-casting takes or one <em>round</em>. If interrupted (i.e. attacked), the spell is wasted.</li>
+			<li><strong>Material:</strong>If the spell refers to a material componet, e.g. chalk, the caster must have it on hand in order to cast the spell.</li>
+			<li><strong>Range:</strong> Spell effects are limited to <em>close</em> and <em>touch</em>, unless specified otherwise.</li>
+			<li><strong>Movement:</strong> The spell caster must be standing still during the casting. </li>
+			<li><strong>Quiet:</strong> Casting creates <em>quiet</em> noise. Casting is impossible in areas of magical silence.</li>
+			<li><strong>Unwilling:</strong> When the target of any spell is unwilling, they may attempt a <em>magic save</em>. If the spell targets a <em>touched</em> creature, instead the caster must <em>hit</em> them. Some spells specify differently. </li>
+			<li><strong>No Cumulative effects:</strong> Multiple spells cannot be used to increase the same ability.</li>
+			<li><strong>Range:</strong> Spell effects are limited to <em>close</em> and <em>touch</em>, unless specified otherwise.</li>
+			<li><strong>Fatigue:</strong> A magic user can not cast spells while fatigued. Some spells last until fatigued. (resting can extend these spells only before casting).</li>
+			<li><strong>Resistence:</strong> Some creatures have a % chance, in addition to their save, of not being affected by spells and other magical effects.</li>
+		</ul>
+		<h2>Spell Lists</h2>
+		<p>Each spell-casting class has a limited number of spells it can learn and use. If a spell isn’t on your spell list, you can’t learn that spell, nor use spell scrolls of that spell. </p>
+		<p>The same spell may be different levels for different casting classes. </p>
+		<h2>Concentration</h2>
+		<p>Some spells last for as long as you can <em>concentrate</em>. Various actions will break <em>concentration</em>:</p>
+		<ul>
+			<li><em>Attacking</em> or being <em>hit</em></li>
+			<li>Taking damage</li>
+			<li>Using magic items</li>
+			<li>Failing a <em>save</em></li>
+			<li>Sleeping</li>
+			<li>Being <em>surprised</em></li>
+		</ul>
+		<p><em>Full</em> <em>concentration</em> also imposes <em>bad</em> and requires closing your eyes.</p>
+		<h3>Breaking Concentration</h3>
+		<p>If a spell requires <em>concentration</em>, breaking <em>concentration</em> will end the spell. This deals <em>damage</em> equal to the spells level to the caster, or thrice that if <em>full</em> <em>concentration</em>.  </p>
+		<h2>Deity Disfavor</h2>
+		<p>Divine magic-users must maintain favor with their god. When a divine magic-user breaks thei tenants, or casts a spell against their alignment, they may be sent to court. </p>
+		<h3>Alignment</h3>
+		<p>A divine spell-caster’s alignment should be the same as their deity.</p>
+		<p>Chaos favors reversed spells, and Law favors unreversed. Neutral will choose their favor for that session when memorizing. Casting the wrong orientation of spell will risk disfavor if done without cause.</p>
+		<p>Spells without a reversed version are not subject to this.</p>
+		<h3>Court</h3>
+		<p>After potentially incurring disfavor (i.e. after combat has finished), a divine magic-user will be psychically transported to court. They have two options:</p>
+		<p><strong>Plead Guilty:</strong> 1-in-6 chance of not being disfavored.</p>
+		<p><strong>Plead not-guilty:</strong> Roll 3d6. If there’s triples, or the total is less than or equal to your level: not disfavored.  </p>
+		<h3>Penalties </h3>
+		<p>Normally, divine magic-users receive any spell they ask for from their spell list. With disfavor, for each spell memorized roll a d6. There is a chance they’ll receive a random spell, or no spell.</p>
+		<table>
+			<tr>
+				<th>Disfavors</th>
+				<th>Normal</th>
+				<th>Random</th>
+				<th>None</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>1-4</td>
+				<td>5-6</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>1</td>
+				<td>2-5</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>-</td>
+				<td>1-4</td>
+				<td>5-6</td>
+			</tr>
+			<tr>
+				<td>≥4</td>
+				<td>-</td>
+				<td>-</td>
+				<td>1-6</td>
+		</table>
+		<p>If disfavored while outside, there is a 1-in-10 chance to be struck by lightening. </p>
+		<h3>Forgiveness </h3>
+		<p>Clerics can forgive disfavor through downtime, or through preforming a quest for a temple of their alighnment or diety.</p>
+		<h2>Spell Books</h2>
+		<p>Arcane spellcasters begin the game with a spell book in addition to their other items.</p>
+		<p>Spell books take up 1 item slot, and can contain up to five levels of spell. That is, 1 1 1 1 1, 2 2 1, 3 2, 3 1 1, 4 1, or 5. To have more spells, additional spell books must be purchased. </p>
+		<p>You must have access to your spell book while memorizing. <p>
+		<p>Each level up, arcane spellcasters may add another spell from their spell list. To add more spells, or duplicate spell books, see magical research downtime.</p>
+		<!--
+			<h3>Replacing / Replicating</h3>
+			<p>Replicating spells from one’s own spell book takes 50 cp and one week per 5 levels of spells. </p>
+			<p>Replacing a spell that was once memorized takes 100 cp and one week per 1 level of spell.</p>
+		-->
+		<h2>Charms</h2>
+		<p>Some spells are described as charmed. These spells have discrete gestures and signs, that can be preformed in conversation without recognition from an untrained eye.</p>
+		<p>Some creatures, such as fey, are immune to charms. </p>
+		<h2>Resurrection</h2>
+		<p>Being brought back from the dead is an ordeal. It's impossible if the body has bene cremated, or if the soul is imprisoned. After brought back, the constitution score is reduced by 1d4, and they are extremely frail for two weeks, having 1 hit point, and being unable to cast spells.</p>
+	</body>
 </html>
