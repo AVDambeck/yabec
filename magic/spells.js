@@ -194,7 +194,7 @@ let spells = [
 
     {"name":"Locate Object",
      "desc":"The caster magically locates an object. The spell has two modes:</p><ul>\
-<li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.<li>\
+<li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.<\li>\
 <li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. my spell book.</li></ul>\
 <p>The caster can sense the direction (but not distance) of an object, so long as it is within a qaurter mild. Lasts uintil fatigued.",
      "level": ["CL3", "WI1"]},
@@ -229,7 +229,7 @@ let spells = [
 <p><strong>Restriction:</strong> the target must not be undead.",
      "revName":"Free Monster",
      "revDesc":"A creature is instantly freed from mundane restraints, and may make an additional saving throw against magical restraints.",
-     "level": ["CL4"]},
+     "level": ["CL4", "WI5"]},
 
 
     {"name":"Neutralize Poison",
@@ -255,7 +255,7 @@ let spells = [
 <p><strong>Examples:</strong> Bringin a specific item to the caster, eating or drinking without restraint, keeping a certain fact secret, rescuing a prisoner, killing a specific monster.</p>\
 <p><strong>Impossible or deadly tasks:</strong> If an impossible or directly deadly charge instead affects the caster.</p>\
 <p><strong>Avoidance:</strong> If the subject refuses to follow the charge, they accumulate gradual, increasing, and eventually deadly penalties.",
-     "level": ["CL5"]},
+     "level": ["CL5", "WI5"]},
 
     {"name":"Commune",
      "desc":"The caster enters into direct communication with divine powers. The communion lasts three turns, where the caster must be fully concentrating.</p>\
@@ -456,12 +456,6 @@ let spells = [
      "desc":"A powerful stroke of electrical energy extends from the caster’s fingers. It is 180’ long and 5’ wide. Creatures caught in the lightning bolt suffer 1d6 damage per level of the caster. A successful save versus spells prevents half of the damage.</p><p>Bounce: If the lightning bolt hits a solid barrier before its full length is reached, it is reflected and continues to its full length.",
      "level": ["WI3"]},
 
-    {"name":"Foo",
-     "desc":"Bar",
-     "revName":"Zig",
-     "revDesc":"Zag",
-     "level": ["Test"]},
-
     {"name":"Shadow Hound",
      "desc":"A dog made of black smoke appears before the caster. It obeys all spoken orders with absolute obedience until it is destroyed.</p><p>Lasts until fatigued.",
      "level": ["WI3"]},
@@ -549,31 +543,153 @@ let spells = [
 <li><strong>Types of vision:</strong> The magical eye grants both normal vision and infravision.</li></ul>\
 <p>When the caster becomes <em>fatigued</em>, the eye floats slowly to the ground. If not placed in the casters head within 1 <em>turn</em>, the eye is destroyed.",
      "level": ["WI4"]},
-    /*
-      wizard
-      5th Level
-Animate Dead
-Charge / Remove Charge
-Cloudkill
-Conjure Elemental
-Contact Higher Plane
-Feeblemind
-Hold Monster
-Pass-Wall
-Telekinesis
-Teleport
-Wall of Stone/ Wall of Air
-6th Level
-Anti-Magic Shell
-Control Weather / Control Earth
-Disintegrate
-Charge / Remove Charge
-Invisible Stalker
-Part Water
-Projected Image
-Reincarnation / Death Spell
-Stone to Flesh / Flesh to Stone
-     */
+
+    {"name":"Animate Dead",
+     "desc":"This spell turns the bones or bodies of dead creatures into undead skeletons or zombies:</p><ul>\
+<li><strong>Obedient:</strong> They obey the caster’s commands. They have a loyalty of 12.</li>\
+<li><strong>Special abilities:</strong> They are unable to use any special abilities that they possessed in life.</li>\
+<li><strong>Number:</strong> The spell animates a number of Hit Dice of zombies or skeletons equal to the caster’s level.</li>\
+<li><strong>Hireling:</strong> After one day, the caster must either take the undead as <em>hireling</em>, or end the spell</li></ul>",
+     "level": ["WI4"]},
+
+
+    {"name":"Cloudkill",
+     "desc":"A poisonous fog streams from the caster’s fingertips, filling a <em>zone</em> within <em>sight</em>. </p><ul>\
+<li><strong>Movement:</strong> Each <em>turn</em>, the fog moves to an adjacent <em>zone</em>, driven by the wind.</li>\
+<li><strong>Sinking:</strong> Because the fog is heavier than air, it sinks to the lowest level of the land, even pouring down den or sink hole openings.</li>\
+<li><strong>Damage:</strong> All creatures in contact with the vapors take 1 damage per <em>round</em>.</li>\
+<li><strong>Creatures with <5 HD:</strong> Must also make a <em>physical save</em> (once per round) or die.</li></ul>",
+     "level": ["WI5"]},
+
+
+    {"name":"Conjure Elemental",
+     "desc":"A 16 HD elemental is summoned from an elemental plane of the caster’s choice (air, earth, fire, water) to do the caster’s bidding.</p><ul>\
+<li><strong>Materials:</strong> The summons requires a large volume of the appropriate element.</li>\
+<li><strong>Full Concentration:</strong> Is required to command an elemental.</li>\
+<li><strong>Dismissing:</strong> While control over the elemental is maintained, the caster may dismiss it at any time, sending it back to its plane of origin.</li>\
+<li><strong>Disruption:</strong> If the caster’s <em>concentration</em> is disturbed, the command over the elemental ends. It is, henceforth, a free willed entity and will immediately try to kill the caster and any who get in its way.</li></ul>",
+     "level": ["WI5"]},
+
+
+    {"name":"Contact Higher Plane",
+     "desc":"The caster has can ask a powerful, otherworldly being for advice and knowledge on any subject.</p>\
+		<p><strong>Plane:</strong> The caster must choose which plane of existence to contact. Higher planes are home to more powerful and knowledgeable beings. The spell lasts one <em>turn</em> per level of the plane, and requires full <em>concentration</em>.</p>\
+		<p><strong>Questions:</strong> The caster may then ask a number of yes/no questions equal to the number of the plane contacted.</p>\
+		<p><strong>Answers:</strong> For each question asked, there is a chance of the contacted being not knowing the answer, or of answering untruthfully. </p>\
+		<p><strong>Restrictions:</strong> Contact may be cast at most once per month.</p>\
+		<p><strong>Insanity:</strong> Contact has a chance of causing insanity. Insane characters are incapable of action or communication. the recovery time is a number of weeks equal to the number of the plane. For every level of the caster above 10, this chance is reduced by 5%.</p>\
+<table><tr><th>Plane</th><th>Don’t</th><th>Know</th><th>Truth</th><th>Insanity</th></tr>\
+<tr><td>3rd</td><td>75%</td><td>50%</td><td>5%</td></tr>\
+<tr><td>4th</td><td>70%</td><td>55%</td><td>10%</td></tr>\
+<tr><td>5th</td><td>65%</td><td>60%</td><td>15%</td></tr>\
+<tr><td>6th</td><td>60%</td><td>65%</td><td>20%</td></tr>\
+<tr><td>7th</td><td>50%</td><td>70%</td><td>25%</td></tr>\
+<tr><td>8th</td><td>40%</td><td>75%</td><td>30%</td></tr>\
+<tr><td>9th</td><td>30%</td><td>80%</td><td>35%</td></tr>\
+<tr><td>10th</td><td>20%</td><td>85%</td><td>40%</td></tr>\
+<tr><td>11th</td><td>10%</td><td>90%</td><td>45%</td></tr>\
+<tr><td>12th</td><td>5%</td><td>95%</td><td>50%</td></table>",
+     "level": ["WI5"]},
+
+
+    {"name":"Feeblemind",
+     "desc":"An arcane spell caster within sight must <em>succeed</em> a <em>magic save</em> (at a –4 penalty) or become an imbecile, unable to think clearly or cast spells.",
+     "level": ["WI5"]},
+
+
+    {"name":"Pass-Wall",
+     "desc":"The caster touches solid stone. A 5’ diameter hole is temporarily opened, forming a passage-way up to 10’ deep.</p>\
+		<p>After a shift, the passage seals, without a trace.",
+     "level": ["WI5"]},
+
+    {"name":"Telekinesis",
+     "desc":"The caster concentrates for up to six <em>rounds</em>. During that time, they are able to mentally move objects or creatures within a long distance.</p><ul>\
+			<li>Weight: Up to 2 item slots, or 50 lb, per level of the caster may be moved at once.</li>\
+			<li>Movement: The target may be moved up to 2 squares per <em>round</em>, in whatever direction the caster wishes</li></ul>",
+     "level": ["WI5"]},
+
+
+    {"name":"Teleport",
+     "desc":"A touched creature disappears and reappears at a location of the caster’s choosing, including its gear</p>\
+The destination may be at any distance, but must be known to the caster. The destination must be an open space at ground level. (It is not possible to intentionally teleport the subject into mid-air or into solid matter.)</p>>\
+		<p>There is a risk of accidentally arriving above or below ground level. The chance of a successful teleportation depends on the caster’s knowledge of the destination (see right). Roll d% and consult the table</p><table>\
+<tr><th>Know.</th><th>of</th><th>Dest.</th><th>Ground</th><th>Level</th><th>Too</th><th>High</th><th>Too</th><th>Low</th></tr>\
+<tr><td>Scant</td><td>01–50</td><td>51–75</td><td>76–00</td></tr>\
+<tr><td>Medium</td><td>01–80</td><td>81–90</td><td>91–00</td></tr>\
+<tr><td>Exact</td><td>01–95</td><td>96–99</td><td>0</td></table>\
+<ul><li>Ground level: The subject appears at the desired destination.</li>\
+<li>Too high: The subject appears 1d10×10’ above the intended destination. Should this location already be occupied by solid matter, the subject is instantly killed. Otherwise, the subject falls from a height.</li>\
+<li>Too low: The subject appears in the ground and is killed instantly.</li></ul>\
+<p>Knowledge of destination: The caster’s knowledge of the destination is rated as follows:</p><ul>\
+<li>Scant: A location that the caster has visited once or twice, has seen by magical scrying, or has heard of from descriptions.</li>\
+<li>Moderate: A location that the caster has visited often or has studied via scrying for several weeks.</li>\
+<li>Exact: A location that the caster has made a detailed study of, in person</li></ul>",
+     "level": ["WI5"]},
+
+
+    {"name":"Wall of Stone",
+     "desc":"A wall of solid rock appears. The wall may be of whatever shape the caster desires and is of 1,000 cubic feet in volume. (For example, a 2’ thick wall, 50’ long and 10’ high.) The wall must rest upon a solid surface and may not be evoked so that it appears where objects are.",
+     "revName":"Wall of Air",
+     "revDesc":"The wall functions the same as the wall of stone, but is made of an invisible air current. It lasts until <em>fatigued</em> twice.",
+     "level": ["WI5"]},
+
+
+    {"name":"Anti-Magic Shell",
+     "desc":"An anti-magic barrier is created around the caster. It’s a 10’ radius sphere. It moves with the caster. The caster must <em>concentrate</em> to maintain it. No spells or spell effects can pass through this barrier, whether from inside or outside. The effects of magic items and other spells are supressed while in the sphere.</p>\
+		<p>Lasts until <em>fatigued</em> twice.",
+     "level": ["WI6"]},
+
+    {"name":"Control Weather ",
+     "desc":"By fully <em>concentrating</em> the caster can control the weather in a quarter mile radius. When <em>concentration</em> is broken, weather returns to normal.</p><p>This spell only functions outdoors.",
+     "revName":"Control Earth",
+     "revDesc":"<p>Earth (but not stone) within within a quarter mile, that the caster can see, is rearranged as the caster wishes.</p>\
+		<p><strong>Movement rate:</strong> The caster can move earth in the area at up to 60’ per <em>turn</em>.</p>\
+		<p><strong>Excavations:</strong> The range of the spell also extends downwards, allowing excavations to be made.",
+     "level": ["WI6"]},
+
+
+    {"name":"Disintegrate",
+     "desc":"The material form of a single, non-magical, <em>distant</em> or closer, creature or object is instantly and permanently destroyed.</p>\
+		<p>If a creature is targeted: It may make a <em>physical save</em> to resist disintegration.</p>\
+		<p>Examples of objects: The following might be targeted: a tree, a ship, a 1 <em>square</em> section of wall.</p>",
+     "level": ["WI6"]},
+
+    {"name":"Invisible Stalker",
+     "desc":"An invisible stalker is summoned to the caster’s presence and magically bound to perform a mission of the caster’s choosing.</p><ul>\
+<li><strong>Wording:</strong> The caster must be careful with the wording of the mission. Invisible stalkers will follow the letter of the command while twisting the intent.</li>\
+<li><strong>Duration:</strong> The creature is bound to attempt the mission until it succeeds or is destroyed.</li>\
+<li><strong>Banishing:</strong> The spell Dispel Evil will banish an invisible stalker, ending the spell.</li></u>",
+     "level": ["WI6"]},
+
+
+    {"name":"Part Water",
+     "desc":"The caster creates a path 10’ wide and a maximum of 120’ long through water, such as a pond, lake, or other body. Lasts six <em>turns</em>. The caster can dismiss the spell’s effect before the duration ends.</p>",
+     "level": ["CL5"]},
+
+
+    {"name":"Projected Image",
+     "desc":"An illusory duplicate of the caster appears within range. Lasts for six <em>turns</em>.</p><ul>\
+<li><strong>Duplicate:</strong> The image is an exact duplicate of the caster that can only be differentiated by touch.</li>\
+<li><strong>Subsequent spells cast:</strong> Appear to originate from the image. (Targets must still be visible to the caster, however.)</li>\
+<li><strong>Spells and missiles:</strong> The image appears unaffected by spells or missile weapons.</li>\
+<li><strong>Melee or touch:</strong> If the image is touched or hit in melee, it disappears.</li>\
+<li><strong>Range:</strong> The image must remain distant or closer to the caster.</li></u>",
+     "level": ["WI6"]},
+
+
+    {"name":"Reincarnation ",
+     "desc":"A dead character is returned to life in a new physical form that manifests in the presence of the caster. The character’s new body is not necessarily the same as the original; it is determined by rolling on the Reincarnated Class table. The roll indicates either a character class or a monster:</p>\
+		<p>The character is of experience level 1d6 lower than they were in life. There is a 2-in-6 chance they are the same class, a 1-in-6 chance they are a different human class, 2-in-6 they are a different demihuman class, and a 1-in-6 chance they are instead a monster of the same alighnment and number if hit dice.</p>",
+     "revName":"Death Spell",
+     "revDesc":"Choose a zone within 240’. Up to 4d8 Hit Dice of creatures make a physical save or die, instantly. Undead and creatures with >7 HD are unaffected.",
+     "level": ["WI6"]},
+
+    {"name":"Stone to Flesh ",
+     "desc":"This spell transforms stone into living flesh. It is especially useful for restoring life to a petrified creature and its equipment to its normal state.",
+     "revName":"Flesh to Stone",
+     "revDesc":"Turns one creature into a statue, including all gear and any items currently held.",
+     "level": ["CL5", "WI6"]},
+
     {"name":"Foo",
      "desc":"Bar",
      "revName":"Zig",
