@@ -20,7 +20,7 @@ navContent = '\
   <div class="center">\
     <a class="active" href="' + homeUrl + '">Home</a>\
     <a href="' + classUrl + '">Classes</a>\
-    <a href="' + itemUrl + '">Items</a>\
+    <a href="' + itemUrl + '">Shop</a>\
     <a href="' + travelUrl + '">Travel</a>\
   </div>\
 </div>'
