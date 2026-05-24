@@ -170,6 +170,7 @@ img {
     height: 0;
     margin: 0 0.5ch;
     transform: translateY(0.1em);
+    z-index: -1;
 }
 .line .right { margin-left: 0.5ch; }
 
@@ -263,7 +264,7 @@ img {
     body {
         columns: 2;
     }
-    .cover body{
+    .cover {
         columns: 1;
     }
     .web, .topNavContainer, #bottomNav {
