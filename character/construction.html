@@ -1,99 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="../style.css">
-	</head>
-	<body>
-		<div id="topnav"></div>
-		<script src="../nav.js"></script>
-		<h1>Structures</h1>
-        <p>Players with large amounts of money and power will begin building or buying larger structures. Unless noted otherwise, all costs are in sb.</p>
-        <h2>Construction Crew</h2>
-        <p>Construction requires one engineer per 1,000 sb of construction, as well as a construction site. Towns will have a small construction site, capable of building 1 sb per week. More powerful construction sites can be built, see below.</p>
-        <h2>Jump to Section</h2>
-        <ol class="columns">
-          <li><a href="#siege">Siege Weapons<a></li>
-          <li><a href="#ships">Water Vessels<a></li>
-        </ol>
-			<h2 id="seige">Seige Weapons</h2>
-			<p>Each seige weapon requires eight people or two horses to move. Additionally, they can't be effectivly aimed at individuals, except for very large monsters.</p>
-			<h4><div class="line"><span class="left">Seige Ammo</span><span class="dots"></span><span class="right">10 cp</span></div></h4>
-			<p>heavy</p>
-			<h4><div class="line"><span class="left">Flaming Seige Ammo</span><span class="dots"></span><span class="right">10 cp</span></div></h4>
-			<p>heavy. Requires an additional crew member to light the ammo with a torch.</p>
-			<h4><div class="line"><span class="left">Ballista</span><span class="dots"></span><span class="right">20</span></div></h4>
-			<p>A very large cross bow. Requires three people to operate, and fires once each <em>round</em>, has a AV of 17, and deals 3d8 damage.</p>
-			<h4><div class="line"><span class="left">Trebuchet</span><span class="dots"></span><span class="right">40</span></div></h4>
-			<p>Uses a counterweight to fling massive stones. Requires three people to operate, and fires once every other <em>round</em>, has a AV of 19, and deals 5d12.</p>
-			<h4><div class="line"><span class="left">Screw</span><span class="dots"></span><span class="right">20</span></div></h4>
-			<p>Used to bore through walls. Requires eight people to operate, and fires once each <em>round</em>, has a AV of 15, and deals 4d8.</p>
-			<h4><div class="line"><span class="left">Sow</span><span class="dots"></span><span class="right">10</span></div></h4>
-			<p>Portable roof used to deflect ranged attacks. Has an AC of 5 and 50 HP.</p>
-            <h2 id="ships">Water Vessels</h2>
-            <p>Prebuilt vessles may be available for 150% their construction cost. A passenger occupies 20 slots, a seige weapon 50.</p>
-            <table>
-              <tr>
-                <th>Vessel</th>
-                <th>Cost</th>
-                <th>Crew</th>
-                <th>Cargo</th>
-                <th>Usage</th>
-                <th>Length</th>
-                <th>Beam</th>
-                <th>Draft</th>
-              </tr>
-              <tr>
-                <td>Dingie</td>
-                <td>1</td>
-                <td>1</td>
-                <td>60</td>
-                <td>river, coast</td>
-                <td>10'</td>
-                <td>5'</td>
-                <td>1'</td>
-              </tr>
-              <tr>
-                <td>Fishing Boat</td>
-                <td>4</td>
-                <td>4</td>
-                <td>300</td>
-                <td>river, coast</td>
-                <td>20'</td>
-                <td>10'</td>
-                <td>3'</td>
-              </tr>
-              <tr>
-                <td>Riverboat</td>
-                <td>20</td>
-                <td>10</td>
-                <td>800</td>
-                <td>river, coast</td>
-                <td>70'</td>
-                <td>15'</td>
-                <td>3'</td>
-              </tr>
-              <tr>
-                <td>Galley</td>
-                <td>30</td>
-                <td>30</td>
-                <td>1000</td>
-                <td>Coast, sea</td>
-                <td>100'</td>
-                <td>20'</td>
-                <td>6'</td>
-              </tr>
-              <tr>
-                <td>Longship</td>
-                <td>50</td>
-                <td>100</td>
-                <td>5000</td>
-                <td>Coast, sea</td>
-                <td>200'</td>
-                <td>30'</td>
-                <td>15'</td>
-              </tr>
-                </table>
-
-	</body></html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+  </head>
+  <body>
+    <div id="topnav"></div>
+    <script src="../nav.js"></script>
+    <h1>Structures</h1>
+    <p>Players with large amounts of money and power will begin building or buying larger structures. Unless noted otherwise, all costs are in sb.</p>
+    <h2>Jump to Section</h2>
+    <ol class="columns">
+      <li><a href="#rules">Construction<a></li>
+      <li><a href="#siege">Siege Weapons<a></li>
+      <li><a href="#ships">Water Vessels<a></li>
+    </ol>
+    <h2 id="rules">Construction</h2>
+    <h3>Permission</h3>
+    <p>Players need permission from local rulers to undertake construction. For siege weapons and water vessels, this may be a simple request of fee for a permit. For buildings, thie may involve the complex process of aquiring land rights. When constructing in the wilderness, players instead face legistical challenges.</p>
+    <h3>Clear Land</h3>
+    <p>If building in the wilderness, all monsters in the area must be killed or driven off.</p>
+    <h3>Design</h3>
+    <p>The player creates a plan for what they would like to build, and calculates the construction cost. Then seeks approval from the dungeon master.</p>
+    <h3>Costs and Time</h3>
+    <p>Construction requires one engineer per 1,000 sb of construction, as well as a construction site. Towns will have a small construction site, capable of building 1 sb per week. A propper construction site costs 100 sb to build, and 1 sb per week to maintain, but builds at 50 sb per week.</sb>
+    <h2 id="seige">Seige Weapons</h2>
+    <p>Each seige weapon requires eight people or two horses to move. Additionally, they can't be effectivly aimed at individuals, except for very large monsters.</p>
+    <h4><div class="line"><span class="left">Seige Ammo</span><span class="dots"></span><span class="right">10 cp</span></div></h4>
+    <p>heavy</p>
+    <h4><div class="line"><span class="left">Flaming Seige Ammo</span><span class="dots"></span><span class="right">10 cp</span></div></h4>
+    <p>heavy. Requires an additional crew member to light the ammo with a torch.</p>
+    <h4><div class="line"><span class="left">Ballista</span><span class="dots"></span><span class="right">20</span></div></h4>
+    <p>A very large cross bow. Requires three people to operate, and fires once each <em>round</em>, has a AV of 17, and deals 3d8 damage.</p>
+    <h4><div class="line"><span class="left">Trebuchet</span><span class="dots"></span><span class="right">40</span></div></h4>
+    <p>Uses a counterweight to fling massive stones. Requires three people to operate, and fires once every other <em>round</em>, has a AV of 19, and deals 5d12.</p>
+    <h4><div class="line"><span class="left">Screw</span><span class="dots"></span><span class="right">20</span></div></h4>
+    <p>Used to bore through walls. Requires eight people to operate, and fires once each <em>round</em>, has a AV of 15, and deals 4d8.</p>
+    <h4><div class="line"><span class="left">Sow</span><span class="dots"></span><span class="right">10</span></div></h4>
+    <p>Portable roof used to deflect ranged attacks. Has an AC of 5 and 50 HP.</p>
+    <h2 id="ships">Water Vessels</h2>
+    <p>Prebuilt vessles may be available for 150% their construction cost. A passenger occupies 20 slots, a seige weapon 50.</p>
+    <table>
+      <tr>
+        <th>Vessel</th>
+        <th>Cost</th>
+        <th>Crew</th>
+        <th>Cargo</th>
+        <th>Usage</th>
+        <th>Length</th>
+        <th>Beam</th>
+        <th>Draft</th>
+      </tr>
+      <tr>
+        <td>Dingie</td>
+        <td>1</td>
+        <td>1</td>
+        <td>60</td>
+        <td>river, coast</td>
+        <td>10'</td>
+        <td>5'</td>
+        <td>1'</td>
+      </tr>
+      <tr>
+        <td>Fishing Boat</td>
+        <td>4</td>
+        <td>4</td>
+        <td>300</td>
+        <td>river, coast</td>
+        <td>20'</td>
+        <td>10'</td>
+        <td>3'</td>
+      </tr>
+      <tr>
+        <td>Riverboat</td>
+        <td>20</td>
+        <td>10</td>
+        <td>800</td>
+        <td>river, coast</td>
+        <td>70'</td>
+        <td>15'</td>
+        <td>3'</td>
+      </tr>
+      <tr>
+        <td>Galley</td>
+        <td>30</td>
+        <td>30</td>
+        <td>1000</td>
+        <td>Coast, sea</td>
+        <td>100'</td>
+        <td>20'</td>
+        <td>6'</td>
+      </tr>
+      <tr>
+        <td>Longship</td>
+        <td>50</td>
+        <td>100</td>
+        <td>5000</td>
+        <td>Coast, sea</td>
+        <td>200'</td>
+        <td>30'</td>
+        <td>15'</td>
+      </tr>
+    </table>
+    <h2 id="building">Buildings</h2>
+    <h3>Complete Buildings</h3>
+    <h4><div class="line"><span class="left">One room building</span><span class="dots"></span><span class="right">15</span></div></h4>
+    <p>10'x10'x10'. Wood walls, stone floor, thatch roof. Costs 50% in towns.</p>
+    <h4><div class="line"><span class="left">Three room building</span><span class="dots"></span><span class="right">30</span></div></h4>
+    <p>first floor: 20'x20'x10'. second floor: 25'x25'x10'. Cellar: 15'x15'. Wood walls, stone floor, thatch roof. Costs 50% less in towns.</p>
+    <h4><div class="line"><span class="left">Keep</span><span class="dots"></span><span class="right">750</span></div></h4>
+    <p>60' square, 80' high, walls 10' thick. Stone walls, dirt ground floor, two wooden floors, thatched roof.</p>
+    <h3>Defences</h3>
+    <h4><div class="line"><span class="left">Drawbridge</span><span class="dots"></span><span class="right">50</span></div></h4>
+    <p>Raisable wooden bridge. 10' long..</p>
+    <h4><div class="line"><span class="left">Gatehouse</span><span class="dots"></span><span class="right">650</span></div></h4>
+    <p>Fortified entry point in wall, with portcullis. 30'x30'x20'.</p>
+    <h4><div class="line"><span class="left">Moat</span><span class="dots"></span><span class="right">40</span></div></h4>
+    <p>Ditch filled with water. 100' long, 20' wide, 10' deep. Each additional 10' of width, and depth (max 30') costs 50sb.</p>
+    <h3>Roof</h3>
+    <h4><div class="line"><span class="left">Thatch</span><span class="dots"></span><span class="right">2</span></div></h4>
+    <p>10' sq.</p>
+    <h4><div class="line"><span class="left">Tile</span><span class="dots"></span><span class="right">10</span></div></h4>
+    <p>10'.</p>
+    <h4><div class="line"><span class="left">Stone</span><span class="dots"></span><span class="right">10</span></div></h4>
+    <p>10'. Requires butressing every 20' feet. Buttressing extends 1' beyond the roof for every 10' of width.</p>
+    <h4><div class="line"><span class="left">Butressing</span><span class="dots"></span><span class="right">10</span></div></h4>
+    <p>40' tall, 20' wide. Additional 50 sb per 10' of height (max 60') and 10' of width (max 60').</p>
+    <h3>Towers</h3>
+    <p>Either freestanding, or built into a wall. Towers can be no taller than thrice their diameter. Each additional 10' of hight costs 30 sb times the diameter.</p>
+    <h4><div class="line"><span class="left">Small</span><span class="dots"></span><span class="right">3,000</span></div></h4>
+    <p>40' diameter, 60' high, wall 5' thick.</p>
+    <h3>Walls</h3>
+    <p>Each additional 10' of hieght, to a max of 60', costs 50 sb more.</p>
+    <h4><div class="line"><span class="left">Castle</span><span class="dots"></span><span class="right">500</span></div></h4>
+    <p>Stone wall with battlements, 100' long, 20' high, 10' thick.</p>
+    <h4><div class="line"><span class="left">Stone</span><span class="dots"></span><span class="right">100</span></div></h4>
+    <p>Plain stone wall, 100' long, 10' high, 1' thick.</p>
+    <h4><div class="line"><span class="left">Wood</span><span class="dots"></span><span class="right">10</span></div></h4>
+    <p>Plain wood wall, 100' long, 10' high, 1' thick.</p>
+    <h3>Interior</h3>
+    <h4><div class="line"><span class="left">Door or trapdoor, wood</span><span class="dots"></span><span class="right">1</span></div></h4>
+    <h4><div class="line"><span class="left">Door or trapdoor, stone</span><span class="dots"></span><span class="right">2</span></div></h4>
+    <h4><div class="line"><span class="left">Door or trapdoor, iron</span><span class="dots"></span><span class="right">5</span></div></h4>
+    <h4><div class="line"><span class="left">Door or trapdoor, hidden</span><span class="dots"></span><span class="right">5x normal</span></div></h4>
+    <h4><div class="line"><span class="left">Floor, wood</span><span class="dots"></span><span class="right">1</span></div></h4>
+    <p>10'x10'</p>
+    <h4><div class="line"><span class="left">Floor, Stone</span><span class="dots"></span><span class="right">2</span></div></h4>
+    <p>10'x10'. Requires butressing if above ground.</p>
+    <h4><div class="line"><span class="left">Lock</span><span class="dots"></span><span class="right">100cp</span></div></h4>
+    <h4><div class="line"><span class="left">Shifting wall</span><span class="dots"></span><span class="right">1</span></div></h4>
+    <p>10'x10'.</p>
+    <h4><div class="line"><span class="left">Stairs</span><span class="dots"></span><span class="right">6</span></div></h4>
+    <p>10'.</p>
+    <h4><div class="line"><span class="left">Subterranean passage</span><span class="dots"></span><span class="right">5</span></div></h4>
+    <p>10'x10'x10'.</p>
+</body></html>
