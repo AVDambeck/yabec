@@ -1,9 +1,16 @@
-function spellDesc(spell) {
+function spellDesc(spell, hideNum) {
+    if (hideNum) {
+        attribute = "class=no-before"
+    } else {
+        attribute = ""
+    }
+
     if (spell.level !== "Test") {
-        let text = htmlTag("h3", spell.name) + htmlTag("p", spell.desc)
+        let text = htmlTag("h3", spell.name, attribute) + htmlTag("p", spell.desc)
         if (typeof spell.revName !== 'undefined') {
             text += htmlTag("h4", "Reversed: " + spell.revName) + htmlTag("p", spell.revDesc);
         }
+        text = htmlTag("div", text, "class=spell")
         return text;
     }
 }
@@ -16,11 +23,11 @@ function getLevelList(code) {
 function formatList(list) {
     let len = list.length;
 
-    let text = '<div class="columns">';
+    let text = ""
     for (let i = 0; i < len; i++) {
         text += spellDesc(list[i]);
     }
-    text += "</div>"
+    text = htmlTag("div", text, "class=columns");
     return text
 }
 
@@ -41,9 +48,9 @@ function classSpellList(codeBit) {
 
         let list = getLevelList(code);
         if (list.length !== 0) {
-            console.log(list)
             const myDiv = document.createElement('div');
             myDiv.id = code;
+            myDiv.className = "avoid-break";
             elementList.appendChild(myDiv);
 
             let text = htmlTag("h2", levels[level] + " Level")
@@ -57,7 +64,7 @@ function classSpellList(codeBit) {
 function singleSpell(spellName) {
     spell = spells.find(obj => obj.name === spellName);
     element = document.getElementById(spellName);
-    text = spellDesc(spell);
+    text = spellDesc(spell, true);
     element.innerHTML = text;
 }
 
@@ -69,12 +76,13 @@ function sortSpellAlpha(list) {
     return listSorted
 }
 
-function htmlTag(tag, text) {
+function htmlTag(tag, text, attribute = "") {
     // returns <tag>text</tag>
-    content = "<" + tag + ">" +
-
- text + "</" + tag + ">"
-    return content
+    if (attribute !== "") {
+        attribute = " " + attribute;
+    }
+    content = "<" + tag + attribute + ">" + text + "</" + tag + ">";
+    return content;
 }
 
 /*
@@ -584,7 +592,7 @@ let spells = [
 		<p><strong>Answers:</strong> For each question asked, there is a chance of the contacted being not knowing the answer, or of answering untruthfully. </p>\
 		<p><strong>Restrictions:</strong> Contact may be cast at most once per month.</p>\
 		<p><strong>Insanity:</strong> Contact has a chance of causing insanity. Insane characters are incapable of action or communication. the recovery time is a number of weeks equal to the number of the plane. For every level of the caster above 10, this chance is reduced by 5%.</p>\
-<table><tr><th>Plane</th><th>Don’t</th><th>Know</th><th>Truth</th><th>Insanity</th></tr>\
+<table><tr><th>Plane</th><th>Don’t Know</th><th>Truth</th><th>Insanity</th></tr>\
 <tr><td>3rd</td><td>75%</td><td>50%</td><td>5%</td></tr>\
 <tr><td>4th</td><td>70%</td><td>55%</td><td>10%</td></tr>\
 <tr><td>5th</td><td>65%</td><td>60%</td><td>15%</td></tr>\
