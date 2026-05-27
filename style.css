@@ -1,3 +1,4 @@
+/* Global  */
 :root{
     --color-bg: #000000;
     --color-txt: #f5f5f5;
@@ -23,6 +24,7 @@ body{
 	background-color: var(--color-bg);
 }
 
+/*Type*/
 h1, h2, h3, h4 {
 	font-family: Commodore; monospace;
 	color: var(--color-txt);
@@ -83,10 +85,17 @@ h4 {
 	border-color: grey;
 	font-size: calc(var(--header-size) * 0.9);
 }
+.no-before::before { content: none}
 
+em {
+    font-style: normal; /*I used to tag every game keyword with em, but it looks bad, but i didnt feel like removing all the tags.*/
+}
+
+/*Contents*/
 img {
-	width: 100%;
+	width: 90%;
 	break-before: page;
+    padding: 15px;
 }
 
 ul, ol {
@@ -116,6 +125,7 @@ th {
 	background-color: var(--color-fg);
 }
 
+/*blocks*/
 blockquote {
 	background-color: var(--color-block);
 	padding: 0 5pt 0 5pt;
@@ -135,12 +145,13 @@ blockquote {
 	}
 }
 
-em {
-    font-style: normal;
+.spell {
+    border: 3px outset var(--color-block);
+    margin: 5px 0 5px 0;
+    break-inside: avoid;
 }
-img {
-    padding: 15px;
-}
+
+/*containers */
 .container {
     display: flex;
 }
@@ -155,6 +166,11 @@ img {
 .columns {
     column-count: 3;
     column-rule: 1px dotted gray;
+    column-gap: 3pt;
+    column-fill: balance;
+}
+.avoid-break {
+    break-inside: avoid;
 }
 
 .line {
@@ -174,23 +190,22 @@ img {
 }
 .line .right { margin-left: 0.5ch; }
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/*Navigation*/
 #topnav {
     position: sticky;
     top: 0;
     background-color: var(--color-bg);
     padding-bottom: 5px;
 }
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-
 .topNavContainer, #bottomNav {
   display: flex;
   justify-content: space-between;
 }
-
 .topNavContainer a, #bottomNav a {
     padding: 8px 10px;
     margin: 0 1vw 0 1vw;
@@ -201,17 +216,13 @@ img {
     font-size: 17px;
     border: 5px outset var(--color-fg);
 }
-
 #bottomNav {
     margin-top: 10px;
 }
-
 .topNavContainer a:hover {
     background-color: var(--color-fg);
     color: var(--color-block-txt);
 }
-
-
 #nextPage {
     margin-left: auto !important;
 }
@@ -219,6 +230,7 @@ img {
     margin-right: auto !important;
 }
 
+/*@ rules*/
 @media (max-width: 600px) {
     body {
         padding: 0;
