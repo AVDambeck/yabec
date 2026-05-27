@@ -12,7 +12,7 @@
 		<div class="container">
 			<div>
 				<blockquote>
-					<p><strong>Requirements:</strong> None</p>
+					<p><strong>Requirements:</strong> Minimum wisdom 13, minimum intellegence 9</p>
 					<p><strong>Health die:</strong> d6</p>
 					<p><strong>Armour:</strong> leather</p>
 					<p><strong>Weapons:</strong> staff, sling, long-bow</p>
@@ -20,7 +20,7 @@
 					<p><strong>Prime requisite:</strong> Wisdom, Intelligence</p>
 					<p><strong>Maximum level:</strong> 12</p>
 				</blockquote>
-				<p>Mystics are a strange folk, who attune themselves to subtle energies. They receive their teachings through deep meditation, rumored come from entities unlike any seen in this world.</p>
+				<p>Mystics are a strange wizened folk, who attune themselves to subtle energies. They receive their teachings through deep meditation, rumored come from entities unlike any seen in this world.</p>
 			</div>
 			<img src="../../temp.svg" alt="placeholder image">
 		</div>
@@ -146,15 +146,38 @@
 		<p>At first level, you learn two mystic powers at random. At each odd level after that, you learn one more of your choice.</p>
 		<ol>
 			<li><strong>Darkvision:</strong> Costs 1 <em>mantra</em>. Gain <em>infravision</em> for one <em>turn</em>.</li>
-			<li><strong>Divination:</strong> Costs 3 <em>mantra</em>. You magically receive an important detail. Choose three topics, and the dungeon master will reveal information about one of them.</li>
+			<li><strong>Divination:</strong> Costs 3 <em>mantra</em>. You cast augary. Limit once per session.</li>
+		<div id="Augury"></div>
+		<script src="../../magic/spells.js"></script>
+		<script>
+			singleSpell("Augury");
+		</script>
 			<li><strong>Feline:</strong> Costs 4 <em>mantra</em>. You can fit through a gap as small as your head. Lasts until <em>fatigued</em>.</li>
-			<li><strong>Kung Fu:</strong> Costs 3 <em>mantra</em>. When you <em>hit</em> with a staff, you can make an unarmed attack.</li>
+			<li><strong>Kung Fu:</strong> Costs 2 <em>mantra</em>. When you <em>hit</em> with a staff, you can make an unarmed attack.</li>
 			<li><strong>Precognition:</strong> Costs 3 <em>mantra</em>. Preform a <em>search</em> instantly.</li>
 			<li><strong>Pressure Point:</strong> Costs 3 <em>mantra</em>. When you <em>hit</em>, cause the target to be </em>surprised</em> and <em>proned</em>.</li>
 			<li><strong>Psychic Blast:</strong> Costs 10 <em>mantra</em>. All other creatures within the same <em>zone</em> as you take Lvd8 damage (<em>save</em> breath for half). You pass out and are <em>bad</em> for the rest of the <em>turn</em>.</li>
+			<li><strong>Realign:</strong> Costs 4 <em>mantra</em>. Cast lesser charm. The spell fails if the target is of the same alignment as you.</li>
+		<div id="Lesser Charm"></div>
+		<script>
+			singleSpell("Lesser Charm");
+		</script>
 			<li><strong>Relocate:</strong> Costs 7 <em>mantra</em>. Walk to an adjacent <em>zone</em>. To observers, this appears instant.  Additionally you move as though under <em>freedom of movement</em>.</li>
-			<li><strong>Share Lung:</strong> Costs 7 <em>mantra</em>. Cast <em>cure wounds</em>.</li>
-			<li><strong>Third Eye:</strong> Costs 4 <em>mantra</em>. Cast <em>detect magic</em> or <em>detect evil</em>.</li>
+			<li><strong>Share Lung:</strong> Costs 7 <em>mantra</em>. Cast <em>cure wounds</em>. If the target is the same alignment as you, heal with advantage. Limit Lv times per session.</li>
+		<div id="Cure Wounds"></div>
+		<script>
+			singleSpell("Cure Wounds");
+		</script>
+			<li><strong>Telepathy:</strong> Costs 4 <em>mantra</em>. Hear the thoughts of one creature you can see, unless it succeeds a magic save. Lasts one turn. At 5th level and higher, once per session instead cast <em>telepathy</em>, and can send thoughts to the concentrated creature.</li>
+		<div id="Telepathy"></div>
+		<script>
+			singleSpell("Telepathy");
+		</script>
+			<li><strong>Third Eye:</strong> Costs 4 <em>mantra</em>. Cast <em>detect magic</em>. Limit once per session.</li>
+		<div id="Detect Magic"></div>
+		<script>
+			singleSpell("Detect Magic");
+		</script>
 		</ol>
 		<h2>After Reaching 9th Level</h2>
 		<p>A mystic may establish or build a monastery.</p>
