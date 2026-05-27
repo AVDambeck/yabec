@@ -1,14 +1,36 @@
-function spellDesc(spell, hideNum) {
-    if (hideNum) {
-        attribute = "class=no-before"
-    } else {
-        attribute = ""
+levels = ["null", "1st", "2nd", "3rd", "4th", "5th", "6th"]
+
+let className = {};
+className["CL"] = "Cleric";
+className["WI"] = "Wizard";
+className["DR"] = "Druid";
+className["WA"] = "Warlock";
+
+function spellDesc(spell, flags = []) {
+    attribute = ""
+    if (flags !== []) {
+        if (flags.includes("hideNum")) {
+            attribute = "class=no-before"
+        }
+        if (flags.includes("printLevel")) {
+            levelText = ""
+            for (let i = 0; i < spell.level.length; i++) {
+                code = spell.level[i].substring(0, 2);
+                level = spell.level[i].substring(2);
+                levelText += className[code] + " " + level + ", ";
+            }
+            levelText = levelText.slice(0, -2);
+        }
     }
+
 
     if (spell.level !== "Test") {
         let text = htmlTag("h3", spell.name, attribute) + htmlTag("p", spell.desc)
         if (typeof spell.revName !== 'undefined') {
             text += htmlTag("h4", "Reversed: " + spell.revName) + htmlTag("p", spell.revDesc);
+        }
+        if (typeof levelText !== 'undefined') {
+            text += htmlTag("p", levelText);
         }
         text = htmlTag("div", text, "class=spell")
         return text;
@@ -20,12 +42,12 @@ function getLevelList(code) {
     let list = spells.filter(spell => Array.isArray(spell.level) && spell.level.includes(code));
     return sortSpellAlpha(list);
 }
-function formatList(list) {
+function formatList(list, flags = []) {
     let len = list.length;
 
     let text = ""
     for (let i = 0; i < len; i++) {
-        text += spellDesc(list[i]);
+        text += spellDesc(list[i], flags);
     }
     text = htmlTag("div", text, "class=columns");
     return text
@@ -35,12 +57,11 @@ function formatList(list) {
 function spellListAll() {
     //under construction
     let list = sortSpellAlpha(spells);
-    let text = formatList(list)
+    let text = formatList(list, ["printLevel"])
     document.getElementById("spellListAll").innerHTML = text;
 }
 
 function classSpellList(codeBit) {
-    levels = ["null", "1st", "2nd", "3rd", "4th", "5th", "6th"]
     elementList = document.getElementById("classSpellList")
 
     for (let level = 1; level < 7; level++) {
@@ -64,7 +85,7 @@ function classSpellList(codeBit) {
 function singleSpell(spellName) {
     spell = spells.find(obj => obj.name === spellName);
     element = document.getElementById(spellName);
-    text = spellDesc(spell, true);
+    text = spellDesc(spell, ["hideNum"]);
     element.innerHTML = text;
 }
 
