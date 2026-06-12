@@ -1,0 +1,114 @@
+<!DOCTYPE html> <html lang="en">
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" type="text/css" href="../style.css">
+		</head>
+		<body>
+			<div id="topnav"></div>
+			<script src="../nav.js"></script>
+			<script src="../magic/spells.js"></script>
+			<script src="sheet.js"></script>
+			<select id="mySelect" class="web">
+				<option value="none">None</option>
+				<option value="cleric">Cleric</option>
+				<option value="fighter">Fighter</option>
+				<option value="thief">Thief</option>
+				<option value="wizard">Wizard</option>
+			</select>
+			<button class="web" type="button" onclick="customize()">Apply</button>
+			<h1></h1>
+			<h2>Player Info</h2>
+			<ul>
+				<li>Player Name: </li>
+				<li>Date: </li>
+			</ul>
+			<h2>Abilities</h2>
+			<div class="columnsprint" style="padding-right: 0.5in;">
+				<ul>
+					<li>Str:</li>
+					<li>Dex:</li>
+					<li>Con:</li>
+					<li>Int:</li>
+					<li>Wis:</li>
+					<li>Cha:</li>
+				</ul>
+			</div>
+			<h2 id="playerclass">Class:</h2>
+			<ul>
+				<li id="hd">HD:</li>	
+				<li>HP: </li>
+				<div class="box"><p>Damage</p></div>
+				<div id="armor">
+					<li>Armor (Circle what you can use)</li>
+					<ul>
+						<li>No Armor</li>
+						<li>Leather</li>
+						<li>Chain</li>
+						<li>Plate  </li>
+						<li>Shield</li>
+					</ul>
+				</div>
+				<div id="weapon">
+					<li>Weapons (Circle what you can use)</li>
+					<ul>
+						<li>No weapons</li>
+						<li>Blunt</li>
+						<li>Non-blunt</li>
+						<li>Sword</li>
+						<li>Dagger</li>
+						<li>Staff</li>
+						<li>Sling</li>
+						<li>All</li>
+					</ul>
+				</div>
+				<li>Prime requisite: </li>
+				<li>AV</li>
+				<li>AC</li>
+				<li>Magic</li>
+				<li>Phys</li>
+				<li id="lang">Languages:</li>
+				<li>Current XP: </li>
+				<li>XP to Next Lv: </li>
+				<li>Current Lv: </li>
+			</ul>
+			<h3 id="abilitytitle">Class Abilities</h3>
+			<div id="ability">
+				<div style="padding-top: 3in;"></div>
+			</div>
+			<div style="break-inside: avoid;">
+				<h2>Items:</h2>
+				<p>Money in bank:</p>
+				<p>How many item slots:</p>
+				<ol>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+			<h2>Ability Score Bonuses</h2>
+			<ul>
+				<li>Melee Damaged Bonus:</li>
+				<li>Banage Healing Bonus:</li>
+				<li>Reaction Modifier:</li>
+				<li>Renown:</li>
+				<li>Starting Loyalty:</li>
+			</ul>
+			<h2>Alignment</h2>
+			<div id="back"></div>
+		</body>
+	</html>
