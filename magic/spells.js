@@ -245,7 +245,7 @@ let spells = [
 		"desc":"Has the same three effects as light, but the light is day light, can be used to cancel continual darkness, and the spell lasts until dispelled. ",
 		"revName":"Continual Darkness",
 		"revDesc":"Same as continual light, but creates a sphere of magical darkness, preventing both normal sight and infravision.",
-		"level": ["CL3", "WI1", "WA3"]},
+		"level": ["CL3", "WI2", "WA3"]},
 
 	{"name":"Cure Disease",
 		"desc":"Cure a touched subject of any disease, inluding those of magical origin. If the subject is a green slime, it is instead killed instantly.",
