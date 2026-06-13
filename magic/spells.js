@@ -105,7 +105,7 @@ function classSpellListShort(codeBit) {
 			    if (typeof spell.revName == 'undefined') {
 				    subtext += htmlTag("li", spell.name) 
 			    } else {
-				    subtext += htmlTag("li", spell.name + " / " + spell.revname) 
+				    subtext += htmlTag("li", spell.name + " / " + spell.revName) 
 			    }
 		    }
 		    myDiv.innerHTML = text + htmlTag("ol", subtext, "class=columns");

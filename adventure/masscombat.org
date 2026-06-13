@@ -1,20 +1,28 @@
 #+title: Masscombat
 
 - design goal: resolve warefare quickly and return to dungeon.
-- Units can have at most 10 members.
+- Units must have exactly 10 members.
 - Total the number of HD in the unit. Note 50%.
 - Unit AP equals:
   - one for each member,
   - one for each magic weapon,
   - one for each other magic item on the leader.
-- damage: use most common weapon damage die. ignore other properties.
-  - conversion: d4, d6, d8 = 1. d10, d12 = 2
-  - Multiply by AP
-- armor: reduce damage
-  - some armor: 1
-  - plate and shield: 3
-- time: symultanious
-- on first blood:
-  - check morale. 1-in-6 chance that the leader has to save or be slain
-- on 50%:
-  - leader savees or is slain with half the group
+  - times damage die: d4 = 1/2, d6, d8 = 1. d10, d12 = 2
+- damage factor: depends on dfference of AV and AC. This mathmetically aproximates the number of hits in ten attacks. Use this table or use 10 - ( (AV - AC) / 2 ) and round down.
+| AV - AC | Num |
+|       0 |  10 |
+|     1-2 |   9 |
+|     3-4 |   8 |
+|     5-6 |   7 |
+|     7-8 |   6 |
+|    9-10 |   5 |
+|   11-12 |   4 |
+|   13-14 |   3 |
+|   15-16 |   2 |
+|    >=17 |   1 |
+  - Units damage other units by reducing AP HD. Units damage singlets by dealing APd8.
+  - Each round: unit moves, and then deals damage to foes.
+    - on first blood:
+      - check morale. 1-in-6 chance that the leader has to save or be slain
+    - on 50%:
+      - leader savees or is slain with half the group. If fail, moral is broken unless two halves form a new unit and succeed a moral check
