@@ -12,6 +12,7 @@
 ./downtime/advanced.html
 BREAK Character_Basic
 ./covers/advanced.html
+./character/creation.html
 ./character/class/acrobat.html
 ./character/class/bard.html
 ./character/class/princess.html
@@ -24,6 +25,7 @@ BREAK Character_Basic
 ./downtime/advanced.html
 BREAK Character_Advanced
 ./covers/demihuman.html
+./character/creation.html
 ./character/class/animalkin.html
 ./character/class/elf.html
 ./character/class/dwarf.html
@@ -37,6 +39,7 @@ BREAK Character_Advanced
 ./downtime/advanced.html
 BREAK Character_Demihuman
 ./covers/expert.html
+./character/creation.html
 ./character/class/druid.html
 ./character/class/hollow.html
 ./character/class/mystic.html
