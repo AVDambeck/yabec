@@ -16,6 +16,8 @@ while read -r line; do
         pdfunite $tempdir/* $holddir/$section.pdf
         rm $tempdir/*
         count=1
+    elif [[ $line = *".pdf"]]; then
+	echo "foo"
     else
         echo "converting $line"
         filename=$(printf %02d $count)
