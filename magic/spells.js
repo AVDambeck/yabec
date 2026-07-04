@@ -247,11 +247,11 @@ let spells = [
 		"revDesc":"Same as continual light, but creates a sphere of magical darkness, preventing both normal sight and infravision.",
 		"level": ["CL3", "WI2", "WA3"]},
 
-	{"name":"Cure Disease",
-		"desc":"Cure a touched subject of any disease, inluding those of magical origin. If the subject is a green slime, it is instead killed instantly.",
+	{"name":"Cure Poison and Disease",
+		"desc":"Cure a touched subject of any poison or disease, inluding those of magical origin. A creature killed by poison can be revieved within 1 turn. If the subject is a green slime, it is instead killed instantly.",
 		"revName":"Cause Disease",
-		"revDesc":"Inflict a terrible, withering disease on a victem. The disease has the following effects:",
-		"level": ["CL3", "WA3"]},
+		"revDesc":"Inflict a terrible, withering disease on a victem unless they succeed a physical saving throw. The disease has any or all of the following effects:</p><ol><li>Suffering: 1d8 damage each turn until they die or are cured.</li><li>Death: Within 2d12 days.</li><li>Attack penalty: -2 to attack rolls.</li><li>Natural healing: Takes twice the usual amount of time.</li><li>Magical healing: Is utterly ineffective.</li><li>Curing: This disease can be cured with a casting of cure poison and disease</li></ol><p>The spell can instead be cast on a object. When the object is consumed or breaks skin, the victem must save or be poisoned in the same way. Lasts until a shift.",
+		"level": ["CL3", "WA3", "DR3"]},
 
 	{"name":"Growth",
 		"desc":"The effects of this spell depend on alignment:</p><ul>\
@@ -299,12 +299,6 @@ let spells = [
 		"revDesc":"A creature is instantly freed from mundane restraints, and may make an additional saving throw against magical restraints.",
 		"level": ["CL4", "WI5", "DR4"]},
 
-
-	{"name":"Neutralize Poison",
-		"desc":"The spell removes poison from a touched item, or neutralizes the effect of poison in a touched creature. A creature killed by poison can be revieved within 1 turn.",
-		"revName":"Cause Poison",
-		"revDesc":"A touched creature becomes poisoned unless they succeed a physical saving throw. Each turn, they take 1d8 damage until they die or are cured.</p><p>Can instead be cast on a object. When the object is consumed or breaks skin, the victem must save or be poisoned in the same way. Lasts until a shift.",
-		"level": ["CL4", "WA4", "DR3"]},
 
 	{"name":"Protection from Chaos 10' radius",
 		"desc":"Wards the caster and all creatures with in a 10' radius from chaotic creatures and magic. Grants -1 to saves and dodges.",
