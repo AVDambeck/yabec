@@ -99,12 +99,12 @@ BREAK Adventure
 ./magic/magic.html
 ./magic/spells.html
 ./covers/adventure.html
-./adventure/travel.html
 ./adventure/delve.html
 ./adventure/combat.html
 ./adventure/mapping.html
 ./adventure/cleanup.html
 ./adventure/saves.html
+./adventure/travel.html
 ./adventure/minigames.html
 ./adventure/roles.html
 ./appendixa.html
