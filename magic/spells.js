@@ -254,7 +254,7 @@ let spells = [
 		"level": ["CL3", "WA3", "DR3"]},
 
 	{"name":"Growth",
-		"desc":"The effects of this spell depend on alignment:</p><ul>\
+		"desc":"The effects of this spell depend on alignment of the caster:</p><ul>\
 		<li><strong>Lawful:</strong> One non-magical animal is doulbed in strenght and size. Damage from its attackes are doubled, and it has twice as many slots. Lasts until fatigued twice.</li>\
 		<li><strong>Neutral:</strong> Any vegitation in one zone becomes fantastically overgrown, forming a thorny jungle. If cast outside, instead affect an area of upto 3,000 square feet chosen by the caster. Only very large creatures can force their way through. Clearing the area becomes an ordeal.</li>\
 		<li><strong>Chaotic:</strong> The caster doubles in size and strength, as above. Last until fatigued twice.</ul>",
