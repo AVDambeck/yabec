@@ -91,6 +91,7 @@ BREAK Adventure
 ./character/class/warlock.html
 ./character/class/wizard.html
 ./character/items.html
+./character/construction.html
 ./character/monsterous.html
 ./character/hirelings.html
 ./downtime/basic.html
