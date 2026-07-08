@@ -8,58 +8,38 @@
 	<body>
 		<div id="topnav"></div>
 		<script src="../nav.js"></script>
+
 		<h1>Downtime</h1>
 		<p>Returning characters can preform one downtime.</p>
 		<p>Second level characters of certain classes can preform <a href="advanced.html">advanced downtime</a><p>
-		<h2>Community Service</h2>
-		<p>Preforming service at the temple has no direct benifite, but may be required as penalty for crimes.</p>
-		<p>Except for the first time doing service, chaotic aligned characters can hire a goon to do service for them. The first time it costs 100 cp. Each time after costs 1% more, compounding. Diety disfavor can not be forgiven this way.</p>
-		<h2>Worship</h2>
-		<p>In order to worship, you must visit a temple matching your alignment. Each time you worship, you gain merit equal to you wisdom score plus 1d20. When you die, the temple will contribute cp to your funeral equal to 1/10th of your merit. There is also a chance they will be able to revive you, equal to merit/100  in 20</p>
-		<p>Additionally, divine spell-casters might be able to forgive diety disfavor. The chance is equal to their level, plus their <em>wisdom</em>, out of 100.</p>
-		<h2>Baking</h2>
+
+        <ol class="columns">
+          <li><a href="#baking">Baking</a></li>
+          <li><a href="#bless">Blessing Equipment</a></li>
+          <li><a href="#service">Community Service</a></li>
+          <li><a href="#heal">Healing</a></li>
+          <li><a href="#gamble">Gambling</a></li>
+          <li><a href="#mentor">Mentoring</a></li>
+          <li><a href="#sell">Selling</a></li>
+          <li><a href="#tame">Taming</a></li>
+          <li><a href="#team">Team-Building</a></li>
+          <li><a href="#quest">Questing</a></li>
+          <li><a href="#worship">Worshiping</a></li>
+        </ol>
+		<h2 id="baking">Baking</h2>
 		<p>Help at the local bakery. Prevent the first 2 damage that would be dealt to you this session.</p>
-		<h2>Healing</h2>
-		<p>A stay in the temple of your alignment costs 100 cp, or one week of service. It completely heals you, cures mundane illnesses, has a 5-in-6 chance of curing mundane toxins, and a 2-in-6 chance of removing minor cureses.</p>
-		<h2>Blessed Equipment</h2>
-		<p>Loose any amount of XP upto the sum of all six ability scores. Add that much XP to an item. When that item has 333 XP, it becomes a +1 magical item. When it has 3,333, it becomes a +2 item.</p> 
-		<h2>Selling</h2>
-		<p>Try to get a better buy on your treasure.</p>
-		<p>Each downtime, you can find buyers for treasure equal to 500 cp times your level. If a single object is more valuable than that, you must work for several downtimes to sell it.</p>
-		<p>When you sell the item, roll d% on the table, and add your <em>charisma</em> score. </p>
-		<table>
-			<tr>
-				<th> d% </th>
-				<th> Sale </th>
-			</tr>
-			<tr>
-				<td> &lt;20 </td>
-				<td> Robbed! 0% </td>
-			</tr>
-			<tr>
-				<td> 20-29 </td>
-				<td> Low ball: 75% </td>
-			</tr>
-			<tr>
-				<td> 30-39 </td>
-				<td> Low ball: 90% </td>
-			</tr>
-			<tr>
-				<td> 40-89 </td>
-				<td> 110% </td> 
-			</tr>
-			<tr>
-				<td> 90-100 </td>
-				<td> 140% </td>
-			</tr>
-			<tr>
-				<td> &gt;100 </td>
-				<td> Swindler! 200% </td>
-			</tr>
-		</table>
-		<p>If you get a low ball, you can refuse to sell.</p>
-		<p>If you get robbed, ask your Dungeon Master for a lead on the thieves.</p>
-		<h2>Gambling</h2>
+		<p>The baker also is a local gossip. If the baker does not already have one, make an <a href="npc.html">NPC card</a> for them. Each time you break, they will provide you with one rumor. If you provide a rumor in return, gain 10 xp.</p>
+		<h2>Blessing Equipment</h2>
+		<p>Loose any amount of XP upto the sum of all six ability scores. Add that much XP to an item. When that item has 333 XP, it becomes a +1 magical item. When it has 3,333, it becomes a +2 item. When it has 33,333 xp, it has a 3-in-6 chance to become +3, or to explode.</p> 
+		<p>+X weapons lower your AV and deal bonus damage. +X armor and sheilds lower your armor class. +X potions of healing, and bandages have bonus healing.</p>
+
+		<h2 id="service">Community Service</h2>
+		<p>Preforming service at the temple has no direct benefit, but may be required as penalty for crimes.</p>
+		<p>Except for the first time doing service, chaotic aligned characters can hire a goon to do service for them. The first time it costs 100 cp. Each time after costs 1% more, compounding. Deity disfavor can not be forgiven this way.</p>
+		<h2 id="heal">Healing</h2>
+		<p>A stay in the temple of your alignment costs 100 cp, or one week of service. It completely heals you, cures mundane illnesses, has a 5-in-6 chance of curing mundane toxins, and a 2-in-6 chance of removing curses.</p>
+
+		<h2 id="gamble">Gambling</h2>
 		<p>Play a number of games of Dragon Ante equal to thrice your level.</p>
 		<p>You might also hear rumors. Make two <em>charisma checks</em>. For each you succeed, ask the Dungeon Master for a rumor.
 		<h4>Dragon Ante</h4>
@@ -123,9 +103,9 @@
 			<li>When you roll five fives, you will 55555cp. When you roll four fours, you loose 4444cp. </li.>
 		</ul>
 
-		<h2>Mentor</h2>
+		<h2 id="mentor">Mentoring</h2>
 		<h3>Finding a mentor</h3>
-		<p>Training, employement, and some magical research requires a mentor. The target number is equal to:
+		<p>Training, employment, and some magical research requires a mentor. The target number is equal to:
 		<ul>
 			<li>50</li>
 			<li>plus your charisma score</li>
@@ -140,11 +120,48 @@
 		<h3>Training</h3>
 		<p>You can only train under a mentor of the same class and a higher level than you. traing costs 10 cp, times the level of your mentor. </p>
 		<p>Spend upto 100 times your Lv in cp. Gain that much experience. If you spend 20% more, your henchmen also gain half that much experience.</p>
-		<h2>Team-building</h2>
-		<p>Costs 50 cp per hireling. Each participating hireling has a 2-in-6 chance of gaining 1 loyalty, to a maximum of 8. </p>
-		<h2>Taming</h2>
+
+
+		<h2 id="sell">Selling</h2>
+		<p>Try to get a better buy on your treasure.</p>
+		<p>Each downtime, you can find buyers for treasure equal to 500 cp times your level. If a single object is more valuable than that, you must work for several downtimes to sell it; other players may assist by using their downtime as well.</p>
+		<p>When you sell the item, roll d% on the table, and add your <em>charisma</em> score. </p>
+		<table>
+			<tr>
+				<th> d% </th>
+				<th> Sale </th>
+			</tr>
+			<tr>
+				<td> &lt;20 </td>
+				<td> Robbed! 0% </td>
+			</tr>
+			<tr>
+				<td> 20-29 </td>
+				<td> Low ball: 75% </td>
+			</tr>
+			<tr>
+				<td> 30-39 </td>
+				<td> Low ball: 90% </td>
+			</tr>
+			<tr>
+				<td> 40-89 </td>
+				<td> 110% </td> 
+			</tr>
+			<tr>
+				<td> 90-100 </td>
+				<td> 140% </td>
+			</tr>
+			<tr>
+				<td> &gt;100 </td>
+				<td> Swindler! 200% </td>
+			</tr>
+		</table>
+		<p>If you get a low ball, you can refuse to sell.</p>
+		<p>If you get robbed, ask your Dungeon Master for a lead on the thieves.</p>
+
+		<h2 id="tame">Taming</h2>
 		<p>Mundane animals can be tamed by anyone. Druids, and Elves, can tame magical animals, and tame mundane animals twice as fast.</p>
-		<p>Each week, make two <em>charisma</em>, and two <em>wisdom</em> checks. (Druids and Elves make four of each). Once you gain a number of <em>successes</em> equal to 3 plus the HD of the animal, they becomes tamed. Then you can begin training it.</p>
+		<p>Each week, make two <em>charisma</em>, and two <em>wisdom</em> checks. (Druids and Elves make four of each). Once you gain a number of <em>successes</em> equal to 4 plus the HD of the animal, they becomes tamed. Then you can begin training it.</p>
 		<p>Each of the following skills costs a certain amount of <em>successes</em>. Once trained, the animal will automatically succeed at tasks related to the skill.</p>
 		<table>
 			<thead>
@@ -177,17 +194,22 @@
 				<tr>
 					<td style="text-align: left;">Fetching</td>
 					<td>4</td>
-				</tr>>
+				</tr>
 				<tr>
-					<td style="text-align: left;">Understand a Language</td>
+					<td style="text-align: left;">Rudimentary Language Skills</td>
 					<td>15</td>
 				</tr>
 			</tbody>
 		</table>
-		<h2>Questing</h2>
+
+		<h2 id="team">Team-building</h2>
+		<p>Costs 50 cp per hireling. Each participating hireling has a 2-in-6 chance of gaining 1 loyalty, to a maximum of 8. </p>
+
+
+		<h2 id="quest">Questing</h2>
 		<p>More adventuring!</p>
 		<p>Choose a challenge to face. Each round, you’ll make a melee attack against it, and then it will make a melee attack against you. You can flee at anytime. </p>
-		<p>Multipule characters can team up. Each character gets to make an attack, and the challange will make only one attack, chooseing a target at random.</p>
+		<p>Multiple characters can team up. Each character gets to make an attack, and the challenge will make only one attack, choosing a target at random.</p>
 		<p>If you slay the challenge, you gain its reward.</p>
 		<p>Fighters and Knights take half damage.</p>
 		<h3>Sewers</h3>
@@ -198,5 +220,10 @@
 		<p><b>HP:</b> 9d8, <b>AC:</b> 5 <b>AV:</b> 14, <b>Dam:</b> 2d6+2 <b>Reward:</b> 12d6 sp + 1000 xp</p>
 		<h3>Den of a Lesser Dragon</h3>
 		<p><b>HP:</b> 10d8, <b>AC:</b> 0 <b>AV:</b> 8, <b>Dam:</b> All save Blast for 8d6 (recharge 5-6), or 2d6 <b>Reward:</b> 2000 gp + 5000 xp + remove a diety disfavor.</p>
+
+		<h2 id="worship">Worship</h2>
+		<p>In order to worship, you must visit a temple matching your alignment. Each time you worship, you gain merit equal to you wisdom score plus 1d20. When you die, the temple will contribute cp to your funeral equal to your merit. There is also a chance they will be able to revive you, equal to merit/100  in 20</p>
+		<p>Additionally, divine spell-casters might be able to forgive deity disfavor. The chance is equal to their level, plus their <em>wisdom</em>, out of 100.</p>
+		<p>Lastly, there is a 1-in-12 chance that your prayers will return a rumor.</p>
 	</body>
 </html>
