@@ -317,8 +317,8 @@ blockquote {
 @media print {
 	:root{
 		--color-bg: #FFFFFF;
-		--color-txt: #000000;
-		--color-fg: #999999;
+		--color-txt: #111111;
+		--color-fg: #000000;
 		--color-block: #888888;
 		--header-size: 12pt;
 		--font-size: 11pt;
