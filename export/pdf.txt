@@ -1,4 +1,5 @@
 ./covers/basic.html
+./resources/summary.pdf
 ./character/creation.html
 ./character/class/fighter.html
 ./character/class/cleric.html
@@ -70,8 +71,10 @@ BREAK Magic
 ./adventure/roles.html
 ./appendixa.html
 ./resources/updates.html
+./resources/summary.pdf
 BREAK Adventure
 ./covers/complete.html
+./resources/summary.pdf
 ./character/creation.html
 ./character/class/acrobat.html
 ./character/class/animalkin.html
