@@ -75,7 +75,8 @@ h2:before {
 
 h3 {
 	border-bottom-style: dotted;
-	border-color: grey;
+	padding-bottom: 2px;
+	border-color: var(--color-fg);
 	font-size: calc(var(--header-size) * 0.9);
 	text-transform: uppercase;
 }
@@ -170,7 +171,7 @@ blockquote {
 
 .columns, .columnsprint {
 	column-count: 3;
-	column-rule: 1px dotted gray;
+	column-rule: 1px dotted var(--color-block);
 	column-gap: 3pt;
 	column-fill: balance;
 }
@@ -187,7 +188,7 @@ blockquote {
 .line .left { margin-right: 0.5ch; }
 .line .dots {
 	flex: 1;
-	border-bottom: 4px dotted currentColor;
+	border-bottom: 1px dashed var(--color-block);
 	height: 0;
 	margin: 0 0.5ch;
 	transform: translateY(0.1em);
