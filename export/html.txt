@@ -30,7 +30,6 @@
 ./adventure/delve.html
 ./adventure/combat.html
 ./adventure/mapping.html
-./adventure/saves.html
 ./adventure/minigames.html
 ./adventure/roles.html
 ./adventure/cleanup.html
