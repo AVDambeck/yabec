@@ -12,7 +12,7 @@ pwdUrl = url.slice(0, A)
 homeUrl = rootUrl + "index.html"
 classUrl = rootUrl + "character/class/index.html"
 itemUrl = rootUrl + "character/items.html"
-travelUrl = rootUrl + "adventure/travel.html"
+rulesUrl = rootUrl + "adventure/intro.html"
 
 navContent = '\
 <div class="topNavContainer">\
@@ -21,7 +21,7 @@ navContent = '\
     <a class="active" href="' + homeUrl + '">Home</a>\
     <a href="' + classUrl + '">Classes</a>\
     <a href="' + itemUrl + '">Shop</a>\
-    <a href="' + travelUrl + '">Travel</a>\
+    <a href="' + rulesUrl + '">Rules</a>\
   </div>\
 </div>'
 
@@ -30,12 +30,12 @@ element.innerHTML = navContent;
 
 //next page
 let dictionary = {};
-dictionary["travel"] = "delve";
+dictionary["intro"] = "delve";
 dictionary["delve"] = "combat";
 dictionary["combat"] = "mapping";
 dictionary["mapping"] = "cleanup";
-dictionary["cleanup"] = "saves";
-dictionary["saves"] = "roles";
+dictionary["cleanup"] = "travel";
+dictionary["travel"] = "roles";
 dictionary["roles"] = "minigames";
 
 function findKeyByValue(dict, value) {
