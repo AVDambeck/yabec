@@ -377,7 +377,7 @@ let spells = [
 		"level": ["WI1", "WA1"]},
 
 	{"name":"Magic Missile",
-		"desc":"This spell conjures a glowing dart of energy shoots at a target of the caster’s choice. The missile hits unerringly (no attack roll), and can hit a distant target. The missile inflicts 1d6+1 damage.</p><p><strong>Higher level casters:</strong> May conjure more missiles. They may be directed at a the same or different targets.",
+		"desc":"This spell conjures a glowing dart of energy shoots at a target of the caster’s choice. The missile hits unerringly (no attack roll), and can hit a distant target. The missile inflicts 1d6+1 damage.</p><p><strong>Higher level casters:</strong> May conjure more missiles. They may be directed at a the same or different targets. Two additional missiles per five levels of the caster after 1st. i.e. 3 missiles at lv 6, 5 misisiles at level 11",
 		"level": ["WI1", "WA2"]},
 
 	{"name":"Read Languages",
