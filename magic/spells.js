@@ -381,7 +381,7 @@ let spells = [
 		"level": ["WI1", "WA2"]},
 
 	{"name":"Burning Hands",
-		"desc":"This spell conjures a ray of fire. The ray 5' long, 120 degree arc, as thin as a sheet of paper. Creatures in the ray take 3d6 damage, half with a successful physical save."
+		"desc":"This spell conjures a ray of fire. The ray 5' long, 120 degree arc, as thin as a sheet of paper. Creatures in the ray take 3d6 damage, half with a successful physical save.",
 		"level": ["WI2"]},
 
 
