@@ -162,7 +162,7 @@ let spells = [
 
 	{"name":"Detect Magic",
 		"desc":"Enchanted objects, areas, and creatures glow while in the same zone as the caster. If they spend one turn studying a magic object, they learn general details about one of it's affects.</p><p> Lasts until fatigued.",
-		"level": ["CL1", "WI1", "WA1"]},
+		"level": ["WI1", "WA1"]},
 
 	{"name":"Light",
 		"desc":"This spell has three uses:</p><ol>\
@@ -193,7 +193,7 @@ let spells = [
 		"level": ["CL1"]},
 
 	{"name":"Bless",
-		"desc":"Allies who are not yet in battle gain a +1 to damage and loyalty, and -1 to AV.</p><p>Lasts until fatigued.",
+		"desc":"Allies who are not yet in battle gain a +1 to damage and loyalty, and -1 to AV. Their weapons become magical.</p><p>Lasts until fatigued.",
 		"revName":"Blight",
 		"revDesc":"Enemies not yet in battle gain the opposite penalty.",
 		"level": ["CL2"]},
@@ -234,7 +234,7 @@ let spells = [
 
 	{"name":"Augury",
 		"desc":"The cast divines a small amount of knowlage. The caster names or describe a person, place, or object. Three statments come to their mind, 1-2 of which are true.</p><p>If cast on a magic item with a command word, and the caster fails to speak the command word, augury instead reveals a number of random letters from the command word equal to the caster's level.",
-		"level": ["CL2", "WI2"]},
+		"level": ["CL2"]},
 
 	{"name":"Speak with Animals",
 		"desc":"The caster gains the ability to speak with animals. This doesn't make the animals any more friendly or cooperative than normal.</p>\
@@ -288,9 +288,15 @@ let spells = [
 		"revDesc":"The spell instead creates a magical drain, which destroys 50 gallons (or more) of water. It remains for one day or until it destroys the maximum amount of water. Creatures made of water, such as elentals take 1d8 damage per gallon drained.",
 		"level": ["CL4", "DR2"]},
 
-	{"name":"Cure Greater Wound",
+	{"name":"Greater Cure Wound",
 		"desc":"A touched creature heals 2d6+2",
-		"level": ["CL4", "WA5", "DR4"]},
+		"level": ["CL3", "WA5", "DR4", "WA4"]},
+
+	{"name":"Supreme Cure Wound",
+		"desc":"A touched creature heals 4d6+4",
+		"level": ["CL4"]},
+
+
 
 	{"name":"Hold Monster",
 		"desc":"A creature is paralized and incapacitated. Lasts 2 turns per level.</p>\
@@ -380,12 +386,6 @@ let spells = [
 		"desc":"This spell conjures a glowing dart of energy shoots at a target of the caster’s choice. The missile hits unerringly (no attack roll), and can hit a distant target. The missile inflicts 1d6+1 damage.</p><p><strong>Higher level casters:</strong> May conjure more missiles. They may be directed at a the same or different targets. Two additional missiles per five levels of the caster after 1st. i.e. 3 missiles at lv 6, 5 misisiles at level 11",
 		"level": ["WI1", "WA2"]},
 
-	{"name":"Burning Hands",
-		"desc":"This spell conjures a ray of fire. The ray 5' long, 120 degree arc, as thin as a sheet of paper. Creatures in the ray take 3d6 damage, half with a successful physical save.",
-		"level": ["WI2"]},
-
-
-
 	{"name":"Read Languages",
 		"desc":"The caster may understand any written language, including muncane codes, maps, and othjer written instructions. This spell does not grant any ability to speak nor listen to unknown languages.</p><p>Lasts until fatigued.",
 		"revName":"Remove Langages",
@@ -472,7 +472,7 @@ let spells = [
 		"level": ["WI2"]},
 
 	{"name":"Marionette",
-		"desc":"A small wooden doll springs to life while the caster concentrates. The doll is an automoton, which the caster telepathically directs. The doll has 1 HP, an AC of 9, and can't attack. However, it has 1 slot, 3 strength, 3 dexterity, and can move freely within one zone of the caster, even out of sight (the caster must visualize the unseen area, as no new senses are granted).",
+		"desc":"A small wooden doll springs to life while the caster concentrates. The doll is an automoton, which the caster telepathically directs. The doll has 1 HP, an AC of 9, and can't attack. However, it has 1 slot, 3 strength, 3 dexterity, and can move freely within two zones of the caster, even out of sight (the caster must visualize the unseen area, as no new senses are granted).",
 		"level": ["WI2"]},
 
 	{"name":"Clairvoyance",
@@ -511,7 +511,7 @@ let spells = [
 		<p>Any gear the subject is carrying is also rendered invisible. Items dropped or put down by an invisible creature become visible. If the subject attacks or casts a spell, the invisibility is broken, ending the spell.</p>\
 		<p>Light sources are made invisible  the light it casts is unaffected.</p>\
 		<p>Lasts for as long as the caster concentrates</p>",
-		"level": ["WI2"]},
+		"level": ["WI3"]},
 
 	{"name":"Locate Person",
 		"desc":"The caster magically locates a person. The spell has two modes:</p><ul>\
@@ -840,6 +840,28 @@ let spells = [
 		"desc":"The caster gains the ability to speak with stones, including animated statues and earth elementals. This doesn't make the plants any more friendly or cooperative than normal.</p>\
 		<p>Lasts until fatigued.",
 		"level": ["DR5"]},
+
+
+	{"name":"Acid Arrow",
+		"desc":"Conjures a magical arrow, and make a ranged attack against a target. The arrow deals 1d6 damage, and remains in the target for as long as you can concentrate. At the start of each round, the arrow deals an additional 1d6 damage, and you must succeed a constitution check, or have the spell end.",
+		"level": ["WI2", "DR2"]},
+
+	{"name":"Burning Hands",
+		"desc":"This spell conjures a ray of fire. The ray 5' long, 120 degree arc, as thin as a sheet of paper. Creatures in the ray take 3d6 damage, half with a successful physical save.",
+		"level": ["WI2"]},
+
+
+	{"name":"Portant",
+		"desc":'Ask the dungeon master about a specific course of action. The dungeon master describes the likely results of the action as either "wheel" or "woe".',
+		"level": ["CL1", "DR1", "WA1"]},
+
+
+
+	{"name":"Alter Self",
+		"desc":'Modify one aspect of your anatomy, such as gaining fangs, gills, or fur. Lasts until fatigued. ',
+		"level": ["WI2", "DR1", "WA1"]},
+
+
 
 	{"name":"Foo",
 		"desc":"Bar",
