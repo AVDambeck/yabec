@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+	<body>
+		<div id="topnav"></div>
+		<script src="../nav.js"></script>
+		<h1>Battles</h1>
+		<p>This system abstracts armies into forces, and assumes that troop quality, terrain, and luck can affect the outcome of the battle. It also assumes that characters know how to fight; i.e. players to do not need intimate knowlage of war tactics.</p>
+		<p>A force is commanded by a single leader, often a player character. There may be secondary leaders called officers. The rest of the fighting persons are called troops.</p>
+		<h2>Summary</h2>
+		<ol>
+			<li>When a force is assembled, calculate the Force Rating (FR).</li>
+			<!--<li>Before the battle, devide the forces.<li>-->
+			<li>When a battle begins, calculate the Battle Rating (BR).</li>
+			<li>Roll the dice.</li>
+			<li>Apply the combat results.</li>
+		</ol>
+		<h2>Force Rating</h2>
+		<p>Five things affect the force rating: leadership, experience, training, equipment, and magic. Start from zero, and add each bonus to the total.</p>
+		<p>Round down at the end of all the calculation.</p>
+		<ol>
+			<li>Add the level of the leader.</li>
+			<li>If the sum of their intelligence, wisdom, and charisma is at least 40, add +4.</li>
+			<li>If at least 1% of the force is 9th level or higher, asside from the leader, add +2 per 1%.</li>
+			<li>If there is at least one officer per 40 troups, add thrice their average level / HD.</li>
+			<li>Add twice the average level / HD of the troops.</li>
+			<li>Add +1 per victory, and -1 per rout, in the last ten years (max +/-10).</li>
+			<li>Add +1 per week of training this year (max +20).</li>
+			<li>Add 10 if the leader doubles the force's cost to upgrade their weapons.</li>
+			<li>If the troops are at least 90% elves, dwarves, or similar fantastic creatures, add 15.</li>
+			<li>If there are monster troups with two or more special abilities (astrisks), than add 2 for each 1% of the force with two or more special abilities.</li>
+		</ol>
+		<p>Increase the FR by 10% for each of the following:</p>
+		<ol>
+			<li>20% is mounted.</li>
+			<li>50% is mounted.</li>
+			<li>20% is can fire missiles.</li>
+			<li>1% has magic abilities, such as spells, magic items, breath weapon, regeneration, etc.</li>
+			<li>20% has magic abilities.</li>
+			<li>100% has magic abilities.</li>
+			<li>1% can fly.</li>
+			<li>20% can fly.</li>
+		</ol>
+		<!--
+		<h3>Troop class</h3>
+		<table>
+			<tr>
+				<th>FR</th>
+				<th>Title</th>
+			</tr>
+			<tr>
+			<tr>
+				<th>0-50</th>
+				<th>Poor</th>
+			</tr>
+			<tr>
+				<th>51-70</th>
+				<th>Fair</th>
+			</tr>
+				<th>71-80</th>
+				<th>Average</th>
+			</tr>
+			<tr>
+				<th>81-100</th>
+				<th>Good</th>
+			</tr>
+			<tr>
+				<th>101-125</th>
+				<th>Excllent</th>
+			</tr>
+			<tr>
+				<th>&ge;126</th>
+				<th>Elite</th>
+			</tr>
+		</table>
+		
+For you to use the War Machine in a battle,
+each side must have the same number of forces
+or armies. If one side has a greater number of
+forces than the other side, the side with fewer
+forces must be divided into an equal number of
+armies. A player may keep the original rating of
+the force, and simply declare that troops have
+been split into separate armies.
+
+or any other combination, as long as at least 10
+individuals are in each force.
+Each force picks its opponent; the player with
+the force having the highest BR chooses first,
+then the force with the next-highest BR, and so
+on. Continuing the example above, the dwarves
+pick one group of 100 orcs. The next highest
+rated force picks an opponent; the elves take the
+other group of 100 orcs. The third highest rating
+is the orcs, so they would choose next—but there
+is only one remaining force, the men, so the 800
+orcs will fight the 400 men.
+		-->
+		<h2>Calculate the Battle Force</h2>
+		<p>The BF represents the conditions of a particular battle. It is equal to the FR, plus the following bonuses:</p>
+		<ol>
+			<li>If the force outnumbers it's opponet by at least 1.5:1, add 10 times the ratio.</li>
+			<li>If they are in in their dominion, or the dominion of their liege, add 10</li>
+			<li>If they have beaten this foe before, add 10</li>
+			<li>If they are surprised, subtract 30.</li>
+			<li>If an allied or accompanying force has been routed, subtract 10.</li>
+			<li>If on the high ground, add 20.</li>
+			<li>If defending a point, add 10. If defending a narrow defile, pass, or bridge, add 50 instead.</li>
+			<li>If on favored terrain (e.g. dwarves in mountains), add 20.</li>
+			<li>If attacking at night and has infravision, +20.</li>
+			<li>If immune to enemy attacks, add 150. If just 1% is immune to enemey attacks, add 50.</li>
+			<li>If fatigued, subtract 10.</li>
+			<li>If very fatigued, subtract 30.</li>
+		</ol>
+		<h2>Roll the dice</h2>
+		<p>Each side rolls d100 and adds it to their BF. Whosevere total is higher wins the battle.</p>
+		<h2>Battle Results</h2>
+		<p>The difference in the final BFs determines the results. 
+		<table>
+			<tr>
+				<th>Difference</th>
+				<th>Casualties</th>
+				<th>Fatigue</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td></td>
+				<td>W : L</td>
+				<td>W : L</td>
+				<td>W : L</td>
+			</tr>
+			<tr>
+				<td>1-8</td>
+				<td>0 : 10%</td>
+				<td>- : -</td>
+				<td>A : R</td>
+			</tr>
+			<tr>
+				<td>9-15</td>
+				<td>0 : 20%</td>
+				<td>- : -</td>
+				<td>A : R</td>
+			</tr>
+			<tr>
+				<td>16-24</td>
+				<td>10% : 20%</td>
+				<td>- : yes</td>
+				<td>A : R</td>
+			</tr>
+			<tr>
+				<td>25-40</td>
+				<td>20% : 30%</td>
+				<td>yes : very</td>
+				<td>A : R+1</td>
+			</tr>
+			<tr>
+				<td>41-60</td>
+				<td>20% : 40%</td>
+				<td>yes : very</td>
+				<td>A+1 : R+2</td>
+			</tr>
+			<tr>
+				<td>61-80</td>
+				<td>30% : 50%</td>
+				<td>yes : very</td>
+				<td>A+2 : R+3</td>
+			</tr>
+			<tr>
+				<td>81-100</td>
+				<td>20% : 60%</td>
+				<td>yes : Rout</td>
+				<td>A+3 : Rout</td>
+			</tr>
+			<tr>
+				<td>&ge;101</td>
+				<td>10% : 70%</td>
+				<td>- : -</td>
+				<td>A+4 : Rout</td>
+			</tr>
+		</table>
+		<ul>
+			<li>W: Winner</li>
+			<li>L: Loser</li>
+			<li>A: Advance a terrain unit.</li>
+			<li>R: Retreat a terrain unit.</li>
+		</ul>
+		<p>Caualties: First calculate the total number of casualties, round up. Half of them die outright. If retreating, the opposing army can choose to kill, take prisoner, or allow the injured to flee. Any surviving injured can return to action in 1d4 months.</p>
+		<p>Fatigue: a force will remain fatigued for 1d4 days. A very fatigued force will become regular fatigued in 1d4 days. A fatigued force that becomes fatigued has its resting time reset (minimum 1 day extra).</p>
+		<p>Rout: The force seases to exist. Any survivors find their way home 1d10 weeks later.</p>
+		<h2>Siege</h2>
+		<p>When a force dells in a fortress or similar defencive structure, a siege begins. </p>
+		<p>At any time, the defending force can venture from the fortress, and have a normal battle, possibly even catching the attackers by surprise.</p> 
+		<p>At any time, the attacking force can attack the fortress. The defenders have a +100 bonus to BF, but the attacking forcer takes half the casualties.</p>
+		<p>Additionally, each consecutie week of sieging, the defending force gets a cumulitive -5 to FR. If they run out of food or water, they begin accumulating -15.</p>
+	</body>
+</html>
