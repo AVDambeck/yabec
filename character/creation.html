@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>Character Creation</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../style.css">
@@ -9,54 +10,76 @@
 		<div id="topnav"></div>
 		<script src="../nav.js"></script>
 		<h1>Character Creation</h1>
-		<p>Get a sheet of paper, or print out a character sheet, to record all of your cracter's details. Make sure to do so in pencil, as these details change over time. If your character sheet ever gets too messy, you can always copy the info to a fresh paper!</p>
-		<h2>Note IRL Name and Date</h2>
-		<p>Write your name, and todays date.</p>
-		<h2>Ability Scores</h2>
-		<p>Your character has six abilities:</p>
+		<p>Get a sheet of paper, or print out a character sheet, to record all of your character's details. Make sure to do so in pencil, as these details change over time. If your character sheet ever gets too messy, you can always copy the info to a fresh paper!</p>
+		<h2>Profile</h2>
+		<p>Choose a name, <a href="./class/index.html">class</a>, race (human unless your class says otherwise), and <a href="./alignment.html">alignment</a>
+			for your character.</p><br>
+		<p>Note the creator's name (probably your name) and the date they were created.</p>
+		<h3>Stats</h3>
+		<p>Write your current level (1) and max level given by your class. Then write your current EXP (0) and the EXP required to reach the next level.</p><br>
+		<p>Roll 3d6, and multiply the result by 10. Write that you have that many copper pieces (cp).</p>
+		<h3>Ability Scores</h3>
+		<p>Your character has six ability scores:</p>
 		<ol>
-			<li>Strength</li>
-			<li>Dexterity</li>
-			<li>Constitution</li>
-			<li>Intelligence</li>
-			<li>Wisdom</li>
-			<li>Charisma</li>
+			<li>Strength <strong>(STR)</strong></li>
+			<li>Dexterity <strong>(DEX)</strong></li>
+			<li>Constitution <strong>(CON)</strong></li>
+			<li>Intelligence <strong>(INT)</strong></li>
+			<li>Wisdom <strong>(WIS)</strong></li>
+			<li>Charisma <strong>(CHR)</strong></li>
 		</ol>
-		<p>Choose either one of these arrays, and assign them however you like to the six abilities.</p>
+		<p>To determine them, roll 3d6 seven times, and choose six of the resulting values to assign to your ability scores.</p>
+		<p>If you would rather not roll the dice, assign them from one of the following lists of values:</p>
 		<ul>
 			<li>13, 13, 11, 11, 8, 8</li>
 			<li>16, 13, 10, 8, 6, 5</li>
 		</ul>
-		<h3>Optional: Rolling ability scores.</h3>
-		<p>If you wish, you can instead roll 3d6 seven times and use six of them to create a new array.</p>
-		<h2>Choose a Class</h2>
-		<p>There are many classes to choose from. Make sure you meet the requirements for that class. See <a href="class/index.html">Classes</a>. If you are new to the game, we reccomnend <strong>fighter</strong>, <strong>thief</strong>, <strong>cleric</strong>, or <strong>wizard</strong>.</p>
-		<p>Unless you choose a Demihuman class, you are a human.</p>
-		<p>Note the following:</p>
+		<p>Make sure you have the minimum stat requirement to use your class.</p>
+		<h3>Prime Requisites</h3>
+		<ul>
+			<li>If you have at least 13 points in one of your prime requisites, note that you get a 10% EXP boost.</li>
+			<li>If you have at least 18 points in one of your prime requisites OR 13 points in two of your prime requisites, note that you have a 15% EXP boost.</li>
+		</ul>
+		<h2>Stats</h2>
+		<p>Yabec has several stats associated with combat and exploration. Like your ability scores, most of them will improve as your character levels up.</p>
 		<ol>
-			<li>Your HP (health points) is equal to the maximum value of your class's Health Die. (d4=4, d6=6, etc)</li>
-			<li>The types of armor you can use.</li>
-			<li>The types of weapon you can use.</li>
-			<li>If you have 13 or more in your prime requisite, note a 10% xp bonus, or 15% if you have 13 or more in both.</li>
-			<li>Your AV (attack value) is on the progression table. Its ussually 19.</li>
-			<li>Your saving throws scores for physical and magic are on the progression table.  </li>
-			<li>The xp threshold for level 2.</li>
-			<li>Class abilities and skills.</li>
+			<li><strong>Hit Points (HP):</strong>
+			Check your class's hit die. Give yourself an HP and max HP equal to that die (d8 = 8/8HP, etc.)</li>
+			<li><strong>Attack Value (AV):</strong>
+			Give yourself your class's AV for your level (usually 19)</li>
+			<li><strong>Armor Class (AC):</strong>
+			Give yourself 9AC (the base AC for an unarmored character)</li>
+			<li><strong>Armor:</strong>
+			The types of armor you can use, and whether you can use a shield or not.</li>
+			<li><strong>Weapons:</strong>
+			The types of weapons you can use.</li>
+			<li><strong>Saves:</strong>
+			Note your physical (PHYS) and magical (MAGI) saving throws based on your class and level.</li>
+			<li><strong>Class stats:</strong>
+			If your class has any extra stats (like a <strong>Wizard's</strong>
+			spell slots or a <strong>Hollow's</strong>
+			Endurance), note them here.</li>
 		</ol>
-		<h2>Items and money</h2>
-		<p>You start with 3d6x10 cp in your bank account.</p>
-		<p>You have a base of ten item <a href="../rulebook/system/inventory.html">slots</a>. One item per slot, heavy takes double, small items fit 5 per slot. Buy items LINK GOES HERE.</p>
-		<ol>
-			<li>Armor. Note the AC (armor class) score</li>
-			<li>Weapon. Note the damage die and properties</li>
-			<li>Holy symbol or thieves tools (if applicable)</li>
-			<li>Other supplies such as rations, torches, bandages, sacks, rope, pole, spikes</li>
-		</ol>
+		<h3>Minions</h3>
+		<p>Yabec allows PCs to have a certain number of minions (both hirelings and henchmen). See <a href="./minions.html">Hirelings</a>
+			for more details.</p><br>
+		<p>For now, write that you have 4 Renown and 7 Loyalty.</p>
+		<h2>Skills</h2>
+		<p>Note the skills provided by your class.</p>
+		<h3>Locked Skills</h3>
+		<p>Optionally, note the skills you haven't unlocked yet but are planning to/are guaranteed to unlock in the coming levels.</p>
+		<h3>Languages</h3>
+		<p>Note the languages you can speak based on your class and alignment.</p>
+		<h2>Inventory</h2>
+		<p>Give yourself 10 inventory slots, and any starter items provided to you by your class.</p>
 		<h2>Ability Score Bonuses</h2>
-		<p>Factor in the bonuses, or penalties, from your ability scores.</p>
+		<p>Factor in the bonuses or penalties to your stats from your ability scores.</p>
+		<p>It is recommended to write your boosts next to the base value of your stat to avoid applying them multiple times.</p>
 		<h3>Strength</h3>
-		<p><b>Attack:</b> Bonus to AV.</p>
-		<p><b>Damage:</b> Bonus to melee weapon damage.</p>
+		<p><b>Attack:</b>
+		Bonus to AV.</p>
+		<p><b>Damage:</b>
+		Bonus to melee weapon damage.</p>
 		<table>
 			<thead>
 				<tr>
@@ -104,7 +127,8 @@
 			</tbody>
 		</table>
 		<h3>Dexterity</h3>
-		<p><b>Armor:</b> Bonus to AC.</p>
+		<p><b>Armor:</b>
+		Bonus to AC.</p>
 		<table>
 			<thead>
 				<tr>
@@ -144,8 +168,10 @@
 			</tbody>
 		</table>
 		<h3>Constitution</h3>
-		<p><b>Health:</b> Bonus HP. Apply each level.</p>
-		<p><b>Slots:</b> Bonus item <em>slots</em>.</p>
+		<p><b>Health:</b>
+		Bonus HP. Apply each level.</p>
+		<p><b>Slots:</b>
+		Bonus item <em>slots</em>.</p>
 		<table>
 			<thead>
 				<tr>
@@ -157,17 +183,17 @@
 			<tbody>
 				<tr>
 					<td>3</td>
-					<td>-3</td>
+					<td>-3*LVL</td>
 					<td>-3</td>
 				</tr>
 				<tr>
 					<td>4-5</td>
-					<td>-2</td>
+					<td>-2*LVL</td>
 					<td>-2</td>
 				</tr>
 				<tr>
 					<td>6-8</td>
-					<td>-1</td>
+					<td>-1*LVL</td>
 					<td>-1</td>
 				</tr>
 				<tr>
@@ -177,23 +203,25 @@
 				</tr>
 				<tr>
 					<td>13-15</td>
-					<td>+1</td>
+					<td>+1*LVL</td>
 					<td>+1</td>
 				</tr>
 				<tr>
 					<td>16-17</td>
-					<td>+2</td>
+					<td>+2*LVL</td>
 					<td>+2</td>
 				</tr>
 				<tr>
 					<td>18</td>
-					<td>+3</td>
+					<td>+3*LVL</td>
 					<td>+3</td>
 				</tr>
 			</tbody>
 		</table>
 		<h3>Intelligence</h3>
-		<p><b>Language:</b> Number of langugages known, in addition to those from your class.</p>
+		<p><b>Language:</b>
+		Number of langugages known, in addition to those from your class. See <a href="./languages.html">Languages</a>
+		for a list of languages, and consult with your party to see what languages would be helpful to learn.</p>
 		<table>
 			<thead>
 				<tr>
@@ -233,7 +261,8 @@
 			</tbody>
 		</table>
 		<h3>Wisdom</h3>
-		<p><b>Bandage:</b> Bonus healing when applying a bandage.</p>
+		<p><b>Bandage:</b>
+		Bonus healing when applying a bandage.</p>
 		<table>
 			<thead>
 				<tr>
@@ -273,9 +302,12 @@
 			</tbody>
 		</table>
 		<h3>Charisma</h3>
-		<p><b>Reaction:</b> Applies to monster reaction rolls.</p>
-		<p><b>Renown:</b> Maximum number of hierlings, animals, and other retainers.</p>
-		<p><b>Loyalty:</b> Starting loyalty of hirelings. </p>
+		<p><b>Reaction:</b>
+		Applies to monster reaction rolls.</p>
+		<p><b>Renown:</b>
+		Maximum number of minions.</p>
+		<p><b>Loyalty:</b>
+		Starting loyalty of minions.</p>
 		<table>
 			<thead>
 				<tr>
@@ -330,81 +362,9 @@
 				</tr>
 			</tbody>
 		</table>
-		<h2>Alignment</h2>
-		<p>Choose whether you are  Lawful, Neutral, or Chaotic. This impacts spellcasting and roleplay. Note that some classes have restrictions on which alignment they can be.</p>
-		<p>Beneath the surface of everyday life, two primeval forces mingle. Their servants see a cosmic harmony permieating the plane, or see only probibilities. </p>
-		<h3>Magic</h3>
-		<p>Magic affects creatures differently depending on alignment. Divine spellcastes need to be especially aware of their alignment; lawful casters may upset their diety by casting reversed spells, and vice versa. See LINKKKK for more details.</p>
-		<h3>Alignment Language</h3>
-		<p>Creatures automatically recognize a certain set of gestures, signs, and code words, pertaining to their alignment. This allows creatures of common alignment a measure of communication.</p>
-		<p>Creatures of a different alignment are likely to recognize an alignment language being spoken, but will not understand its content.</p>
-		<h3>Revealing Alignment</h3>
-		<p>Players must reveal their alignment to the dungeon master, but are not required to reveal to each other. </p>
-		<h3>Role Playing Alignment</h3>
-		<p>If the character acts too far out of their alignment, the referee may require them to change their alignment and suffer a penalty.</p>
-		<h3>Changing Alignment</h3>
-		<p>When changing alignment from Lawful or Chaotic, characters loose 10% of their xp.</p>
 		<h2>Complete!</h2>
-		<p>If desired, you can name your character. Otherwise, you're done!</p>
-		<h1>Extra Languages</h1>
-		<table>
-			<tr>
-				<th>dx</th>
-				<th>Language</th>
-				<th>Typical Speakers</th>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>Haddat (Orcish Telerin)</td>
-				<td>Orcs, many goblins, ogres, and bugbears</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Low Elvish (Common Telerin)</td>
-				<td>Elves</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>High Elvish (Quenya)</td>
-				<td>Elves, human nobles</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>Ceremonial (Ecclisiastical Latin)</td>
-				<td>Clergy, angels, lawful spirits</td>
-			</tr>
-			<tr>
-				<td>5</td>
-				<td>Diabolic</td>
-				<td>Cultists, chaotic spirits</td>
-			</tr>
-			<tr>
-				<td>6</td>
-				<td>Dwarvish (Khuzdul)</td>
-				<td>Dwarves</td>
-			</tr>
-			<tr>
-				<td>7</td>
-				<td>Gnomish</td>
-				<td>Gnomes</td>
-			</tr>
-			<tr>
-				<td>8</td>
-				<td>Fallen Elvish (Abban)</td>
-				<td>Drow, underdark creatures</td>
-			</tr>
-			<tr>
-				<td>9</td>
-				<td>Sylvan</td>
-				<td>Fey creatures, druids, some elves</td>
-			</tr>
-			<tr>
-				<td>10</td>
-				<td>Gabulgok</td>
-				<td>Some monsters</td>
-			</tr>
-		</table>
-
+		<p>Congratulations! You've created your character! Introduce them to the rest of your party.</p><br>
+		<p>To finish getting ready for adventuring, head over to the <a href="./items.html">shop</a>
+			to buy gear and minions, sort out any class-specific setup things, and think about your character's personality. Happy adventuring!</p>
 	</body>
 </html>
-
