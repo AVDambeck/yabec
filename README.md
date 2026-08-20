@@ -16,7 +16,7 @@ What kind of system is yabec? what can you expect?
 - b/x math, using descending armor class, and dodge rolls
 - relative distances and zones for theater of the mind
 - hazard die
-- player roles (like scorekeeper, mapper, scribe, etc)
+- many optional rules to customize your specific table
 
 # Liscensing
 I've always intended Yabec to be FOSS, I just haven't picked out a share-alike license yet. Ask me, or idk, its a git repo; i cant stop you.
