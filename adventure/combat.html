@@ -10,10 +10,11 @@
 		<div id="topnav"></div>
 		<script src="../nav.js"></script>
 		<h1>Combat</h1>
-		<h2>Actions</h2>
+		<p>Combat is one of the primary ways to gain experience, and is inevitable for those who choose to dungeon delve.</p>
+		<h2 id=actions>Actions</h2>
 		<ol>
-			<li><strong>Move and Attack:</strong>
-			In any order, make an attack with a weapon, and move within or to an adjacent zone.</li>
+			<li><strong>Attack:</strong>
+			Do either or both in any order: make an attack with a weapon, move to an adjacent zone.</li>
 			<li><strong>Run:</strong>
 			Move two zones.</li>
 			<li><strong>Focus:</strong>
@@ -21,10 +22,10 @@
 			<li><strong>Magic:</strong>
 			Cast a spell or use a magic item. See Magic. You must not have taken damage this round
 			in order to cast a spell.</li>
-			<li><strong>Ready:</strong>
-			Prepare to attack, move, or stunt if a stated occurrence.</li>
 			<li><strong>Stunts:</strong>
-			Other maneuvers are stunts. See below.</li>
+			Creative maneuvers. See below.</li>
+			<li><strong>Standby:</strong>
+			Do nothing; alternatively, prepare or recover from another action.</li>
 		</ol>
 
 		<h2>Stunts</h2>
@@ -47,6 +48,7 @@
 			Become prone. If the enemy fails a <strong>STR</strong>
 			check, an enemy is also prone.</li>
 		</ul>
+
 		<h2>Attacking</h2>
 		<p>Melee attacks have a range of touch. Ranged attacks have a range of distant (i.e. in adjacent zones or closer).</p>
 		<h3>Statistics</h3>
@@ -54,13 +56,14 @@
 		<p>The Attack Value (AV), also called THAC0, is how likely an attack is to miss.</p>
 		<p>Lower AC and AV are better.</p>
 		<p>The Dungeon Master might either announce the result of the attack, or tell you the AC/AV so you can announce it yourself.</p>
+
 		<h2>Damage</h2>
 		<p>Damage represents injury, exhaustion, and wear. Yabec uses a damage up system, meaning instead of losing HP, you gain damage.</p>
 		<p>You cannot have more damage than you have HP.</p>
 		<h3>Slain</h3>
 		<p>When a creature has damage equal to its HP, it is slain.</p>
 		<p>Slain hirelings and ordinary monsters instantly die.</p>
-		<p>Slain PCs and powerful monsters are near death. See below.</p>
+		<p>Slain PCs and powerful monsters are <a href="#neardeath">near death</a>.</p>
 		<p>If a creature is slain with a blunt weapon, they can be left non-lethally incapacitated until a shift.</p>
 		<p>Creatures slain with non-blunt weapons bleed out within minutes.</p>
 		<p>If slain by fire or explosion, all items are destroyed and death is instant. Magic items have a chance of miraculously surviving.</p>
@@ -84,7 +87,31 @@
 		<p>Bandages can be used to remove damage.</p>
 		<p>To heal, make an intelligence check. If you succeed, heal the target 1d6, plus a bonus from your <strong>WIS.</strong></p>
 		<p>You may bandage yourself, and bandages cannot be reused.</p>
-		<h2>Near Death</h2>
+
+		<h2 id=conditions>Conditions</h2>
+		<h3>Prone</h3>
+		<p>Attacks against prone creatures have advantage. A creature is prone until it uses a Standby action to stand up.</p>
+		<h3>Grappled</h3>
+		<p>When two or more combatants begin grappling, they can not move, nor stand up from prone.</p>
+		<h3>Incapacitated</h3>
+		<p>Attacks against an incapacitated creature hit automatically. An incapacitated creature is unable to move or take other actions.</p>
+		<h3>Restrained</h3>
+		<p>A creature restained by rope, manacles, or a hold spell is incapacitated. If restrained by mundane forces, a creature can attempt to break out of it.</p>
+		<h3>Turned</h3>
+		<p>A turned creature is overcome with fear, cowering when unable to flee.</p>
+		<h3>Blind</h3>
+		<p>A creature who is unable to perceive their surroundings.</p>
+		<ul>
+			<li>make all attacks, checks, and saves with disadvantage</li>
+			<li>are always hit by attacks</li>
+		</ul>
+
+		<h2>Exhaustion</h2>
+		<p>At the end of the 9th round, and each round
+			after, all creatures still involved in the combat
+			take 1 damage.</p>
+
+		<h2 id=neardeath>Near Death</h2>
 		<p>Characters that are near death:</p>
 		<ul>
 			<li>Can not move, take any actions, use spells, or use magic items.</li>
@@ -159,23 +186,6 @@
 			<li>last remaining is bloodied (half HP)</li>
 		</ul>
 		<p>The dungeon master rolls 2d6. The check fails if the result is greater than their morale / loyalty score. They surrender or flee.</p>
-
-		<h2>Conditions</h2>
-		<h3>Prone</h3>
-		<p>Attacks against prone creatures have advantage. A creature is prone until it uses it's action to stand up.</p>
-		<h3>Grappled</h3>
-		<p>When two or more combatants begin grappling, they can not move, nor stand up from prone.</p>
-		<h3>Incapacitated</h3>
-		<p>Attacks against an incapacitated creature hit automatically. An incapacitated creature is unable to move or take other actions.</p>
-		<h3>Restrained</h3>
-		<p>A creature restained by rope, manacles, or a hold spell is incapacitated. If restrained by mundane forces, a creature can attempt to break out of it.</p>
-		<h3>Turned</h3>
-		<p>A turned creature is overcome with fear, cowering when unable to flee.</p>
-
-		<h2>Exhaustion</h2>
-		<p>At the end of the 9th round, and each round
-			after, all creatures still involved in the combat
-			take 1 damage.</p>
 
 		<h2>Miscellaneous</h2>
 		<h3>Difficult Terrain</h3>
