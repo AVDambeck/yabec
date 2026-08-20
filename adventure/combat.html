@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-
 <html lang="en">
 	<head>
+		<title>Combat</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../style.css">
@@ -12,78 +12,95 @@
 		<h1>Combat</h1>
 		<h2>Actions</h2>
 		<ol>
-			<li><strong>Move and Attack:</strong> In any order, make an <em>attack</em> with a weapon, and move within or to an adjacent <em>zone</em>.</li>
-			<li><strong>Run:</strong> Move two <em>zones</em>.</li>
-			<li><strong>Focus:</strong> Until the end of the next <em>round</em>, you have <em>advantage</em> on <em>dodges</em>, <em>saves</em>, <em>attacks</em>, and <em>checks</em>.</li>
-			<li><strong>Magic:</strong> Cast a spell or use a magic item. See Magic. You must not have taken damage this <em>round</em> in order to cast a spell.</li>
-			<li><strong>Ready:</strong> Prepare to attack, move, or stunt if a stated occerence.</li>
-			<li><strong>Stunts:</strong> Other maneuvers are stunts. See below. </li>
+			<li><strong>Move and Attack:</strong>
+			In any order, make an attack with a weapon, and move within or to an adjacent zone.</li>
+			<li><strong>Run:</strong>
+			Move two zones.</li>
+			<li><strong>Focus:</strong>
+			Until the end of the next round, you have advantage on dodges, saves, attacks, and checks.</li>
+			<li><strong>Magic:</strong>
+			Cast a spell or use a magic item. See Magic. You must not have taken damage this round
+			in order to cast a spell.</li>
+			<li><strong>Ready:</strong>
+			Prepare to attack, move, or stunt if a stated occurrence.</li>
+			<li><strong>Stunts:</strong>
+			Other maneuvers are stunts. See below.</li>
 		</ol>
 
 		<h2>Stunts</h2>
-		<p>the idea of <em>stunts</em> encompasses grappling, tripping, and any other kind of creative option. <em>Stunts</em> may not cause damage directly, but can do about anything else.</p>
-		<p>How <em>stunts</em> are resolved is up to the dungeon master. These are provided as examples.</p>
+		<p>Stunts are grappling, tripping, or any other kind of creative option. Stunts may not cause damage directly, but can do about anything else.</p>
+		<p>How stunts are resolved is up to the dungeon master. These are provided as examples.</p>
 		<ul>
-			<li><strong>Shove:</strong> a <em>hit</em> has a 3-in-6 chance of moving an enemy.</li>
-			<li><strong>Flinch:</strong> a <em>hit</em> allows creatures to move through the target's space.</li>
-			<li><strong>Sunder:</strong> a <em>hit</em> deals 1d4-1 damage to the weapon or armor.</li>
-			<li><strong>Disarm:</strong> a <em>hit</em> grants a <em>dexterity check</em> to disarm an enemy.</li>
-			<li><strong>Intimidation:</strong> with a creative threat, and successful <em>charisma check</em>, force enemies to make a <em>moral check</em>.</li>
-			<li><strong>Wrestle:</strong> Become prone. With a suceesful strength check, an enemy is also prone.</li>
+			<li><strong>Shove:</strong>
+			On hit, 3-in-6 chance of moving an enemy.</li>
+			<li><strong>Flinch:</strong>
+			On hit, allows creatures to move through the target's space.</li>
+			<li><strong>Sunder:</strong>
+			On hit, deals 1d4 - 1 damage to the weapon or armor.</li>
+			<li><strong>Disarm:</strong>
+			on hit, disarm an enemy if they fail a <strong>DEX</strong>
+			check.</li>
+			<li><strong>Intimidation:</strong>
+			With a creative threat, and successful <strong>CHA</strong>
+			check, force enemies to make a morale check.</li>
+			<li><strong>Wrestle:</strong>
+			Become prone. If the enemy fails a <strong>STR</strong>
+			check, an enemy is also prone.</li>
 		</ul>
 		<h2>Attacking</h2>
-
-		<p><em>Melee attacks</em> have a range of <em>touch</em>. <em>ranged attacks</em> have a range <em>distant</em> (i.e. in adjacent <em>zones</em> or closer).</p>
+		<p>Melee attacks have a range of touch. Ranged attacks have a range of distant (i.e. in adjacent zones or closer).</p>
 		<h3>Statistics</h3>
 		<p>The Armor Class (AC) is how likely a target is to be hit. The base armor class of an unarmored character is 9.</p>
 		<p>The Attack Value (AV), also called THAC0, is how likely an attack is to miss.</p>
 		<p>Lower AC and AV are better.</p>
-		<p>The Dungeon Master might either announce the result of the <em>attack</em>, or tell you the AC/AV so you can announce it yourself.</p>
+		<p>The Dungeon Master might either announce the result of the attack, or tell you the AC/AV so you can announce it yourself.</p>
 		<h2>Damage</h2>
-		<p><em>Damage</em> represents injury, exhaustion, and wear. </p>
+		<p>Damage represents injury, exhaustion, and wear. Yabec uses a damage up system, meaning instead of losing HP, you gain damage.</p>
+		<p>You cannot have more damage than you have HP.</p>
 		<h3>Slain</h3>
-		<p>When a creature takes <em>damage</em> equal to or greater tan its HP, it is <em>slain</em>,
-		<em>Slain</em> hirelings and <em>ordinary</em> monsters instantly die.
-		<em>Slain</em> PCs and <em>powerful</em> monsters are <em>near death</em>. See below.</p>
-		<p>If a creature is <em>slain</em> with a blunt weapon, they can be left non-leathally incapacitated until a <em>shift</em>. Creatures slain with non-blunt weapons bleed out within minutes.</p>
-		<p>If <em>slain</em> by fire, or explosion, items are destroyed, and PCs and <em>powerful</em> monsters instantly die. Magic items have a chance of miraculously surviving.</p>
+		<p>When a creature has damage equal to its HP, it is slain.</p>
+		<p>Slain hirelings and ordinary monsters instantly die.</p>
+		<p>Slain PCs and powerful monsters are near death. See below.</p>
+		<p>If a creature is slain with a blunt weapon, they can be left non-lethally incapacitated until a shift.</p>
+		<p>Creatures slain with non-blunt weapons bleed out within minutes.</p>
+		<p>If slain by fire or explosion, all items are destroyed and death is instant. Magic items have a chance of miraculously surviving.</p>
 		<!--<h3>Item Damage</h3>
-		<p>Items with four or more <em>damage</em> break completely. Magic items are immune to <em>damage</em>.</p>
-		<p>Each point of <em>damage</em> incurs a penalty:</p>
-		<ul>
+			<p>Items with four or more <em>damage</em> break completely. Magic items are immune to <em>damage</em>.</p>
+			<p>Each point of <em>damage</em> incurs a penalty:</p>
+			<ul>
 			<li><b>Weapons:</b> -1 to damage rolls.</li>
 			<li><b>Armor:</b> +1 to AC.</li>
 			<li><b>Other:</b> -1 to any rolls made with it.</li>
-		</ul>
-		<p>Dwarves are able to repair items as <em>downtime</em>. </p>
+			</ul>
+			<p>Dwarves are able to repair items as <em>downtime</em>. </p>
 		-->
 
 		<h2>Healing</h2>
-		<p><em>Healing</em> removes <em>damage</em>.</p>
+		<p>Healing removes damage.</p>
 		<h3>Magical Healing</h3>
 		<p>Magic potions or spells can provide instantaneous healing.</p>
-		<p>When magically <em>healing</em> a <em>near death</em> character, they <em>dismember</em> with advantage.</p>
+		<p>When magically healing a near death character, they dismember with advantage.</p>
 		<h3>Bandage</h3>
-		<p>Bandages can be used to gain some healing. Make an <em>intelligence</em> check. If you succeed, <em>heal</em> the target 1d6, plus a bonus from your <em>wisdom</em>. See <em>ability scores</em>. You may bandage yourself.</p>
-		<p>Bandaging consumes a bandage. Once you are bandaged, you can not be bandaged again until you are <em>damaged</em>.</p>
-
-
+		<p>Bandages can be used to remove damage.</p>
+		<p>To heal, make an intelligence check. If you succeed, heal the target 1d6, plus a bonus from your <strong>WIS.</strong></p>
+		<p>You may bandage yourself, and bandages cannot be reused.</p>
 		<h2>Near Death</h2>
-		<p>Characters that are <em>near death</em>:</p>
+		<p>Characters that are near death:</p>
 		<ul>
 			<li>Can not move, take any actions, use spells, or use magic items.</li>
-			<li>Die during a <em>shift<em>.</li>
-			<li>Are automatically <em>hit<em> by all <em>attacks</em>.</li>
-			<li>If they would take damage, they instead <em>dismemberment</em>.</li>
-			<li>If they would be healed, they instead <em>dismemberment</em>. Then, if they survive, they stop being <em>near death</em> and heal 1. If healed by magic, they <em>dismember</em> with <em>advantage</em>.</li>
+			<li>Die during a shift.</li>
+			<li>Are automatically hit by all attacks.</li>
+			<li>If they would take damage, they instead dismember.</li>
+			<li>If they would be healed, they instead dismember. Then, if they survive, they stop being near death and heal 1 damage. If healed by magic, they dismember with advantage.</li>
 		</ul>
-		<h3>Dismemberment</h3>
-		<p>Every dismemberment carries a chance of death. Roll a d100, and subtract <em>constitution</em> score. Reference the table.</p>
+		<h3>Dismembering</h3>
+		<p>Every dismember carries a chance of death. Roll a d100, and subtract <strong>CON.</strong>
+			Reference the table.</p>
 		<table>
 			<thead>
 				<tr>
 					<th>Result</th>
-					<th>Dismemberment</th>
+					<th>Dismember</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -93,129 +110,142 @@
 				</tr>
 				<tr>
 					<td>65-70</td>
-					<td>Mostly dead: Until fully healed, you can only be <em>healed</em> magically.</td>
+					<td>Mostly dead: Until fully healed, you can only be healed
+						magically.</td>
 				</tr>
 				<tr>
 					<td>51-65</td>
-					<td>Terrible Scar: -1d4 charisma, -1d4 HP.</td>
+					<td>Terrible Scar: -1d4 CHA, -1d4 HP.</td>
 				</tr>
 				<tr>
 					<td>45-50</td>
-					<td>Lost arm: Can't use two-handed weapons nor shields. Loosing a third arm is fatal.</td>
+					<td>Lost arm: Can't use two-handed weapons nor shields. Losing a third arm is fatal.</td>
 				</tr>
 				<tr>
 					<td>36-40</td>
-					<td>Lost eye: If you loose both eyes, you are blind. Loosing a third eye is fetal.</td>
+					<td>Lost eye: If you lose both eyes, you are blind. Losing a third eye is fatal.</td>
 				</tr>
 				<tr>
 					<td>31-35</td>
-					<td>Concussion: -1d4 <em>wisdom</em> and <em>intelligence</em></td>
+					<td>Concussion: -1d4 wisdom
+						and intelligence</td>
 				</tr>
 				<tr>
 					<td>26-30</td>
-					<td>Torn muscle: -1d4 <em>dexterity</em></td>
+					<td>Torn muscle: -1d4 DEX</td>
 				</tr>
 				<tr>
 					<td>21-25</td>
-					<td>Bone fracture: -1d4 <em>strength</em></td>
+					<td>Bone fracture: -1d4 STR</td>
 				</tr>
 				<tr>
 					<td>11-20</td>
-					<td>Broken rib: -1d4 <em>constitution</em></td>
+					<td>Broken rib: -1d4 CON</td>
 				</tr>
 
 				<tr>
 					<td>&lt;=10</td>
-					<td>Miraculously Unharmed</td>
+					<td>Miraculously unharmed!</td>
 				</tr>
 			</tbody>
 		</table>
 
-
-		<h2>Moral</h2>
-		<p>Monsters, and minions might have the moral broken. They check their moral when:</p>
+		<h2>Morale</h2>
+		<p>Monsters and hirelings might have the morale broken. They check their morale when:</p>
 		<ul>
 			<li>first death on their side</li>
 			<li>leader killed</li>
-			<li>group reduced by half.</li>
-			<li>Last remaining is bloodied.</li>
+			<li>group reduced by half</li>
+			<li>last remaining is bloodied (half HP)</li>
 		</ul>
-		<p>The dungeon master rolls 2d6. The check fails if the result is greater than their moral / loyalty score. They surrender or flee.</li>
+		<p>The dungeon master rolls 2d6. The check fails if the result is greater than their morale / loyalty score. They surrender or flee.</p>
 
-	<h2>Conditions</h2>
-	<h3>Prone</h3>
-	<p>Attacks against prone creatures have advantage. A creature is prone until it uses it's action to stand up.</p>
-	<h3>Grappled</h3>
-	<p>When two or more combatants begin grappling, they can not move, nor stand up from prone.</p>
-	<h3>Restrained</h3>
-	<p>A creature restained by rope, manacles, or a hold spell is incapacitated. If restrained by mundane forces, a creature can attempt to break out of it.</p>
-	<h3>Turned</h3>
-	<p>A turned creature is overcome with fear, cowaring when unable to flee.</p>
-	<h3>Incapacitated</h3>
-	<p>Attacks against an incapacitated creature hit automatically. An incapacitated creature is unable to move or take other actions.</p>
+		<h2>Conditions</h2>
+		<h3>Prone</h3>
+		<p>Attacks against prone creatures have advantage. A creature is prone until it uses it's action to stand up.</p>
+		<h3>Grappled</h3>
+		<p>When two or more combatants begin grappling, they can not move, nor stand up from prone.</p>
+		<h3>Incapacitated</h3>
+		<p>Attacks against an incapacitated creature hit automatically. An incapacitated creature is unable to move or take other actions.</p>
+		<h3>Restrained</h3>
+		<p>A creature restained by rope, manacles, or a hold spell is incapacitated. If restrained by mundane forces, a creature can attempt to break out of it.</p>
+		<h3>Turned</h3>
+		<p>A turned creature is overcome with fear, cowering when unable to flee.</p>
 
-	<h2>Exhaustion</h2>
-	<p>At the end of the 9th <em>round</em>, and each <em>round</em> after, all creatures still involved in the <em>combat</em> take 1 damage.</p>
+		<h2>Exhaustion</h2>
+		<p>At the end of the 9th round, and each round
+			after, all creatures still involved in the combat
+			take 1 damage.</p>
 
-
-	<h2>Miscellaneous</h2>
-	<h3>Difficult Terrain</h3>
-	<p>The first attempt to move out of difficult terrain fails. i.e. it takes two <em>moves</em> to pass through.</p>
-	<h3>Flanking</h3>
-	<p>In melee, if one side surrounds the other, the surrounded side has a +4 penalty to AC. </p>
-	<h3>Friendly Fire</h3>
-	<p>When a ranged attack <em>misses</em>, players make a <em>dexterity check</em> to void hitting an ally. Monsters and minons have a 3-in-6 chance.</p>
-	<h3>Mapping</h3>
-	<p>During combat, it's possible to reference a map, but adding to a map is impossible. </p>
-	<h2>Variant: Rolless Combat</h2>
-	<p>This alternate combat system doesn't use attack rolls or armor class. The feel of the combat will be different, and may be more appropiot for single combat. It can also be applied asymetrically. i.e. players make dodge rolls but not attack rolls.</p>
-	<h3>Armor</h3>
-	<p>Armor prevents some damage. Consult the table below to determine how much damage can be prevented each combat.</p>>
-	<table>
-		<tr>
-			<th>AC</th>
-			<th>Damage</th>
-		</tr>
-		<tr>
-			<td>&#8805;8</td>
-			<td>2</td>
-		</tr>
-		<tr>
-			<td>7</td>
-			<td>4</td>
-		</tr>
-		<tr>
-			<td>5-6</td>
-			<td>6</td>
-		</tr>
-		<tr>
-			<td>3-4</td>
-			<td>8</td>
-		</tr>
-		<tr>
-			<td>1-2</td>
-			<td>12</td>
-		</tr>
-		<tr>
-			<td>&#8804;0</td>
-			<td>16</td>
-		</tr>
-	</table>
-	<h3>Attack Value</h3>
-	<p>Combatants with an AV of 15 or less deal +1 damage, with 11 or less deal +2, and with 20 or greater deal -1.</p>
-	<h3>Attack Targets</h3>
-	<p>When making a weapon attack, the attacker chooses a target. Attacks against the torso always hit. Attacks against another target require one or more ability checks to hit, but have additional effects.</p>
-	<ul>
-		<li><strong>Torso:</strong> garunteed hit.</li>
-		<li><strong>Leg:</strong> Requires a strength check. The attack also trips the opponet.</li>
-		<li><strong>Gut:</strong> Requires a strength check. The attack deals an extra d8 damage.</li>
-		<li><strong>Weapon:</strong> Requires an intellegence check. The opponet deals 4 less damage on their next attack.</li>
-		<li><strong>Hand:</strong> Requires a dexterity and intellegence check. The attack also disarms the opponet.</li>
-	</ul>
-	<h3>Object Interactions</h3>
-	<p>Each round, combatants have one object interaction, which they can use to pick or draw a weapon, drink a potion, stand up from the ground, or similar.</p>
-	<h3>Magic Attacks</h3>
-	<p>Instead of an attack roll, touch spells require a successful dexterity or strength check.</p>
-			
-
-	</body></html>
+		<h2>Miscellaneous</h2>
+		<h3>Difficult Terrain</h3>
+		<p>The first attempt to move out of difficult terrain fails. i.e. it takes two moves
+			to pass through.</p>
+		<h3>Flanking</h3>
+		<p>In melee, if one side surrounds the other, the surrounded side has a +4 penalty to AC.</p>
+		<h3>Friendly Fire</h3>
+		<p>When a ranged attack misses, players make a dexterity check
+			to void hitting an ally. Monsters and hirelings have a 3-in-6 chance.</p>
+		<h3>Mapping</h3>
+		<p>During combat, it's possible to reference a map, but adding to a map is impossible.</p>
+		<h2>Variant: Rolless Combat</h2>
+		<p>This alternate combat system doesn't use attack rolls or armor class. The feel of the combat will be different, and may be more appropriate for single combat. It can also be applied asymetrically. i.e. players make dodge rolls but not attack rolls.</p>
+		<h3>Armor</h3>
+		<p>Armor prevents some damage. Consult the table below to determine how much damage can be prevented each combat.</p>
+		<table>
+			<tr>
+				<th>AC</th>
+				<th>Damage</th>
+			</tr>
+			<tr>
+				<td>&#8805;8</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>5-6</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>3-4</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>1-2</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<td>&#8804;0</td>
+				<td>16</td>
+			</tr>
+		</table>
+		<h3>Attack Value</h3>
+		<p>Combatants with an AV of 15 or less deal +1 damage, with 11 or less deal +2, and with 20 or greater deal -1.</p>
+		<h3>Attack Targets</h3>
+		<p>When making a weapon attack, the attacker chooses a target. Attacks against the torso always hit. Attacks against another target require one or more ability checks to hit, but have additional effects.</p>
+		<ul>
+			<li><strong>Torso:</strong>
+			guaranteed hit.</li>
+			<li><strong>Leg:</strong>
+			Requires a <strong>STR</strong>
+			check. The attack also trips the opponent.</li>
+			<li><strong>Gut:</strong>
+			Requires a <strong>STR</strong>
+			check. The attack deals an extra d8 damage.</li>
+			<li><strong>Weapon:</strong>
+			Requires an <strong>INT</strong>
+			check. The opponent deals 4 less damage on their next attack.</li>
+			<li><strong>Hand:</strong>
+			Requires a <strong>DEX</strong>
+			and <strong>INT</strong>
+			check. The attack also disarms the opponent.</li>
+		</ul>
+		<h3>Object Interactions</h3>
+		<p>Each round, combatants have one object interaction, which they can use to pick or draw a weapon, drink a potion, stand up from the ground, or similar.</p>
+		<h3>Magic Attacks</h3>
+		<p>Instead of an attack roll, touch spells require a successful dexterity or strength check.</p>
+	</body>
+</html>
