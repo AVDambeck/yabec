@@ -10,7 +10,7 @@
 		<div id="topnav"></div>
 		<script src="../nav.js"></script>
 		<h1>Shop</h1>
-		<p>All costs are in copper pieces (cp)</p>
+		<p>All costs are in copper pieces (cp).</p>
 		<h2>Sections</h2>
 		<ul class="columns">
 			<li><a href="#properties">Properties</a></li>
@@ -32,23 +32,23 @@
 			Makes ranged attacks. Consumes ammo.</li>
 			<li><strong>Reach:</strong>
 			Melee attacks at close range, and able to reach through allies.</li>
-			<li><strong>Heavy:</strong>
-			Takes two slots, and requires two hands to use.</li>
 			<li><strong>Melee:</strong>
 			Can be used to make melee attacks.</li>
 			<li><strong>Small:</strong>
-			Stacks five to a slot.</li>
+			Takes up 20% of an inventory slot. Can be mixed (for example, you can carry 2 sling stones, 2 rations, and a whistle in one inventory slot).</li>
+			<li><strong>Heavy:</strong>
+			Takes up two inventory slots, and requires two hands to use.</li>
 			<li><strong>Slow:</strong>
 			Use only every other turn. After making an attack, the next round, your next action is used either to reload, or handle the follow through of the weapon. There is one exception: you may drop the slow weapon, draw a <strong>Small</strong>
 			weapon, and make an attack with it.</li>
 			<li><strong>Splash:</strong>
 			Damages many targets in an area.</li>
 			<li><strong>Thrown:</strong>
-			Throw the item to deal damage or otherwise trigger its effect. Can be recollected after being thrown quickly if not destroyed or otherwise impeded.</li>
-			<li><strong>Blessed (+1, +2, or +3):</strong>
-			Grants bonus to AV and damage, and allows you to hit magical enemies.</li>
-			<li><strong>Cursed (-1, -2, or -3):</strong>
-			Cancels out blessing, and adds penalty to AV and damage.</li>
+			Throw the item to deal damage or otherwise trigger its effect. Can be quickly recovered after being thrown.</li>
+			<li><strong>Enhanced (+1, +2, or +3):</strong>
+			Grants bonus to AV and damage, and may allow you to hit certain enemies.</li>
+			<li><strong>Damaged (-1, -2, or -3):</strong>
+			Cancels out enhancement and adds penalty to AV and damage.</li>
 		</ul>
 		<h2 id="armor">Armor</h2>
 		<!--
@@ -307,10 +307,9 @@
 		<h4><span class="line"><span class="left">Thieves' Tools</span><span class="dots"></span><span class="right">25</span></span></h4>
 		<p>Leather pouch containing various tools, including: lockpicks, lever bar, shims, file, twine, narrow scissors, pliers, and wire.</p>
 		<h4><span class="line"><span class="left">Torches</span><span class="dots"></span><span class="right">1</span></span></h4>
-		<p>Burns for about 6 turns. <strong>Small.</strong></p>
+		<p>Provides light in a 10' radius until a burn hazard (see <a href="../adventure/delve.html">Dungeon Exploration</a>). <strong>Small.</strong></p>
 		<h4><span class="line"><span class="left">Whistle</span><span class="dots"></span><span class="right">10</span></span></h4>
-		<p>Makes a <strong>loud noise</strong>
-			when blown. <strong>Small.</strong></p>
+		<p>Makes a loud noise when blown. <strong>Small.</strong></p>
 		<h4><span class="line"><span class="left">Miscellaneous Tool</span><span class="dots"></span><span class="right">15</span></span></h4>
 		<p>Common tools, such as pickaxes, crowbars and shovels. Ask your DM first.</p>
 		<h4><span class="line"><span class="left">Miscellaneous Wooden Object</span><span class="dots"></span><span class="right">10</span></span></h4>
@@ -363,7 +362,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>4 (d4)</td>
+					<td>1/2 HD (1d4)</td>
 					<td>19 (d4, melee)</td>
 					<td>8</td>
 					<td>7</td>
@@ -372,15 +371,17 @@
 			</tbody>
 		</table>
 		<h4><span class="line"><span class="left">Horse</span><span class="dots"></span><span class="right">50</span></span></h4>
-		<p>Beast of burden. Can be ridden or used to pull a cart. <strong>2HD.</strong></p>
+		<p>Beast of burden. Can be ridden or used to pull a cart. <strong>2HD</strong>
+			(2d8)</p>
 		<h4><span class="line"><span class="left">Pig</span><span class="dots"></span><span class="right">10</span></span></h4>
-		<p>Common swine. Easily startled. <strong>1HD.</strong></p>
+		<p>Common swine. Easily startled. <strong>1HD</strong>
+			(1d8)</p>
 		<h4><span class="line"><span class="left">Spiked Collar</span><span class="dots"></span><span class="right">20</span></span></h4>
 		<p>When attacked with a bite or grab attack, a dog wearing a spiked collar will deal <strong>1d4</strong>
 			damage and have <strong>advantage on physical saves.</strong>
 			A collared dog also has <strong>+1HP.</strong></p>
 		<h2 id="hirelings">Hirelings</h2>
-		<p>Common folk willing to go on adventures. When you hire a new hireling, note their starting loyalty, upkeep per day, and give them a name (see <a href="./hirelings.html">Hirelings</a>). If not specified they have 5 item slots.</p>
+		<p>Common folk willing to go on adventures. When you hire a new hireling, note their starting loyalty, upkeep (the price), and give them a name (see <a href="./hirelings.html">Hirelings</a>). If not specified they have 5 item slots.</p>
 		<h4><span class="line"><span class="left">Dwarf</span><span class="dots"></span><span class="right">75</span></span></h4>
 		<p>Can design simple machines, and mine tunnels. Has chain armor, and a battle axe. Instead of helping on an adventure, they can heal 1 damage from an item.</p>
 		<h4><span class="line"><span class="left">Medic</span><span class="dots"></span><span class="right">75</span></span></h4>
