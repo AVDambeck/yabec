@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>Animalkin</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../../style.css">
@@ -8,20 +9,19 @@
 	<body>
 		<div id="topnav"></div>
 		<script src="../../nav.js"></script>
-		<h1>Animal Kin</h1>
+		<h1>Animalkin</h1>
 		<div class="container">
 			<div>
 				<blockquote>
-					<p><b>Requirement:</b> See below</p>
-					<p><b>health die:</b> d6</p>
-					<p><b>Armour:</b> See below</p>
-					<p><b>Weapons:</b> See below</p>
-					<p><b>Languages:</b> Alignment, Common, Sylvan
-					<p><b>Prime requisite:</b> Constitution and Strength</p>
-					<p><b>Maximum level:</b> 10</p>
-					</p>
+					<p><b>Requirements:</b>None (see below)</p>
+					<p><b>Health die:</b>d6</p>
+					<p><b>Armour:</b>None (see below)</p>
+					<p><b>Weapons:</b>None (see below)</p>
+					<p><b>Languages:</b>Alignment, Common, Sylvan</p>
+					<p><b>Prime requisite:</b>CON, STR</p>
+					<p><b>Maximum level:</b>10</p>
 				</blockquote>
-				<p>There are hundreds of kinds of animalkin: tigerkin, oscolotkin, wolfkin, antkin, eaglekind, and many more. They are natural creatures, seeing more incommon with the beasts, than the civilization they often find themselves within.</p>
+				<p>There are hundreds of kinds of animalkin: tigerkin, ocelotkin, wolfkin, antkin, eaglekin, and many more. They are natural creatures, having more in common with wild beasts than the civilizations they often find themselves in.</p>
 			</div>
 			<img src="../../temp.svg" alt="placeholder image">
 		</div>
@@ -111,36 +111,66 @@
 		</table>
 		<h2>Animal Kind</h2>
 		<p>You are affected by magic as though you are a magical animal, in addition to being a humanoid.</p>
-		<p>begining at 5th level, your unarmed attacks count as magical, being able to damage ghosts and similar creatures.</p>
+		<p>Beginning at 5th level, your unarmed attacks count as magical, being able to damage ghosts and similar creatures.</p>
 		<h2>Animal Traits</h2>
-		<p>Choose animal traits fitting for the type of animal you are. Each has a point cost, and many have prerequisites. At first level, you gain 7 points. you gain 1 point each level after that. You can add new traits while leveling up, or during character creation.</p>
+		<p>Choose animal traits fitting for the type of animal you are.</p>
+		<p>Each has a point cost, and many have prerequisites.</p>
+		<p>You start with <strong>7 points</strong>
+			at first level, and you gain 1 point each level after that.</p>
 		<ul>
-			<li><b>Armoror:</b> 1 point. You can wear leather, chain mail, barding, and spiked collars.</li>
-			<li><b>Archer:</b> 1 point. You can use thrown and fired weapons.</li>
-			<li><b>Aquine:</b> 1 point. Waterbreathing and swimming</li>
-			<li><b>Berserker:</b> 4 points. 9 constitution. While while you have damage equal to or greater than 50% of your health, your AV is reduced by 4.</li>
-			<li><b>Blade Weapons:</b> 2 point. You can use non-blunt melee weapons.</li>
-			<li><b>Blunt Weapons:</b> 1 point. You can use blunt weapons.</li>
-			<li><b>Caratine:</b> 1 point. 9 constituton. You have a base AC of 5 while not wearing armor.</li>
-			<li><b>Hungry:</b> 1 point. Once per session, round eating a ration to heal 1d6+1.</li>
-			<li><b>Infravision:</b> 3 point. 9 wisdom.</li>
-			<li><b>Keen Hearing:</b> 1 point. 9 wisdom. +1 to check doors</li>
-			<li><b>Keen Smell:</b> 3 point. 9 constitution. Kobold have a +1 to check doors. You're able to track via sent. </li>
-			<li><b>Large Natural Weapon:</b> 4 points, 9 Strength. d10 damage, melee, and slow.</li>
-			<li><b>Leap:</b> 4 points. 9 dexterity. can jump 15’ in one bound, and 10’ vertically. If leap immediately before making a melee attack, get a -2 bonus to AV.</li>
-			<li><b>Monsterous:</b> 3 points. HD becomes a d12. Become <em>monsterous</em>.</li>
-			<li><b>Nature's Favor:</b> 5 points. 9 charisma. Get +1 healing when receiving healing from a druid.</li>
-			<li><b>Nine Lives:</b> 7 points. A total of nine times, choose to roll a 30 on <em>dismemberment</em>. </li>
-			<li><b>Pack Animal:</b> 1 point. +2 item <em>slots</em>.</li>
-			<li><b>Pack Hunter:</b> 2 points. 9 charisma. Once per <em>turn</em>, when an ally <em>hits</em> an enemy, your next <em>attack</em> against that enemy has <em>advantage</em>.</li>
-			<li><b>Small Natural Weapon:</b> 2 points, 9 Dexterity. d4 damage and melee.</li>
-			<li><b>Hiding:</b> 3 points. 9 dexteiry. In woods or undergrowth, 90% chance of success. In dungeons, 2-in-6 chance of success. There must be some form of cover and must remain motionless and silent.</li>
-			<li><b>Speak with one kind of animals:</b> 3 points, 9 charisma. as though by a Speak with Animals spell. See Magic 36.</li>
-			<li><b>Spider Climb:</b> 5 points. Climb sheer surfaces. Make a dexterity check ever 100', and whenever you take damage.</li>
-			<li><b>Tough:</b> 2 points. 9 constitution. dismember with a advantage. </li>
-			<li><b>Wings:</b> 8 points. 13 Strength. You can fly.</li>
-			<li><b>Yapper:</b> 2 points. 9 intelligence. Learn a new language. </li>
+			<li><b>Armored (1):</b>
+			You can wear leather, chain mail, barding, and spiked collars.</li>
+			<li><b>Archer (1):</b>
+			You can use thrown and fired weapons.</li>
+			<li><b>Aquine (1):</b>
+			You can breathe underwater and swim fast.</li>
+			<li><b>Berserker (9 CON, 4):</b>
+			When at or below half HP, -4 AV.</li>
+			<li><b>Blade Weapons (2):</b>
+			You can use non-blunt melee weapons.</li>
+			<li><b>Blunt Weapons (1):</b>
+			You can use blunt weapons.</li>
+			<li><b>Caratine (9 CON, 1):</b>
+			Your base AC is 5.</li>
+			<li><b>Hungry (1):</b>
+			Once per session, spend a combat round eating a ration to heal 1d6+1.</li>
+			<li><b>Infravision (9 WIS, 3):</b>
+			You can see in the dark.</li>
+			<li><b>Keen Hearing (9 WIS, 1):</b>
+			+1 to all eavesdropping checks.</li>
+			<li><b>Keen Smell (9 CON, 3):</b>
+			If a Kobold, +1 to door checks. You're able to locate creatures via scent.</li>
+			<li><b>Large Natural Weapon (9 STR, 4):</b>
+			Your body itself is a powerful weapon. You may attack with a <strong>d10, melee, slow</strong>
+			weapon at any point.</li>
+			<li><b>Leap (9 DEX, 4):</b>
+			Can jump 15’ in one bound, and 10’ vertically. If used immediately before making a melee attack, -2 AV.</li>
+			<li><b>Monstrous (3):</b>
+			HD becomes a d12. Become monstrous.</li>
+			<li><b>Nature's Favor (9 CHA, 5):</b>
+			+1 healing from druids.</li>
+			<li><b>Nine Lives (7):</b>
+			Nine times, choose to roll a base score of 30 on dismemberment.</li>
+			<li><b>Pack Animal (1):</b>
+			+2 item slots.</li>
+			<li><b>Pack Hunter (9 CHA, 2):</b>
+			Once per turn, when an ally hits an enemy, your next attack against that enemy has advantage.</li>
+			<li><b>Small Natural Weapon (9 DEX, 2):</b>
+			Your body itself is a powerful weapon. You may attack with a <strong>d4, melee</strong>
+			weapon at any point.</li>
+			<li><b>Hiding (9 DEX, 3):</b>
+			In woods or undergrowth, 90% chance of success. In dungeons, 2-in-6 chance of success. There must be some form of cover and must remain motionless and silent.</li>
+			<li><b>Speak With Animals (9 CHA, 3):</b>
+			Choose one type of animal. You may speak with that animal as though by a Speak With Animals spell.</li>
+			<li><b>Climb Sheer Surfaces (5):</b>
+			Climb sheer surfaces. Make a <strong>DEX</strong>
+			check ever 100', and whenever you take damage.</li>
+			<li><b>Tough (9 CON, 2):</b>
+			Dismember with advantage.</li>
+			<li><b>Wings (13 STR, 8):</b>
+			You can fly.</li>
+			<li><b>Yapper (9 INT, 2):</b>
+			Learn a new language.</li>
 		</ul>
-
 	</body>
 </html>
