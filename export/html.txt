@@ -5,10 +5,11 @@
 ./adventure/mapping.html
 ./adventure/cleanup.html
 ./adventure/roles.html
+./adventure/advanced/index.html
 ./adventure/advanced/challenge.html
 ./adventure/advanced/negotation.html
 ./adventure/advanced/travel.html
-./adventure/advanced/battle.html
+./adventure/advanced/war-machine.html
 ./character/creation.html
 ./character/class/acrobat.html
 ./character/class/animalkin.html
@@ -27,8 +28,8 @@
 ./character/class/thief.html
 ./character/class/warlock.html
 ./character/class/wizard.html
-./character/items.html
-./character/monsterous.html
+./character/shop.html
+./character/monstrous.html
 ./character/hirelings.html
 ./downtime/basic.html
 ./downtime/npc.html
