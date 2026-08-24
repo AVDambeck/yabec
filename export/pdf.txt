@@ -1,12 +1,14 @@
 ./covers/basic.html
 ./resources/summary.pdf
 ./character/creation.html
+./character/alignment.html
+./character/languages.html
 ./character/class/fighter.html
 ./character/class/cleric.html
 ./character/class/thief.html
 ./character/class/wizard.html
-./character/items.html
-./character/monsterous.html
+./character/shop.html
+./character/monstrous.html
 ./character/hirelings.html
 ./downtime/basic.html
 ./downtime/npc.html
@@ -15,12 +17,14 @@
 BREAK Character_Basic
 ./covers/advanced.html
 ./character/creation.html
+./character/alignment.html
+./character/languages.html
 ./character/class/acrobat.html
 ./character/class/bard.html
 ./character/class/princess.html
 ./character/class/knight.html
-./character/items.html
-./character/monsterous.html
+./character/shop.html
+./character/monstrous.html
 ./character/hirelings.html
 ./downtime/basic.html
 ./downtime/npc.html
@@ -29,13 +33,15 @@ BREAK Character_Basic
 BREAK Character_Advanced
 ./covers/demihuman.html
 ./character/creation.html
+./character/alignment.html
+./character/languages.html
 ./character/class/animalkin.html
 ./character/class/elf.html
 ./character/class/dwarf.html
 ./character/class/halfling.html
 ./character/class/kobold.html
-./character/items.html
-./character/monsterous.html
+./character/shop.html
+./character/monstrous.html
 ./character/hirelings.html
 ./downtime/basic.html
 ./downtime/npc.html
@@ -44,12 +50,14 @@ BREAK Character_Advanced
 BREAK Character_Demihuman
 ./covers/expert.html
 ./character/creation.html
+./character/alignment.html
+./character/languages.html
 ./character/class/druid.html
 ./character/class/hollow.html
 ./character/class/mystic.html
 ./character/class/warlock.html
-./character/items.html
-./character/monsterous.html
+./character/shop.html
+./character/monstrous.html
 ./character/hirelings.html
 ./downtime/basic.html
 ./downtime/npc.html
@@ -70,7 +78,7 @@ BREAK Magic
 ./adventure/advanced/challenge.html
 ./adventure/advanced/negotation.html
 ./adventure/advanced/travel.html
-./adventure/advanced/battle.html
+./adventure/advanced/war-machine.html
 ./appendixa.html
 ./resources/updates.html
 ./resources/summary.pdf
@@ -78,6 +86,8 @@ BREAK Adventure
 ./covers/complete.html
 ./resources/summary.pdf
 ./character/creation.html
+./character/alignment.html
+./character/languages.html
 ./character/class/acrobat.html
 ./character/class/animalkin.html
 ./character/class/bard.html
@@ -95,9 +105,9 @@ BREAK Adventure
 ./character/class/thief.html
 ./character/class/warlock.html
 ./character/class/wizard.html
-./character/items.html
+./character/shop.html
 ./character/construction.html
-./character/monsterous.html
+./character/monstrous.html
 ./character/hirelings.html
 ./downtime/basic.html
 ./downtime/npc.html
@@ -115,7 +125,7 @@ BREAK Adventure
 ./adventure/advanced/challenge.html
 ./adventure/advanced/negotation.html
 ./adventure/advanced/travel.html
-./adventure/advanced/battle.html
+./adventure/advanced/war-machine.html
 ./appendixa.html
 ./resources/updates.html
 ./resources/summary.pdf
