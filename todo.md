@@ -2,6 +2,7 @@
 - finalize rules text for invnetory.html
 - format inventory.html
 - link invnetory.html. include in export lists
+- split shop sections onto seperate pages. fix links and export lists
 
 # other 
 - put the hashtags on the headers in advanced downtime
