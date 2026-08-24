@@ -1,6 +1,23 @@
-# me
+# inventory update
+- finalize rules text for invnetory.html
+- format inventory.html
+- link invnetory.html. include in export lists
+
+# other 
+- put the hashtags on the headers in advanced downtime
+- dwarf stronghold typo
+- sleep 4 lessthannotequal
+- sticks to snakes stats
+- trinkets in adventuring classic gear
+- torches per adventurer
+- foobar spells showing up on yabec all spells
+- check hirling item slots
+- adventure index and advanced adventure index, and css for advanced
+- blessing cost
+- make reckless work without item damage
+
+# avdambeck
 ## simpler
-merge roland's branch
 floating disk, does it move vertically
 xp crime boost
 fix soldier description
@@ -23,20 +40,4 @@ camping in dungeon
 mundane research downtime
 fix nginx buttons
 "econemize"
-
-# delegatable
-put the hashtags on the headers in advanced downtime
-dwarf stronghold typo
-sleep 4 lessthannotequal
-sticks to snakes stats
-order of role decleration 
-body and three slots
-trinkets in adventuring classic gear
-torches per adventurer
-foobar spells showing up on yabec all spells
-check hirling item slots
-adventure index and advanced adventure index, and css for advanced
-blessing cost
-make reckless work without item damage
-
 
