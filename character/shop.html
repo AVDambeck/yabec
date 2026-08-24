@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Shop</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+	<body>
+		<div id="topnav"></div>
+		<script src="../nav.js"></script>
+		<h1>Shop</h1>
+		<p>All costs are in copper pieces (cp).</p>
+		<h2>Sections</h2>
+		<ul class="columns">
+			<li><a href="#properties">Properties</a></li>
+			<li><a href="#armor">Armor</a></li>
+			<li><a href="#weapons">Weapons</a></li>
+			<li><a href="#gear">Gear</a></li>
+			<li><a href="#animals">Animals</a></li>
+			<li><a href="#hirelings">Hirelings</a></li>
+			<li><a href="#specialists">Specialists</a></li>
+		</ul>
+		<h2 id="properties">Properties</h2>
+		<p>Each item can have any number of properties, which affect how the item can be used.</p>
+		<ul>
+			<li><strong>Blunt:</strong>
+			Can be used to incapacitate. Required for Clerics.</li>
+			<li><strong>Fragile (-1, -2, -3...):</strong>
+			After dealing the maximum damage, the weapon's damage die is reduced, from a d12 to a d10, to a d8, to a d6, to a d4, and then breaking. Forging can be used to repair this.</li>
+			<li><strong>Fired:</strong>
+			Makes ranged attacks. Consumes ammo.</li>
+			<li><strong>Reach:</strong>
+			Melee attacks at close range, and able to reach through allies.</li>
+			<li><strong>Melee:</strong>
+			Can be used to make melee attacks.</li>
+			<li><strong>Small:</strong>
+			Takes up 20% of an inventory slot. Can be mixed (for example, you can carry 2 sling stones, 2 rations, and a whistle in one inventory slot).</li>
+			<li><strong>Heavy:</strong>
+			Takes up two inventory slots, and requires two hands to use.</li>
+			<li><strong>Slow:</strong>
+			Use only every other turn. After making an attack, the next round, your next action is used either to reload, or handle the follow through of the weapon. There is one exception: you may drop the slow weapon, draw a <strong>Small</strong>
+			weapon, and make an attack with it.</li>
+			<li><strong>Splash:</strong>
+			Damages many targets in an area.</li>
+			<li><strong>Thrown:</strong>
+			Throw the item to deal damage or otherwise trigger its effect. Can be quickly recovered after being thrown.</li>
+			<li><strong>Enhanced (+1, +2, or +3):</strong>
+			Grants bonus to AV and damage for weapons, AC for armor and shields, and healing amount for potions and bandages.</li>
+			<li><strong>Damaged (-1, -2, or -3):</strong>
+			Cancels out enhancement and penalties stats in the same manner.</li>
+		</ul>
+		<h2 id="armor">Armor</h2>
+		<!--
+			<table>
+			<tr>
+			<th style="text-align: left;">Item</th>
+			<th>Cost</th>
+			</tr>
+			<tbody>
+			<tr>
+			<td style="text-align: left;">Chain Mail</td>
+			<td>60</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Leather Armor</td>
+			<td>20</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Plate Mail</td>
+			<td>100</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Shield</td>
+			<td>15</td>
+			</tr>
+			</tbody>
+			</table>
+		-->
+
+		<h4><span class="line"><span class="left">Leather Mail</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>Light, but sturdy.</p>
+		<p>Grants <strong>7AC.</strong></p>
+		<h4><span class="line"><span class="left">Chain Mail</span><span class="dots"></span><span class="right">80</span></span></h4>
+		<p>Mesh armor made from interlocking links.</p>
+		<p>Grants <strong>5AC.</strong></p>
+		<h4><span class="line"><span class="left">Plate Mail</span><span class="dots"></span><span class="right">200</span></span></h4>
+		<p>Heavy armor made from steel plates.</p>
+		<p>Grants <strong>3AC</strong>, but negates dexterity bonus to AC. <strong>Heavy.</strong></p>
+		<h4><span class="line"><span class="left">Shield</span><span class="dots"></span><span class="right">15</span></span></h4>
+		<p>Wooden plate used to rebuff attacks.</p>
+		<p><strong>-1AC if you have a hand free to use it.</strong></p>
+		<h2 id="weapons">weapons</h2>
+		<h4><span class="line"><span class="left">Battle Ax</span><span class="dots"></span><span class="right">7</span></span></h4>
+		<p>A mighty waraxe.</p>
+		<p><strong>d10, heavy, melee, slow, fragile</strong></p>
+		<h4><span class="line"><span class="left">Club</span><span class="dots"></span><span class="right">3</span></span></h4>
+		<p>A club without spikes that can be used to deal non-lethal blows.</p>
+		<p><strong>d4, blunt, melee</strong></p>
+		<h4><span class="line"><span class="left">Crossbow</span><span class="dots"></span><span class="right">30</span></span></h4>
+		<p>A powerful but unwieldy crossbow.</p>
+		<p><strong>d10, fired, heavy, slow</strong></p>
+		<h4><span class="line"><span class="left">Dagger</span><span class="dots"></span><span class="right">3</span></span></h4>
+		<p>A quick and versatile blade; the ideal hidden weapon.</p>
+		<p><strong>d4, melee, small, thrown</strong></p>
+		<h4><span class="line"><span class="left">Hand Ax</span><span class="dots"></span><span class="right">3</span></span></h4>
+		<p>A small silver axe with a surprisingly good swing.</p>
+		<p><strong>d6, melee, thrown, fragile</strong></p>
+		<h4><span class="line"><span class="left">Oil Flask</span><span class="dots"></span><span class="right">2</span></span></h4>
+		<p>A bottle of highly-flammable oil.</p>
+		<p><strong>d8, small, splash, thrown</strong></p>
+		<h4><span class="line"><span class="left">Long Bow</span><span class="dots"></span><span class="right">50</span></span></h4>
+		<p>A large bow, granting powerful shots to those strong enough to pull back its drawstring.</p>
+		<p><strong>d8, fired, heavy</strong></p>
+		<h4><span class="line"><span class="left">Mace</span><span class="dots"></span><span class="right">5</span></span></h4>
+		<p>A club with spikes that can deal more damage while still allowing non-lethal blows.</p>
+		<p><strong>d6, blunt, melee</strong></p>
+		<h4><span class="line"><span class="left">Polearm</span><span class="dots"></span><span class="right">25</span></span></h4>
+		<p>A long stick with a large curved blade at the end; the specialty of dexterous warriors.</p>
+		<p><strong>d8, melee, reach</strong></p>
+		<h4><span class="line"><span class="left">Short Bow</span><span class="dots"></span><span class="right">5</span></span></h4>
+		<p>a small bow that packs a punch.</p>
+		<p><strong>d6, fired, heavy</strong></p>
+		<h4><span class="line"><span class="left">Sling</span><span class="dots"></span><span class="right">2</span></span></h4>
+		<p>A cheap wooden sling that could fire just about anything.</p>
+		<p><strong>d4, blunt, fired</strong></p>
+		<h4><span class="line"><span class="left">Spear</span><span class="dots"></span><span class="right">7</span></span></h4>
+		<p>The quintessential polearm, formidable in both close quarters and long range.</p>
+		<p><strong>d6, melee, reach, small, thrown</strong></p>
+		<h4><span class="line"><span class="left">Staff</span><span class="dots"></span><span class="right">1</span></span></h4>
+		<p>A long wooden stick that shouldn't be underestimated.</p>
+		<p><strong>d6, blunt, melee, heavy</strong></p>
+		<h4><span class="line"><span class="left">Sword</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>Ol' reliable.</p>
+		<p><strong>d8, melee</strong></p>
+		<h2 id="gear">Gear</h2>
+		<!--
+			<table>
+			<thead>
+			<tr>
+			<th style="text-align: left;">Item</th>
+			<th>Cost</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td style="text-align: left;">Antidote</td>
+			<td>20</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Arrows (5)</td>
+			<td>3</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Bandage</td>
+			<td>2</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Battering Ram</td>
+			<td>10</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Chest</td>
+			<td>10</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Caltrops (1 bag)</td>
+			<td>10</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Chalk</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Holy Symbol</td>
+			<td>25</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Iron Spikes / Piton (5)</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Oil (1 flask)</td>
+			<td>2</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Flint & Steel</td>
+			<td>3</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Mallot</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Mirror</td>
+			<td>10</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Pickaxe</td>
+			<td>5</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Pulley</td>
+			<td>15</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Pole (10')</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Ration</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Rope (50')</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Sack</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Sling Stone</td>
+			<td>0</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Thieves' Tools</td>
+			<td>25</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Torches (5)</td>
+			<td>1</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Travel Kit</td>
+			<td>25</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Whisle</td>
+			<td>3</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Other Tool</td>
+			<td>15</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Other Wood Oject</td>
+			<td>10</td>
+			</tr>
+			<tr>
+			<td style="text-align: left;">Other Metal Object</td>
+			<td>30</td>
+			</tr>
+			</tbody>
+			</table> --
+		-->
+		<h4><span class="line"><span class="left">Antidote</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>Herbal remedy. Effective against most poisons.</p>
+		<h4><span class="line"><span class="left">Ammo</span><span class="dots"></span><span class="right">1</span></span></h4>
+		<p>Ammo for any ranged weapon. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Bandage</span><span class="dots"></span><span class="right">3</span></span></h4>
+		<p>Used to treat injuries. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Battering Ram</span><span class="dots"></span><span class="right">30</span></span></h4>
+		<p>Can be used to break through locked doors and knock enemies over. <strong>Heavy.</strong></p>
+		<h4><span class="line"><span class="left">Bait</span><span class="dots"></span><span class="right">3</span></span></h4>
+		<p>Fragrant meat delicious to certain monsters. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Specialized Bait</span><span class="dots"></span><span class="right">30</span></span></h4>
+		<p>Bait that appeals to a specific kind of monster. <strong>Small.</strong></p>
+		<p>Specify to the DM which creature the bait is for, and take note of it.</p>
+		<h4><span class="line"><span class="left">Bag of Caltrops</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>A bag of metal spikes that takes up a 10' diameter.</p>
+		<p>Can be cleaned up carefully and recollected in a turn if not destroyed.</p>
+		<p>If not crossed carefully (which takes two rounds of movement and leaves you vulnerable to ranged attacks), deals 1d4 damage.</p>
+		<p><strong>Small, thrown.</strong></p>
+		<h4><span class="line"><span class="left">Chalk</span><span class="dots"></span><span class="right">1</span></span></h4>
+		<p>Makes temporary marks. 10 uses. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Chest</span><span class="dots"></span><span class="right">30</span></span></h4>
+		<p>Requires two people to move. Can hold ten items.</p>
+		<h4><span class="line"><span class="left">Holy Symbol</span><span class="dots"></span><span class="right">25</span></span></h4>
+		<p>Divine spellcasters are required to carry a symbol of their deity.</p>
+		<h4><span class="line"><span class="left">Mallet</span><span class="dots"></span><span class="right">3</span></span></h4>
+		<p>A hammer-like apparatus that can be used to anchor ropes or hold doors. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Iron Spikes</span><span class="dots"></span><span class="right">3</span></span></h4>
+		<p>Iron spikes that can be driven in with a mallet. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Jug</span><span class="dots"></span><span class="right">5</span></span></h4>
+		<p>Holds one gallon of fluid.</p>
+		<h4><span class="line"><span class="left">Flint</span><span class="dots"></span><span class="right">7</span></span></h4>
+		<p>Lights flammable material. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Mirror</span><span class="dots"></span><span class="right">30</span></span></h4>
+		<p>A handheld mirror. Useful for looking around corners and redirecting gaze attacks.</p>
+		<h4><span class="line"><span class="left">Ointment</span><span class="dots"></span><span class="right">5</span></span></h4>
+		<p>When used with bandages, heals an additional +1HP. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Pulley</span><span class="dots"></span><span class="right">25</span></span></h4>
+		<p>Mechanism which allows a rope to pass smoothly. Useful for a block and tackle system. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Pole (10')</span><span class="dots"></span><span class="right">1</span></span></h4>
+		<p>2" thick, 10' long. Made of wood. Useful for probing.</p>
+		<h4><span class="line"><span class="left">Quiver</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>Holds 20 arrows.</p>
+		<h4><span class="line"><span class="left">Ration</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>Large bundle of preserved food for long journeys.</p>
+		<h4><span class="line"><span class="left">Rope (50')</span><span class="dots"></span><span class="right">5</span></span></h4>
+		<p>Can hold the weight of three humans.</p>
+		<h4><span class="line"><span class="left">Sack</span><span class="dots"></span><span class="right">1</span></span></h4>
+		<p>Can hold 100 coins or gems.</p>
+		<h4><span class="line"><span class="left">Sling Stone</span><span class="dots"></span><span class="right">0</span></span></h4>
+		<p>Does not have to be bought, and takes no slots.</p>
+		<h4><span class="line"><span class="left">Thieves' Tools</span><span class="dots"></span><span class="right">25</span></span></h4>
+		<p>Leather pouch containing various tools, including: lockpicks, lever bar, shims, file, twine, narrow scissors, pliers, and wire.</p>
+		<h4><span class="line"><span class="left">Torches</span><span class="dots"></span><span class="right">1</span></span></h4>
+		<p>Provides light in a 10' radius until a burn hazard (see <a href="../adventure/delve.html">Dungeon Exploration</a>). <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Whistle</span><span class="dots"></span><span class="right">10</span></span></h4>
+		<p>Makes a loud noise when blown. <strong>Small.</strong></p>
+		<h4><span class="line"><span class="left">Miscellaneous Tool</span><span class="dots"></span><span class="right">15</span></span></h4>
+		<p>Common tools, such as pickaxes, crowbars and shovels. Ask your DM first.</p>
+		<h4><span class="line"><span class="left">Miscellaneous Wooden Object</span><span class="dots"></span><span class="right">10</span></span></h4>
+		<p>Common wooden objects, such as stools, tables, and chairs. Ask your DM first.</p>
+		<h4><span class="line"><span class="left">Miscellaneous Metal Object</span><span class="dots"></span><span class="right">30</span></span></h4>
+		<p>Common metal objects, such as pots, pans, and buckets. Ask your DM first.</p>
+
+		<h2 id="animals">Animals</h2>
+		<!--<table>
+		<thead>
+		<tr>
+		<th style="text-align: left;">Item</th>
+		<th>Cost</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td style="text-align: left;">Cart</td>
+		<td>50</td>
+		</tr>
+		<tr>
+		<td style="text-align: left;">Dog</td>
+		<td>20</td>
+		</tr>
+		<tr>
+		<td style="text-align: left;">Horse</td>
+		<td>50</td>
+		</tr>
+		<tr>
+		<td style="text-align: left;">Pig</td>
+		<td>10</td>
+		</tr>
+		</tbody>
+		</table>-->
+		<h4><span class="line"><span class="left">Barding</span><span class="dots"></span><span class="right">100</span></span></h4>
+		<p>Armor for an animal. Grants them <strong>5AC.</strong></p>
+		<h4><span class="line"><span class="left">Cart</span><span class="dots"></span><span class="right">50</span></span></h4>
+		<p>Must be pulled by a horse or by four humans. Has <strong>80 slots.</strong></p>
+		<h4><span class="line"><span class="left">Dog</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>Loyal canine. Starts with the following stats:</p>
+		<table>
+			<thead>
+				<tr>
+					<th>HP</th>
+					<th>AV</th>
+					<th>AC</th>
+					<th>Phys</th>
+					<th>Magic</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1/2 HD (1d4)</td>
+					<td>19 (d4, melee)</td>
+					<td>8</td>
+					<td>7</td>
+					<td>5</td>
+				</tr>
+			</tbody>
+		</table>
+		<h4><span class="line"><span class="left">Horse</span><span class="dots"></span><span class="right">50</span></span></h4>
+		<p>Beast of burden. Can be ridden or used to pull a cart. <strong>2HD</strong>
+			(2d8)</p>
+		<h4><span class="line"><span class="left">Pig</span><span class="dots"></span><span class="right">10</span></span></h4>
+		<p>Common swine. Easily startled. <strong>1HD</strong>
+			(1d8)</p>
+		<h4><span class="line"><span class="left">Spiked Collar</span><span class="dots"></span><span class="right">20</span></span></h4>
+		<p>When attacked with a bite or grab attack, a dog wearing a spiked collar will deal <strong>1d4</strong>
+			damage and have <strong>advantage on physical saves.</strong>
+			A collared dog also has <strong>+1HP.</strong></p>
+		<h2 id="hirelings">Hirelings</h2>
+		<p>Common folk willing to go on adventures. When you hire a new hireling, note their starting loyalty, upkeep (the price), and give them a name (see <a href="./hirelings.html">Hirelings</a>). If not specified they have 5 item slots.</p>
+		<h4><span class="line"><span class="left">Dwarf</span><span class="dots"></span><span class="right">75</span></span></h4>
+		<p>Can design simple machines, and mine tunnels. Has chain armor, and a battle axe. Instead of helping on an adventure, they can heal 1 damage from an item.</p>
+		<h4><span class="line"><span class="left">Medic</span><span class="dots"></span><span class="right">75</span></span></h4>
+		<p>Can bandage. Has a 13 INT. Has 2 item slots, and will buy 5 bandages and 5 ointment while in town. Unable to fight.</p>
+		<h4><span class="line"><span class="left">Lackey</span><span class="dots"></span><span class="right">25</span></span></h4>
+		<p>Has 10 item <em>slots</em>. Unable to fight.</p>
+		<h4><span class="line"><span class="left">Lockpick</span><span class="dots"></span><span class="right">50</span></span></h4>
+		<p>Can pick locks as a 1st level thief. Has 1 item slot and thieves tools. Unable to fight.</p>
+		<h4><span class="line"><span class="left">Man at Arms</span><span class="dots"></span><span class="right">75</span></span></h4>
+		<p>Trained in fighting. Comes with chain armor, and 5 spears.</p>
+		<h4><span class="line"><span class="left">Navigator</span><span class="dots"></span><span class="right">150</span></span></h4>
+		<p>A ship or party with a navigator will never become lost by mundane means.</p>
+		<h4><span class="line"><span class="left">Sailor</span><span class="dots"></span><span class="right">15</span></span></h4>
+		<p>Trained to run small ships. Amateur fighters. Comes with a club.</p>
+		<h4><span class="line"><span class="left">Supplier</span><span class="dots"></span><span class="right">100</span></span></h4>
+		<p>Once per session, they will restock their inventory. They have 10 slots. They will stock: 3 ropes, 5 iron spikes, a mallet, 5 bandages, a 10' pole, 5 sacks, an antidote, and 5 torches. Unable to fight.</p>
+		<h4><span class="line"><span class="left">Torch Bearer</span><span class="dots"></span><span class="right">10</span></span></h4>
+		<p>Can hold a torch. Has 2 item slots. Restocks 5 torches and a flint when in town. Unable to fight.</p>
+		<h4><span class="line"><span class="left">Ruffian</span><span class="dots"></span><span class="right">50</span></span></h4>
+		<p>Trained in fighting. Comes with leather armor, a club, a sling, and 5 sling stones.</p>
+		<h2 id="specialists">Specialists</h2>
+		<p>Hirelings with advanced skillsets. Same as hirelings. After one specialist is recruited, each additional specialist requires a charisma check to locate them. After one failure, no more specialists can be recruited that session.</p>
+		<h4><span class="line"><span class="left">Alchemist</span><span class="dots"></span><span class="right">10,000</span></span></h4>
+		<p>Can create potions based on a sample or recipe. See <a href="../downtime/advanced.html#magical-research">Magical Research.</a>
+			Can research new potions,  but takes twice as long and costs twice as much.</p>
+		<h4><span class="line"><span class="left">Animal Trainer</span><span class="dots"></span><span class="right">100</span></span></h4>
+		<p>Can handle up to four mundane animals, or one magical animal.</p>
+		<h4><span class="line"><span class="left">Assistant</span><span class="dots"></span><span class="right">50</span></span></h4>
+		<p>A specialist can have up to two assistants. Assistants are half as effective.</p>
+		<h4><span class="line"><span class="left">Blacksmith</span><span class="dots"></span><span class="right">150</span></span></h4>
+		<p>Creates metal objects, including weapons and armor, at a rate of 100 cp per month.</p>
+		<h4><span class="line"><span class="left">Engineer</span><span class="dots"></span><span class="right">1,000</span></span></h4>
+		<p>Expert in planning and managing construction. Required to build strongholds. One Engineer needed per 1,000,000 cp of construction.</p>
+		<h4><span class="line"><span class="left">Journeyman Torch Bearer</span><span class="dots"></span><span class="right">30</span></span></h4>
+		<p>Can hold a torch. Has 3 item slots. Has leather armor and 9HP. Restocks 5 torches and a flint when in town. Unable to fight.</p>
+		<h4><span class="line"><span class="left">Magic User</span><span class="dots"></span><span class="right">500</span></span></h4>
+		<p>Can cast a level 1 wizard spell. Will flee from danger.</p>
+		<h4><span class="line"><span class="left">Ship Captain</span><span class="dots"></span><span class="right">250</span></span></h4>
+		<p>Seasoned sailor who can command a larger ship.</p>
+		<h4><span class="line"><span class="left">Soldier Captain</span><span class="dots"></span><span class="right">1000</span></span></h4>
+		<p>Has 3+1HD, and 15 AV. Comes with plate armor, a sword +1, a long bow, and a quiver of 20 arrows. When a group of soldiers is lead by a captain, their morale and loyalty are increased by one.</p>
+		<h4><span class="line"><span class="left">Soldier</span><span class="dots"></span><span class="right">1000</span></span></h4>
+		<p>A skilled fighter. Has 3HD, and 15 AV. Comes with plate armor, a sword, a long bow, and a quiver of 20 arrows.</p>
+		<h4><span class="line"><span class="left">Spy</span><span class="dots"></span><span class="right">1000</span></span></h4>
+		<p>Gathers information on a person or group. Chance of success is 100% for unsuspecting groups, 3-in-6 for disconcerning groups, and 1-in-6 for hostile groups.</p>
+	</body>
+</html>
