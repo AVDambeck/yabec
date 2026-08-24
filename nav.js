@@ -36,7 +36,6 @@ dictionary["combat"] = "mapping";
 dictionary["mapping"] = "cleanup";
 dictionary["cleanup"] = "travel";
 dictionary["travel"] = "roles";
-dictionary["roles"] = "minigames";
 
 function findKeyByValue(dict, value) {
 	for (const key in dict) {
