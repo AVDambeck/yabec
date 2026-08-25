@@ -6,6 +6,7 @@
 - remove heavy and massive
 
 # other 
+- caviots on infravision
 - put the hashtags on the headers in advanced downtime
 - dwarf stronghold typo
 - sleep 4 lessthannotequal
@@ -20,6 +21,7 @@
 
 # avdambeck
 ## simpler
+spell priority
 floating disk, does it move vertically
 xp crime boost
 fix soldier description
