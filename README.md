@@ -2,7 +2,7 @@
 Yabec started as a way to codify the Old School Rennessance mix I was running at my table. It now is an open source project for others to work from. I'm very grateful for an amazing table, and for all the feedback they've given me.
 
 # Direction
-This is version 3.3! The main game is for the most part here and settled in. Hirelings, travel, and combat will probably continue to be tweaked. 
+This is version 3.4! The main game is for the most part here and settled in. Hirelings, travel, and combat will probably continue to be tweaked. 
 
 Moving forward, I intend to focus on adding strongholds and warfare, and making premade character sheets and other resources.
 
