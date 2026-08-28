@@ -6,6 +6,7 @@
 - remove heavy and massive
 
 # other 
+- un-abbrivate abilities, i.e. STR -> strength.
 - caviots on infravision
 - put the hashtags on the headers in advanced downtime
 - dwarf stronghold typo
@@ -21,6 +22,7 @@
 
 # avdambeck
 ## simpler
+update git issues
 spell priority
 floating disk, does it move vertically
 xp crime boost
