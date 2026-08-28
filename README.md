@@ -19,5 +19,3 @@ What kind of system is yabec? what can you expect?
 - hazard die
 - many optional rules to customize your specific table
 
-# Liscensing
-I've always intended Yabec to be FOSS, I just haven't picked out a share-alike license yet. Might be GPL. Ask me, or idk, its a git repo; i cant stop you.
