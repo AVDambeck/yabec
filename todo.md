@@ -19,7 +19,6 @@
 # avdambeck
 ## simpler
 floating disk, does it move vertically
-thief back stab bonus
 fix magical resaerch odds
 recruitment for hihg level mentors
 negotation as interrogation
