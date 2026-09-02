@@ -13,9 +13,7 @@
 - dwarf stronghold typo
 - sticks to snakes stats
 - trinkets in adventuring classic gear
-- torches per adventurer
 - foobar spells showing up on yabec all spells
-- check hirling item slots
 - adventure index 
 - blessing cost
 
