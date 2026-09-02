@@ -15,7 +15,6 @@
 - trinkets in adventuring classic gear
 - foobar spells showing up on yabec all spells
 - adventure index 
-- blessing cost
 
 # avdambeck
 ## simpler
