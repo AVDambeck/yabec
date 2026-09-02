@@ -6,23 +6,21 @@
 - remove heavy and massive
 
 # other 
+- make block quotes look good both at the top of class pages, and as in examples like on the magic rules.
 - un-abbrivate abilities, i.e. STR -> strength.
 - caviots on infravision
 - put the hashtags on the headers in advanced downtime
 - dwarf stronghold typo
-- sleep 4 lessthannotequal
 - sticks to snakes stats
 - trinkets in adventuring classic gear
 - torches per adventurer
 - foobar spells showing up on yabec all spells
 - check hirling item slots
-- adventure index and advanced adventure index, and css for advanced
+- adventure index 
 - blessing cost
-- make reckless work without item damage
 
 # avdambeck
 ## simpler
-update git issues
 spell priority
 floating disk, does it move vertically
 xp crime boost
