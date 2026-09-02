@@ -18,15 +18,11 @@
 
 # avdambeck
 ## simpler
-spell priority
 floating disk, does it move vertically
 xp crime boost
-fix soldier description
 thief back stab bonus
-slow: next action must be standby
 fix magical resaerch odds
 recruitment for hihg level mentors
-bday exp
 negotation as interrogation
 
 ## contemplation
