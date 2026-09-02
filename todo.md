@@ -19,7 +19,6 @@
 # avdambeck
 ## simpler
 floating disk, does it move vertically
-xp crime boost
 thief back stab bonus
 fix magical resaerch odds
 recruitment for hihg level mentors
