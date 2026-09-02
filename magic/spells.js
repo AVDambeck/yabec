@@ -406,7 +406,7 @@ let spells = [
 		"level": ["WI1", "WA4"]},
 
 	{"name":"sleep",
-		"desc":"A sleep spell causes a magical slumber for 4d4 turns. The spell may target either:</p><ul><li>A single creature with 4 HD,</li><li>A total of 2d8 HD of creatures of 4 HD or lower each.</li></ul>\
+		"desc":"A sleep spell causes a magical slumber for 4d4 turns. The spell may target either:</p><ul><li>A single creature with 4 HD,</li><li>A total of 2d8 HD of creatures of 3 HD or lower each.</li></ul>\
 		<p>Undead are unaffected. Targets do not get a save versus spells.</p>\
 		<p>When targeting multiple creatures, sleep targets creatures with the least HD are first. Rolled HD not sufficient to affect a creature are wasted.</p>\
 		<p>Creatures enchanted by this spell are helpless and can be killed instantly with a bladed weapon. Slapping or wounding awakens an affected creature.</p>",
