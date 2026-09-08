@@ -1,20 +1,21 @@
+# priority 
+- merge skc's branch
+
 # inventory update
 - finalize rules text for invnetory.html
 - format inventory.html
 - link invnetory.html. include in export lists
 - split shop sections onto seperate pages. fix links and export lists
-- remove heavy and massive
 
 # other 
 - make block quotes look good both at the top of class pages, and as in examples like on the magic rules.
 - un-abbrivate abilities, i.e. STR -> strength.
-- caviots on infravision
 - put the hashtags on the headers in advanced downtime
-- dwarf stronghold typo
 - sticks to snakes stats
 - trinkets in adventuring classic gear
 - foobar spells showing up on yabec all spells
 - adventure index 
+- title table
 
 # avdambeck
 ## simpler
