@@ -11,7 +11,7 @@ pwdUrl = url.slice(0, A)
 //topnav
 homeUrl = rootUrl + "index.html"
 classUrl = rootUrl + "character/class/index.html"
-shopUrl = rootUrl + "character/shop.html"
+shopUrl = rootUrl + "character/items/index.html"
 rulesUrl = rootUrl + "adventure/intro.html"
 
 navContent = '\
@@ -20,7 +20,7 @@ navContent = '\
   <div class="center">\
     <a class="active" href="' + homeUrl + '">Home</a>\
     <a href="' + classUrl + '">Classes</a>\
-    <a href="' + shopUrl + '">Shop</a>\
+    <a href="' + shopUrl + '">Items</a>\
     <a href="' + rulesUrl + '">Rules</a>\
   </div>\
 </div>'
