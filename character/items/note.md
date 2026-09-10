@@ -3,8 +3,8 @@ wealth:
 100cp = new character. 2k cp = 2nd lv, 20k cp = 5th lv, 200k cp = 9th lv
 
 cost:
-10 cp - significant to a 1st lvl character
-100 cp - significant to a 2nd level character
+10 cp - significant to a 1st lvl character, trivial to higher levels.
+100 cp - significant to a 2nd level character, possible for 1st level, trivial to higher levels.
 1000 cp - significant to a 5th level characte
 10,000 cp - significant to a 9th level character
 
