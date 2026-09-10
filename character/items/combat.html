@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Weapons and Armor</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+	</head>
+	<body>
+		<div id="topnav"></div>
+		<script src="../nav.js"></script>
+		<h1>Weapons and Armor</h1>
+		<p>All costs are in copper pieces (cp).</p>
+
+		<h2 id="properties">Properties</h2>
+		<p>Each item can have any number of properties, which affect how the item can be used.</p>
+		<ul>
+			<li><strong>Small:</strong>
+				Takes up 20% of an inventory slot. Can be mixed (for example, you can carry 2 sling stones, 2 rations, and a whistle in one inventory slot).</li>
+			<li><strong>Enhanced (+1, +2, or +3):</strong>
+				Grants bonus to AV and damage for weapons, AC for armor and shields, and healing amount for potions and bandages.</li>
+			<li><strong>Damaged (-1, -2, or -3):</strong>
+				Cancels out enhancement and penalizes stats in the same manner.</li>
+			<li><strong>Two-Handed:</strong>
+				Requires boths hands to use.</li>
+			<li><strong>Rare:</strong>
+				Rare items can't be purchaced. They must be sought out through adventure.</li>
+		</ul>
+		<h3>Weapon Properties</h3>
+		<ul>
+			<li><strong>Blunt:</strong>
+				Can be used to incapacitate. Required for Clerics.</li>
+			<li><strong>Fragile (d12, d10, d8...):</strong>
+				After dealing the maximum damage, the weapon's damage die is reduced, from a d12 to a d10, to a d8, to a d6, to a d4, and then breaking. Forging can be used to repair this.</li>
+			<li><strong>Fired:</strong>
+				Makes ranged attacks. The weapon includes 10 pieces of ammo. After a fight, 1d6 pieces of ammo used during that fight can be recovered. When in town, buy new ammo as part of your upkeep.</li>
+			<li><strong>Reach:</strong>
+				Melee attacks at close range, and able to reach through allies.</li>
+			<li><strong>Melee:</strong>
+				Can be used to make melee attacks.</li>
+			<li><strong>Slow:</strong>
+				After making an attack, your next action must be standby.</li>
+			<li><strong>Splash:</strong>
+				Damages many targets in an area.</li>
+			<li><strong>Thrown:</strong>
+				Throw the item to deal damage or otherwise trigger its effect. Does not imply melee.</li>
+			<h2 id="armor">Armor</h2>
+			<h4><span class="line"><span class="left">Leather Mail</span><span class="dots"></span><span class="right">20</span></span></h4>
+			<p>Light, but sturdy.</p>
+			<p>Grants <strong>9AC.</strong></p>
+			<h4><span class="line"><span class="left">Chain Mail</span><span class="dots"></span><span class="right">80</span></span></h4>
+			<p>Mesh armor made from interlocking links.</p>
+			<p>Grants <strong>7AC.</strong></p>. Takes up two item slots.</p>
+			<h4><span class="line"><span class="left">Hide Mail</span><span class="dots"></span><span class="right">120</span></span></h4>
+			<p>Thick animal fur.</p>
+			<p>Grants <strong>7AC.</strong></p>. Takes up two item slots.</p>
+			<h4><span class="line"><span class="left">Plate Mail</span><span class="dots"></span><span class="right">200</span></span></h4>
+			<p>Heavy armor made from steel plates.</p>
+			<p>Grants <strong>5AC</strong>, but negates dexterity bonus to AC. Takes up three item slots.</p>
+
+			<h4><span class="line"><span class="left">Suit Armor</span><span class="dots"></span><span class="right">500</span></span></h4>
+			<p>Heavy armor completely covering the wearer in metal.</p>
+			<p>Grants <strong>3AC</strong>, but negates dexterity bonus to AC, and automatically fails magic saves. Takes up four item slots.</p>
+			<h4><span class="line"><span class="left">Shield</span><span class="dots"></span><span class="right">15</span></span></h4>
+			<p>Wooden plate used to rebuff attacks.</p>
+			<p><strong>Requires one hand to use. -1AC while using.</strong></p>
+
+			<h2 id="weapons">weapons</h2>
+			<h4><span class="line"><span class="left">Battle Ax</span><span class="dots"></span><span class="right">50</span></span></h4>
+			<p>A mighty waraxe.</p>
+			<p><strong>d10, melee, fragile, two-handed, takes two slots.</strong></p>
+
+			<h4><span class="line"><span class="left">Claymore</span><span class="dots"></span><span class="right">Rare</span></span></h4>
+			<p>A two-handed, basket-hilted sword.</p>
+			<p><strong>d12, melee, two-handed, takes two slots.</strong></p>
+
+			<h4><span class="line"><span class="left">Club</span><span class="dots"></span><span class="right">30</span></span></h4>
+			<p>A club without spikes that can be used to deal non-lethal blows.</p>
+			<p><strong>d4, blunt, melee</strong></p>
+
+			<h4><span class="line"><span class="left">Composite Bow</span><span class="dots"></span><span class="right">Rare</span></span></h4>
+			<p>A recurve bow assembled from sinew, glue, wood, and other materials, making it exceptionally strong.</p>
+			<p><strong>d10, fired, two-handed, takes two slots.</strong></p>
+
+			<h4><span class="line"><span class="left">Crossbow</span><span class="dots"></span><span class="right">170</span></span></h4>
+			<p>A mechenized bow.</p>
+			<p><strong>d8, fired, two-handed, takes three slots.</strong></p>
+
+			<h4><span class="line"><span class="left">Dagger</span><span class="dots"></span><span class="right">20</span></span></h4>
+			<p>A quick and versatile blade; the ideal hidden weapon. Not ideal for throwing.</p>
+			<p><strong>d6, melee, small</strong></p>
+
+			<h4><span class="line"><span class="left">Flail</span><span class="dots"></span><span class="right">Rare</span></span></h4>
+			<p>Several striking heads affixed by chain to a staff.</p>
+			<p><strong>d8, melee, blunt</strong></p>
+
+			<h4><span class="line"><span class="left">Footbow</span><span class="dots"></span><span class="right">Rare</span></span></h4>
+			<p>Extremely heavy crossbow that requires using the full body to draw.</p>
+			<p><strong>d10, fired, slow, two-handed, takes two item slots.</strong></p>
+
+			<h4><span class="line"><span class="left">Hand Ax</span><span class="dots"></span><span class="right">20</span></span></h4>
+			<p>A small axe with a surprisingly good swing.</p>
+			<p><strong>d6, melee, thrown, fragile</strong></p>
+
+			<h4><span class="line"><span class="left">Oil Flask</span><span class="dots"></span><span class="right">20</span></span></h4>
+			<p>A bottle of highly-flammable oil. Splash coveres one zone in oil. Burning lasts for two rounds, and deals 1d8 damage. Lit with a torch.</p>
+			<p><strong>d8, small, thrown</strong></p>
+
+			<h4><span class="line"><span class="left">Long Bow</span><span class="dots"></span><span class="right">70</span></span></h4>
+			<p>A large bow, granting powerful shots to those strong enough to pull back its drawstring.</p>
+			<p><strong>d8, fired, two-handed, takes two item slots.</strong></p>
+
+			<h4><span class="line"><span class="left">Long Sword</span><span class="dots"></span><span class="right">60</span></span></h4>
+			<p>Two-handed, double-edged sword</p>
+			<p><strong>d10, melee, two-handed, takes two item slots due to it's length.</strong></p>
+
+			<h4><span class="line"><span class="left">Mace</span><span class="dots"></span><span class="right">40</span></span></h4>
+			<p>A club with flanges that can deal more damage while still allowing non-lethal blows.</p>
+			<p><strong>d8, blunt, melee</strong></p>
+
+			<h4><span class="line"><span class="left">Polearm</span><span class="dots"></span><span class="right">80</span></span></h4>
+			<p>A long stick with a large curved blade at the end; great for keeping the enemy at a distance.</p>
+			<p><strong>d8, melee, reach</strong></p>
+
+			<h4><span class="line"><span class="left">Shiv</span><span class="dots"></span><span class="right">10</span></span></h4>
+			<p>A simple knife intended for throwing. Favorite of ner'dowells.</p>
+			<p><strong>d4, thrown, small</strong></p>
+
+			<h4><span class="line"><span class="left">Short Bow</span><span class="dots"></span><span class="right">40</span></span></h4>
+			<p>a small bow that packs a punch.</p>
+			<p><strong>d6, fired, two-handed, takes two item slots.</strong></p>
+
+			<h4><span class="line"><span class="left">Short Sword</span><span class="dots"></span><span class="right">5</span></span></h4>
+			<p>24 inch blade, if it matters.</p>
+			<p><strong>d8, melee</strong></p>
+
+			<h4><span class="line"><span class="left">Sling</span><span class="dots"></span><span class="right">20</span></span></h4>
+			<p>A cheap leather strap used to fling stones.</p>
+			<p><strong>d4, blunt, fired</strong></p>
+
+			<h4><span class="line"><span class="left">Spear</span><span class="dots"></span><span class="right">30</span></span></h4>
+			<p>The quintessential polearm, formidable in both close quarters and long range.</p>
+			<p><strong>d6, melee, reach, thrown</strong></p>
+
+			<h4><span class="line"><span class="left">Staff</span><span class="dots"></span><span class="right">30</span></span></h4>
+			<p>A long wooden stick. Doesn't interfere with spellcasting.</p>
+			<p><strong>d6, blunt, melee</strong></p>
+
+			<h4><span class="line"><span class="left">Zeihander</span><span class="dots"></span><span class="right">Rare</span></span></h4>
+			<p>Huge sword, warranting both hands even to move. Requires a 13 or greater in strength to use.</p>
+			<p><strong>2d8, melee, two-handed, slow, takes three item slots.</strong></p>
+
+	</body>
+</html>
