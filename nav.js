@@ -12,7 +12,7 @@ pwdUrl = url.slice(0, A)
 homeUrl = rootUrl + "index.html"
 classUrl = rootUrl + "character/class/index.html"
 shopUrl = rootUrl + "character/items/index.html"
-rulesUrl = rootUrl + "adventure/intro.html"
+rulesUrl = rootUrl + "adventure/index.html"
 
 navContent = '\
 <div class="topNavContainer">\
