@@ -5,6 +5,7 @@
 ./character/alignment.html
 ./character/languages.html
 ./character/monstrous.html
+./character/title.html
 ./character/hirelings.html
 ./character/class/index.html
 ./character/class/acrobat.html
@@ -25,12 +26,12 @@
 ./character/class/warlock.html
 ./character/class/wizard.html
 ./character/items/index.html
+./character/items/trinkets.html
 ./character/items/weaponarmor.html
 ./character/items/gear.html
 ./character/items/hirelings.html
 ./character/items/specialists.html
 ./character/items/construction.html
-./character/construction.html
 ./downtime/upkeep.html
 ./downtime/basic.html
 ./downtime/npc.html
