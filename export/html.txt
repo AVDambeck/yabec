@@ -11,6 +11,7 @@
 ./adventure/advanced/travel.html
 ./adventure/advanced/war-machine.html
 ./character/creation.html
+./character/inventory.html
 ./character/alignment.html
 ./character/languages.html
 ./character/class/acrobat.html
@@ -30,13 +31,17 @@
 ./character/class/thief.html
 ./character/class/warlock.html
 ./character/class/wizard.html
-./character/shop.html
+./character/items/weaponarmor.html
+./character/items/gear.html
+./character/items/hirelings.html
+./character/items/specialists.html
+./character/items/construction.html
 ./character/monstrous.html
 ./character/hirelings.html
+./downtime/upkeep.html
 ./downtime/basic.html
 ./downtime/npc.html
 ./downtime/advanced.html
-./downtime/construction.html
 ./magic/spells.html
 ./magic/magic.html
 ./resources/updates.html
