@@ -375,7 +375,7 @@ let spells = [
 
 	{"name":"Floating Disc",
 		"desc":"The caster conjures a slightly concave, circular disc of magical force. It appears next to the caster. The disc folows them about and carries loads. The disc is 3' in diameter and 1\" deep at its center. It can hold a maximum of 50 slots, 5,000 coins, or 500 pounds.</p>\
-		<p>The disc floats at wasit height and remains level, floating along horizontally. The disc winks out after 6 turns; Anything in it is dropped.",
+		<p>The disc floats at wasit height and remains level, floating along horizontally, and moving vertically maintaining its distance from the ground, following gentle slopes. The disc winks out after 6 turns; Anything in it is dropped.",
 		"level": ["WI1"]},
 
 	{"name":"Hold Portal",
