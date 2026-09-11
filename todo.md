@@ -1,4 +1,7 @@
 # other 
+- add spell book for 100 cp
+- link to advanced index is broken
+- fix spelling of zwiehander
 - make block quotes look good both at the top of class pages, and as in examples like on the magic rules.
 - un-abbrivate abilities, i.e. STR -> strength.
 - put the hashtags on the headers in advanced downtime
