@@ -529,7 +529,7 @@ let spells = [
 		"level": ["WI3"]},
 
 	{"name":"Speak with Dead",
-		"desc":"The caster gains the ability to speak with corpses and undead. This doesn't make them any more friendly or cooperative than they would have been in life.</p><p>Lasts until fatigued.",
+		"desc":"The caster gains the ability to speak with corpses and undead. This doesn't make them any more friendly or cooperative than they would have been in life.</p><p>Lasts until fatigued. Burning incense while talking with the dead will give you a +1 reaction modifier with them.",
 		"level": ["WI3", "WA2", "DR4"]},
 
 	{"name":"Water Breathing",
