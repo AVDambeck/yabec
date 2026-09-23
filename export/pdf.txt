@@ -6,7 +6,7 @@
 ./adventure/combat.html
 ./adventure/mapping.html
 ./adventure/cleanup.html
-./adventure/travel.html
+./adventure/overworld.html
 ./adventure/advanced/challenge.html
 ./adventure/advanced/negotation.html
 ./adventure/advanced/war-machine.html
