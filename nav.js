@@ -30,12 +30,12 @@ element.innerHTML = navContent;
 
 //next page
 let dictionary = {};
-dictionary["intro"] = "delve";
+dictionary["intro"] = "roles";
+dictionary["roles"] = "delve";
 dictionary["delve"] = "combat";
-dictionary["combat"] = "mapping";
-dictionary["mapping"] = "cleanup";
+dictionary["combat"] = "cleanup";
 dictionary["cleanup"] = "travel";
-dictionary["travel"] = "roles";
+dictionary["travel"] = "advanced";
 
 function findKeyByValue(dict, value) {
 	for (const key in dict) {
