@@ -108,6 +108,7 @@ img {
 	width: 90%;
 	break-before: page;
 	padding: 15px;
+	object-fit: contain;
 }
 
 ul, ol {
