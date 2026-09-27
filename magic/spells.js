@@ -856,20 +856,8 @@ let spells = [
 		"level": ["CL1", "DR1", "WA1"]},
 
 
-
 	{"name":"Alter Self",
 		"desc":'Modify one aspect of your anatomy, such as gaining fangs, gills, or fur. Lasts until fatigued. ',
-		"level": ["WI2", "DR1", "WA1"]},
+		"level": ["WI2", "DR1", "WA1"]}
 
-
-
-	{"name":"Foo",
-		"desc":"Bar",
-		"revName":"Zig",
-		"revDesc":"Zag",
-		"level": ["Test"]},
-
-	{"name":"Null",
-		"desc":"" ,
-		"level": ["Test"]}
 ]
