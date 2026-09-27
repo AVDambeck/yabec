@@ -20,7 +20,7 @@
 					<p><strong>Languages:</strong>Alignment, Common, Deep speech</p>
 					<p><strong>Prime requisite:</strong>WIS, INT</p>
 					<p><strong>Maximum level:</strong>12</p>
-					<p><b>Examples:</b>Councilor Diana Troy</p>
+					<p><b>Examples:</b>Councilor Diana Troy, urSu</p>
 				</blockquote>
 				<p>Mystics are a strange wizened folk who attune themselves to subtle energies. They receive their teachings through deep meditation, rumored come from entities unlike any seen in this world.</p>
 			</div>
@@ -142,38 +142,56 @@
 		<p>Your unarmed attacks deal d4 melee damage</p>
 		<p>While holding a staff, you can leap a 10' gap. Immedietly after doing so, you have advantage on attacks with the staff.</p>
 		<h2>Mantra</h2>
-		<p>While not in combat, you can quietly repeat a magical phrase. Each turn you do this, you gain one mantra. You can have up to ten mantra at any given time.</p>
+		<p>You begin the session with zero mantra. While not in combat, you can quietly repeat a magical phrase. Each turn you do this, you gain one mantra. You can have up to ten mantra at any given time.</p>
 		<p>Upon reaching 7th level, you gain two mantra each turn, to a maximum of twenty five.</p>
 		<h2>Mystic Powers</h2>
-		<p>At first level, you learn two mystic powers at random. At each odd level after that, you learn one more of your choice.</p>
+		<p>When you learn a mystic power, choose a number, an roll a d6. If you do not roll the chosen number, learn one power at random, rerolling duplicates. Otherwise learn one of your choice, and learn another power (choosing a number and rolling again).</p>
+		<p>At first level, you learn two mystic powers. At each odd level after that, you learn one more.</p>
 		<ol>
+			<li><strong>Block:</strong>
+			Costs 1 mantra. You gain a -1 bonus to AC for each free hand you have. Last until fatigued.</li>
+			<li><strong>Break Repoise:</strong>
+			Costs 2 mantra. When you hit an enemy, the target must also make a physical save or lose all actions this round.</li>
+			<li><b>Breath Fire:</b>
+			While holding a lit torch and a flask of oil, you can create a burst of flame. This consumes the flask. It affects all creatures in front of you within a </strong>touch</strong> range, and deals 1d6 exploding damage. When it explodes there is a mishap, and you are also affected. Any affected creatures can attempt a physical saving throw to avoid half of the damage. </li>
 			<li><strong>Darkvision:</strong>
 			Costs 1 mantra. Gain infravision for one turn.</li>
 			<li><strong>Divination:</strong>
-			Costs 3 mantra. You cast Augury. Limit once per session.</li>
+			Costs 3 mantra. You cast Portent. Once per sesssion, instead cast Augury. </li>
+			<div id="Portant"></div>
+			<script src="../../magic/spells.js"></script>
+			<script>
+				singleSpell("Portant");
+			</script>
+
 			<div id="Augury"></div>
 			<script src="../../magic/spells.js"></script>
 			<script>
 				singleSpell("Augury");
 			</script>
-			<li><strong>Feline:</strong>&nbsp;Costs 4 mantra. You can fit through a gap as small as your head, and have advantage on saves to resist fall damage. Lasts until fatigued.</li>
-			<li><strong>Kung Fu:</strong>&nbsp;Costs 2 mantra. When you hit with a staff, you can make an unarmed attack.</li>
-			<li><strong>Precognition:</strong>&nbsp;Costs 3 mantra. Perform a search instantly.</li>
-			<li><strong>Pressure Point:</strong>&nbsp;Costs 3 mantra. When you hit, cause the target to be surprised and proned.</li>
-			<li><strong>Psychic Blast:</strong>&nbsp;Costs 10 mantra. All other creatures within the same zone as you take a d8 of damage per your level. You pass out and are incapacitated for the rest of the combat.</li>
-			<li><strong>Realign:</strong>&nbsp;Costs 4 mantra. Cast Lesser Charm. The spell fails if the target is of the same alignment as you.</li>
+			<li><strong>Fein:</strong>
+			Costs 3 mantra. For one turn you appear completely dead. Ends if you move voluntarially.</li>
+			<li><strong>Feline:</strong> Costs 3 mantra. You can fit through a gap as small as your head, have advantage on saves to resist fall damage, and have an AC of 7. Lasts until fatigued.</li>
+			<li><strong>Janitor:</strong> Costs 1 mantra. Open a door silently. This turn and next, you can not be surprised.</li>
+			<li><strong>Kung Fu:</strong> Costs 2 mantra. When you hit with a blunt weapon, you can make an unarmed attack.</li>
+			<li><strong>Parry:</strong> Costs 2 mantra. Change a hit against you to a miss. Additionally, you can make a melee attack against the attacker.</li>
+			<li><strong>Pressure Point:</strong> Costs 2 mantra. When you hit, cause the target to be surprised and proned.</li>
+			<li><strong>Psychic Blast:</strong> Costs 10 mantra. All other creatures within the same zone as you take a d8 of damage per your level. You pass out and are incapacitated for the rest of the combat.</li>
+			<li><strong>Realign:</strong> Costs 5 mantra. Cast Lesser Charm. The spell fails if the target is of the same alignment as you.</li>
 			<div id="Lesser Charm"></div>
 			<script>
 				singleSpell("Lesser Charm");
 			</script>
 			<li><strong>Relocate:</strong>
-			Costs 7 mantra. Walk to an adjacent zone. To observers, this appears instant. Additionally you move as though under Freedom of Movement.</li>
+			Costs 7 mantra. Walk or climb to an adjacent zone. To observers, this appears instant. Additionally you ignore mundane restrictions to movement such as mud or manicals.</li>
 			<li><strong>Share Lung:</strong>
-			Costs 7 mantra. Cast Cure Wounds. If the target is the same alignment as you, heal with advantage. You may only do this X times per session, where X is your level.</li>
+			Costs 4 mantra. Cast Cure Wounds. If the target is not the same alignment as you, heal with disadvantage. Use this no more than three times per session.</li>
 			<div id="Cure Wounds"></div>
 			<script>
 				singleSpell("Cure Wounds");
 			</script>
+			<li><strong>Tough:</strong>
+			Costs 3 mantra. Gain advantage on dismembering.</li>
 			<li><strong>Telepathy:</strong>
 			Costs 4 mantra. Hear the thoughts of one creature you can see, unless it succeeds a magic save. Lasts one turn. At 5th level and higher, once per session instead cast Telepathy, and can send thoughts to the concentrated creature.</li>
 			<div id="Telepathy"></div>
@@ -186,9 +204,18 @@
 			<script>
 				singleSpell("Detect Magic");
 			</script>
+			<li><strong>Third Eye:</strong>
+			Costs 1 mantra. Gain the ability to use any normal weapon. Lasts until fatigued.</li>
+			<li><strong>Void:</strong>
+			Costs 4 mantra. Cure a mundane illneess or neutralize a mundane poison from yourself. Alternitively, transfer a mundane or magical poison or illness, or a curse to yourself.</li>
 		</ol>
+
+		<ul>
+		</ul>
+	</body>
+</html>
 		<h2>After Reaching 9th Level</h2>
 		<p>A mystic may establish or build a monastery.</p>
-		<p>Once a monastery is established, the cleric will attract followers (2d6 mystics of level 1–3, and 2d10 fighters of level 1-2).</p>
+		<p>Once a monastery is established, the mystic will attract followers (2d6 mystics of level 1–3, and 2d10 fighters of level 1-2).</p>
 	</body>
 </html>
