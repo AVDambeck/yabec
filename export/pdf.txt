@@ -29,7 +29,6 @@
 ./character/class/elf.html
 ./character/class/fighter.html
 ./character/class/halfling.html
-./character/class/hollow.html
 ./character/class/knight.html
 ./character/class/kobold.html
 ./character/class/mystic.html
