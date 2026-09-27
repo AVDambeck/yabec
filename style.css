@@ -3,7 +3,7 @@
 	--color-bg: #000000;
 	--color-txt: #f5f5f5;
 	--color-fg: #db162f;
-	--color-block: #a5a5a5;
+	--color-block: #f5f5f5 /*#a5a5a5*/;
 	--color-block-txt: #000000;
 	--header-size: 16pt;
 	--font-size: 14pt;
@@ -141,14 +141,14 @@ th {
 /*blocks*/
 blockquote {
 	background-color: var(--color-block);
-	padding: 0 5pt 0 5pt;
+	padding: 0 5pt 5pt 5pt;
 	margin: 10pt;
 	border: 5px outset var(--color-block);
 	p {
 		color: var(--color-block-txt);
 		margin: 0;
 		font-family: mainFontFamily; Garamond;
-		font-size: calc(var(--font-size) * 1.3);
+		font-size: calc(var(--font-size));
 		text-indent: 0;
 	}
 	b, strong{
@@ -162,7 +162,23 @@ blockquote {
 	border: 3px outset var(--color-block);
 	margin: 5px 0 5px 0;
 	break-inside: avoid;
+	padding: 0 2pt 0 2pt;
+
+	h3, h4 {
+		font-family: mainFontFamily;
+		font-weight: 900;
+
+		border-bottom-style: dotted;
+		padding-bottom: 2px;
+		padding-top: 2px;
+		border-color: var(--color-fg);
+		text-transform: uppercase;
+	}
+	h3 {
+		margin-top: 0;
+	}
 }
+
 
 /*containers */
 .container {
