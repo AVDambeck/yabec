@@ -262,7 +262,7 @@ let spells = [
 
 	{"name":"Locate Object",
 		"desc":"The caster magically locates an object. The spell has two modes:</p><ul>\
-		<li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.<\li>\
+		<li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.</li>\
 		<li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. my spell book.</li></ul>\
 		<p>The caster can sense the direction (but not distance) of an object, so long as it is within a qaurter mild. Lasts uintil fatigued.",
 		"level": ["CL3", "WI1", "WA3"]},
