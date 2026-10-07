@@ -150,12 +150,6 @@ function htmlTag(tag, text, attribute = "") {
   */
 
 let spells = [
-	{"name":"Foo",
-		"desc":"Bar",
-		"revName":"Zig",
-		"revDesc":"Zag",
-		"level": ["Test"]},
-
 	{"name":"Cure Wounds",
 		"desc":"A touched creature heals 1d6+1.",
 		"level": ["CL1", "DR2"]},
