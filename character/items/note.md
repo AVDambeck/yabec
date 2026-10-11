@@ -27,3 +27,13 @@ d6 - 44 - 9 - 2 - 0.01
 d8 - 56 - 16 - 3 - 0.4
 d10 - 65 - 7 - 6 - 1
 d12 - 71 - 7 - 11 - 3
+
+# Cost of living per month / week (cp)
+see knave p38
+destitute  beggars, outlaws. 90 / 22
+poor servants laborers farmers 300/75
+humble inkeepers craftsman priests 600 / 150
+respectable merchants lawyers 1200 / 300
+wealthy courtiers, knights, bishops, gentry 3000 / 750
+nobels and royals 12000 minimum 
+
