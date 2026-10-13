@@ -1,0 +1,11 @@
+@import "../../style.css";
+
+h2 {
+	break-before: always;
+}
+
+@media print {
+	body {
+		columns: 1;
+	}
+}
