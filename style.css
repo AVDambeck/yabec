@@ -99,7 +99,7 @@ em {
 /*Contents*/
 img {
 	width: 90%;
-	break-before: page;
+	#break-before: page;
 	padding: 15px;
 }
 
