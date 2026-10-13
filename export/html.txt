@@ -5,10 +5,10 @@
 ./adventure/mapping.html
 ./adventure/cleanup.html
 ./adventure/roles.html
+./adventure/overworld.html
 ./adventure/advanced/index.html
 ./adventure/advanced/challenge.html
 ./adventure/advanced/negotation.html
-./adventure/advanced/travel.html
 ./adventure/advanced/war-machine.html
 ./character/creation.html
 ./character/inventory.html
