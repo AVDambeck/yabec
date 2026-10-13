@@ -51,6 +51,7 @@
 ./adventure/advanced/travel.html
 ./adventure/advanced/war-machine.html
 ./appendixa.html
+./resources/principia/index.html
 ./resources/updates.html
 ./resources/summary.pdf
 BREAK Complete_Hanbook
