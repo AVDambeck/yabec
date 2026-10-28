@@ -10,7 +10,7 @@
 		<div id="topnav"></div>
 		<script src="../nav.js"></script>
 		<h1>Combat</h1>
-		<p>Combat is one of the primary ways to gain experience, and is inevitable for those who choose to dungeon delve.</p>
+		<p>Combat is a dangerous and costly activity, but inevitable for those who choose to dungeon delve.</p>
 		<h2 id=actions>Actions</h2>
 		<ol>
 			<li><strong>Attack:</strong>
@@ -18,14 +18,13 @@
 			<li><strong>Run:</strong>
 			Move two zones.</li>
 			<li><strong>Focus:</strong>
-			Until the end of the next round, you have advantage on dodges, saves, attacks, and checks.</li>
+			Until the end of the next round, you have advantage on dodges, saves, and attacks.</li>
 			<li><strong>Magic:</strong>
-			Cast a spell or use a magic item. See Magic. You must not have taken damage this round
-			in order to cast a spell.</li>
+			Cast a spell or use a magic item. See Magic. You must not have been attacked or taken damage this round in order to cast a spell.</li>
 			<li><strong>Stunts:</strong>
-			Creative maneuvers. See below.</li>
+			Other maneuvers. See below.</li>
 			<li><strong>Standby:</strong>
-			Do nothing; alternatively, prepare or recover from another action.</li>
+			Do nothing.</li>
 		</ol>
 
 		<h2>Stunts</h2>
@@ -59,14 +58,12 @@
 
 		<h2>Damage</h2>
 		<p>Damage represents injury, exhaustion, and wear. Yabec uses a damage up system, meaning instead of losing HP, you gain damage.</p>
-		<p>You cannot have more damage than you have HP.</p>
 		<h3>Slain</h3>
 		<p>When a creature has damage equal to its HP, it is slain.</p>
 		<p>Slain hirelings and ordinary monsters instantly die.</p>
-		<p>Slain PCs and powerful monsters are <a href="#neardeath">near death</a>.</p>
-		<p>If a creature is slain with a blunt weapon, they can be left non-lethally incapacitated until a shift.</p>
-		<p>Creatures slain with non-blunt weapons bleed out within minutes.</p>
-		<p>If slain by fire or explosion, all items are destroyed and death is instant. Magic items have a chance of miraculously surviving.</p>
+		<p>Slain PCs and powerful monsters are <a href="#neardeath">near death</a>. See below.</p>
+		<p>If a creature is slain with a blunt weapon, they can be left non-lethally incapacitated, until a shift hazard.</p>
+		<p>If slain by fire or explosion, all items are destroyed, and death is instant. Magic items have a chance of miraculously surviving.</p>
 		<!--<h3>Item Damage</h3>
 			<p>Items with four or more <em>damage</em> break completely. Magic items are immune to <em>damage</em>.</p>
 			<p>Each point of <em>damage</em> incurs a penalty:</p>
@@ -77,16 +74,6 @@
 			</ul>
 			<p>Dwarves are able to repair items as <em>downtime</em>. </p>
 		-->
-
-		<h2>Healing</h2>
-		<p>Healing removes damage.</p>
-		<h3>Magical Healing</h3>
-		<p>Magic potions or spells can provide instantaneous healing.</p>
-		<p>When magically healing a near death character, they dismember with advantage.</p>
-		<h3>Bandage</h3>
-		<p>Bandages can be used to remove damage.</p>
-		<p>To heal, make an intelligence check. If you succeed, heal the target 1d6, plus a bonus from your <strong>WIS.</strong></p>
-		<p>You may bandage yourself, and bandages cannot be reused.</p>
 
 		<h2 id=conditions>Conditions</h2>
 		<h3>Prone</h3>
@@ -121,9 +108,11 @@
 			<li>If they would take damage, they instead dismember.</li>
 			<li>If they would be healed, they instead dismember. Then, if they survive, they stop being near death and heal 1 damage. If healed by magic, they dismember with advantage.</li>
 		</ul>
+
 		<h3>Dismembering</h3>
-		<p>Every dismember carries a chance of death. Roll a d100, and subtract <strong>CON.</strong>
-			Reference the table.</p>
+		<p>Every dismember carries a chance of death. Roll a d12, add the amount of damage you have in excess of your health, and add the amount of scars you have. Then reference the table.</p>
+		<p>Scars take up an item slot, and can't be put down. Most scars can't be healed, but may carry an aditional affect.</p>
+		<!-- assuming one scare, 3 damage exess, and a 5.5 roll on the d12, average dismembering is 10.-->
 		<table>
 			<thead>
 				<tr>
@@ -133,46 +122,39 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>&gt;= 70</td>
+					<td>&gt;= 12</td>
 					<td>Dead!</td>
 				</tr>
 				<tr>
-					<td>65-70</td>
-					<td>Mostly dead: Until fully healed, you can only be healed
-						magically.</td>
+					<td>11</td>
+					<td>Scar: Mostly dead. Until fully healed, you can only be healed magically, mumble, and crawl slowly. When you are fully healed, remove this scar and gain 1 renown.</td>
 				</tr>
 				<tr>
-					<td>51-65</td>
-					<td>Terrible Scar: -1d4 CHA, -1d4 HP.</td>
+					<td>10</td>
+					<td>Scar: Mangled arm. Can't use two-handed weapons nor shields. Mangling all of your arms fatal.</td>
 				</tr>
 				<tr>
-					<td>45-50</td>
-					<td>Lost arm: Can't use two-handed weapons nor shields. Losing a third arm is fatal.</td>
+					<td>9</td>
+					<td>Scar: On the face! -1d4 CHA, -1d4 HP, and a 1-in-10 chance of loosing an eye. Gain advantage onintimidation.</td>
 				</tr>
 				<tr>
-					<td>36-40</td>
-					<td>Lost eye: If you lose both eyes, you are blind. Losing a third eye is fatal.</td>
+					<td>8</td>
+					<td>Scar: Diseased. You’re afflicted with a gross, uncomfortable infection. Each week, you can attempt a constitution check, remove this scar and gain 1 hp.</td>
 				</tr>
 				<tr>
-					<td>31-35</td>
-					<td>Concussion: -1d4 wisdom
-						and intelligence</td>
+					<td>6</td>
+					<td>Scar: Broken Bones. One random ability score is reduced by 1d4.</td>
 				</tr>
 				<tr>
-					<td>26-30</td>
-					<td>Torn muscle: -1d4 DEX</td>
+					<td>5</td>
+					<td>Scar: Gruesome. No other effects.</td>
 				</tr>
 				<tr>
-					<td>21-25</td>
-					<td>Bone fracture: -1d4 STR</td>
+					<td>4</td>
+					<td>Scar: Near death experience. Gain 333 XP.</td>
 				</tr>
 				<tr>
-					<td>11-20</td>
-					<td>Broken rib: -1d4 CON</td>
-				</tr>
-
-				<tr>
-					<td>&lt;=10</td>
+					<td>&lt;=3</td>
 					<td>Miraculously unharmed!</td>
 				</tr>
 			</tbody>
@@ -199,6 +181,7 @@
 			to void hitting an ally. Monsters and hirelings have a 3-in-6 chance.</p>
 		<h3>Mapping</h3>
 		<p>During combat, it's possible to reference a map, but adding to a map is impossible.</p>
+
 		<h2>Variant: Rolless Combat</h2>
 		<p>This alternate combat system doesn't use attack rolls or armor class. The feel of the combat will be different, and may be more appropriate for single combat. It can also be applied asymetrically. i.e. players make dodge rolls but not attack rolls.</p>
 		<h3>Armor</h3>
@@ -209,27 +192,27 @@
 				<th>Damage</th>
 			</tr>
 			<tr>
-				<td>&#8805;8</td>
+				<td>&#8805;10</td>
 				<td>2</td>
 			</tr>
 			<tr>
-				<td>7</td>
+				<td>9</td>
 				<td>4</td>
 			</tr>
 			<tr>
-				<td>5-6</td>
+				<td>7-8</td>
 				<td>6</td>
 			</tr>
 			<tr>
-				<td>3-4</td>
+				<td>5-6</td>
 				<td>8</td>
 			</tr>
 			<tr>
-				<td>1-2</td>
+				<td>3-5</td>
 				<td>12</td>
 			</tr>
 			<tr>
-				<td>&#8804;0</td>
+				<td>&#8804;2</td>
 				<td>16</td>
 			</tr>
 		</table>
@@ -256,7 +239,5 @@
 		</ul>
 		<h3>Object Interactions</h3>
 		<p>Each round, combatants have one object interaction, which they can use to pick or draw a weapon, drink a potion, stand up from the ground, or similar.</p>
-		<h3>Magic Attacks</h3>
-		<p>Instead of an attack roll, touch spells require a successful dexterity or strength check.</p>
 	</body>
 </html>
