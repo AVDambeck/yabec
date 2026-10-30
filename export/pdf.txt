@@ -50,6 +50,7 @@
 ./magic/magic.html
 ./magic/spells.html
 ./appendixa.html
+./resources/principia/index.html
 ./resources/updates.html
 ./resources/summary.pdf
 BREAK Complete_Hanbook

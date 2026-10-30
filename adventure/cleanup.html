@@ -10,71 +10,13 @@
 		<div id="topnav"></div>
 		<script src="../nav.js"></script>
 		<h1>Clean Up</h1>
-		<p>When the characters emerge from the dungeon, and return to their camp, they clean up and resolve the session.</p>
+		<!--<p>When the characters emerge from the dungeon, and return to their camp, they clean up and resolve the session.</p>-->
 
-		<h2>Lost in the Dungeon</h2>
-		<p>Should the session end with the adventurers unsure of a way out, each player rolls a d12, adds their level, and subtracts the level of the dungeon they are on.</p>
-		<table>
-			<tr>
-				<th>d12</th>
-				<th>Result</th>
-			</tr>
-			<tr>
-				<td>&lt;=4</td>
-				<td>You are consumed by the horrors below. You die and your body is unrecoverable.</td>
-			</tr>
-			<tr>
-				<td>5</td>
-				<td>You are slain and rise from the dead as a wight. It carries your equipment, and slaying it will be required to ressurect you. The dungeon master adds it to the wandering monsters.</td>
-			</tr>
-			<tr>
-				<td>6</td>
-				<td>You die somewhere in the dungeon.</td>
-			</tr>
-			<tr>
-				<td>7</td>
-				<td>You are possesed! The dungeon master adds you to the wandering monsters. When encountered, you will be hostile, but can be captured and exorcized.</td>
-			</tr>
-			<tr>
-				<td>8</td>
-				<td>You are lost and starving in the dungeon. Roll again at the start of next session.</td>
-			</tr>
-			<tr>
-				<td>9</td>
-				<td>You are captured! You party members can pay randsom of 50gp x your level, or leave you hostage in the dungeon.</td>
-			</tr>
-			<tr>
-				<td>10</td>
-				<td>You suffer a terrible injury. Roll dismemberment.</td>
-			</tr>
-			<tr>
-				<td>12</td>
-				<td>You have survived!</td>
-			</tr>
-			<tr>
-				<td>&gt;=13</td>
-				<td>You have survived, and the gods look favorably on you! If lawful: learn the location of a treasure. If chaotic: learn something about an enemy. If neutral: gain 100 xp.</td>
-			</tr>
-		</table>
-
-		<h2>Camping</h2>
-		<p>The default case is where the party is camping near the dungeon. If that is not the case see <a href="./overworld.html">overworld travel</a>.</p>
-		<p>Shelter: it's assumed the party has tents and standard camping equipment.</p>
-		<p>Food: One ration will feed ten people / animals.<p>
-		<p>Time: Advance the calendar one week.</p>
-		<p>Rest: The previous requirement satisfied, everyone will heal all of their damage, and be able to memorize new spells next session. Otherwise, they do not heal, gain new spells, and become fatigued at the end of the first turn next session.</p>
-
-		<h2>Evaluate Loyalty</h2>
-		<p>Hirelings, if any, adjust their <em>loyalty</em> score. For each hireling, roll a d6.</p>
-		<ol>
-			<li>Requests to have a 50% raise. Leave on good terms if not granted.</li>
-			<li>If they succeeded a loyalty check this session, they gain one loyalty.</li>
-			<li>If they failed a loyalty check this session, they loose one points.</li>
-			<li>If an animal or monster got to eat its favorite prey, they gain one points. </li>
-			<li>The hireling makes a loyalty check. Gaining one loyalty on a success, and loose one on a failure.</li>
-			<li>If a hireling died that session, non-monster hirelings loose three loyalty. You have a 1-in-6 chance to loose one renown to a minimum of one.</li>
-		</ol>
-
+		<h2>Update Calendar</h2>
+		<p>If not done so already, determine the amount of game time that has passed. It's common to begin or end a session with a period of recovery, either in downtime, or camping for several days.</p>
+		<h3>Characers out of time</h3>
+		<p>If the party travels without one a character, e.g. a player can't make the session, there are two options. The character can forgo any town activities to be retconed to the party's current location at the start of a session, or they can meet with the dungeon master prior to the main session in order to play through that time.</p>
+	
 		<h2>Divide treasure</h2>
 		<p>The Scorekeeper (usually the Scribe) totals the value of the treasure, and splits it between the players.</p>
 		<p>Try to split the value evenly, while dicing or bargening for specific items.</p>
@@ -161,6 +103,7 @@
 			<li>Update any improvements in saves, AV, etc. from your class progression table.</li>
 			<li>Roll a number of HD equal to your level. If it is greater than your current HP, that is your new HP. Otherwise, increase your HP by one.</li>
 			<li>Increase one ability score by 1, to a maximum of 18.</li>
+			<li>Increase your upkeep cost by 10.</li>
 		</ul>
 		<h3>Level Limit</h3>
 		<p>Characters cannot advance more than one level in one session. Leave the character 1 XP below the threshold for the next level. The remaining XP, at the player's discretion, be distributed among all other characters that went on the adventure (including NPCs).</p>
@@ -180,5 +123,43 @@
 		<h3>Resurrection</h3>
 		<p>Returning from death leaves you exhausted. Until the reincarned gets two downtimes of bed rest, they have 1 HP, move at half the normal rate, cannot carry heavy items, and cannot attack, cast spells, or use class skills.</p>
 		<p>Each time a character is resurrected, their constitution is reduced by 1.</p>
+
+		<h2>Lost in the Dungeon</h2>
+		<p>Should the adventurers be desperate for a way out, each player rolls a d12, adds their level, and subtracts the level of the dungeon they are on.</p>
+		<table>
+			<tr>
+				<th>d12</th>
+				<th>Result</th>
+			</tr>
+			<tr>
+				<td>&lt;=3</td>
+				<td>You are consumed by the horrors below. You die and your body is unrecoverable.</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>You are slain and rise from the dead as a wight. It carries your equipment, and slaying it will be required to ressurect you. The dungeon master adds it to the wandering monsters.</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Roll for dismemberment. If you die, your body is somewhere in the dungeon.</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>You are possesed! The dungeon master adds you to the wandering monsters. When encountered, you will be hostile, but can be captured and exorcized.</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>You are captured! You party members can pay randsom of 100cp x your level, or leave you hostage in the dungeon. Gain several rumors from your stay.</td>
+			</tr>
+			<tr>
+				<td>8-11</td>
+				<td>You have survived!</td>
+			</tr>
+			<tr>
+				<td>&gt;=12</td>
+				<td>You have survived, and the gods look favorably on you! If lawful: learn the location of a treasure. If chaotic: learn something about an enemy. If neutral: gain 100 xp.</td>
+			</tr>
+		</table>
+	
 	</body>
 </html>
