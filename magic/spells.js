@@ -256,7 +256,7 @@ let spells = [
 
 	{"name":"Locate Object",
 		"desc":"The caster magically locates an object. The spell has two modes:</p><ul>\
-		<li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.<\li>\
+		<li><strong>General:</strong> The nearest object of that type is located, e.g. a stairway, an altar.</li>\
 		<li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. my spell book.</li></ul>\
 		<p>The caster can sense the direction (but not distance) of an object, so long as it is within a qaurter mild. Lasts uintil fatigued.",
 		"level": ["CL3", "WI1", "WA3"]},
@@ -343,7 +343,7 @@ let spells = [
 
 	{"name":"Locate Monster",
 		"desc":"The caster magically locates a creature, including magical creatures. The spell has two modes:</p><ul>\
-		<li><strong>General:</strong> The nearest creature of that type is located, e.g. a unicorn, an elf.<li>\
+		<li><strong>General:</strong> The nearest creature of that type is located, e.g. a unicorn, an elf.</li>\
 		<li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. the terrible half-camel, half-leopard: the beast Glatisant!.</li></ul>\
 		<p>The caster can sense the direction (but not distance) of a creature, so long as it is within a qaurter mild. Lasts uintil fatigued.",
 		"level": ["CL3", "WI4", "WA4"]},
@@ -509,7 +509,7 @@ let spells = [
 
 	{"name":"Locate Person",
 		"desc":"The caster magically locates a person. The spell has two modes:</p><ul>\
-		<li><strong>General:</strong> The nearest person of that type is located, e.g. a potter, a thief.<li>\
+		<li><strong>General:</strong> The nearest person of that type is located, e.g. a potter, a thief.</li>\
 		<li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. Enelye the Nenyar of Cuivienen.</li></ul>\
 		<p>The caster can sense the direction (but not distance) of an person, so long as they are within a qaurter mild. Lasts uintil fatigued.",
 		"level": ["WI3", "WA2", "DR2"]},
@@ -782,7 +782,7 @@ let spells = [
 
 	{"name":"Locate Flura and Fauna",
 		"desc":"The caster magically locates a plant, animal, fungus, or other non-magical living thing. The spell has two modes:</p><ul>\
-		<li><strong>General:</strong> The nearest object of that type is located, e.g. a mushroom, a Varanus komodoensis.<\li>\
+		<li><strong>General:</strong> The nearest object of that type is located, e.g. a mushroom, a Varanus komodoensis.</li>\
 		<li><strong>Specific:</strong> The caster must clearly visualize in all aspoects. e.g. Spot.</li></ul>\
 		<p>The caster can sense the direction (but not distance) of an flora/fauna, so long as it is within a qaurter mild. Lasts uintil fatigued.",
 		"level": ["DR1"]},
