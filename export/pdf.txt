@@ -1,16 +1,15 @@
 ./covers/front-cover.pdf
 ./resources/summary.pdf
+./resources/updates.html
 ./index.html
 ./adventure/index.html
 ./adventure/intro.html
+./adventure/roles.html
 ./adventure/delve.html
 ./adventure/combat.html
 ./adventure/cleanup.html
-./adventure/roles.html
-./adventure/overworld.html
-./adventure/advanced/challenge.html
-./adventure/advanced/negotation.html
-./adventure/advanced/war-machine.html
+./adventure/negotation.html
+./adventure/war-machine.html
 ./covers/character.html
 ./character/creation.html
 ./character/alignment.html
@@ -45,13 +44,13 @@
 ./character/items/construction.html
 ./magic/magic.html
 ./magic/spells.html
-./downtime/upkeep.html
 ./downtime/basic.html
 ./downtime/npc.html
 ./downtime/advanced.html
-./appendixa.html
 ./resources/principia/index.html
-./resources/updates.html
+./resources/5e.html
+./resources/history.html
+./appendixa.html
 ./resources/summary.pdf
 ./covers/back-cover.pdf
 BREAK Complete_Hanbook

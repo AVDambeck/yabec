@@ -1,0 +1,7 @@
+@import "style.css";
+
+@media print {
+	body {
+		columns: 1;
+	}
+}
