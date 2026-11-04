@@ -349,7 +349,7 @@ let spells = [
 		"level": ["CL3", "WI4", "WA4"]},
 
 	{"name":"Raise Dead",
-		"desc":"A corpse is restored to live. They must not have been dead for no longer than four days per level of the caster above 7th. The ritual takes 3 turns, and requires 5000 cp of insense and other supplies.</p>\
+		"desc":"A corpse is restored to live. They must not have been dead for no longer than four days per level of the caster above 7th. The ritual takes 3 turns, and requires 5000 cp of insense and other supplies. This spell can not revive elves because they do not have souls.</p>\
 		<p>Alternetivly, the spell instantly destroys a single undead monster.</p>",
 		"revName":"Finger of Death",
 		"revDesc":"Directs a ray of deadly magic at a single target. If the target fails a physical saving throw, it dies instantly.",
@@ -370,7 +370,7 @@ let spells = [
 	{"name":"Floating Disc",
 		"desc":"The caster conjures a slightly concave, circular disc of magical force. It appears next to the caster. The disc folows them about and carries loads. The disc is 3' in diameter and 1\" deep at its center. It can hold a maximum of 50 slots, 5,000 coins, or 500 pounds.</p>\
 		<p>The disc floats at wasit height and remains level, floating along horizontally, and moving vertically maintaining its distance from the ground, following gentle slopes. The disc winks out after 6 turns; Anything in it is dropped.",
-		"level": ["WI1"]},
+	"level": ["WI1"]},
 
 	{"name":"Hold Portal",
 		"desc":"A door, window, or other kind of portal is magically held shut. Lasts for two shifts.</p><p><strong>Opening by magic:</strong> A knock spell opens the portal.</p><p><strong>Opening by force:</strong> Creatures with at least 3 HD more than the caster’s level can open the held portal with one round of effort.",
@@ -848,6 +848,27 @@ let spells = [
 	{"name":"Portant",
 		"desc":'Ask the dungeon master about a specific course of action. The dungeon master describes the likely results of the action as either "wheel" or "woe".',
 		"level": ["CL1", "DR1", "WA1"]},
+	
+	{"name":"Hear Whisper",
+		"desc":"You can hear very quiet sounds. Lasts until fatigued.",
+		"level": ["WI1"]},
+	
+	{"name":"Bait Flower",
+		"desc":"A flower appears which smells like fresh meat. Decays rapidly after a shift.",
+		"level": ["DR1"]},
+
+	{"name":"Disassemble",
+		"desc":"Parts of your body can harmlessly and painlessly be removed or reattached at the joints. You can still control them. Lasts until fatigued. When the spell ends, you can no longer reattach parts.",
+		"level": ["WI3", "DR2"]},
+
+	{"name":"Identify Owner",
+		"desc":"Magical letters appear on an object, revealing it's owner. Lasts for one turn.",
+		"level": ["CL3"]},
+
+	{"name":"Mirrorwalk",
+		"desc":"Before casting the spell, use wax to draw matching symbols on two mirrors of similar size. You must use the spell within one day per caster level of drawing the symbols. The two mirrors become linked portals to eachother. Lasts for one turn per caster level.",
+		"level": ["WI3", "WA2"]},
+
 
 
 	{"name":"Alter Self",
