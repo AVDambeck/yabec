@@ -2,6 +2,7 @@
 ./resources/summary.pdf
 ./resources/updates.html
 ./index.html
+./resources/principia/index.html
 ./adventure/index.html
 ./adventure/intro.html
 ./adventure/roles.html
@@ -47,7 +48,6 @@
 ./downtime/basic.html
 ./downtime/npc.html
 ./downtime/advanced.html
-./resources/principia/index.html
 ./resources/5e.html
 ./resources/history.html
 ./appendixa.html
