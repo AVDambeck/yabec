@@ -5,10 +5,12 @@
 ./adventure/combat.html
 ./adventure/cleanup.html
 ./adventure/roles.html
+./adventure/encumberance.html
+./adventure/spellcasting.html
 ./adventure/negotation.html
 ./adventure/war-machine.html
 ./character/creation.html
-./character/inventory.html
+./character/items/trinkets.html
 ./character/alignment.html
 ./character/languages.html
 ./character/class/acrobat.html
@@ -28,7 +30,6 @@
 ./character/class/thief.html
 ./character/class/warlock.html
 ./character/class/wizard.html
-./character/items/trinkets.html
 ./character/items/weaponarmor.html
 ./character/items/gear.html
 ./character/items/hirelings.html
@@ -40,7 +41,6 @@
 ./downtime/npc.html
 ./downtime/advanced.html
 ./magic/spells.html
-./magic/magic.html
 ./resources/principia/index.html
 ./resources/history.html
 ./resources/5e.html
