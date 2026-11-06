@@ -1,8 +1,13 @@
 ./covers/front-cover.pdf
 ./resources/summary.pdf
+./covers/leaf.pdf
+./covers/leaf.pdf
 ./resources/updates.html
 ./index.html
 ./resources/principia/index.html
+./covers/blankpage.pdf
+./covers/leaf.pdf
+./covers/leaf.pdf
 ./adventure/index.html
 ./adventure/intro.html
 ./adventure/roles.html
@@ -13,7 +18,10 @@
 ./adventure/spellcasting.html
 ./adventure/negotation.html
 ./adventure/war-machine.html
-./covers/character.html
+./covers/blankpage.pdf
+./covers/leaf.pdf
+./covers/leaf.pdf
+./character/index.html
 ./character/creation.html
 ./character/alignment.html
 ./character/languages.html
@@ -21,7 +29,6 @@
 ./character/monstrous.html
 ./character/hirelings.html
 ./character/title.html
-./character/class/index.html
 ./character/class/acrobat.html
 ./character/class/animalkin.html
 ./character/class/bard.html
@@ -48,9 +55,13 @@
 ./downtime/npc.html
 ./downtime/advanced.html
 ./magic/spells.html
+./covers/leaf.pdf
+./covers/leaf.pdf
 ./resources/5e.html
 ./resources/history.html
 ./appendixa.html
+./covers/leaf.pdf
+./covers/leaf.pdf
 ./resources/summary.pdf
 ./covers/back-cover.pdf
 BREAK Complete_Hanbook
