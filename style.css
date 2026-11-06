@@ -104,12 +104,15 @@ em {
 }
 
 /*Contents*/
-img {
+.imgcontainer {
 	width: 90%;
-	#break-before: page;
 	padding: 15px;
 	object-fit: contain;
 }
+img {
+	width: 100%;
+}
+
 
 ul, ol {
 	margin: 8px 0 8px 0;
@@ -188,7 +191,7 @@ blockquote {
 .container div {
 	order: 2;
 }
-.container img {
+.container .imgcontainer {
 	max-width: 30%;
 	order: 3;
 }
@@ -319,7 +322,7 @@ blockquote {
 	.container {
 		flex-direction: column;
 	}
-	.container img {
+	.container .imgcontainer {
 		max-width: 100%;
 		order: 1;
 	}
@@ -363,7 +366,7 @@ blockquote {
 	.container {
 		flex-direction: column;
 	}
-	.container img {
+	.container .imgcontainer {
 		max-width: 100%;
 		order: 1;
 	}
