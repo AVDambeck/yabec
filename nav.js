@@ -34,8 +34,10 @@ dictionary["intro"] = "roles";
 dictionary["roles"] = "delve";
 dictionary["delve"] = "combat";
 dictionary["combat"] = "cleanup";
-dictionary["cleanup"] = "travel";
-dictionary["travel"] = "advanced";
+dictionary["cleanup"] = "encumberance";
+dictionary["encumberance"] = "spellcasting";
+dictionary["spellcasting"] = "negotation";
+dictionary["negotation"] = "war-machine";
 
 function findKeyByValue(dict, value) {
 	for (const key in dict) {
