@@ -55,6 +55,7 @@
 ./character/advanced-downtime.html
 ./character/npc.html
 ./magic/spells.html
+./covers/blankpage.pdf
 ./covers/leaf.pdf
 ./covers/leaf.pdf
 ./resources/5e.html
