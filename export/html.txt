@@ -37,9 +37,9 @@
 ./character/items/construction.html
 ./character/monstrous.html
 ./character/hirelings.html
-./downtime/basic.html
-./downtime/npc.html
-./downtime/advanced.html
+./character/basic-downtime.html
+./character/advanced-downtime.html
+./character/npc.html
 ./magic/spells.html
 ./resources/principia/index.html
 ./resources/history.html

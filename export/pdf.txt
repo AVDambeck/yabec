@@ -51,9 +51,9 @@
 ./character/items/hirelings.html
 ./character/items/specialists.html
 ./character/items/construction.html
-./downtime/basic.html
-./downtime/npc.html
-./downtime/advanced.html
+./character/basic-downtime.html
+./character/advanced-downtime.html
+./character/npc.html
 ./magic/spells.html
 ./covers/leaf.pdf
 ./covers/leaf.pdf
